@@ -31,6 +31,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 신에게서 훔친 불처럼, 프로메튬은 강력하지만 위험한 원소입니다.`,
       tags: ['그리스신화', '방사성원소', '희토류', '원자력', '희귀원소'],
+      image: 'https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=800&h=400&fit=crop',
     },
     {
       slug: 'promethium-battery-space',
@@ -67,6 +68,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 프로메튬 전지는 교체 없이 오래 작동해야 하는 곳에 이상적입니다. 언젠가 화성 기지나 달 기지에서 프로메튬 전지가 빛을 밝힐지도 모릅니다!`,
       tags: ['우주탐사', '원자력전지', 'RTG', '우주기술', '에너지'],
+      image: 'https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=800&h=400&fit=crop',
     },
     {
       slug: 'promethium-glow-dark',
@@ -105,6 +107,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 프로메튬 야광 시계의 역사는 기술의 양면성을 보여줍니다. 편리함 뒤에 숨은 위험을 항상 고려해야 한다는 것을요.`,
       tags: ['야광', '시계', '방사선', '역사', '안전'],
+      image: 'https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=800&h=400&fit=crop',
     },
   ],
   Sm: [
@@ -157,6 +160,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 요즘은 스마트폰, 이어폰, 하드디스크 등 우리 주변에도 강력 자석이 많습니다. 비록 대부분 네오디뮴이지만, 극한 환경에서는 여전히 사마륨이 최고입니다.`,
       tags: ['자석', '희토류', '첨단기술', '항공우주', '재료과학'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
     {
       slug: 'samarium-cancer-treatment',
@@ -198,6 +202,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 사마륨-153 치료는 핵의학의 좋은 예입니다. 방사성 원소를 정확히 조절하면 암과 싸우는 무기가 됩니다. 무서운 "방사능"이 생명을 구하는 약이 되는 거죠!`,
       tags: ['암치료', '핵의학', '방사성의약품', '통증관리', '의학'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
     {
       slug: 'samarium-name-origin',
@@ -235,6 +240,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 열정을 가지고 기여하면, 뜻밖의 방식으로 역사에 남을 수 있다는 교훈 아닐까요?`,
       tags: ['원소명명', '역사', '러시아', '광물학', '희토류'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
   ],
   Eu: [
@@ -283,6 +289,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 다음에 지폐를 볼 때, 그 안에 희토류 원소가 당신의 돈을 지키고 있다는 걸 기억하세요!`,
       tags: ['위조방지', '형광', '지폐', '보안기술', '희토류'],
+      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=400&fit=crop',
     },
     {
       slug: 'europium-tv-red-color',
@@ -322,6 +329,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 다음에 TV를 볼 때, 빨간색 속에 숨은 희토류 원소를 떠올려 보세요!`,
       tags: ['TV', '형광체', '색상', '디스플레이', '기술역사'],
+      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=400&fit=crop',
     },
     {
       slug: 'europium-name-europe',
@@ -367,6 +375,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 원소 이름 속에 과학사와 문화사가 함께 담겨 있네요!`,
       tags: ['유럽', '원소명명', '그리스신화', '과학사', '희토류'],
+      image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=400&fit=crop',
     },
   ],
   Gd: [
@@ -414,6 +423,7 @@ MRI(자기공명영상)는 강력한 자기장과 전파를 이용해 몸속을 
 
 MRI 검사를 받을 때, 그 선명한 영상 뒤에 희토류 원소가 있다는 걸 기억하세요!`,
       tags: ['MRI', '조영제', '의학', '진단', '희토류'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'gadolinium-nuclear-reactor',
@@ -460,6 +470,7 @@ MRI 검사를 받을 때, 그 선명한 영상 뒤에 희토류 원소가 있다
 
 보이지 않는 곳에서 가돌리늄은 원자력 발전소의 안전을 지키고 있습니다. 중성자 하나하나를 붙잡아 통제된 에너지 생산을 가능하게 하죠.`,
       tags: ['원자로', '핵분열', '중성자', '원자력', '안전'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'gadolinium-name-gadolin',
@@ -502,6 +513,7 @@ MRI 검사를 받을 때, 그 선명한 영상 뒤에 희토류 원소가 있다
 
 가돌린은 직접 가돌리늄을 발견하지는 않았습니다. 하지만 그의 선구적 연구 덕분에 후대 과학자들이 희토류를 이해할 수 있었고, 그의 이름은 주기율표에 영원히 남았습니다.`,
       tags: ['가돌린', '핀란드', '희토류', '과학사', '이테르비'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
   ],
   Tb: [
@@ -555,6 +567,7 @@ MRI 검사를 받을 때, 그 선명한 영상 뒤에 희토류 원소가 있다
 
 우리가 보는 초록색 뒤에는 희토류 원소의 과학이 숨어 있습니다!`,
       tags: ['형광', '초록색', '디스플레이', 'LED', '희토류'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
     {
       slug: 'terbium-magneto-optical',
@@ -601,6 +614,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 터븀의 특별한 성질은 미래 기술에서도 빛날 거예요!`,
       tags: ['자기광학', '데이터저장', 'MO디스크', '희토류', '첨단기술'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
     {
       slug: 'terbium-ytterby-village',
@@ -647,6 +661,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 과학의 역사가 작은 마을에서 시작될 수 있다는 걸 보여주는 멋진 이야기입니다.`,
       tags: ['이테르비', '스웨덴', '희토류', '과학사', '원소발견'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
   ],
   Dy: [
@@ -694,6 +709,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 원소 이름에는 발견 당시의 고충이 담겨 있습니다. 디스프로슘은 과학자들의 끈기와 노력을 기억하게 하는 이름이에요.`,
       tags: ['원소명명', '희토류', '분리', '과학사', '그리스어'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
     {
       slug: 'dysprosium-neodymium-magnet',
@@ -740,6 +756,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 전기차 하나에 수십 그램밖에 안 들어가지만, 이 소량의 디스프로슘이 없으면 고성능 모터를 만들 수 없습니다. 작지만 결정적인 원소예요!`,
       tags: ['자석', '네오디뮴', '전기차', '풍력발전', '희토류'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
     {
       slug: 'dysprosium-nuclear-control',
@@ -786,6 +803,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 디스프로슘은 보이지 않는 곳에서 핵에너지의 안전을 지키고 있습니다. 희귀하지만 꼭 필요한 원소예요!`,
       tags: ['원자로', '제어봉', '중성자', '원자력', '안전'],
+      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
     },
   ],
   Ho: [
@@ -834,6 +852,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 자연이 만든 가장 강한 원자 자석, 홀뮴! 비록 상온에서는 힘을 못 쓰지만, 극한 환경에서는 최강자입니다.`,
       tags: ['자성', '자기모멘트', 'MRI', '희토류', '물리학'],
+      image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=400&fit=crop',
     },
     {
       slug: 'holmium-laser-surgery',
@@ -892,6 +911,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 홀뮴 레이저는 희토류 원소가 현대 의학에 기여하는 좋은 예입니다. 보이지 않는 적외선이 환자들의 고통을 줄여주고 있어요.`,
       tags: ['레이저', '의료', '수술', '비뇨기과', '희토류'],
+      image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=400&fit=crop',
     },
     {
       slug: 'holmium-stockholm-name',
@@ -931,6 +951,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 
 원소 이름을 보면 과학사의 지리를 읽을 수 있습니다. 19세기 스칸디나비아는 희토류 연구의 중심지였고, 그 흔적이 주기율표에 남아있어요!`,
       tags: ['스톡홀름', '스웨덴', '원소명명', '과학사', '희토류'],
+      image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=400&fit=crop',
     },
   ],
   Er: [
@@ -976,6 +997,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 1990년대 EDFA의 상용화는 인터넷 혁명의 핵심 기반이었습니다. 희토류 원소 하나가 세상을 바꾼 거예요!`,
       tags: ['광섬유', '인터넷', 'EDFA', '통신', '희토류'],
+      image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop',
     },
     {
       slug: 'erbium-pink-glass',
@@ -1029,6 +1051,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 희토류 원소가 만드는 색은 독특합니다. 어븀의 분홍빛은 화학의 원리와 예술적 아름다움이 만나는 지점이에요!`,
       tags: ['유리', '색상', '보석', '예술', '희토류'],
+      image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop',
     },
     {
       slug: 'erbium-ytterby-again',
@@ -1081,6 +1104,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 같은 이름에서 4개 원소가 나온 건 주기율표에서 유일한 사례입니다. 이테르비 마을은 화학 역사의 특별한 장소로 남아있어요.`,
       tags: ['이테르비', '원소명명', '희토류', '과학사', '스웨덴'],
+      image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=800&h=400&fit=crop',
     },
   ],
   Tm: [
@@ -1147,6 +1171,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 전기 없는 곳에서도 진단을 가능하게 하는 툴륨의 숨은 활약!`,
       tags: ['엑스레이', '방사선', '의료', '휴대용', '동위원소'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'thulium-laser-surgery',
@@ -1209,6 +1234,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 희토류 원소가 만드는 빛이 수술실을 바꾸고 있습니다!`,
       tags: ['레이저', '수술', '의료', '비뇨기과', '희토류'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'thulium-thule-mythology',
@@ -1259,6 +1285,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 전설의 땅 이름이 주기율표와 우주 탐사에 모두 남아있네요!`,
       tags: ['툴레', '스칸디나비아', '신화', '원소명명', '과학사'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
   ],
   Yb: [
@@ -1317,6 +1344,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 언젠가 이터븀이 세슘을 대체해 새로운 시간 표준이 될 수 있습니다. 희토류 원소가 인류의 시간 측정을 바꾸고 있어요!`,
       tags: ['원자시계', '시간', '정밀측정', 'GPS', '희토류'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
     {
       slug: 'ytterbium-fiber-laser',
@@ -1376,6 +1404,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 스마트 공장, 자동화 생산라인에서 이터븀 파이버 레이저가 활약하고 있습니다. 희토류가 제조업의 미래를 밝히고 있어요!`,
       tags: ['레이저', '산업', '제조', '파이버레이저', '희토류'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
     {
       slug: 'ytterbium-fourth-ytterby',
@@ -1426,6 +1455,7 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 작은 마을이 화학사에 남긴 놀라운 유산입니다!`,
       tags: ['이테르비', '원소발견', '희토류', '스웨덴', '과학사'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
   ],
   Lu: [
@@ -1483,6 +1513,7 @@ LYSO 검출기 덕분에:
 
 루테튬이 만드는 섬광 덕분에 의사들은 암을 조기에 발견할 수 있습니다. 희토류가 생명을 구하고 있어요!`,
       tags: ['PET', '암진단', '의료영상', '섬광체', '희토류'],
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop',
     },
     {
       slug: 'lutetium-cancer-therapy',
@@ -1539,6 +1570,7 @@ LYSO 검출기 덕분에:
 
 루테튬-177 치료는 핵의학의 혁명입니다. 방사선이 더 이상 무섭기만 한 게 아니라, 정밀하게 암을 치료하는 약이 되었어요!`,
       tags: ['암치료', '방사선치료', '핵의학', '표적치료', '희토류'],
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop',
     },
     {
       slug: 'lutetium-paris-name',
@@ -1594,6 +1626,7 @@ LYSO 검출기 덕분에:
 
 주기율표에는 고대 로마의 흔적도 남아있습니다. 루테티아라는 이름으로 파리의 2천 년 역사가 화학에 새겨졌어요!`,
       tags: ['파리', '루테티아', '원소명명', '프랑스', '과학사'],
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop',
     },
   ],
   Hf: [
@@ -1651,6 +1684,7 @@ LYSO 검출기 덕분에:
 
 트랜지스터 하나는 머리카락의 10만분의 1 크기입니다. 그 안에 하프늄 원자층이 있어요. 눈에 보이지 않지만 디지털 세상을 지탱하는 원소입니다!`,
       tags: ['반도체', '트랜지스터', '스마트폰', '나노기술', '전자공학'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
     {
       slug: 'hafnium-nuclear-submarine',
@@ -1704,6 +1738,7 @@ LYSO 검출기 덕분에:
 
 하프늄의 핵잠수함 용도 때문에 일부 국가에서는 전략물자로 분류됩니다. 조용한 바다 아래, 하프늄이 핵의 힘을 통제하고 있어요.`,
       tags: ['원자력', '잠수함', '제어봉', '해군', '중성자'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
     {
       slug: 'hafnium-copenhagen-name',
@@ -1750,6 +1785,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 과학 이론이 새 원소를 찾게 해준 멋진 사례입니다!`,
       tags: ['코펜하겐', '덴마크', '닐스보어', '원소발견', '과학사'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
   ],
   Ta: [
@@ -1807,6 +1843,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 손톱보다 작은 탄탈럼 커패시터가 없으면 스마트폰은 작동하지 않습니다. 보이지 않는 곳에서 디지털 생활을 지탱하는 원소예요!`,
       tags: ['스마트폰', '커패시터', '전자부품', '분쟁광물', '기술'],
+      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=400&fit=crop',
     },
     {
       slug: 'tantalum-surgical-implant',
@@ -1867,6 +1904,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 탄탈럼은 비싸지만, 생명과 관련된 의료 분야에서는 최선의 선택입니다. 사람의 몸과 평화롭게 공존하는 금속이에요!`,
       tags: ['의료', '임플란트', '생체재료', '정형외과', '치과'],
+      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=400&fit=crop',
     },
     {
       slug: 'tantalum-tantalus-myth',
@@ -1915,6 +1953,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 고대 신화는 과학자들에게 영감을 주었습니다. 원소 이름 속에 담긴 이야기를 알면 화학이 더 재미있어져요!`,
       tags: ['그리스신화', '탄탈로스', '원소명명', '과학사', '전설'],
+      image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&h=400&fit=crop',
     },
   ],
   W: [
@@ -1968,6 +2007,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 100년 넘게 텅스텐은 밤을 밝혀왔습니다. 녹지 않는 금속이 인류에게 빛을 선물한 거예요!`,
       tags: ['전구', '필라멘트', '에디슨', '조명', '고온'],
+      image: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=800&h=400&fit=crop',
     },
     {
       slug: 'tungsten-armor-piercing',
@@ -2020,6 +2060,7 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 평화로운 용도로만 쓰였으면 하는 금속입니다.`,
       tags: ['군사', '철갑탄', '경도', '합금', '산업'],
+      image: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=800&h=400&fit=crop',
     },
     {
       slug: 'tungsten-wolfram-name',
@@ -2075,6 +2116,7 @@ Tungsten인데 왜 W?
 
 하나의 원소, 두 개의 역사가 공존하는 재미있는 사례예요!`,
       tags: ['원소기호', '명명', '독일', '스웨덴', '역사'],
+      image: 'https://images.unsplash.com/photo-1502134249126-9f3755a50d78?w=800&h=400&fit=crop',
     },
   ],
   Re: [
@@ -2127,6 +2169,7 @@ Tungsten인데 왜 W?
 
 비행기를 탈 때마다, 엔진 속에서 레늄이 극한의 열과 싸우고 있습니다. 덕분에 우리는 안전하게 하늘을 날 수 있어요!`,
       tags: ['제트엔진', '초합금', '항공', '고온', '희귀금속'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
     {
       slug: 'rhenium-catalytic-converter',
@@ -2182,6 +2225,7 @@ Tungsten인데 왜 W?
 
 주유소에서 기름을 넣을 때, 그 연료가 깨끗하게 타는 이유에 레늄이 있습니다. 보이지 않는 곳에서 연료의 질을 높이는 원소예요!`,
       tags: ['촉매', '정유', '휘발유', '석유화학', '화학공업'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
     {
       slug: 'rhenium-last-discovered',
@@ -2234,6 +2278,7 @@ X선 분광법이 발명되고 나서야 발견 가능
 
 100년 전 과학자들의 끈기가 마지막 퍼즐을 완성했습니다!`,
       tags: ['원소발견', '희귀원소', '독일', '과학사', '주기율표'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
   ],
   Os: [
@@ -2292,6 +2337,7 @@ X선 분광법이 발명되고 나서야 발견 가능
 
 오스뮴은 자연이 만들어낸 가장 촘촘한 물질입니다. 우주의 무거움을 담은 특별한 원소예요!`,
       tags: ['밀도', '무거움', '기록', '물리학', '희귀금속'],
+      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop',
     },
     {
       slug: 'osmium-fountain-pen',
@@ -2346,6 +2392,7 @@ X선 분광법이 발명되고 나서야 발견 가능
 
 명품 만년필 하나에 담긴 과학과 장인정신이 놀랍지 않나요?`,
       tags: ['만년필', '펜촉', '경도', '명품', '백금족'],
+      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop',
     },
     {
       slug: 'osmium-smell-name',
@@ -2398,6 +2445,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 냄새로 원소를 명명하다니, 화학의 역사는 정말 흥미롭습니다!`,
       tags: ['원소명명', '그리스어', '산화물', '위험물질', '과학사'],
+      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop',
     },
   ],
   Ir: [
@@ -2451,6 +2499,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 이리듐 한 원소가 공룡 멸종의 미스터리를 풀었습니다. 과학적 증거가 얼마나 강력한지 보여주는 사례예요!`,
       tags: ['공룡', '멸종', '소행성', '지질학', '과학사'],
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop',
     },
     {
       slug: 'iridium-kilogram-standard',
@@ -2506,6 +2555,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 이리듐은 인류의 기준을 지켜온 금속이에요!`,
       tags: ['킬로그램', '측정', '표준', '백금', '과학사'],
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop',
     },
     {
       slug: 'iridium-rainbow-name',
@@ -2560,6 +2610,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 2천 년 전 신화의 여신이 현대 스마트폰 화면 속에서 빛나고 있습니다. 이리듐은 정말 무지개처럼 다채로운 원소예요!`,
       tags: ['무지개', '이리스', '그리스신화', '색상', 'OLED'],
+      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop',
     },
   ],
   Pt: [
@@ -2619,6 +2670,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 달리는 모든 차에서 백금이 환경을 지키고 있습니다!`,
       tags: ['촉매', '배기가스', '환경', '자동차', '화학반응'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
     {
       slug: 'platinum-cancer-drug',
@@ -2673,6 +2725,7 @@ OsO4 (사산화오스뮴)의 특징:
 
 보석으로만 알려졌던 백금이 생명을 구하는 약이 되었습니다. 과학이 발견한 귀금속의 놀라운 가치예요!`,
       tags: ['항암제', '시스플라틴', '의학', '암치료', '약물'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
     {
       slug: 'platinum-little-silver-name',
@@ -2727,6 +2780,7 @@ Platinum의 어원:
 
 역사가 가치를 재평가한 멋진 사례입니다!`,
       tags: ['어원', '스페인', '역사', '귀금속', '남미'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
   ],
   Au: [
@@ -2780,6 +2834,7 @@ Platinum의 어원:
 
 과학은 정말 아름다움의 비밀을 풀어줍니다!`,
       tags: ['색상', '상대성이론', '물리학', '전자', '광학'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
     {
       slug: 'gold-alchemist-dream',
@@ -2838,6 +2893,7 @@ Platinum의 어원:
 
 연금술사들의 꿈은 실현 불가능했지만, 그 과정에서 현대 과학이 태어났습니다. 실패한 꿈도 가치가 있어요!`,
       tags: ['연금술', '역사', '핵반응', '과학사', '화학'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
     {
       slug: 'gold-olympic-medal',
@@ -2896,6 +2952,7 @@ Platinum의 어원:
 
 금메달이 순금이 아니어도 그 가치는 변함없습니다. 선수들의 땀과 노력이 진정한 금이니까요!`,
       tags: ['올림픽', '금메달', '스포츠', '역사', '가치'],
+      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
     },
   ],
   Hg: [
@@ -2952,6 +3009,7 @@ Platinum의 어원:
 
 양자역학과 상대성 이론이 만나 만든 액체 금속. 수은은 물리학의 경이로움을 보여주는 원소입니다!`,
       tags: ['액체금속', '상대성이론', '녹는점', '물리학', '특이성질'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'mercury-thermometer-danger',
@@ -3010,6 +3068,7 @@ Platinum의 어원:
 
 한때 일상에서 흔했던 수은이 이제는 위험물질이 되었습니다. 과학이 발전하며 안전 기준도 변하는 거예요.`,
       tags: ['온도계', '위험물질', '안전', '환경', '건강'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'mercury-quicksilver-name',
@@ -3065,6 +3124,7 @@ Hg = Hydrargyrum (라틴어)
 
 수은은 어느 문화에서든 신비롭게 여겨졌습니다. "살아있는 은", "전령 신의 금속"... 이름만으로도 흥미로운 원소예요!`,
       tags: ['원소명명', '신화', '어원', '라틴어', '역사'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
   ],
 };

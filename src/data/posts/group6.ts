@@ -36,6 +36,7 @@ export const group6Posts: Record<string, Post[]> = {
 - 악티늄족 원소
 - 지금까지 극소량만 생성됨`,
       tags: ['멘델레예프', '주기율표', '악티늄족', '냉전', '과학사'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'mendelevium-17-atoms-discovery',
@@ -70,6 +71,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 이것이 바로 현대 핵화학의 놀라운 정밀성입니다.`,
       tags: ['핵화학', '사이클로트론', '버클리', '실험과학', '발견'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'mendelevium-cold-war-science',
@@ -101,6 +103,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 멘델레븀은 단순한 원소가 아닙니다. 과학의 보편성을 상징하는 원소입니다.`,
       tags: ['냉전', '과학외교', '글렌시보그', '역사', '국제협력'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
   ],
   No: [
@@ -137,6 +140,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 노벨륨이라는 원소는 과학 발전에 대한 노벨의 헌신을 영원히 기억하게 합니다.`,
       tags: ['노벨상', '알프레드노벨', '악티늄족', '발견논쟁', '과학사'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'nobelium-discovery-controversy',
@@ -171,6 +175,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 노벨륨 논쟁은 과학에서 재현성의 중요성을 보여줍니다. 아무리 먼저 발표해도, 다른 연구팀이 재현할 수 없다면 인정받기 어렵습니다.`,
       tags: ['발견논쟁', 'IUPAC', '두브나', '버클리', '재현성'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'nobelium-unique-chemistry',
@@ -204,6 +209,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것은 주기율표의 규칙성이 초중원소에서도 유지된다는 증거입니다!`,
       tags: ['화학적성질', '산화상태', '전자배치', '악티늄족', '주기성'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Lr: [
@@ -236,6 +242,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 반감기: 가장 안정한 동위원소가 약 10시간
 - 화학적 성질: 주로 +3 산화 상태`,
       tags: ['사이클로트론', '어니스트로렌스', '버클리', '노벨상', '악티늄족'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'lawrencium-end-of-actinides',
@@ -271,6 +278,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이 발견은 초중원소의 화학이 예상과 다를 수 있음을 보여줍니다.`,
       tags: ['악티늄족', '전자배치', '주기율표', '전이금속', 'f블록'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'lawrencium-berkeley-legacy',
@@ -306,6 +314,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것은 단순한 우연이 아닙니다. 로렌스가 구축한 인프라와 문화가 수십 년간 원소 발견을 가능하게 했습니다.`,
       tags: ['버클리', '글렌시보그', '연구소', '원소발견', '과학사'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
   ],
   Rf: [
@@ -344,6 +353,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 예상 성질: 지르코늄, 하프늄과 유사
 - 반감기: 가장 안정한 동위원소가 약 1시간`,
       tags: ['러더포드', '원자핵', '금박실험', '핵물리학', '전이금속'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'rutherfordium-naming-war',
@@ -380,6 +390,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 오늘날 러더포듐이라는 이름은 전 세계에서 통용됩니다.`,
       tags: ['냉전', '이름논쟁', 'IUPAC', '쿠르차토프', '두브나'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'rutherfordium-superheavy-chemistry',
@@ -418,6 +429,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 러더포듐에서 이 효과가 시작됩니다. 더 무거운 원소로 갈수록 효과는 더 커집니다!`,
       tags: ['초중원소', '상대론적효과', '화학적성질', '주기율표', '4족'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
   ],
   Db: [
@@ -459,6 +471,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 러시아 과학의 자존심이 원소 이름에 새겨진 것입니다!`,
       tags: ['두브나', 'JINR', '러시아', '연구소', '이름논쟁'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'dubnium-hahnium-controversy',
@@ -498,6 +511,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 오토 한의 이름은 원소에 붙지 않았지만, 그의 업적은 여전히 빛납니다. 핵분열의 발견은 원자력 시대를 열었고, 초중원소 합성의 기초가 되었죠.`,
       tags: ['하늄', '오토한', '이름논쟁', 'IUPAC', '핵분열'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'dubnium-chemistry-puzzle',
@@ -540,6 +554,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것이 초중원소 화학의 최전선입니다!`,
       tags: ['화학적성질', '상대론적효과', '5족', '단일원자화학', '탄탈럼'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Sg: [
@@ -581,6 +596,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 시보그는 1999년 세상을 떠났지만, 그의 이름은 주기율표에 영원히 남아있습니다.`,
       tags: ['글렌시보그', '노벨상', '버클리', '초우라늄', '악티늄족'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'seaborgium-actinide-concept',
@@ -618,6 +634,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 106번 원소 시보귬은 주기율표를 재구성한 시보그에게 바치는 최고의 헌정입니다.`,
       tags: ['악티늄족', '주기율표', '란타넘족', 'f오비탈', '과학사'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'seaborgium-tungsten-relative',
@@ -663,6 +680,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 시보귬 연구는 주기율표의 한계를 테스트하는 최전선입니다.`,
       tags: ['텅스텐', '6족', '화학적성질', '산화상태', '휘발성'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
   ],
   Bh: [
@@ -702,6 +720,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 원자번호: 107
 - 반감기: 가장 안정한 동위원소가 약 61초`,
       tags: ['닐스보어', '양자역학', '원자모형', 'GSI', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'bohrium-gsi-darmstadt',
@@ -740,6 +759,7 @@ GSI는 새로운 방법론을 개발했습니다:
 
 이 성공은 GSI를 세계적인 원소 발견 기관으로 만들었습니다. 미국-소련의 양강 구도가 삼국 시대로 바뀐 것이죠.`,
       tags: ['GSI', '다름슈타트', '냉각융합', '독일', '연구소'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'bohrium-rhenium-cousin',
@@ -781,6 +801,7 @@ BhO3Cl 화합물 형성 확인!
 
 하지만 6개의 원자로 화학 실험을 한다는 것 자체가 놀라운 성취입니다. 이것이 초중원소 화학의 극한입니다.`,
       tags: ['레늄', '7족', '화학적성질', '산화상태', '옥시할라이드'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
   Hs: [
@@ -819,6 +840,7 @@ BhO3Cl 화합물 형성 확인!
 - 8족 원소 (오스뮴과 같은 족)
 - 예상: 매우 무겁고 밀도 높은 금속`,
       tags: ['헤센', '독일', 'GSI', '지명유래', '원소명명'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'hassium-osmium-super-dense',
@@ -857,6 +879,7 @@ BhO3Cl 화합물 형성 확인!
 
 하슘의 밀도는 영원히 이론적 예측으로만 남을 것입니다.`,
       tags: ['밀도', '오스뮴', '상대론적효과', '8족', '물리적성질'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'hassium-chemistry-breakthrough',
@@ -898,6 +921,7 @@ BhO3Cl 화합물 형성 확인!
 
 오스뮴 → 하슘의 관계는 예측대로였습니다.`,
       tags: ['화학실험', '사산화물', '오스뮴', '단일원자화학', '국제협력'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
   ],
   Mt: [
@@ -934,6 +958,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너는 1968년 89세로 세상을 떠났습니다. 생전에 원소 이름으로 인정받지는 못했지만, 이제 그녀의 이름은 영원히 주기율표에 남아있습니다.`,
       tags: ['리제마이트너', '핵분열', '노벨상', '여성과학자', '불공정'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'meitnerium-nuclear-fission-story',
@@ -973,6 +998,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨은 이 불공정에 대한 역사의 사과입니다.`,
       tags: ['핵분열', '역사', '오토한', '1938년', '원자력'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'meitnerium-iridium-comparison',
@@ -1015,6 +1041,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨의 화학은 아직 미지의 영역으로 남아있습니다.`,
       tags: ['이리듐', '9족', '예측', '백금족', '미지의영역'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
   Ds: [
@@ -1052,6 +1079,7 @@ BhO3Cl 화합물 형성 확인!
 - 반감기: 가장 안정한 동위원소가 약 14초
 - 10족 원소 (니켈, 팔라듐, 백금과 같은 족)`,
       tags: ['다름슈타트', 'GSI', '독일', '도시이름', '1994년'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-platinum-family',
@@ -1095,6 +1123,7 @@ BhO3Cl 화합물 형성 확인!
 
 하지만 이것은 영원히 상상 속에만 존재할 것입니다. 반감기가 너무 짧아 축적이 불가능하기 때문이죠.`,
       tags: ['백금', '10족', '귀금속', '예측', '촉매'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-ununnilium',
@@ -1139,6 +1168,7 @@ IUPAC은 '체계적 원소명(Systematic element name)'을 도입했습니다.
 
 이것은 원소 발견과 명명 사이의 시간을 보여주는 역사적 흔적입니다.`,
       tags: ['체계적원소명', 'IUPAC', '우눈닐륨', '명명법', '역사'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Rg: [
@@ -1176,6 +1206,7 @@ IUPAC은 '체계적 원소명(Systematic element name)'을 도입했습니다.
 
 X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것입니다.`,
       tags: ['뢴트겐', 'X선', '노벨상', '의료', '1895년'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'roentgenium-gold-relative',
@@ -1220,6 +1251,7 @@ X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것
 
 금의 무거운 사촌 뢴트게늄의 실제 모습은 영원히 미스터리로 남을 것입니다.`,
       tags: ['금', '11족', '상대론적효과', '색상', '귀금속'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'roentgenium-medical-legacy',
@@ -1262,6 +1294,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 뢴트겐의 호기심이 시작한 여정은 주기율표의 확장으로 계속됩니다.`,
       tags: ['X선', '의료', '방사선', '과학사', '유산'],
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
   ],
   Cn: [
@@ -1302,6 +1335,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 물리학자가 아닌 천문학자의 이름이 원소에 붙은 것은 이례적입니다. 하지만 코페르니쿠스의 업적은 그만큼 위대했죠.`,
       tags: ['코페르니쿠스', '태양중심설', '천문학', '과학혁명', '폴란드'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'copernicium-mercury-supersede',
@@ -1345,6 +1379,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 하지만 이런 예측은 초중원소에서 상대론적 효과가 얼마나 극적인지를 보여줍니다.`,
       tags: ['수은', '액체금속', '상대론적효과', '녹는점', '12족'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'copernicium-noble-gas-like',
@@ -1389,6 +1424,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 112번 원소는 12족 금속일까요, 아니면 새로운 종류의 원소일까요?`,
       tags: ['비활성기체', '상대론적효과', '화학적성질', '원소분류', '실험'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
   ],
   Nh: [
@@ -1428,6 +1464,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 반감기: 가장 안정한 동위원소가 약 20초
 - 13족 원소 (붕소, 알루미늄, 갈륨, 인듐, 탈륨과 같은 족)`,
       tags: ['일본', 'RIKEN', '아시아최초', '모리타코스케', '2016년'],
+      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
     },
     {
       slug: 'nihonium-morita-dedication',
@@ -1471,6 +1508,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 니호늄은 과학에서 인내와 집념이 얼마나 중요한지를 보여주는 완벽한 예입니다.`,
       tags: ['모리타코스케', 'RIKEN', '인내', '연구', '발견과정'],
+      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
     },
     {
       slug: 'nihonium-thallium-comparison',
@@ -1515,6 +1553,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 더 많은 원자를 생성하고, 더 빠른 화학 분석 기술을 개발해야 니호늄의 진정한 성질을 알 수 있을 것입니다.`,
       tags: ['탈륨', '13족', '화학적성질', '산화상태', '예측'],
+      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
     },
   ],
   Fl: [
@@ -1552,6 +1591,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 반감기: 가장 안정한 동위원소가 약 2.7초
 - 14족 원소`,
       tags: ['플료로프', '두브나', '소련', '핵물리학', 'JINR'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-lead-superlative',
@@ -1601,6 +1641,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 상대론적 효과가 원소의 근본적인 성질까지 바꿀 수 있음을 보여주는 흥미로운 사례입니다.`,
       tags: ['납', '14족', '상대론적효과', '비활성기체', '화학실험'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-island-of-stability',
@@ -1637,6 +1678,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 언젠가 정말로 오래 사는 초중원소를 만들 수 있을까요? 플레로븀이 그 가능성을 열어주었습니다.`,
       tags: ['안정성의섬', '마법의수', '핵물리학', '동위원소', '미래연구'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
   ],
   Mc: [
@@ -1672,6 +1714,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 - 반감기: 가장 안정한 동위원소가 약 0.22초
 - 15족 원소 (질소, 인, 비소, 안티모니, 비스무트와 같은 족)`,
       tags: ['모스크바', '러시아', '두브나', '2016년', '15족'],
+      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-element-115-ufo',
@@ -1708,6 +1751,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 실제 원소 115는 SF 영화처럼 신비하지 않습니다. 하지만 그 자체로 과학의 경이로운 성과입니다.`,
       tags: ['음모론', 'UFO', '밥라자르', '과학적사실', '미신'],
+      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-bismuth-comparison',
@@ -1754,6 +1798,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 안타깝게도 우리는 그것을 절대 볼 수 없을 것입니다. 반감기가 너무 짧아 결정이 형성되기 전에 붕괴해버리니까요.`,
       tags: ['비스무트', '15족', '결정', '화학적성질', '상상'],
+      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
     },
   ],
   Lv: [
@@ -1797,6 +1842,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 - 반감기: 가장 안정한 동위원소가 약 60밀리초
 - 16족 원소`,
       tags: ['리버모어', 'LLNL', '미국', '국제협력', '16족'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-polonium-relative',
@@ -1844,6 +1890,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 
 리버모륨은 너무 희귀하고 불안정해서 무기로 사용될 수 없습니다. 아이러니하게도, 가장 무거운 원소가 가장 안전합니다.`,
       tags: ['폴로늄', '16족', '방사능', '안전', '독살'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-fleeting-existence',
@@ -1884,6 +1931,7 @@ Lv-293 → Fl-289 → Cn-285 → ...
 
 이 짧은 존재가 주기율표를 채웁니다.`,
       tags: ['반감기', '붕괴', '찰나', '검출', '존재'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Ts: [
@@ -1921,6 +1969,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 - 반감기: 가장 안정한 동위원소가 약 80밀리초
 - 17족 원소 (할로겐)`,
       tags: ['테네시', '오크리지', 'ORNL', '버클륨', '17족'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-halogen-mystery',
@@ -1966,6 +2015,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 117번에서 할로겐의 특성이 끝나는 걸까요?`,
       tags: ['할로겐', '17족', '금속성', '상대론적효과', '예측'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-berkelium-journey',
@@ -2007,6 +2057,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 냉전의 경쟁자들이 과학을 위해 손을 잡았습니다. 테네신은 이 협력의 결실입니다.`,
       tags: ['버클륨', '오크리지', '두브나', '협력', '희귀물질'],
+      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
     },
   ],
   Og: [
@@ -2044,6 +2095,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 하지만 갈수록 합성이 어려워집니다. 8주기 원소는 언제 발견될까요?`,
       tags: ['주기율표', '7주기', '마지막원소', '오가네시안', '미래'],
+      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-noble-gas-not',
@@ -2092,6 +2144,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 주기율표의 끝에서 화학은 새로운 영역으로 들어섭니다.`,
       tags: ['비활성기체', '18족', '고체', '전자구조', '상대론적효과'],
+      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-future-elements',
@@ -2143,6 +2196,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 오가네손은 끝이 아니라 새로운 시작입니다.`,
       tags: ['119번', '8주기', '미래', '도전', '안정성의섬'],
+      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
     },
   ],
 };

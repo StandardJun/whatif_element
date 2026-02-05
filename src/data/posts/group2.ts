@@ -33,6 +33,7 @@ export const group2Posts: Record<string, Post[]> = {
 
 프로 선수들만 스칸듐 장비를 쓰는 이유가 바로 이것입니다!`,
       tags: ['스칸듐', '스포츠', '합금', '희귀금속', '자전거'],
+      image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?w=800&h=400&fit=crop',
     },
     {
       slug: 'scandium-discovery-scandinavia',
@@ -65,6 +66,7 @@ export const group2Posts: Record<string, Post[]> = {
 
 스칸듐의 발견은 멘델레예프의 주기율표가 단순한 정리가 아니라 자연의 법칙을 담고 있다는 것을 증명했습니다. 과학의 위대한 순간이었죠!`,
       tags: ['스칸듐', '멘델레예프', '주기율표', '과학사', '발견'],
+      image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?w=800&h=400&fit=crop',
     },
     {
       slug: 'scandium-lighting-future',
@@ -100,6 +102,7 @@ TV 중계를 위해 선수들의 피부색이 자연스럽게 보여야 합니�
 
 작은 양의 스칸듐이 이렇게 큰 차이를 만들어낸답니다!`,
       tags: ['스칸듐', '조명', '스타디움', '영화', '기술'],
+      image: 'https://images.unsplash.com/photo-1461141346587-763ab02bced9?w=800&h=400&fit=crop',
     },
   ],
   Ti: [
@@ -140,6 +143,7 @@ TV 중계를 위해 선수들의 피부색이 자연스럽게 보여야 합니�
 
 그래서 "풍부하지만 비싼" 역설적인 금속이 되었습니다!`,
       tags: ['티타늄', '금속', '비행기', '의료', '스마트폰'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
     {
       slug: 'titanium-greek-mythology',
@@ -174,6 +178,7 @@ TV 중계를 위해 선수들의 피부색이 자연스럽게 보여야 합니�
 
 마치 신화 속 거인처럼 강인한 금속이죠!`,
       tags: ['티타늄', '그리스신화', '티탄', '어원', '역사'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
     {
       slug: 'titanium-aerospace-fighter',
@@ -208,6 +213,7 @@ CIA는 가짜 회사를 만들어 소련에서 티타늄을 수입했습니다. 
 
 티타늄이 없었다면 이 전설적인 비행기도 없었을 겁니다!`,
       tags: ['티타늄', '비행기', 'SR-71', '냉전', '군사'],
+      image: 'https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?w=800&h=400&fit=crop',
     },
   ],
   V: [
@@ -253,6 +259,7 @@ CIA는 가짜 회사를 만들어 소련에서 티타늄을 수입했습니다. 
 
 바나듐 없이는 현대 문명의 기반이 되는 강철 구조물을 만들 수 없습니다!`,
       tags: ['바나듐', '포드', '자동차', '강철', '역사'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'vanadium-colorful-compounds',
@@ -292,6 +299,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 화학이 아름다울 수 있다는 것을 보여주는 멋진 예시입니다.`,
       tags: ['바나듐', '화학', '색깔', '실험', '산화'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'vanadium-battery-future',
@@ -330,6 +338,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 바나듐이 탄소중립 미래의 열쇠가 될 수 있어요!`,
       tags: ['바나듐', '배터리', '재생에너지', '태양광', '미래기술'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
   ],
   Cr: [
@@ -373,6 +382,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 스테인리스 스틸이 없다면 현대 주방은 녹투성이가 되었을 거예요!`,
       tags: ['크로뮴', '스테인리스', '녹', '주방', '합금'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'chromium-ruby-emerald',
@@ -413,6 +423,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 겨우 1-2%의 크로뮴이 이토록 아름다운 보석을 만들어냅니다. 화학의 신비로운 마법이죠!`,
       tags: ['크로뮴', '루비', '에메랄드', '보석', '색깔'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'chromium-plating-shine',
@@ -455,6 +466,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 아름다움과 환경, 둘 다 지킬 수 있는 기술을 찾는 중입니다!`,
       tags: ['크로뮴', '도금', '자동차', '광택', '기술'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
   ],
   Mn: [
@@ -501,6 +513,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 망가니즈 없이는 우리의 휴대용 전자기기 세상이 불가능했을 거예요.`,
       tags: ['망가니즈', '건전지', '전기화학', '발명', '기술'],
+      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=400&fit=crop',
     },
     {
       slug: 'manganese-steel-train',
@@ -544,6 +557,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 130년 전 발명된 기술이 아직도 현역인 이유가 있죠!`,
       tags: ['망가니즈', '강철', '철도', '발명', '재료과학'],
+      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=400&fit=crop',
     },
     {
       slug: 'manganese-human-body',
@@ -594,6 +608,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 균형 잡힌 식사를 하면 대부분 충분히 섭취할 수 있어요!`,
       tags: ['망가니즈', '건강', '영양소', '뼈', '미량원소'],
+      image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&h=400&fit=crop',
     },
   ],
   Fe: [
@@ -642,6 +657,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 철은 생명을 유지하는 데 꼭 필요한 원소입니다!`,
       tags: ['철', '헤모글로빈', '피', '산소', '건강'],
+      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=400&fit=crop',
     },
     {
       slug: 'iron-age-civilization',
@@ -692,6 +708,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 철은 인류를 진정한 문명 시대로 이끈 원소입니다!`,
       tags: ['철', '철기시대', '역사', '문명', '청동기'],
+      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=400&fit=crop',
     },
     {
       slug: 'iron-earth-core',
@@ -735,6 +752,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 지구 중심의 철이 만드는 자기장 덕분에 생명체가 살 수 있습니다. 철은 생명의 방패인 셈이죠!`,
       tags: ['철', '지구', '자기장', '오로라', '과학'],
+      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=800&h=400&fit=crop',
     },
   ],
   Co: [
@@ -785,6 +803,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 5000년이 지난 지금도 코발트 블루는 가장 아름다운 파란색입니다!`,
       tags: ['코발트', '파란색', '예술', '역사', '안료'],
+      image: 'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=800&h=400&fit=crop',
     },
     {
       slug: 'cobalt-battery-ev',
@@ -833,6 +852,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 하지만 당분간 코발트는 전기차 시대의 필수 원소로 남을 거예요!`,
       tags: ['코발트', '배터리', '전기차', '스마트폰', '기술'],
+      image: 'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=800&h=400&fit=crop',
     },
     {
       slug: 'cobalt-vitamin-b12',
@@ -878,6 +898,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 코발트가 중심에 있는 이 작은 분자가 우리 건강을 지키고 있어요!`,
       tags: ['코발트', '비타민', 'B12', '건강', '채식'],
+      image: 'https://images.unsplash.com/photo-1615397349754-cfa2066a298e?w=800&h=400&fit=crop',
     },
   ],
   Ni: [
@@ -931,6 +952,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 100원짜리 동전에는 니켈이 들어있어요. 니켈 알레르기가 있다면 동전을 만진 후 손을 씻는 게 좋습니다!`,
       tags: ['니켈', '알레르기', '피부', '동전', '건강'],
+      image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800&h=400&fit=crop',
     },
     {
       slug: 'nickel-stainless-kitchen',
@@ -982,6 +1004,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 니켈 없이는 현대 주방을 상상하기 어렵습니다. 청결하고 위생적인 주방의 비밀이 바로 니켈이에요!`,
       tags: ['니켈', '스테인리스', '주방', '합금', '생활'],
+      image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800&h=400&fit=crop',
     },
     {
       slug: 'nickel-meteor-space',
@@ -1025,6 +1048,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 니켈은 우리를 우주와 연결해주는 원소입니다. 손에 쥔 동전에도 우주의 역사가 담겨 있어요!`,
       tags: ['니켈', '운석', '우주', '지구', '역사'],
+      image: 'https://images.unsplash.com/photo-1605792657660-596af9009e82?w=800&h=400&fit=crop',
     },
   ],
   Cu: [
@@ -1072,6 +1096,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 지금의 청록색은 세월이 만든 자연의 예술품입니다!`,
       tags: ['구리', '자유의여신상', '녹청', '산화', '역사'],
+      image: 'https://images.unsplash.com/photo-1609166921511-5efbdce4d3ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'copper-first-metal-human',
@@ -1118,6 +1143,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 구리의 발견은 단순한 도구 변화가 아니었습니다. 금속 가공 기술, 무역, 전문 직업의 시작이었죠. 문명의 첫 걸음이었습니다!`,
       tags: ['구리', '석기시대', '청동기', '역사', '문명'],
+      image: 'https://images.unsplash.com/photo-1609166921511-5efbdce4d3ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'copper-antimicrobial-hospital',
@@ -1170,6 +1196,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 자연이 준 천연 항균제, 구리입니다!`,
       tags: ['구리', '항균', '병원', '세균', '건강'],
+      image: 'https://images.unsplash.com/photo-1609166921511-5efbdce4d3ae?w=800&h=400&fit=crop',
     },
   ],
   Zn: [
@@ -1222,6 +1249,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 아연 보충제가 감기에 어느 정도 도움이 될 수 있습니다. 하지만 평소에 균형 잡힌 식사로 아연을 충분히 섭취하는 것이 더 중요해요!`,
       tags: ['아연', '감기', '면역력', '건강', '영양소'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'zinc-galvanizing-rust',
@@ -1277,6 +1305,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 전 세계 아연 생산량의 약 50%가 철의 아연도금에 사용됩니다. 아연 없이는 현대 인프라를 유지할 수 없어요!`,
       tags: ['아연', '도금', '녹', '철', '건축'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'zinc-brass-history',
@@ -1339,6 +1368,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 아연과 구리의 환상적인 조합, 황동입니다!`,
       tags: ['아연', '황동', '구리', '합금', '악기'],
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
   ],
   Ga: [
@@ -1386,6 +1416,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 손에서 녹는 금속, 신기하지만 조심히 다뤄야 해요!`,
       tags: ['갈륨', '녹는점', '금속', '실험', '신기한과학'],
+      image: 'https://images.unsplash.com/photo-1582719366071-94c5ca519bb0?w=800&h=400&fit=crop',
     },
     {
       slug: 'gallium-led-semiconductor',
@@ -1437,6 +1468,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 갈륨 없이는 이 LED 혁명이 불가능했을 거예요!`,
       tags: ['갈륨', 'LED', '반도체', '조명', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1582719366071-94c5ca519bb0?w=800&h=400&fit=crop',
     },
     {
       slug: 'gallium-periodic-table-prediction',
@@ -1481,6 +1513,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 갈륨의 발견은 주기율표가 단순한 정리가 아니라 자연의 법칙을 담고 있음을 증명했습니다. 과학의 예측력을 보여준 위대한 순간이었죠!`,
       tags: ['갈륨', '멘델레예프', '주기율표', '과학사', '발견'],
+      image: 'https://images.unsplash.com/photo-1582719366071-94c5ca519bb0?w=800&h=400&fit=crop',
     },
   ],
   Ge: [
@@ -1526,6 +1559,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 하지만 저마늄이 없었다면 트랜지스터 혁명은 늦어졌을 거예요. 컴퓨터, 스마트폰, 인터넷... 모든 것의 시작점에 저마늄이 있습니다!`,
       tags: ['저마늄', '트랜지스터', '반도체', '컴퓨터', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1597933534023-71f87ea4d3e4?w=800&h=400&fit=crop',
     },
     {
       slug: 'germanium-fiber-optics',
@@ -1569,6 +1603,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 인터넷 시대를 가능하게 한 광섬유, 그 안에 저마늄이 있습니다!`,
       tags: ['저마늄', '광섬유', '인터넷', '통신', '기술'],
+      image: 'https://images.unsplash.com/photo-1597933534023-71f87ea4d3e4?w=800&h=400&fit=crop',
     },
     {
       slug: 'germanium-mendeleev-ekasilicon',
@@ -1614,6 +1649,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 멘델레예프는 아직 발견되지 않은 원소의 성질까지 예측할 수 있음을 증명했죠. 과학사에서 가장 위대한 예측 중 하나입니다!`,
       tags: ['저마늄', '멘델레예프', '주기율표', '과학사', '발견'],
+      image: 'https://images.unsplash.com/photo-1597933534023-71f87ea4d3e4?w=800&h=400&fit=crop',
     },
   ],
   As: [
@@ -1660,6 +1696,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 비소는 여전히 위험하지만, 소량으로 백혈병 치료에도 사용됩니다. 독도 약이 될 수 있다는 말이 맞네요!`,
       tags: ['비소', '독', '역사', '범죄', '나폴레옹'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
     {
       slug: 'arsenic-semiconductor-gaas',
@@ -1707,6 +1744,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 독으로만 알려진 비소가 첨단 기술의 핵심이라니, 놀랍죠?`,
       tags: ['비소', '반도체', '갈륨비소', '5G', '스마트폰'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
     {
       slug: 'arsenic-green-pigment',
@@ -1751,6 +1789,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 아름다움을 위해 안전을 희생하면 안 됩니다. 지금은 비소 안료가 금지되어 있어요. 역사에서 배운 교훈이죠!`,
       tags: ['비소', '안료', '초록색', '역사', '나폴레옹'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
   ],
   Se: [
@@ -1801,6 +1840,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 브라질너트는 하루 1-2개면 충분합니다. 좋은 것도 많으면 독이 될 수 있어요!`,
       tags: ['셀레늄', '브라질너트', '영양소', '건강', '미량원소'],
+      image: 'https://images.unsplash.com/photo-1587132146311-c0f2e9c84f99?w=800&h=400&fit=crop',
     },
     {
       slug: 'selenium-photocopier-xerox',
@@ -1845,6 +1885,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 하지만 셀레늄의 광전도성 발견이 없었다면 복사기도 레이저 프린터도 없었을 거예요. 사무 혁명의 숨은 공신입니다!`,
       tags: ['셀레늄', '복사기', '광전도성', '제록스', '기술'],
+      image: 'https://images.unsplash.com/photo-1587132146311-c0f2e9c84f99?w=800&h=400&fit=crop',
     },
     {
       slug: 'selenium-moon-goddess-name',
@@ -1885,6 +1926,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 과학에도 시적인 감성이 담겨있네요!`,
       tags: ['셀레늄', '그리스신화', '셀레네', '어원', '텔루륨'],
+      image: 'https://images.unsplash.com/photo-1587132146311-c0f2e9c84f99?w=800&h=400&fit=crop',
     },
   ],
   Br: [
@@ -1937,6 +1979,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 아름다운 적갈색이지만, 존중하며 다뤄야 하는 원소입니다!`,
       tags: ['브로민', '할로겐', '액체', '물리성질', '화학'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
     {
       slug: 'bromine-flame-retardant',
@@ -1988,6 +2031,7 @@ UL94: 미국 전자제품 난연성 기준
 
 화재 안전과 환경 보호, 둘 다 중요하니까요!`,
       tags: ['브로민', '난연제', '화재', '전자제품', '안전'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
     {
       slug: 'bromine-swimming-pool',
@@ -2046,6 +2090,7 @@ HOBr이 비슷한 방식으로 작용
 
 용도에 따라 선택하면 됩니다!`,
       tags: ['브로민', '수영장', '소독', '염소', '위생'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
   ],
   Kr: [
@@ -2095,6 +2140,7 @@ DC 코믹스의 슈퍼맨은 크립톤 행성에서 왔습니다. 그런데 이 
 
 숨겨진 기체 크립톤, 슈퍼맨 덕분에 유명해졌네요!`,
       tags: ['크립톤', '슈퍼맨', '비활성기체', '과학', '만화'],
+      image: 'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=400&fit=crop',
     },
     {
       slug: 'krypton-lighting-photography',
@@ -2143,6 +2189,7 @@ DC 코믹스의 슈퍼맨은 크립톤 행성에서 왔습니다. 그런데 이 
 
 크립톤은 공기 중에 0.0001%만 존재합니다. 추출이 어려워 가격이 비싸요. 그래서 정말 필요한 곳에만 사용됩니다!`,
       tags: ['크립톤', '조명', '전구', '공항', '카메라'],
+      image: 'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=400&fit=crop',
     },
     {
       slug: 'krypton-noble-gas-family',
@@ -2197,6 +2244,7 @@ DC 코믹스의 슈퍼맨은 크립톤 행성에서 왔습니다. 그런데 이 
 
 비활성 기체들은 자기만의 방식으로 조용히 세상에 기여하고 있습니다!`,
       tags: ['크립톤', '비활성기체', '헬륨', '네온', '화학'],
+      image: 'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=400&fit=crop',
     },
   ],
   Rb: [
@@ -2247,6 +2295,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 정확한 시간 없이는 현대 문명이 작동하지 않습니다. 루비듐이 그 일등공신이에요!`,
       tags: ['루비듐', '원자시계', 'GPS', '시간', '기술'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
     {
       slug: 'rubidium-red-discovery',
@@ -2285,6 +2334,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 빨간 불꽃 한 줄기가 새로운 원소의 존재를 알려준 거예요.`,
       tags: ['루비듐', '분광학', '발견', '불꽃반응', '과학사'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
     {
       slug: 'rubidium-alkali-metal-reactive',
@@ -2332,6 +2382,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 화학의 위험한 매력, 하지만 실험실에서만 즐기세요!`,
       tags: ['루비듐', '알칼리금속', '반응성', '물', '화학'],
+      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
     },
   ],
   Sr: [
@@ -2382,6 +2433,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 새해 자정, 하늘을 수놓는 빨간 불꽃. 그 안에 스트론튬 원자들이 춤추고 있다고 생각하면 더 아름다워 보이지 않나요?`,
       tags: ['스트론튬', '불꽃놀이', '빨간색', '화학', '축제'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
     {
       slug: 'strontium-bones-radioactive',
@@ -2426,6 +2478,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 같은 원소라도 동위원소에 따라 이렇게 다릅니다!`,
       tags: ['스트론튬', '방사성', '핵실험', '뼈', '건강'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
     {
       slug: 'strontium-glow-dark',
@@ -2483,6 +2536,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 스트론튬이 만드는 안전한 빛의 세계입니다.`,
       tags: ['스트론튬', '야광', '축광', '안전', '기술'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
   ],
   Y: [
@@ -2535,6 +2589,7 @@ TV, 스마트폰, 모니터의 빨간색 픽셀. 그 안에는 이트륨이 숨�
 
 화면의 아름다운 색, 이트륨이 만듭니다!`,
       tags: ['이트륨', 'LED', 'TV', '형광체', '디스플레이'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
     {
       slug: 'yttrium-village-ytterby',
@@ -2586,6 +2641,7 @@ TV, 스마트폰, 모니터의 빨간색 픽셀. 그 안에는 이트륨이 숨�
 
 작은 마을 이테르비가 현대 문명의 기초가 된 거예요!`,
       tags: ['이트륨', '이테르비', '희토류', '발견', '스웨덴'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
     {
       slug: 'yttrium-superconductor-ybco',
@@ -2636,6 +2692,7 @@ YBCO도 -180°C로 냉각해야 합니다. 상온 초전도체를 찾는 연구�
 
 이트륨 초전도체가 보여주는 물리학의 마법입니다!`,
       tags: ['이트륨', '초전도체', 'YBCO', '마이스너효과', '물리학'],
+      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
     },
   ],
   Zr: [
@@ -2683,6 +2740,7 @@ YBCO도 -180°C로 냉각해야 합니다. 상온 초전도체를 찾는 연구�
 
 지르코늄 없이는 현재의 원자력 발전이 불가능합니다. 안전하고 효율적인 에너지를 위한 핵심 소재예요!`,
       tags: ['지르코늄', '원자력', '핵연료', '발전소', '에너지'],
+      image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=400&fit=crop',
     },
     {
       slug: 'zirconium-cubic-zirconia-diamond',
@@ -2737,6 +2795,7 @@ YBCO도 -180°C로 냉각해야 합니다. 상온 초전도체를 찾는 연구�
 
 저렴하게 아름다움을 즐길 수 있는 큐빅 지르코니아, 합리적인 선택일 수 있어요!`,
       tags: ['지르코늄', '큐빅지르코니아', '다이아몬드', '보석', '합성'],
+      image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=400&fit=crop',
     },
     {
       slug: 'zirconium-oldest-mineral',
@@ -2781,6 +2840,7 @@ YBCO도 -180°C로 냉각해야 합니다. 상온 초전도체를 찾는 연구�
 
 작은 광물 알갱이 하나가 44억 년의 이야기를 담고 있습니다. 지구 역사의 증인, 지르콘이에요!`,
       tags: ['지르코늄', '지르콘', '지구역사', '광물', '과학'],
+      image: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&h=400&fit=crop',
     },
   ],
 };

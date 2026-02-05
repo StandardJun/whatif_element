@@ -42,6 +42,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 파티에서 잠깐 풍선 한두 번 마시는 정도는 괜찮지만, 과하게 하지 마세요!`,
       tags: ['헬륨', '소리', '물리학', '파티', '안전'],
+      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
     },
     {
       slug: 'helium-balloon-float',
@@ -87,6 +88,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 풍선은 터뜨려서 쓰레기통에 버려주세요!`,
       tags: ['헬륨', '풍선', '부력', '물리학', '환경'],
+      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
     },
     {
       slug: 'helium-shortage-crisis',
@@ -134,6 +136,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 다음에 헬륨 풍선을 볼 때, 이 귀한 자원이 우주로 날아가버리는 거라고 생각해보세요!`,
       tags: ['헬륨', '자원고갈', 'MRI', '환경', '미래'],
+      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
     },
   ],
   Li: [
@@ -184,6 +187,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 리튬은 현대 문명의 '하얀 석유'라고 불립니다. 그만큼 중요하다는 뜻이죠!`,
       tags: ['리튬', '배터리', '스마트폰', '전기차', '기술'],
+      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
     },
     {
       slug: 'lithium-mental-health',
@@ -233,6 +237,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 물론 이것만으로 인과관계를 증명할 순 없지만, 리튬이 정신건강에 미치는 영향을 보여주는 흥미로운 사례입니다.`,
       tags: ['리튬', '정신건강', '조울증', '의학', '뇌과학'],
+      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
     },
     {
       slug: 'lithium-white-gold-war',
@@ -292,6 +297,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 자원 확보 전쟁은 이제 시작입니다!`,
       tags: ['리튬', '자원전쟁', '전기차', '경제', '국제관계'],
+      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
     },
   ],
   Be: [
@@ -354,6 +360,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 맞아요, 에메랄드 보석도 베릴륨 화합물이랍니다!`,
       tags: ['베릴륨', '우주', '망원경', '항공우주', '과학'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'beryllium-emerald-connection',
@@ -403,6 +410,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 베릴륨 덕분에 우리는 이렇게 아름다운 보석을 볼 수 있는 거예요!`,
       tags: ['베릴륨', '에메랄드', '보석', '광물', '역사'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'beryllium-danger-beauty',
@@ -460,6 +468,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 베릴륨은 꼭 필요한 곳에 쓰이지만, 그만큼 조심해야 하는 양날의 검입니다.`,
       tags: ['베릴륨', '독성', '안전', '직업병', '건강'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
   ],
   B: [
@@ -519,6 +528,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 과학적 원리는 비슷하지만 촉감이 조금 다를 수 있어요!`,
       tags: ['붕소', '슬라임', '화학', '실험', '장난감'],
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
     {
       slug: 'boron-plant-nutrient',
@@ -573,6 +583,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 우리가 먹는 맛있는 과일과 채소, 붕소 덕분입니다!`,
       tags: ['붕소', '식물', '비료', '농업', '영양소'],
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
     {
       slug: 'boron-nuclear-control',
@@ -627,6 +638,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 눈에 보이지 않는 곳에서 붕소는 우리의 안전을 지키고 있습니다. 슬라임 재료이자, 식물 영양소이자, 원자로의 브레이크인 거죠!`,
       tags: ['붕소', '원자력', '안전', '핵분열', '에너지'],
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
   ],
   N: [
@@ -688,6 +700,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 질소, 보이지 않지만 없어선 안 될 원소입니다!`,
       tags: ['질소', '공기', '호흡', '대기', '화학'],
+      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
     },
     {
       slug: 'nitrogen-liquid-magic',
@@ -745,6 +758,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 액체 질소는 무섭지만, 제대로 사용하면 정말 유용해요!`,
       tags: ['질소', '액체질소', '실험', '온도', '과학'],
+      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
     },
     {
       slug: 'nitrogen-diver-bends',
@@ -808,6 +822,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 깊은 바다에서도 질소를 조심해야 한다니, 신기하죠?`,
       tags: ['질소', '잠수병', '다이빙', '건강', '압력'],
+      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
     },
   ],
   O: [
@@ -878,6 +893,7 @@ SF 영화에서나 볼 법한 상상, 하지만 과학적으로 생각해보면 
 
 다음 숨을 쉴 때, 산소에게 감사해보는 건 어떨까요?`,
       tags: ['산소', '생존', '대기', '과학', '상상'],
+      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
     },
     {
       slug: 'oxygen-fire-truth',
@@ -947,6 +963,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 직접 해보세요! 산소의 중요성을 눈으로 확인할 수 있어요.`,
       tags: ['산소', '연소', '불', '화학반응', '안전'],
+      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
     },
     {
       slug: 'oxygen-blood-red',
@@ -1010,6 +1027,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 철분이 부족하면 빈혈이 생기는 이유, 이제 이해되시죠?`,
       tags: ['산소', '혈액', '헤모글로빈', '생물학', '철'],
+      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
     },
   ],
   F: [
@@ -1070,6 +1088,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 불소, 적절히 사용하면 충치 예방의 강력한 무기입니다!`,
       tags: ['플루오린', '불소', '치약', '충치', '건강'],
+      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
     },
     {
       slug: 'fluorine-most-reactive',
@@ -1133,6 +1152,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 난폭하지만 길들이면 매우 유용한 원소, 플루오린입니다!`,
       tags: ['플루오린', '반응성', '화학', '위험', '테플론'],
+      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
     },
     {
       slug: 'fluorine-teflon-invention',
@@ -1199,6 +1219,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 실수로 발견된 물질이 세상을 바꿨네요!`,
       tags: ['플루오린', '테플론', '프라이팬', '발명', '화학'],
+      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
     },
   ],
   Ne: [
@@ -1267,6 +1288,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 하지만 진짜 네온사인만의 따뜻하고 부드러운 빛은 여전히 사랑받고 있어요!`,
       tags: ['네온', '네온사인', '빛', '물리학', '역사'],
+      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
     },
     {
       slug: 'neon-noble-gas',
@@ -1341,6 +1363,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 아무와도 반응하지 않는 고고함, 그게 네온의 매력입니다!`,
       tags: ['네온', '비활성기체', '화학', '원자구조', '귀족기체'],
+      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
     },
     {
       slug: 'neon-universe-rare-earth',
@@ -1417,6 +1440,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 우주에선 흔해도 지구에선 귀한 존재, 네온의 역설입니다!`,
       tags: ['네온', '우주', '희귀원소', '별', '지구'],
+      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
     },
   ],
   Na: [
@@ -1491,6 +1515,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 과학 영상으로만 즐기세요!`,
       tags: ['나트륨', '폭발', '화학반응', '알칼리금속', '실험'],
+      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
     },
     {
       slug: 'sodium-salt-body',
@@ -1561,6 +1586,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 생명이 바다에서 시작되었다는 증거일 수도 있어요. 우리 몸 안에 바다가 있는 셈이죠.`,
       tags: ['나트륨', '소금', '건강', '신체', '영양'],
+      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
     },
     {
       slug: 'sodium-street-light',
@@ -1628,6 +1654,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 이것도 같은 원리! 나트륨 원자가 에너지를 받아 특유의 색을 내는 거예요. 화학 시간에 해봤다면 기억나실 거예요.`,
       tags: ['나트륨', '가로등', '빛', '물리학', '일상과학'],
+      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
     },
   ],
   Mg: [
@@ -1706,6 +1733,7 @@ Mg + 2H₂O → Mg(OH)₂ + H₂↑
 
 영상으로만 감상하세요!`,
       tags: ['마그네슘', '불꽃놀이', '연소', '화학반응', '플래시'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
     {
       slug: 'magnesium-muscle-cramp',
@@ -1783,6 +1811,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 결론: 마그네슘은 중요하지만, 다리에 쥐 난다고 무조건 마그네슘 부족은 아닙니다!`,
       tags: ['마그네슘', '근육', '건강', '영양소', '경련'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
     {
       slug: 'magnesium-aircraft-lightweight',
@@ -1867,6 +1896,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 마그네슘, 가벼움으로 세상을 바꾸고 있습니다!`,
       tags: ['마그네슘', '합금', '항공', '자동차', '소재'],
+      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
     },
   ],
   Al: [
@@ -1941,6 +1971,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 과거의 귀금속이 현대의 필수품이 된 놀라운 역사입니다.`,
       tags: ['알루미늄', '역사', '귀금속', '과학사', '산업'],
+      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
     },
     {
       slug: 'aluminum-can-recycle',
@@ -2025,6 +2056,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 당신이 버린 캔, 꼭 재활용 해주세요!`,
       tags: ['알루미늄', '재활용', '환경', '캔', '지속가능성'],
+      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
     },
     {
       slug: 'aluminum-foil-science',
@@ -2102,6 +2134,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 작은 조각은 선별 과정에서 누락될 수 있으니 크게 모아주세요!`,
       tags: ['알루미늄', '호일', '주방과학', '일상', '요리'],
+      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
     },
   ],
   Si: [
@@ -2174,6 +2207,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 모래에서 시작된 혁명이 세상을 바꿨습니다!`,
       tags: ['실리콘', '반도체', '컴퓨터', '기술', '트랜지스터'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
     {
       slug: 'silicon-glass-window',
@@ -2255,6 +2289,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 
 실리콘, 정말 다재다능한 원소입니다!`,
       tags: ['실리콘', '유리', '규소', '광물', '화학'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
     {
       slug: 'silicon-solar-panel',
@@ -2333,6 +2368,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 
 실리콘이 만드는 청정 에너지의 미래, 기대됩니다!`,
       tags: ['실리콘', '태양광', '재생에너지', '광전효과', '환경'],
+      image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop',
     },
   ],
   P: [
@@ -2414,6 +2450,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 - 비상용으로 보관 용이
 - 캠핑의 낭만!`,
       tags: ['인', '성냥', '화학반응', '역사', '발명'],
+      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
     },
     {
       slug: 'phosphorus-life-essential',
@@ -2498,6 +2535,7 @@ ATP → ADP + 에너지
 
 인은 재활용이 매우 중요한 원소입니다.`,
       tags: ['인', 'DNA', '생명', '뼈', '영양소'],
+      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
     },
     {
       slug: 'phosphorus-glow-dark',
@@ -2571,6 +2609,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 어둠을 밝히는 인의 신비로운 역사였습니다.`,
       tags: ['인', '인광', '발광', '역사', '과학사'],
+      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
     },
   ],
   S: [
@@ -2651,6 +2690,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 ### 가스 누출 감지
 도시가스에는 원래 냄새가 없어서, 황 화합물(에틸머캅탄)을 일부러 넣어 누출 시 알 수 있게 해요!`,
       tags: ['황', '황화수소', '냄새', '화학', '안전'],
+      image: 'https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop',
     },
     {
       slug: 'sulfur-volcano-yellow',
@@ -2731,6 +2771,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 수십억 년 동안 순환하는 황의 여정입니다!`,
       tags: ['황', '화산', '지구과학', '광물', '자연'],
+      image: 'https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop',
     },
     {
       slug: 'sulfur-gunpowder-history',
@@ -2821,6 +2862,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 화약을 가능하게 한 황, 인류 역사를 바꾼 원소입니다!`,
       tags: ['황', '화약', '역사', '전쟁', '발명'],
+      image: 'https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop',
     },
   ],
   Cl: [
@@ -2908,6 +2950,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 다음에 수영장 냄새가 나면 생각해보세요. 그건 깨끗함의 신호가 아닙니다!`,
       tags: ['염소', '수영장', '위생', '화학', '건강'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
     {
       slug: 'chlorine-table-salt',
@@ -2992,6 +3035,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 같은 원소가 사용 방법에 따라 완전히 다른 결과를 만드는 거죠.`,
       tags: ['염소', '소금', '화학무기', '역사', '화학결합'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
     {
       slug: 'chlorine-water-treatment',
@@ -3085,6 +3129,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 수돗물 한 잔에 담긴 100년 공중보건의 역사, 염소 덕분입니다!`,
       tags: ['염소', '수돗물', '소독', '공중보건', '역사'],
+      image: 'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop',
     },
   ],
   Ar: [
@@ -3177,6 +3222,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 게으르다고 무시하지 마세요. 아르곤은 그 게으름으로 세상에 기여합니다!`,
       tags: ['아르곤', '비활성기체', '용접', '과학', '대기'],
+      image: 'https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop',
     },
     {
       slug: 'argon-window-insulation',
@@ -3273,6 +3319,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 창문 교체할 때 아르곤 충전 여부를 확인해보세요!`,
       tags: ['아르곤', '창문', '단열', '에너지', '건축'],
+      image: 'https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop',
     },
     {
       slug: 'argon-welding-shield',
@@ -3370,6 +3417,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 보이지 않지만, 아르곤이 우리 주변의 금속 구조물을 튼튼하게 지키고 있습니다!`,
       tags: ['아르곤', '용접', '금속', '산업', '기술'],
+      image: 'https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop',
     },
   ],
   K: [
@@ -3460,6 +3508,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 바나나 걱정 말고 맛있게 드세요!`,
       tags: ['칼륨', '방사능', '바나나', '건강', '과학'],
+      image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop',
     },
     {
       slug: 'potassium-fertilizer-green',
@@ -3561,6 +3610,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 식물의 건강, 칼륨이 책임집니다!`,
       tags: ['칼륨', '비료', '농업', '식물', '녹색혁명'],
+      image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop',
     },
     {
       slug: 'potassium-heart-rhythm',
@@ -3659,6 +3709,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 칼륨, 너무 많아도 적어도 안 되는 생명의 균형추입니다!`,
       tags: ['칼륨', '심장', '건강', '전해질', '의학'],
+      image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop',
     },
   ],
   Ca: [
@@ -3766,6 +3817,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 강한 뼈를 위해, 칼슘을 챙기세요!`,
       tags: ['칼슘', '뼈', '건강', '골다공증', '영양'],
+      image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&h=400&fit=crop',
     },
     {
       slug: 'calcium-eggshell-limestone',
@@ -3869,6 +3921,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 달걀부터 피라미드까지, 탄산칼슘은 어디에나 있습니다!`,
       tags: ['칼슘', '탄산칼슘', '자연', '건축', '생물학'],
+      image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&h=400&fit=crop',
     },
     {
       slug: 'calcium-milk-controversy',
@@ -3959,6 +4012,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 균형 잡힌 식단 + 운동 + 비타민 D = 진짜 뼈 건강!`,
       tags: ['칼슘', '우유', '건강', '영양', '논쟁'],
+      image: 'https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&h=400&fit=crop',
     },
   ],
 };

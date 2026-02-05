@@ -37,6 +37,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 위험한 역사를 가졌지만, 적절히 관리되면 유용한 원소이기도 합니다.`,
       tags: ['독극물', '범죄', '역사', '의학', '규제'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
     {
       slug: 'thallium-discovery-green-line',
@@ -68,6 +69,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 오늘날에도 분광학은 별의 구성 성분을 분석하는 데 사용됩니다. 먼 우주의 별빛을 분석해서 그 별에 어떤 원소가 있는지 알 수 있죠!`,
       tags: ['발견', '분광학', '과학사', '화학', '원소'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
     {
       slug: 'thallium-superconductor',
@@ -115,6 +117,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 탈륨은 독극물이라는 어두운 과거를 넘어, 미래 기술의 핵심 소재로 재탄생하고 있습니다.`,
       tags: ['초전도체', '미래기술', '물리학', 'MRI', '양자컴퓨터'],
+      image: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&h=400&fit=crop',
     },
   ],
   Pb: [
@@ -160,6 +163,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 실제로 20세기에도 휘발유에 납을 넣어 큰 문제가 되지 않았나요?`,
       tags: ['로마', '역사', '중독', '문명', '의학'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'lead-pencil-myth',
@@ -201,6 +205,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 - 일반 연필 한 자루로 약 56km의 선을 그을 수 있습니다
 - 우주에서도 연필은 작동합니다 (미국 NASA는 한때 비싼 "우주 볼펜"을 개발했는데, 소련은 그냥 연필을 썼다는 유명한 이야기가 있어요. 다만 이것도 과장된 이야기입니다!)`,
       tags: ['연필', '흑연', '오해', '역사', '탄소'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
     {
       slug: 'lead-gasoline-crime',
@@ -247,6 +252,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 오늘날 대부분의 국가에서 유연 휘발유는 완전히 금지되었습니다.`,
       tags: ['환경', '범죄', '공중보건', '자동차', '역사'],
+      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
     },
   ],
   Bi: [
@@ -295,6 +301,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 무거운 금속도 올바르게 사용하면 건강에 도움이 될 수 있다는 좋은 예입니다!`,
       tags: ['의약품', '위장', '건강', '화학', '금속'],
+      image: 'https://images.unsplash.com/photo-1605185437394-66556d8b87e7?w=800&h=400&fit=crop',
     },
     {
       slug: 'bismuth-rainbow-crystal',
@@ -339,6 +346,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 자연이 만든 기하학적 아름다움을 직접 만들어볼 수 있다니, 정말 매력적이지 않나요?`,
       tags: ['결정', '광물', '예술', '과학실험', '화학'],
+      image: 'https://images.unsplash.com/photo-1605185437394-66556d8b87e7?w=800&h=400&fit=crop',
     },
     {
       slug: 'bismuth-lead-free-future',
@@ -394,6 +402,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 작은 변화가 모여 더 깨끗한 환경을 만듭니다!`,
       tags: ['환경', '대체재료', '납', '지속가능성', '생태계'],
+      image: 'https://images.unsplash.com/photo-1605185437394-66556d8b87e7?w=800&h=400&fit=crop',
     },
   ],
   Po: [
@@ -438,6 +447,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 조국을 향한 사랑을 원소 이름에 새긴 마리 퀴리. 그녀의 이야기는 과학의 역사에서 가장 감동적인 장면 중 하나입니다.`,
       tags: ['마리퀴리', '폴란드', '역사', '방사능', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'polonium-assassination',
@@ -481,6 +491,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 비극적인 사건이지만, 과학의 힘을 보여준 사례이기도 합니다.`,
       tags: ['암살', '스파이', '방사능', '국제관계', '과학수사'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'polonium-cigarettes',
@@ -536,6 +547,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 금연할 이유가 하나 더 늘었네요!`,
       tags: ['담배', '건강', '방사능', '암', '기업비밀'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
   ],
   At: [
@@ -593,6 +605,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 가장 희귀하기에 오히려 가장 특별한 원소, 아스타틴. 우리가 모르는 것이 많지만, 그래서 더 신비롭고 매력적인 원소입니다.`,
       tags: ['희귀원소', '방사성', '암치료', '과학', '발견'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'astatine-halogen-mystery',
@@ -655,6 +668,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 언젠가 기술이 발전하면 아스타틴의 진짜 모습을 볼 수 있을까요?`,
       tags: ['할로겐', '주기율표', '원소', '과학', '미스터리'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
     {
       slug: 'astatine-cancer-treatment',
@@ -719,6 +733,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 가장 희귀한 원소가 가장 치명적인 질병의 치료제가 될 수 있다니. 과학의 놀라운 반전이 아닐 수 없습니다!`,
       tags: ['암치료', '의학', '방사선', '표적치료', '연구'],
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Rn: [
@@ -772,6 +787,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 라돈은 무서운 존재지만, 알고 대비하면 충분히 관리할 수 있습니다. 특히 새 집에 입주하거나 지하 공간을 사용한다면, 라돈 측정을 고려해보세요!`,
       tags: ['라돈', '폐암', '실내공기', '건강', '방사능'],
+      image: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&h=400&fit=crop',
     },
     {
       slug: 'radon-discovery-noble-gas',
@@ -819,6 +835,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 과학의 발전이 우리를 보호하는 좋은 예입니다!`,
       tags: ['발견', '비활성기체', '방사능', '과학사', '화학'],
+      image: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&h=400&fit=crop',
     },
     {
       slug: 'radon-spa-therapy',
@@ -878,6 +895,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 라돈의 건강 효과에 대한 연구는 계속되고 있습니다. 언젠가 더 명확한 답을 얻을 수 있기를 바랍니다.`,
       tags: ['온천', '건강', '호르메시스', '논쟁', '의학'],
+      image: 'https://images.unsplash.com/photo-1560184897-ae75f418493e?w=800&h=400&fit=crop',
     },
   ],
   Fr: [
@@ -940,6 +958,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 불안정해서 희귀하지만, 그래서 더 특별한 원소입니다!`,
       tags: ['희귀원소', '방사성', '알칼리금속', '프랑스', '불안정'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'francium-marguerite-perey',
@@ -992,6 +1011,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 프랑슘이라는 이름은 그녀의 조국 프랑스와 함께, 한 여성 과학자의 업적을 영원히 기억하게 합니다.`,
       tags: ['마르게리트페레', '여성과학자', '발견', '프랑스', '과학사'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'francium-alkali-explosion',
@@ -1055,6 +1075,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 과학적 상상력은 좋지만, 팩트 체크도 중요합니다!`,
       tags: ['폭발', '알칼리금속', '화학반응', '물', '과학실험'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
   Ra: [
@@ -1116,6 +1137,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 그녀들의 희생이 오늘날 우리를 보호하고 있습니다.`,
       tags: ['라듐걸스', '노동자', '역사', '안전', '방사능'],
+      image: 'https://images.unsplash.com/photo-1557331200-0be64dda6d0b?w=800&h=400&fit=crop',
     },
     {
       slug: 'radium-curie-discovery',
@@ -1170,6 +1192,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 퀴리 부부의 연구는 현대 핵물리학의 기초가 되었습니다. 그들의 헌신과 희생은 과학 역사에서 가장 감동적인 이야기 중 하나입니다.`,
       tags: ['퀴리부부', '발견', '노벨상', '과학사', '헌신'],
+      image: 'https://images.unsplash.com/photo-1557331200-0be64dda6d0b?w=800&h=400&fit=crop',
     },
     {
       slug: 'radium-quack-medicine',
@@ -1229,6 +1252,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 오늘날에도 "기적의 건강식품"이나 "혁명적 치료법"에 대해 한 번 더 생각해봐야 하는 이유입니다.`,
       tags: ['건강', '역사', '사기', '규제', '교훈'],
+      image: 'https://images.unsplash.com/photo-1557331200-0be64dda6d0b?w=800&h=400&fit=crop',
     },
   ],
   Ac: [
@@ -1279,6 +1303,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 푸른빛 너머의 가능성을 품은 원소입니다!`,
       tags: ['체렌코프', '푸른빛', '방사능', '물리학', '원자로'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'actinium-actinide-father',
@@ -1336,6 +1361,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 악티늄족 전체가 방사성이라는 점에서, 이보다 더 적절한 이름은 없을 것 같습니다!`,
       tags: ['악티늄족', '주기율표', '원소분류', '방사성', '화학'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'actinium-cancer-treatment',
@@ -1394,6 +1420,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 희귀한 원소가 가장 치명적인 질병과 싸우는, 과학의 놀라운 여정입니다.`,
       tags: ['암치료', '의학', '방사선치료', '연구', '희망'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
   ],
   Th: [
@@ -1433,6 +1460,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 더 안전하고 지속가능한 원자력의 미래가 될 수 있습니다!`,
       tags: ['원자력', '에너지', '미래기술', '안전', '핵연료'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'thorium-gas-mantle',
@@ -1463,6 +1491,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 원자력으로 유명한 토륨이 100년 넘게 밤을 밝혀왔다는 사실, 흥미롭지 않나요?`,
       tags: ['역사', '조명', '발명', '가스맨틀', '일상'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'thorium-norse-god-thor',
@@ -1494,6 +1523,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 원소 이름에는 발견자의 문화가 담겨있습니다!`,
       tags: ['신화', '토르', '역사', '스칸디나비아', '이름'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
   ],
   Pa: [
@@ -1527,6 +1557,7 @@ Proto(먼저) + Actinium = Protactinium
 
 모든 원소가 유명할 필요는 없어요!`,
       tags: ['희귀', '방사성', '역사', '악티늄족', '연대측정'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'protactinium-lise-meitner',
@@ -1562,6 +1593,7 @@ Proto(먼저) + Actinium = Protactinium
 
 109번 원소 마이트네륨(Mt)은 그녀의 이름을 따서 명명되었습니다.`,
       tags: ['과학자', '여성과학자', '역사', '핵분열', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'protactinium-decay-chain',
@@ -1589,6 +1621,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 방사성 원소들은 자연의 시계와 같습니다!`,
       tags: ['방사성붕괴', '악티늄계열', '반감기', '연대측정', '물리학'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
   U: [
@@ -1624,6 +1657,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 기후변화 대응에 원자력이 중요해지고 있습니다.`,
       tags: ['원자력', '에너지', '핵분열', '발전소', '우라늄235'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'uranium-yellow-cake',
@@ -1656,6 +1690,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 노란 가루 안에 엄청난 에너지가 담겨있습니다.`,
       tags: ['옐로케이크', '우라늄', '색깔', '광업', '역사'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'uranium-planet-name',
@@ -1686,6 +1721,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 하늘의 신 이름을 가진 원소가 지구의 에너지 문제를 해결하고 있다니 운명적이지 않나요?`,
       tags: ['천왕성', '행성', '역사', '명명', '발견'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
   ],
   Np: [
@@ -1717,6 +1753,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 초우라늄 원소의 시대를 연 역사적 발견입니다!`,
       tags: ['초우라늄', '발견', '해왕성', '역사', '방사성'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'neptunium-nuclear-waste',
@@ -1741,6 +1778,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 아직 완벽한 해결책은 없습니다.
 미래 세대를 위해 해결책을 찾아야 해요.`,
       tags: ['핵폐기물', '환경', '방사성', '에너지', '미래'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'neptunium-mcmillan-discovery',
@@ -1765,6 +1803,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 과학의 경계를 넓힌 위대한 발견이었습니다!`,
       tags: ['과학자', '발견', '노벨상', '역사', '핵물리학'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
   ],
   Pu: [
@@ -1794,6 +1833,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 아직 약 13,000개의 핵탄두가 존재합니다.
 핵무기 없는 세상을 위한 노력이 필요합니다.`,
       tags: ['핵무기', '역사', '전쟁', '냉전', '평화'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
     {
       slug: 'plutonium-space-power',
@@ -1817,6 +1857,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 플루토늄이 인류의 우주 탐사를 가능하게 합니다.`,
       tags: ['우주', 'RTG', '탐사', '보이저', '전력'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
     {
       slug: 'plutonium-seaborg-discovery',
@@ -1843,6 +1884,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 그의 이름을 딴 원소: 시보귬(Sg)
 살아있는 사람의 이름이 원소에 붙은 최초의 사례!`,
       tags: ['과학자', '발견', '노벨상', '역사', '초우라늄'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
   ],
   Am: [
@@ -1869,6 +1911,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 화재경보기가 생명을 구합니다!`,
       tags: ['화재경보기', '안전', '가정용품', '방사성', '생활'],
+      image: 'https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop',
     },
     {
       slug: 'americium-america-name',
@@ -1893,6 +1936,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 2차 대전 시대 미국의 과학력을 보여주는 이름입니다.`,
       tags: ['아메리카', '명명', '역사', '발견', '유로퓸'],
+      image: 'https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop',
     },
     {
       slug: 'americium-applications',
@@ -1915,6 +1959,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 
 방사성 원소도 적절히 관리하면 인류에게 큰 도움이 됩니다!`,
       tags: ['의학', '산업', '우주', '연구', '응용'],
+      image: 'https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop',
     },
   ],
   Cm: [
@@ -1955,6 +2000,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 
 퀴리 부부의 유산이 계속되고 있습니다!`,
       tags: ['퀴리', '방사능', '역사', '과학자', '헌사'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'curium-mars-exploration',
@@ -1994,6 +2040,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 퀴륨이 화성의 비밀을 밝히고 있습니다!`,
       tags: ['화성', '우주탐사', 'NASA', '로버', 'APXS'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
     {
       slug: 'curium-glow-dark',
@@ -2032,6 +2079,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 신비롭고 위험한 원소, 퀴륨입니다.`,
       tags: ['빛', '방사능', '색깔', '위험', '신비'],
+      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
     },
   ],
   Bk: [
@@ -2075,6 +2123,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 지금까지 생산된 총량이 1그램도 안 돼요!`,
       tags: ['버클리', '대학', '발견', '캘리포니아', '명명'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'berkelium-most-expensive',
@@ -2118,6 +2167,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 비싸다고 좋은 게 아닙니다.
 과학 연구를 위해 이렇게 희귀한 물질을 만드는 노력이 대단한 거죠!`,
       tags: ['가격', '희귀', '비싼', '생산', '가치'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'berkelium-tennessine-production',
@@ -2159,6 +2209,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 이것이 기초과학의 열정입니다!`,
       tags: ['테네신', '원소발견', '국제협력', '연구', '과학'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
   Cf: [
@@ -2199,6 +2250,7 @@ California + -ium = Californium
 
 캘리포니아의 과학 전통이 담긴 원소입니다.`,
       tags: ['캘리포니아', '발견', '명명', '황금', '지역'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'californium-neutron-source',
@@ -2243,6 +2295,7 @@ California + -ium = Californium
 극소량으로 엄청난 일을 하는 원소.
 캘리포늄의 놀라운 능력입니다!`,
       tags: ['중성자', '핵분열', '응용', '산업', '의학'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
     {
       slug: 'californium-cancer-treatment',
@@ -2286,6 +2339,7 @@ California + -ium = Californium
 기술이 발전하면 더 많은 환자가 혜택을 받을 수 있습니다.
 희귀한 원소가 생명을 구하는 날이 올지도 몰라요!`,
       tags: ['암치료', '의학', '중성자', '연구', '미래'],
+      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
     },
   ],
   Es: [
@@ -2331,6 +2385,7 @@ E=mc² 공식의 주인공이죠.
 
 파괴의 순간에서 새로운 발견이 이루어진 역사입니다.`,
       tags: ['수소폭탄', '아인슈타인', '발견', '핵실험', '역사'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
     {
       slug: 'einsteinium-einstein-legacy',
@@ -2374,6 +2429,7 @@ E=mc²는 질량이 에너지로 변환될 수 있음을 보여줍니다.
 아인슈타인은 과학의 아이콘입니다.
 그의 이름이 원소에 남아 영원히 기억되고 있어요.`,
       tags: ['아인슈타인', '물리학', '노벨상', '과학자', '유산'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
     {
       slug: 'einsteinium-rarest-research',
@@ -2417,6 +2473,7 @@ Es-253의 반감기는 20일!
 
 과학자들의 끈기가 불가능을 가능하게 합니다!`,
       tags: ['연구', '희귀', '과학', '도전', '버클리'],
+      image: 'https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop',
     },
   ],
   Fm: [
@@ -2463,6 +2520,7 @@ Es-253의 반감기는 20일!
 
 핵물리학의 전설, 엔리코 페르미!`,
       tags: ['페르미', '원자로', '핵물리학', '과학자', '노벨상'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'fermium-100th-element',
@@ -2507,6 +2565,7 @@ Es-253의 반감기는 20일!
 페르뮴은 "원자로 원소"와 "가속기 원소"의 경계에 있습니다.
 과학사의 중요한 이정표예요!`,
       tags: ['100번', '주기율표', '원자번호', '경계', '역사'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
     {
       slug: 'fermium-nobelium-production',
@@ -2549,6 +2608,7 @@ Es-253의 반감기는 20일!
 
 주기율표의 확장은 계속됩니다!`,
       tags: ['합성', '노벨륨', '가속기', '연구', '미래'],
+      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
     },
   ],
 };
