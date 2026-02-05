@@ -1,4 +1,10 @@
-# 내가 원소라면? (Element Personality Test)
+# 만약... 내가 원소라면? (What if... I Were an Element?)
+
+## 사이트 정보
+- **사이트명**: 만약... (What if...)
+- **도메인**: manyak.xyz
+- **컨셉**: "만약... [주제]라면?" 형식의 성격 테스트 모음 사이트
+- **첫 번째 테스트**: 만약... 내가 원소라면?
 
 ## 프로젝트 개요
 이름을 입력하고 10개의 질문에 답하면, 자신과 가장 잘 맞는 원소를 알려주는 성격 테스트 사이트.
@@ -6,8 +12,8 @@
 ## 기술 스택
 - **Frontend**: Next.js 16 (App Router) + TypeScript
 - **Styling**: Tailwind CSS
-- **배포**: Cloudflare Pages (예정)
-- **버전관리**: Git + GitHub (예정)
+- **배포**: Cloudflare Pages
+- **버전관리**: Git + GitHub
 - **수익화**: Google AdSense (예정)
 
 ## 핵심 기능
@@ -131,9 +137,11 @@ translations = {
 - [x] 원소 블로그 페이지 (/elements, /elements/[symbol])
 - [x] 결과 화면에 "더 알아보기" 링크
 - [x] 빌드 테스트 통과
-- [ ] GitHub 연동
+- [x] GitHub 연동 (StandardJun/whatif_element)
+- [x] 정적 빌드 설정 (output: 'export')
+- [x] 사이트명 변경: "만약..." (manyak.xyz)
 - [ ] Cloudflare Pages 배포
-- [ ] 도메인 연결
+- [ ] 도메인 연결 (manyak.xyz)
 - [ ] Google AdSense 설정
 
 ## 의사결정 기록
@@ -147,12 +155,22 @@ translations = {
 | 2026-02-05 | 질문별 맞춤 응답 | "매우 그렇다" 대신 질문 맥락에 맞는 재미있는 응답 |
 | 2026-02-05 | 다국어 기본 한국어 | 한국어 사용자가 메인 타겟, 영어는 토글로 전환 |
 | 2026-02-05 | 원소 블로그 페이지 | AdSense 승인을 위한 고품질 콘텐츠 확보 |
+| 2026-02-05 | 정적 빌드 (static export) | Next.js 16과 Cloudflare 어댑터 비호환, 정적 사이트로 충분 |
+| 2026-02-05 | 사이트명 "만약..." | 확장성 있는 네이밍 ("만약... 내가 X라면?" 시리즈화 가능) |
 
 ## 다음 단계
-1. GitHub 로그인 후 리포지토리 생성
-2. Cloudflare Pages 연동
-3. 커스텀 도메인 설정
-4. AdSense 승인 신청
+1. Cloudflare Pages 배포 (GitHub 연동 완료)
+2. 커스텀 도메인 연결 (manyak.xyz)
+3. AdSense 승인 신청
+
+## 향후 확장 계획
+사이트 구조 예시:
+```
+manyak.xyz/                    → 메인 (테스트 목록)
+manyak.xyz/element/            → 만약... 내가 원소라면?
+manyak.xyz/flower/             → 만약... 내가 꽃이라면?
+manyak.xyz/animal/             → 만약... 내가 동물이라면?
+```
 
 ## 명령어
 ```bash

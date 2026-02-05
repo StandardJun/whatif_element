@@ -1,6 +1,13 @@
-# 성격 테스트 사이트 템플릿
+# 만약... 성격 테스트 템플릿
 
-이 템플릿을 사용하여 "내가 원소라면?" 과 동일한 구조의 성격 테스트 사이트를 빠르게 만들 수 있습니다.
+이 템플릿을 사용하여 "만약... 내가 원소라면?"과 동일한 구조의 성격 테스트를 빠르게 만들 수 있습니다.
+
+## 사이트 정보
+- **사이트명**: 만약... (What if...)
+- **도메인**: manyak.xyz
+- **제목 형식**: "만약... 내가 [주제]라면?" / "What if... I Were a [Topic]?"
+
+---
 
 ---
 
@@ -116,7 +123,7 @@ export type Language = 'ko' | 'en';
 
 export const translations = {
   ko: {
-    title: "[테스트 제목]",
+    title: "만약... 내가 [주제]라면?",  // 예: "만약... 내가 꽃이라면?"
     subtitle: "[부제목]",
     namePlaceholder: "이름을 입력하세요",
     startButton: "테스트 시작하기",
@@ -132,11 +139,13 @@ export const translations = {
     shareResult: "결과 공유하기",
     restart: "다시 테스트하기",
     linkCopied: "링크가 복사되었습니다!",
-    shareText: (item: string) => `나는 ${item} 같은 사람이래요!`,
-    copyright: "© 2026 [사이트명] All rights reserved.",
+    shareText: (item: string) => `나는 ${item} 같은 사람이래요! - 만약...`,
+    copyright: "© 2026 만약... All rights reserved.",
   },
   en: {
+    title: "What if... I Were a [Topic]?",  // 예: "What if... I Were a Flower?"
     // 영어 번역...
+    copyright: "© 2026 What if... All rights reserved.",
   }
 };
 ```
@@ -312,15 +321,15 @@ export default function Home() {
 
 ## 7. 테스트 아이디어
 
-| 주제 | 결과 아이템 | 차원 예시 |
-|------|------------|----------|
-| 원소 | 118개 원소 | 활동성, 사교성, 안정성, 감성, 독창성 |
-| 꽃/식물 | 다양한 꽃들 | 에너지, 섬세함, 독립성, 로맨스, 강인함 |
-| 동물 | 동물 종류 | 활동성, 사교성, 독립성, 지능, 충성도 |
-| 음식 | 음식 종류 | 대담함, 편안함, 복잡함, 단맛, 매운맛 |
-| 색깔 | 색상들 | 에너지, 차분함, 열정, 신비로움, 순수함 |
-| 음악 장르 | 장르들 | 에너지, 감성, 복잡성, 사교성, 반항성 |
-| 여행지 | 도시/국가 | 모험성, 문화, 휴식, 활동, 예산 |
+| 제목 | 결과 아이템 | 차원 예시 | URL |
+|------|------------|----------|-----|
+| 만약... 내가 원소라면? | 118개 원소 | 활동성, 사교성, 안정성, 감성, 독창성 | /element |
+| 만약... 내가 꽃이라면? | 다양한 꽃들 | 에너지, 섬세함, 독립성, 로맨스, 강인함 | /flower |
+| 만약... 내가 동물이라면? | 동물 종류 | 활동성, 사교성, 독립성, 지능, 충성도 | /animal |
+| 만약... 내가 음식이라면? | 음식 종류 | 대담함, 편안함, 복잡함, 단맛, 매운맛 | /food |
+| 만약... 내가 색이라면? | 색상들 | 에너지, 차분함, 열정, 신비로움, 순수함 | /color |
+| 만약... 내가 음악이라면? | 장르들 | 에너지, 감성, 복잡성, 사교성, 반항성 | /music |
+| 만약... 내가 도시라면? | 도시/국가 | 모험성, 문화, 휴식, 활동, 예산 | /city |
 
 ---
 
@@ -350,15 +359,28 @@ export default function Home() {
 
 ## 9. 배포 (Cloudflare Pages)
 
-```bash
-# 빌드
-npm run build
-
-# Cloudflare Pages 설정
-# - 빌드 명령어: npm run build
-# - 빌드 출력 디렉토리: .next
-# - Node.js 버전: 18 이상
+### next.config.ts 설정 (정적 빌드)
+```typescript
+const nextConfig: NextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+};
 ```
+
+### Cloudflare Pages 설정
+| 항목 | 값 |
+|------|-----|
+| Framework preset | Next.js (Static HTML Export) |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Node.js version | 18 이상 |
+
+### 배포 방법
+1. GitHub에 푸시
+2. Cloudflare Pages → Create Project → Connect to Git
+3. 위 설정 적용 후 Save and Deploy
 
 ---
 

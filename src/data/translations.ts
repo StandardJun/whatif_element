@@ -6,7 +6,7 @@ export const translations = {
     selectLanguage: '언어를 선택하세요',
 
     // Intro
-    title: '내가 원소라면?',
+    title: '만약... 내가 원소라면?',
     subtitle: '118개의 원소 중 나와 가장 닮은 원소는?',
     namePlaceholder: '이름을 입력하세요',
     startButton: '테스트 시작하기',
@@ -28,17 +28,17 @@ export const translations = {
     restart: '다시 테스트하기',
     linkCopied: '링크가 복사되었습니다!',
     shareText: (element: string, symbol: string) =>
-      `나는 ${element}(${symbol}) 같은 사람이래요! - 내가 원소라면?`,
+      `나는 ${element}(${symbol}) 같은 사람이래요! - 만약...`,
 
     // Footer
-    copyright: '© 2026 내가 원소라면? All rights reserved.',
+    copyright: '© 2026 만약... All rights reserved.',
   },
   en: {
     // Language selection
     selectLanguage: 'Select Language',
 
     // Intro
-    title: 'What Element Are You?',
+    title: 'What if... I Were an Element?',
     subtitle: 'Which of the 118 elements matches your personality?',
     namePlaceholder: 'Enter your name',
     startButton: 'Start Test',
@@ -60,10 +60,10 @@ export const translations = {
     restart: 'Try Again',
     linkCopied: 'Link copied!',
     shareText: (element: string, symbol: string) =>
-      `I'm like ${element}(${symbol})! - What Element Are You?`,
+      `I'm like ${element}(${symbol})! - What if...`,
 
     // Footer
-    copyright: '© 2026 What Element Are You? All rights reserved.',
+    copyright: '© 2026 What if... All rights reserved.',
   }
 } as const;
 
