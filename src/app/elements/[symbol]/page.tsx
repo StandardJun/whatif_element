@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { elements, Element } from '@/data/elements';
 import { getCategoryNameKo, getCategoryColor } from '@/utils/matching';
+import { getPostsBySymbol } from '@/data/posts';
 
 // 원소별 추가 정보 (발견 역사, 용도, 재미있는 사실)
 const elementExtras: Record<string, { history: string; uses: string[]; funFacts: string[] }> = {
@@ -287,6 +288,39 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
             </div>
           </section>
         </article>
+
+        {/* Related Posts */}
+        {(() => {
+          const posts = getPostsBySymbol(symbol);
+          if (posts.length === 0) return null;
+          return (
+            <section className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-orange-100 shadow-lg mb-8">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-2xl font-bold text-gray-800">📚 {element.nameKo} 탐구하기</h2>
+                <Link
+                  href={`/elements/${symbol}/posts`}
+                  className="text-orange-500 hover:text-orange-600 text-sm font-medium"
+                >
+                  전체 보기 &rarr;
+                </Link>
+              </div>
+              <div className="space-y-4">
+                {posts.slice(0, 3).map((post) => (
+                  <Link
+                    key={post.slug}
+                    href={`/elements/${symbol}/posts/${post.slug}`}
+                    className="block bg-orange-50/50 hover:bg-orange-50 rounded-2xl p-5 border border-orange-100 hover:border-orange-200 transition-all group"
+                  >
+                    <h3 className="text-lg font-bold text-gray-800 mb-2 group-hover:text-orange-600 transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm line-clamp-2">{post.summary}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          );
+        })()}
 
         {/* Compatibility */}
         <div className="grid md:grid-cols-2 gap-6 mb-8">
