@@ -11,6 +11,7 @@ export interface Post {
   summary: string;
   content: string;
   tags: string[];
+  image?: string; // Unsplash 이미지 URL (optional)
 }
 
 // 원소별 포스트 데이터 (H, C)

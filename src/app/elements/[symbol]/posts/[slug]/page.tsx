@@ -82,6 +82,17 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
             <p className="text-gray-500 text-lg">{post.summary}</p>
           </header>
 
+          {/* Featured Image */}
+          {post.image && (
+            <div className="mb-8 -mx-8 -mt-4">
+              <img
+                src={post.image}
+                alt={post.title}
+                className="w-full h-64 object-cover"
+              />
+            </div>
+          )}
+
           {/* Content */}
           <div className="prose prose-gray max-w-none">
             {post.content.split('\n\n').map((paragraph, index) => {
