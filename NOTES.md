@@ -140,9 +140,10 @@ translations = {
 - [x] GitHub 연동 (StandardJun/whatif_element)
 - [x] 정적 빌드 설정 (output: 'export')
 - [x] 사이트명 변경: "만약..." (manyak.xyz)
-- [ ] Cloudflare Pages 배포
+- [x] Google AdSense 코드 추가 (layout.tsx에 정적 스크립트 삽입)
+- [ ] Cloudflare Pages 배포 (GitHub 연동 필요)
 - [ ] 도메인 연결 (manyak.xyz)
-- [ ] Google AdSense 설정
+- [ ] Google AdSense 승인 대기
 
 ## 의사결정 기록
 | 날짜 | 결정 | 이유 |
@@ -157,11 +158,14 @@ translations = {
 | 2026-02-05 | 원소 블로그 페이지 | AdSense 승인을 위한 고품질 콘텐츠 확보 |
 | 2026-02-05 | 정적 빌드 (static export) | Next.js 16과 Cloudflare 어댑터 비호환, 정적 사이트로 충분 |
 | 2026-02-05 | 사이트명 "만약..." | 확장성 있는 네이밍 ("만약... 내가 X라면?" 시리즈화 가능) |
+| 2026-02-05 | AdSense 정적 스크립트 | Next.js Script 컴포넌트 대신 정적 <script> 태그 사용 (크롤러 감지용) |
 
 ## 다음 단계
-1. Cloudflare Pages 배포 (GitHub 연동 완료)
+1. Cloudflare Pages 대시보드에서 GitHub 연동
+   - Build command: `npm run build`
+   - Output directory: `out`
 2. 커스텀 도메인 연결 (manyak.xyz)
-3. AdSense 승인 신청
+3. AdSense 승인 확인 요청
 
 ## 향후 확장 계획
 사이트 구조 예시:
