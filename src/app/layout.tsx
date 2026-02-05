@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 
 const notoSansKr = Noto_Sans_KR({
@@ -34,11 +33,10 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <head>
-        <Script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4466574123469106"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body className={`${notoSansKr.variable} font-sans antialiased`}>
