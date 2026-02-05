@@ -2,7 +2,6 @@
 
 import { useState, useRef } from 'react';
 import Link from 'next/link';
-import html2canvas from 'html2canvas';
 import { questions, getQuestionText, getOptionLabel } from '@/data/questions';
 import { translations, type Language } from '@/data/translations';
 import { findMatchingElement, getCategoryNameKo, getCategoryColor } from '@/utils/matching';
@@ -76,18 +75,44 @@ export default function Home() {
     if (!resultRef.current) return;
 
     try {
+      const html2canvas = (await import('html2canvas')).default;
+
       const canvas = await html2canvas(resultRef.current, {
         backgroundColor: '#fef7ed',
         scale: 2,
         useCORS: true,
+        logging: false,
       });
 
-      const link = document.createElement('a');
-      link.download = `manyak-${result?.element.symbol || 'result'}.png`;
-      link.href = canvas.toDataURL('image/png');
-      link.click();
+      // Blob으로 변환
+      canvas.toBlob((blob) => {
+        if (!blob) return;
+
+        const url = URL.createObjectURL(blob);
+        const filename = `manyak-${result?.element.symbol || 'result'}.png`;
+
+        // iOS Safari 체크
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+
+        if (isIOS) {
+          // iOS에서는 새 탭에서 이미지 열기 (길게 눌러서 저장)
+          window.open(url, '_blank');
+        } else {
+          // 데스크톱 및 Android
+          const link = document.createElement('a');
+          link.href = url;
+          link.download = filename;
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }
+
+        // 메모리 해제
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+      }, 'image/png');
     } catch (error) {
       console.error('Failed to save image:', error);
+      alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
     }
   };
 
