@@ -1,7 +1,8 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Link from 'next/link';
+import html2canvas from 'html2canvas';
 import { questions, getQuestionText, getOptionLabel } from '@/data/questions';
 import { translations, type Language } from '@/data/translations';
 import { findMatchingElement, getCategoryNameKo, getCategoryColor } from '@/utils/matching';
@@ -16,6 +17,7 @@ export default function Home() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [result, setResult] = useState<MatchResult | null>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
 
   const t = translations[lang];
 
@@ -67,6 +69,25 @@ export default function Home() {
         navigator.clipboard.writeText(text + ' ' + window.location.href);
         alert(t.linkCopied);
       }
+    }
+  };
+
+  const handleSaveImage = async () => {
+    if (!resultRef.current) return;
+
+    try {
+      const canvas = await html2canvas(resultRef.current, {
+        backgroundColor: '#fef7ed',
+        scale: 2,
+        useCORS: true,
+      });
+
+      const link = document.createElement('a');
+      link.download = `manyak-${result?.element.symbol || 'result'}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    } catch (error) {
+      console.error('Failed to save image:', error);
     }
   };
 
@@ -179,13 +200,15 @@ export default function Home() {
         {/* Result Screen */}
         {step === 'result' && result && (
           <div className="max-w-lg w-full animate-fadeIn">
-            <div className="text-center mb-6">
-              <p className="text-gray-500 mb-2">{t.resultFor(userName)}</p>
-              <h1 className="text-2xl font-bold text-gray-800 tracking-tight">{t.yourElement}</h1>
-            </div>
+            {/* Capture Area */}
+            <div ref={resultRef} className="bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-4 rounded-3xl">
+              <div className="text-center mb-6">
+                <p className="text-gray-500 mb-2">{t.resultFor(userName)}</p>
+                <h1 className="text-2xl font-bold text-gray-800 tracking-tight">{t.yourElement}</h1>
+              </div>
 
-            {/* Main Result Card */}
-            <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 mb-6 text-center border border-orange-100 shadow-lg">
+              {/* Main Result Card */}
+              <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 mb-6 text-center border border-orange-100 shadow-lg">
               <div className={`inline-block px-3 py-1 rounded-full text-xs text-white mb-4 ${getCategoryColor(result.element.category)}`}>
                 {getCategoryNameKo(result.element.category)}
               </div>
@@ -247,9 +270,17 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            </div>
+            {/* End Capture Area */}
 
             {/* Action Buttons */}
-            <div className="space-y-3">
+            <div className="space-y-3 mt-6">
+              <button
+                onClick={handleSaveImage}
+                className="w-full py-4 rounded-2xl bg-white/70 hover:bg-white border border-orange-200 hover:border-orange-300 text-gray-600 font-medium transition-all duration-200 flex items-center justify-center gap-2"
+              >
+                📷 {t.saveAsImage}
+              </button>
               <button
                 onClick={handleShare}
                 className="w-full py-4 rounded-2xl bg-gradient-to-r from-orange-400 to-rose-400 text-white font-bold text-lg hover:from-orange-500 hover:to-rose-500 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98]"
