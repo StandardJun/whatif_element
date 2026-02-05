@@ -45,17 +45,26 @@
 element-personality-test/
 ├── src/
 │   ├── app/
-│   │   ├── page.tsx              # 메인 페이지 (인트로/퀴즈/결과)
-│   │   ├── layout.tsx            # 레이아웃 + 메타데이터
+│   │   ├── page.tsx              # 메인 페이지 (인트로/퀴즈/결과 + 이미지 저장)
+│   │   ├── layout.tsx            # 레이아웃 + 메타데이터 + AdSense
 │   │   ├── globals.css           # 글로벌 스타일 + 애니메이션
 │   │   └── elements/
 │   │       ├── page.tsx          # 원소 목록 페이지 (블로그 인덱스)
 │   │       └── [symbol]/
-│   │           └── page.tsx      # 개별 원소 상세 페이지
+│   │           ├── page.tsx      # 개별 원소 상세 페이지
+│   │           └── posts/
+│   │               ├── page.tsx          # 원소별 포스트 목록
+│   │               └── [slug]/
+│   │                   └── page.tsx      # 포스트 상세 페이지
 │   ├── data/
 │   │   ├── elements.ts           # 118개 원소 데이터 (성격 특성 포함)
+│   │   ├── elementExtras.ts      # 원소별 추가 정보 (발견 역사, 용도, 재미있는 사실)
+│   │   ├── posts.ts              # 포스트 인터페이스 + 기본 데이터 (H, C)
+│   │   ├── posts/                # 원소별 포스트 그룹 (group1-6.ts)
 │   │   ├── questions.ts          # 10개 질문 데이터 (다국어)
 │   │   └── translations.ts       # UI 번역 데이터 (한국어/영어)
+│   ├── types/
+│   │   └── dom-to-image-more.d.ts  # 이미지 캡처 라이브러리 타입
 │   └── utils/
 │       └── matching.ts           # 매칭 알고리즘
 ├── NOTES.md                      # 프로젝트 노트
@@ -141,6 +150,12 @@ translations = {
 - [x] 정적 빌드 설정 (output: 'export')
 - [x] 사이트명 변경: "만약..." (manyak.xyz)
 - [x] Google AdSense 코드 추가 (layout.tsx에 정적 스크립트 삽입)
+- [x] **결과 사진 저장 기능** (dom-to-image-more 라이브러리)
+- [x] **결과 화면 상세 정보 확장** (성격 특성, 발견 역사, 용도, 재미있는 사실, 궁합)
+- [x] **블로그 포스트 시스템** 데이터 구조 및 페이지 구현
+- [ ] 118개 원소별 블로그 포스트 작성 (6개 병렬 에이전트 작업 중)
+- [ ] posts.ts에 group1-6 포스트 통합
+- [ ] 빌드 테스트 및 배포
 - [ ] Cloudflare Pages 배포 (GitHub 연동 필요)
 - [ ] 도메인 연결 (manyak.xyz)
 - [ ] Google AdSense 승인 대기
@@ -159,13 +174,48 @@ translations = {
 | 2026-02-05 | 정적 빌드 (static export) | Next.js 16과 Cloudflare 어댑터 비호환, 정적 사이트로 충분 |
 | 2026-02-05 | 사이트명 "만약..." | 확장성 있는 네이밍 ("만약... 내가 X라면?" 시리즈화 가능) |
 | 2026-02-05 | AdSense 정적 스크립트 | Next.js Script 컴포넌트 대신 정적 <script> 태그 사용 (크롤러 감지용) |
+| 2026-02-05 | dom-to-image-more | html2canvas가 배포 환경에서 작동 안함 → dom-to-image-more로 교체 |
+| 2026-02-05 | 병렬 에이전트 포스트 작성 | 118개 원소 포스트를 6개 그룹으로 나눠 병렬 작성 (컨텍스트 효율화) |
+
+## 최근 추가 기능 (2026-02-05)
+
+### 1. 결과 사진 저장 기능
+- **라이브러리**: dom-to-image-more (html2canvas에서 변경)
+- **동작**: 결과 카드를 PNG 이미지로 캡처
+- **iOS 대응**: Safari에서는 새 탭에서 이미지 열기 방식
+- **위치**: `handleSaveImage()` in page.tsx
+- **타입 정의**: `/src/types/dom-to-image-more.d.ts`
+
+### 2. 결과 화면 확장
+- **성격 특성 차트**: 5가지 차원별 막대 그래프
+- **발견 역사**: 원소 발견 배경
+- **실생활 용도**: 4개 주요 용도
+- **재미있는 사실**: 3가지 흥미로운 정보
+- **궁합 정보**: 잘 맞는/안 맞는 원소
+- **데이터 소스**: `/src/data/elementExtras.ts`
+
+### 3. 블로그 포스트 시스템
+- **목적**: AdSense 승인을 위한 고품질 콘텐츠
+- **구조**: 원소당 3개 포스트 (총 354개 계획)
+- **대상**: 중학생 수준의 흥미로운 과학 콘텐츠
+- **페이지**:
+  - `/elements/[symbol]/posts` - 포스트 목록
+  - `/elements/[symbol]/posts/[slug]` - 포스트 상세
+- **포스트 그룹**:
+  - group1: He, Li, Be, B, N, O, F, Ne, Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca (18개)
+  - group2: Sc-Zr (20개)
+  - group3: Nb-Nd (20개)
+  - group4: Pm-Hg (20개)
+  - group5: Tl-Fm (20개)
+  - group6: Md-Og (18개)
 
 ## 다음 단계
-1. Cloudflare Pages 대시보드에서 GitHub 연동
-   - Build command: `npm run build`
-   - Output directory: `out`
-2. 커스텀 도메인 연결 (manyak.xyz)
-3. AdSense 승인 확인 요청
+1. 병렬 에이전트 완료 대기 (118개 원소 포스트 작성)
+2. posts.ts에 group1-6 데이터 통합
+3. 빌드 테스트
+4. GitHub Push → Cloudflare 자동 배포
+5. 이미지 저장 기능 실제 기기 테스트
+6. AdSense 승인 확인 요청
 
 ## 향후 확장 계획
 사이트 구조 예시:

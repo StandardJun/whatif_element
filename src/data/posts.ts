@@ -1,3 +1,10 @@
+import { group1Posts } from './posts/group1';
+import { group2Posts } from './posts/group2';
+import { group3Posts } from './posts/group3';
+import { group4Posts } from './posts/group4';
+import { group5Posts } from './posts/group5';
+import { group6Posts } from './posts/group6';
+
 export interface Post {
   slug: string;
   title: string;
@@ -6,8 +13,8 @@ export interface Post {
   tags: string[];
 }
 
-// 원소별 포스트 데이터
-export const elementPosts: Record<string, Post[]> = {
+// 원소별 포스트 데이터 (H, C)
+const basePosts: Record<string, Post[]> = {
   H: [
     {
       slug: 'hydrogen-universe-beginning',
@@ -269,6 +276,17 @@ export const elementPosts: Record<string, Post[]> = {
       tags: ['탄소연대측정', '방사성동위원소', '고고학', '과학', '역사'],
     },
   ],
+};
+
+// 모든 그룹 파일 통합
+export const elementPosts: Record<string, Post[]> = {
+  ...basePosts,
+  ...group1Posts,
+  ...group2Posts,
+  ...group3Posts,
+  ...group4Posts,
+  ...group5Posts,
+  ...group6Posts,
 };
 
 // 포스트 가져오기
