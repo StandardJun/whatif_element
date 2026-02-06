@@ -39,7 +39,10 @@ export default async function ElementPostsPage({ params }: { params: Promise<{ s
     <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Navigation */}
-        <nav className="mb-8 flex gap-4 text-sm">
+        <nav className="mb-8 flex flex-wrap gap-4 text-sm">
+          <Link href="/elements" className="text-gray-500 hover:text-gray-700 transition-colors">
+            &larr; 전체 도감
+          </Link>
           <Link href="/" className="text-gray-500 hover:text-gray-700 transition-colors">
             &larr; 테스트 하기
           </Link>
@@ -47,7 +50,6 @@ export default async function ElementPostsPage({ params }: { params: Promise<{ s
             &larr; {element.nameKo} 정보
           </Link>
         </nav>
-
         {/* Header */}
         <header className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-orange-100 shadow-lg mb-8 text-center">
           <div className={`inline-block px-4 py-1.5 rounded-full text-sm text-white mb-4 ${getCategoryColor(element.category)}`}>

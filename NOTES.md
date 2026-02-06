@@ -171,6 +171,11 @@ translations = {
 - [x] **AdSense 승인 대응 (7번)**: 103개 원소 elementExtras 고유 콘텐츠 작성 완료 (6개 병렬 sub-agent)
 - [x] 빌드 재확인 (595+ 페이지 정적 생성 통과)
 - [x] GitHub Push → Cloudflare 자동 배포 (`122b462`)
+- [x] 포스트 인라인 이미지 삽입 (384개 포스트, 커밋 `906b034`)
+- [x] **결과 창 중복 궁합 섹션 제거** + 간격 통일
+- [x] **포스트 페이지 도감 네비게이션** 추가
+- [x] **퀴즈 질문/응답 개선** (Q2, Q6, Q7, Q8, Q9, Q10 수정)
+- [ ] **포스트 이미지 고도화** (원소별/포스트별 독립적 이미지 — 아래 프롬프트 참조)
 - [ ] 도메인 연결 (manyak.xyz)
 - [ ] Google AdSense 재심사 요청
 
@@ -329,14 +334,148 @@ translations = {
 ---
 
 ## 다음 단계
-1. ✅ 빌드 테스트 통과 (595페이지 정적 생성 확인)
-2. ✅ AdSense 승인 대응 1-6번 완료 (정책페이지, Footer, SEO 등)
-3. ✅ **AdSense 승인 대응 7번**: 103개 원소 elementExtras 고유 콘텐츠 완료 (커밋 `122b462`)
-4. ✅ 빌드 재확인 + GitHub Push → Cloudflare 자동 배포 완료
+1. ✅ 빌드 테스트 통과 (598페이지 정적 생성 확인)
+2. ✅ AdSense 승인 대응 1-7번 완료
+3. ✅ 포스트 인라인 이미지 삽입 + 결과 창 개선 + 퀴즈 개선
+4. ⏳ **포스트 이미지 고도화** (아래 작업 프롬프트 참조)
 5. ⏳ 도메인 연결 (manyak.xyz)
 6. ⏳ AdSense 재심사 요청
 7. ⏳ 이미지 저장 기능 실제 기기 테스트
 8. ⏳ 정식 문의 이메일 생성 (현재 임시: jkgkgj@naver.com)
+
+---
+
+## ⏳ 포스트 이미지 고도화 작업 프롬프트
+
+### 배경
+현재 384개 포스트에 Unsplash 이미지가 삽입되어 있으나 다음 문제가 있음:
+1. **동일 원소의 3개 포스트가 같은 이미지를 공유** (featured + inline 모두 동일)
+2. **이미지 alt/캡션이 무의미** (제목을 그대로 복사하거나 "관련 이미지" 같은 generic 텍스트)
+3. **일부 이미지 URL이 깨짐** (404 에러)
+4. **모든 포스트가 동일한 이미지 배치** (글 상단에 featured 1개 + 본문 중간에 inline 1개)
+   → 독립적으로 작성된 글처럼 보이지 않음
+
+### 목표
+- 각 포스트의 **글 내용에 맞는 고유 이미지** 사용 (같은 원소라도 포스트별로 다른 이미지)
+- **이미지 개수 자유화**: 포스트별 0~4개 (글 길이/내용에 따라 자연스럽게)
+- **이미지 위치 자유화**: 글 흐름에 맞게 배치 (상단/중간/하단 등)
+- **alt 텍스트/캡션 의미있게 작성**: 이미지 내용을 실제로 설명
+- **featured image(image 필드)도 포스트별로 고유하게**
+- **깨진 이미지 URL 교체**: 유효한 URL만 사용
+
+### 이미지 소스 전략
+Unsplash Source API 활용 (검증된 접근):
+```
+https://images.unsplash.com/photo-{ID}?w=800&h=400&fit=crop
+```
+- 각 sub-agent는 WebSearch로 "unsplash {keyword}" 검색하여 실제 유효한 photo ID 확보
+- 또는 Unsplash 직접 접속하여 주제 관련 이미지 URL 수집
+- **중요**: 각 이미지 URL이 실제 로드되는지 확인 필수 (WebFetch로 HEAD 체크 권장)
+
+### 마크다운 이미지 형식
+```
+![구체적인 이미지 설명](https://images.unsplash.com/photo-XXX?w=800&h=400&fit=crop)
+```
+- featured image: `image` 필드에 URL 저장
+- inline image: 본문 content에 마크다운 형식으로 삽입
+
+### 데이터 구조 (참고)
+```typescript
+interface Post {
+  slug: string;
+  title: string;
+  summary: string;
+  content: string;      // 마크다운 이미지를 여기에 자유롭게 배치
+  tags: string[];
+  image?: string;       // featured image URL
+}
+```
+
+### 병렬 처리 (8개 sub-agent, sonnet 모델)
+
+**Agent 0**: `src/data/posts.ts` — H(수소) 3개, C(탄소) 3개 = 6개 포스트
+**Agent 1**: `src/data/posts/group1.ts` — He~Ca = 54개 포스트
+**Agent 2**: `src/data/posts/group2.ts` — Sc~Zr = 60개 포스트
+**Agent 3**: `src/data/posts/group3.ts` — Nb~ = 60개 포스트
+**Agent 4**: `src/data/posts/group3_part2.ts` — 30개 포스트
+**Agent 5**: `src/data/posts/group4.ts` — Pm~ = 60개 포스트
+**Agent 6**: `src/data/posts/group5.ts` — Tl~ = 60개 포스트
+**Agent 7**: `src/data/posts/group6.ts` — Md~Og = 54개 포스트
+
+### Sub-agent 프롬프트 템플릿
+
+```
+## Task
+`/Users/jun/Jun workstation/element-personality-test/{FILE_PATH}` 파일의 모든 포스트 이미지를 고도화하세요.
+
+## 현재 문제
+1. 같은 원소의 3개 포스트가 동일한 이미지를 사용
+2. alt/캡션이 무의미 ("관련 이미지", 제목 복사 등)
+3. 모든 포스트가 featured 1개 + inline 1개로 동일한 패턴
+
+## 수정 원칙
+
+### 이미지 개수 (포스트별로 자유롭게)
+- 짧은 글: featured 1개 + inline 0~1개
+- 중간 글: featured 1개 + inline 1~2개
+- 긴 글: featured 1개 + inline 2~3개
+- 일부 포스트는 featured만 있고 inline 없어도 됨
+- **같은 원소의 3개 포스트라도 이미지 개수가 달라야 함**
+
+### 이미지 위치 (자유 배치)
+- inline 이미지는 글 내용의 흐름에 맞는 위치에 배치
+- 반드시 첫 번째 섹션 아래일 필요 없음 — 중간, 후반부에도 가능
+- **같은 원소의 3개 포스트라도 이미지 위치가 달라야 함**
+
+### 이미지 선택 기준
+- **글 내용과 직접적으로 관련된 이미지** (원소 자체가 아닌, 해당 포스트의 주제에 맞는)
+  - 예: "수소 연료전지 미래" 포스트 → 전기차/수소차 이미지
+  - 예: "힌덴부르크 참사" 포스트 → 비행선/역사 이미지
+  - 예: "우주의 시작" 포스트 → 우주/은하 이미지
+- **같은 원소의 포스트들이 서로 다른 이미지를 사용해야 함**
+
+### alt 텍스트/캡션 작성
+- 이미지에 실제로 보이는 것을 구체적으로 서술
+- 예: ❌ "관련 이미지" / ❌ "과학적 발견"
+- 예: ✅ "수소 연료전지로 구동되는 현대 넥쏘 자동차" / ✅ "1937년 힌덴부르크 비행선의 역사적 사진"
+
+### 이미지 URL
+- Unsplash 이미지 사용: `https://images.unsplash.com/photo-{ID}?w=800&h=400&fit=crop`
+- WebSearch로 "site:unsplash.com {주제 키워드 영문}" 검색하여 유효한 이미지 URL 확보
+- **각 포스트마다 고유한 이미지 URL 사용** (URL 재사용 금지)
+- featured image(image 필드)와 inline image가 다른 URL이어야 함
+
+### 수정 방법
+1. 파일을 Read로 읽기
+2. 각 포스트의 content를 분석하여 적절한 이미지 주제 결정
+3. WebSearch로 이미지 URL 확보 (원소별로 검색어를 다르게)
+4. 기존 이미지를 새 이미지로 교체 (Edit 사용)
+5. 이미지 개수/위치를 포스트별로 자유롭게 조정
+6. image 필드(featured)도 포스트에 맞게 교체
+
+### 검색어 예시 (영문 키워드로)
+- 수소 우주 포스트 → "site:unsplash.com galaxy nebula stars"
+- 수소 연료전지 → "site:unsplash.com hydrogen fuel cell car"
+- 철 건축 → "site:unsplash.com steel bridge construction"
+- 금 역사 → "site:unsplash.com gold bars treasure"
+
+## Expected Output
+- 수정된 파일 (모든 포스트의 이미지가 고유하고 적절하게 배치됨)
+- 변경한 포스트 수 및 총 이미지 수 요약
+
+## Do NOT
+- 이미지 외의 content 텍스트를 변경하지 말 것
+- Post 인터페이스를 변경하지 말 것
+- 기존 slug, title, summary, tags를 변경하지 말 것
+```
+
+### 통합 후 확인 절차
+모든 sub-agent 완료 후:
+1. `npm run build` 실행하여 빌드 확인
+2. 이미지 URL 중복 검사 (같은 URL이 여러 포스트에 쓰이지 않는지)
+3. Git commit + push
+
+---
 
 ## 향후 확장 계획
 사이트 구조 예시:

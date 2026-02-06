@@ -54,6 +54,9 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Navigation */}
         <nav className="mb-8 flex flex-wrap gap-4 text-sm">
+          <Link href="/elements" className="text-gray-500 hover:text-gray-700 transition-colors">
+            &larr; 전체 도감
+          </Link>
           <Link href="/" className="text-gray-500 hover:text-gray-700 transition-colors">
             &larr; 테스트
           </Link>
@@ -64,7 +67,6 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
             &larr; 글 목록
           </Link>
         </nav>
-
         {/* Article */}
         <article className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-orange-100 shadow-lg mb-8">
           {/* Header */}

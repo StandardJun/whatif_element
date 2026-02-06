@@ -324,67 +324,6 @@ export default function Home() {
                   {t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span>
                 </div>
               </div>
-
-              {/* Compatibility */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '24px' }}>
-                {/* Good Match */}
-                <div
-                  style={{
-                    backgroundColor: 'rgba(236, 253, 245, 0.8)',
-                    borderRadius: '16px',
-                    padding: '16px',
-                    border: '1px solid #a7f3d0',
-                  }}
-                >
-                  <h3 style={{ color: '#059669', fontWeight: '500', marginBottom: '12px', textAlign: 'center', fontSize: '14px' }}>💚 {t.goodMatch}</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    {result.goodMatches.map(el => (
-                      <div
-                        key={el.number}
-                        style={{
-                          backgroundColor: 'rgba(255, 255, 255, 0.7)',
-                          borderRadius: '12px',
-                          padding: '8px',
-                          textAlign: 'center',
-                          border: '1px solid #d1fae5',
-                        }}
-                      >
-                        <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#374151' }}>{el.symbol}</span>
-                        <p style={{ color: '#059669', fontSize: '12px' }}>{lang === 'ko' ? el.nameKo : el.name}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                {/* Bad Match */}
-                <div
-                  style={{
-                    backgroundColor: 'rgba(255, 241, 242, 0.8)',
-                    borderRadius: '16px',
-                    padding: '16px',
-                    border: '1px solid #fecdd3',
-                  }}
-                >
-                  <h3 style={{ color: '#f43f5e', fontWeight: '500', marginBottom: '12px', textAlign: 'center', fontSize: '14px' }}>💔 {t.badMatch}</h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    {result.badMatches.map(el => (
-                      <div
-                        key={el.number}
-                        style={{
-                          backgroundColor: 'rgba(255, 255, 255, 0.7)',
-                          borderRadius: '12px',
-                          padding: '8px',
-                          textAlign: 'center',
-                          border: '1px solid #ffe4e6',
-                        }}
-                      >
-                        <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#374151' }}>{el.symbol}</span>
-                        <p style={{ color: '#f43f5e', fontSize: '12px' }}>{lang === 'ko' ? el.nameKo : el.name}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
             </div>
             {/* End Capture Area */}
 
@@ -392,7 +331,7 @@ export default function Home() {
             {(() => {
               const extras = getElementExtras(result.element.symbol);
               return (
-                <div className="space-y-6 mt-8">
+                <div className="space-y-6 mt-6">
                   <TraitsChart traits={result.element.traits} traitNames={traitNames} />
                   <HistorySection history={extras.history} />
                   <UsesSection uses={extras.uses} />

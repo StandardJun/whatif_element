@@ -32,16 +32,16 @@ export const questions: Question[] = [
   {
     id: 2,
     text: {
-      ko: "배터리가 5%일 때, 나는 아직 한참 남았다고 느끼는 편이다",
-      en: "When your phone battery is at 5%, do you feel like there's still plenty left?"
+      ko: "주말 아침, 알람 없이 일찍 눈이 떠졌다!",
+      en: "Saturday morning, you wake up early with no alarm!"
     },
     dimension: "activity",
     options: [
-      { value: 5, label: { ko: "5%면 충분하지! 🔋", en: "5% is plenty! 🔋" } },
-      { value: 4, label: { ko: "아직 쓸 만해", en: "Still usable" } },
-      { value: 3, label: { ko: "은근 불안한데...", en: "Getting a bit anxious..." } },
-      { value: 2, label: { ko: "충전기 찾아야 해", en: "Need to find a charger" } },
-      { value: 1, label: { ko: "이미 저전력 모드 ON 🆘", en: "Low power mode already ON 🆘" } }
+      { value: 5, label: { ko: "바로 밖으로 뛰쳐나간다 🌅", en: "Head out immediately 🌅" } },
+      { value: 4, label: { ko: "오늘 뭐 하지? 일단 준비!", en: "What to do today? Let's get ready!" } },
+      { value: 3, label: { ko: "느긋하게 일어나서 생각해본다", en: "Get up slowly and think about it" } },
+      { value: 2, label: { ko: "폰 보다가 한 시간 눌러있음", en: "End up scrolling in bed for an hour" } },
+      { value: 1, label: { ko: "다시 눈 감는다. 주말인데 🛌", en: "Close my eyes again. It's the weekend 🛌" } }
     ]
   },
 
@@ -96,16 +96,16 @@ export const questions: Question[] = [
   {
     id: 6,
     text: {
-      ko: "자주 가는 식당에 도착! 메뉴판을 보면?",
-      en: "At your favorite restaurant, looking at the menu..."
+      ko: "매일 가는 출근·등교 길, 나의 루틴은?",
+      en: "Your daily commute routine looks like..."
     },
     dimension: "stability",
     options: [
-      { value: 5, label: { ko: "늘 먹던 그 메뉴 ✨", en: "My usual order ✨" } },
-      { value: 4, label: { ko: "80%는 단골 메뉴", en: "80% of the time, my regular" } },
-      { value: 3, label: { ko: "기분 따라 다르다", en: "Depends on my mood" } },
-      { value: 2, label: { ko: "새 메뉴 위주로 본다", en: "Check out new items" } },
-      { value: 1, label: { ko: "전부 다 먹어봐야지 🍽️", en: "Gotta try everything 🍽️" } }
+      { value: 5, label: { ko: "같은 시간, 같은 경로, 같은 음악 🎧", en: "Same time, same route, same playlist 🎧" } },
+      { value: 4, label: { ko: "경로는 정해져 있고, 나머진 유동적", en: "Fixed route, rest is flexible" } },
+      { value: 3, label: { ko: "대체로 비슷하지만 가끔 변화를 줌", en: "Usually similar, sometimes switch it up" } },
+      { value: 2, label: { ko: "그때그때 빠른 길로 간다", en: "Take whatever route is fastest" } },
+      { value: 1, label: { ko: "매일 다른 길이 재밌다 🗺️", en: "A different path every day is fun 🗺️" } }
     ]
   },
 
@@ -121,23 +121,23 @@ export const questions: Question[] = [
       { value: 5, label: { ko: "눈물 줄줄 😭", en: "Crying my eyes out 😭" } },
       { value: 4, label: { ko: "마음이 많이 아프다", en: "Feeling really sad" } },
       { value: 3, label: { ko: "안타깝긴 하다", en: "Feel a bit sorry" } },
-      { value: 2, label: { ko: "그렇구나... 하고 넘김", en: "I see... move on" } },
+      { value: 2, label: { ko: "잠깐 생각하고 넘긴다", en: "Think about it briefly, then move on" } },
       { value: 1, label: { ko: "담담하게 본다", en: "Watch calmly" } }
     ]
   },
   {
     id: 8,
     text: {
-      ko: "친구가 '나 괜찮아'라고 하면?",
-      en: "When your friend says 'I'm fine'..."
+      ko: "친구가 웃으면서 '나 괜찮아'라고 하는데, 눈이 안 웃고 있다",
+      en: "Your friend says 'I'm fine' with a smile, but their eyes aren't smiling"
     },
     dimension: "sensitivity",
     options: [
-      { value: 5, label: { ko: "표정만 봐도 다 안다 👀", en: "I can tell just by looking 👀" } },
-      { value: 4, label: { ko: "뭔가 이상함을 느낀다", en: "Sense something's off" } },
-      { value: 3, label: { ko: "말 그대로 받아들일 때도", en: "Sometimes take it literally" } },
-      { value: 2, label: { ko: "괜찮다니까 괜찮겠지", en: "If they say so, must be fine" } },
-      { value: 1, label: { ko: "아 그래? 다행이다", en: "Oh okay, good to hear" } }
+      { value: 5, label: { ko: "바로 알아채고 조용히 옆에 있어준다 🤝", en: "Notice right away and quietly stay by their side 🤝" } },
+      { value: 4, label: { ko: "뭔가 이상해서 나중에 따로 연락한다", en: "Something feels off, text them later" } },
+      { value: 3, label: { ko: "신경은 쓰이지만 먼저 물어보긴 어렵다", en: "It bothers me but hard to ask first" } },
+      { value: 2, label: { ko: "좀 이상하다 싶다가도 금방 잊는다", en: "Seems a bit odd but I quickly forget" } },
+      { value: 1, label: { ko: "괜찮다는데 뭘 😐", en: "They said they're fine, so... 😐" } }
     ]
   },
 
@@ -145,31 +145,31 @@ export const questions: Question[] = [
   {
     id: 9,
     text: {
-      ko: "이케아 가구가 도착했다! 조립을 시작하면?",
-      en: "IKEA furniture has arrived! When assembling..."
+      ko: "조별 과제에서 발표 방식을 정할 때",
+      en: "When deciding the presentation format for a group project"
     },
     dimension: "originality",
     options: [
-      { value: 5, label: { ko: "설명서? 그게 뭔데 🔧", en: "Manual? What's that 🔧" } },
-      { value: 4, label: { ko: "일단 해보고 막히면 본다", en: "Try first, check if stuck" } },
-      { value: 3, label: { ko: "대충 훑어보고 시작", en: "Quick skim then start" } },
-      { value: 2, label: { ko: "설명서 따라 차근차근", en: "Follow instructions step by step" } },
-      { value: 1, label: { ko: "영상 보면서 따라한다 📱", en: "Watch a tutorial video 📱" } }
+      { value: 5, label: { ko: "아무도 안 해본 형식을 제안한다 💡", en: "Propose a format nobody's tried before 💡" } },
+      { value: 4, label: { ko: "기존 형식에 새로운 요소를 섞는다", en: "Mix new elements into a standard format" } },
+      { value: 3, label: { ko: "참신한 아이디어가 있으면 따라간다", en: "Go along if someone has a fresh idea" } },
+      { value: 2, label: { ko: "검증된 방식이 안전하다고 생각한다", en: "Think proven methods are safer" } },
+      { value: 1, label: { ko: "PPT 틀 그대로 쓰면 되지 📊", en: "Just use the standard PPT template 📊" } }
     ]
   },
   {
     id: 10,
     text: {
-      ko: "친구들과 가위바위보를 할 때",
-      en: "When playing rock-paper-scissors with friends"
+      ko: "라면을 끓이는데 냉장고에 예상 밖의 재료가 있다!",
+      en: "You're making ramen and find unexpected ingredients in the fridge!"
     },
     dimension: "originality",
     options: [
-      { value: 5, label: { ko: "새로운 규칙을 제안한다 ✨", en: "Suggest new rules ✨" } },
-      { value: 4, label: { ko: "변형 게임도 좋아한다", en: "Like variations too" } },
-      { value: 3, label: { ko: "제안하면 따라는 함", en: "Go along with suggestions" } },
-      { value: 2, label: { ko: "그냥 원래 룰이 좋다", en: "Prefer original rules" } },
-      { value: 1, label: { ko: "가위바위보는 가위바위보지", en: "Classic is classic" } }
+      { value: 5, label: { ko: "퓨전 창작 라면 탄생 🍜", en: "Fusion experimental ramen is born 🍜" } },
+      { value: 4, label: { ko: "하나쯤은 넣어본다, 실패해도 OK", en: "Toss one in, it's okay if it fails" } },
+      { value: 3, label: { ko: "어울릴 것 같은 것만 조심스럽게", en: "Carefully add only what seems to fit" } },
+      { value: 2, label: { ko: "검색해보고 괜찮으면 넣는다", en: "Search first, add if reviews are good" } },
+      { value: 1, label: { ko: "레시피대로가 맛있다 📖", en: "The original recipe is best 📖" } }
     ]
   }
 ];
