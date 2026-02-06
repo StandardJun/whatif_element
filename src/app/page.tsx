@@ -168,6 +168,24 @@ export default function Home() {
             <p className="mt-6 text-gray-400 text-sm">
               {t.questionCount}
             </p>
+
+            {/* SEO Content - 크롤러용 사이트 설명 */}
+            <div className="mt-10 text-left bg-white/50 backdrop-blur-sm rounded-2xl p-6 border border-orange-100">
+              <h2 className="text-lg font-bold text-gray-700 mb-3">
+                {lang === 'ko' ? '🧪 나와 닮은 원소 찾기' : '🧪 Find Your Element'}
+              </h2>
+              <p className="text-gray-500 text-sm leading-relaxed mb-3">
+                {lang === 'ko'
+                  ? '활동성, 사교성, 안정성, 감성, 독창성 — 5가지 성격 차원을 기반으로 118개 원소 중 당신과 가장 잘 맞는 원소를 찾아드립니다. 재미있는 상황 기반 질문 10개에 답하고, 나만의 원소를 발견해보세요!'
+                  : 'Based on 5 personality dimensions — Activity, Sociability, Stability, Sensitivity, and Originality — we match you with the most fitting element among 118. Answer 10 fun situational questions and discover your element!'}
+              </p>
+              <div className="flex flex-wrap gap-2 text-xs text-gray-400">
+                <span className="px-2 py-1 bg-orange-50 rounded-full">118개 원소</span>
+                <span className="px-2 py-1 bg-orange-50 rounded-full">10개 질문</span>
+                <span className="px-2 py-1 bg-orange-50 rounded-full">5가지 성격 차원</span>
+                <span className="px-2 py-1 bg-orange-50 rounded-full">350+ 블로그 포스트</span>
+              </div>
+            </div>
           </div>
         )}
 
