@@ -32,7 +32,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 - **종교**: 악령 퇴치
 - **실용**: 햇빛 눈부심 감소
 
-![고대 이집트 벽화에 그려진 눈 화장](https://images.unsplash.com/photo-Z5glwhD3LH8?w=800&h=400&fit=crop)
+![고대 이집트 벽화에 그려진 눈 화장](https://images.unsplash.com/photo-1608022214686-cd8b6d6ddff7?w=800&h=400&fit=crop)
 
 ## 현대 과학의 발견
 
@@ -72,7 +72,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 5000년 전 클레오파트라가 사용한 그 아이라이너, 오늘날까지 이어지고 있습니다.`,
       tags: ['화장품', '역사', '이집트', '클레오파트라', '고대'],
-      image: 'https://images.unsplash.com/photo-1587387119725-d3989af7579b?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1576280638686-5e1f4d3d8c0a?w=800&h=400&fit=crop',
     },
     {
       slug: 'antimony-flame-retardant-safety',
@@ -109,7 +109,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 - **운송**: 비행기/자동차 내장재
 - **가구**: 매트리스, 소파
 
-![비행기 객실의 난연 처리된 좌석들](https://images.unsplash.com/photo-avvyNj7FWb8?w=800&h=400&fit=crop)
+![비행기 객실의 난연 처리된 좌석들](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=400&fit=crop)
 
 ## 화재 안전 규정
 
@@ -176,7 +176,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 산성 음식이 백랍과 반응하면 안티모니와 납이 녹아 나왔어요!
 
-![화려한 장식의 금속 고블릿 잔](https://images.unsplash.com/photo-8yeyzVfMv0M?w=800&h=400&fit=crop)
+![화려한 장식의 금속 고블릿 잔](https://images.unsplash.com/photo-1585933646715-6ccbc2c93cb5?w=800&h=400&fit=crop)
 
 ## 만성 중독 증상
 
@@ -265,7 +265,7 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 실리콘과의 격차를 점점 좁히고 있어요!
 
-![태양광 패널이 설치된 지붕의 모습](https://images.unsplash.com/photo-L9LrBpNY5sw?w=800&h=400&fit=crop)
+![태양광 패널이 설치된 지붕의 모습](https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop)
 
 ## 퍼스트 솔라의 성공
 
@@ -564,7 +564,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 밀폐 용기에서 아이오딘 결정 위로 보라색 안개가 피어오르는 모습은 매우 아름다워요!
 
-![보라색 연기가 피어오르는 모습](https://images.unsplash.com/photo-5JZXtQCjf0Y?w=800&h=400&fit=crop)
+![보라색 연기가 피어오르는 모습](https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop)
 
 ## 해초 속의 아이오딘
 
@@ -599,7 +599,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 보라색 증기로 시작된 발견, 오늘날 우리 건강을 지키고 있습니다.`,
       tags: ['발견', '역사', '해초', '화학', '승화'],
-      image: 'https://images.unsplash.com/photo-vRCUreFfomU?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&h=400&fit=crop',
     },
     {
       slug: 'iodine-wound-disinfection-history',
@@ -643,7 +643,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 오늘날 가장 흔히 사용되는 형태죠.
 
-![손가락에 붙인 밴드에이드](https://images.unsplash.com/photo-SwWjCbIIoFE?w=800&h=400&fit=crop)
+![손가락에 붙인 밴드에이드](https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&h=400&fit=crop)
 
 ## 수술실에서의 활용
 
@@ -721,7 +721,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 - 고령자 수술 (회복 빠름)
 - 뇌 손상 환자 (신경 보호)
 
-![수술실에서 의료진이 수술하는 모습](https://images.unsplash.com/photo-j55TmqkzQ4k?w=800&h=400&fit=crop)
+![수술실에서 의료진이 수술하는 모습](https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop)
 
 ## 치명적인 단점: 가격
 
@@ -963,7 +963,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 1나노초 오차 = 30cm 위치 오차. 정밀한 시간이 필수죠.
 
-![정밀한 시계와 시간 측정 장치](https://images.unsplash.com/photo-w2JtIQQXoRU?w=800&h=400&fit=crop)
+![정밀한 시계와 시간 측정 장치](https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=800&h=400&fit=crop)
 
 ## 미래의 시간
 
@@ -1006,7 +1006,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 2Cs + 2H₂O → 2CsOH + H₂ + 열
 
-![물에 떨어진 물방울이 튀는 모습과 파란 빛의 폭발](https://images.unsplash.com/photo-3k9PGKWt7ik?w=800&h=400&fit=crop)
+![물에 떨어진 물방울이 튀는 모습과 파란 빛의 폭발](https://images.unsplash.com/photo-1580256971781-7d2e34f0e66e?w=800&h=400&fit=crop)
 
 수소 가스가 발생하고, 엄청난 열이 나서 수소가 폭발합니다!
 
@@ -1162,7 +1162,7 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 - 장폐색
 - 게실(주머니 형성)
 
-![X선 필름을 확인하는 의사의 모습](https://images.unsplash.com/photo-_GpJpHnyCSw?w=800&h=400&fit=crop)
+![X선 필름을 확인하는 의사의 모습](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
 
 ## 바륨 vs 내시경
 
@@ -1277,7 +1277,7 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 색이 있는 불꽃은 19세기 이탈리아에서 발전했습니다. 그때부터 바륨의 초록빛이 밤하늘을 수놓기 시작했죠.
 
-![밤하늘의 초록색과 빨간색 불꽃놀이](https://images.unsplash.com/photo-gdTxVSAE5sk?w=800&h=400&fit=crop)
+![밤하늘의 초록색과 빨간색 불꽃놀이](https://images.unsplash.com/photo-1529156496061-e65808df76bb?w=800&h=400&fit=crop)
 
 축제의 밤, 초록빛이 보인다면 바륨을 떠올려보세요!`,
       tags: ['불꽃놀이', '색', '축제', '화학', '전통'],
@@ -1413,7 +1413,7 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 2010년 중국이 희토류 수출을 제한했을 때, 자동차 업계가 큰 충격을 받았습니다.
 
-![하이브리드 전기차 배터리 팩의 모습](https://images.unsplash.com/photo-_54JHpRkK0Y?w=800&h=400&fit=crop)
+![하이브리드 전기차 배터리 팩의 모습](https://images.unsplash.com/photo-1617788138017-80ad40651399?w=800&h=400&fit=crop)
 
 ## 리튬이온 배터리로의 전환
 
@@ -1584,7 +1584,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 당신의 주머니 속에 희토류 기술이 들어있습니다!`,
       tags: ['광학', '렌즈', '카메라', '유리', '기술'],
-      image: 'https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1606850780554-b55fbf31c543?w=800&h=400&fit=crop',
     },
   ],
   Ce: [
@@ -1649,7 +1649,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 캠핑과 생존 장비의 필수품이에요.
 
-![라이터에서 불꽃이 튀는 모습](https://images.unsplash.com/photo-_icmdNXUFUI?w=800&h=400&fit=crop)
+![라이터에서 불꽃이 튀는 모습](https://images.unsplash.com/photo-1520099192999-02841229a744?w=800&h=400&fit=crop)
 
 ## 안전 주의
 
@@ -1751,7 +1751,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 스마트폰을 볼 때마다, 그 맑은 화면을 만든 세륨을 떠올려보세요!`,
       tags: ['연마제', '유리', 'LCD', '반도체', '제조'],
-      image: 'https://images.unsplash.com/photo-1614111576813-309cbf8637d5?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&h=400&fit=crop',
     },
     {
       slug: 'cerium-diesel-catalyst-emission',
@@ -1832,7 +1832,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 환경을 지키는 데 희귀하지 않은 "희토류"가 기여하고 있어요!`,
       tags: ['디젤', '촉매', '환경', '매연', '자동차'],
-      image: 'https://images.unsplash.com/photo-1614111576813-309cbf8637d5?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092918484-8313e1f7e8d6?w=800&h=400&fit=crop',
     },
   ],
   Pr: [
@@ -1863,7 +1863,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 쌍둥이처럼 붙어있던 두 원소, 녹색인 쪽이 프라세오디뮴입니다!
 
-![녹색 빛을 띤 유리 조각들](https://images.unsplash.com/photo-PrQqQVPzmlw?w=800&h=400&fit=crop)
+![녹색 빛을 띤 유리 조각들](https://images.unsplash.com/photo-1567226475328-9d6baaf565cf?w=800&h=400&fit=crop)
 
 ## 프라세오디뮴의 색
 
@@ -1966,7 +1966,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 소량으로 큰 차이를 만들어요!
 
-![제트 엔진의 터빈 블레이드](https://images.unsplash.com/photo-PfYaLrYS1Oc?w=800&h=400&fit=crop)
+![제트 엔진의 터빈 블레이드](https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=800&h=400&fit=crop)
 
 ## 영구자석에서도
 
@@ -2013,7 +2013,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 하늘 높이 나는 비행기 속에, 지구의 희귀한 원소가 숨어있습니다.`,
       tags: ['항공', '엔진', '자석', '합금', '희토류'],
-      image: 'https://images.unsplash.com/photo-1581092916188-60fc49ffcfb7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1583521214690-73421a1829a9?w=800&h=400&fit=crop',
     },
     {
       slug: 'praseodymium-twin-element-neodymium',
@@ -2095,7 +2095,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 40년간 하나였던 쌍둥이, 이제는 각자의 자리에서 빛나고 있습니다.`,
       tags: ['발견', '역사', '희토류', '분리', '화학'],
-      image: 'https://images.unsplash.com/photo-1581092916188-60fc49ffcfb7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
   ],
   Nd: [
@@ -2272,7 +2272,7 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 
 네오디뮴이 만드는 빛이 인류의 미래를 밝히고 있습니다!`,
       tags: ['레이저', '의료', '안과', 'Nd:YAG', '기술'],
-      image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581093458791-9f3c3250a36e?w=800&h=400&fit=crop',
     },
     {
       slug: 'neodymium-pink-purple-glass',
@@ -2360,7 +2360,7 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 
 과학과 예술이 만나는 네오디뮴 유리의 세계입니다!`,
       tags: ['유리', '색', '광학', '수집품', '과학'],
-      image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516950209084-a78605bb1718?w=800&h=400&fit=crop',
     },
   ],
 };

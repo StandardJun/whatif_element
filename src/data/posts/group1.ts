@@ -10,7 +10,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 생일파티에서 헬륨 풍선을 마시고 오리 목소리를 내본 적 있나요? 목소리가 갑자기 높아지면서 우스꽝스러워지죠. 하지만 이건 단순한 마법이 아니라 물리학입니다!
 
-![생일 파티에서 다양한 색상의 헬륨 풍선들이 떠 있는 모습](https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=400&fit=crop)
+![실험실에 놓인 압축 가스 실린더와 헬륨 탱크](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
 
 ## 소리는 어떻게 전달될까?
 
@@ -56,7 +56,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 어릴 때 손에서 놓친 헬륨 풍선이 하늘로 점점 올라가다 보이지 않게 된 경험, 다들 있으시죠? 그 풍선은 어디까지 올라갔을까요?
 
-![푸른 하늘로 떠올라가는 빨간 헬륨 풍선](https://images.unsplash.com/photo-1604006852748-903fccbc4019?w=800&h=400&fit=crop)
+![푸른 하늘에 떠 있는 다채로운 파티 풍선들](https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=400&fit=crop)
 
 ## 부력: 떠오르게 만드는 힘
 
@@ -106,7 +106,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 풍선이나 목소리 변조에 쓰이는 헬륨. 하지만 이 가벼운 기체가 지구에서 점점 사라지고 있다는 사실, 알고 계셨나요?
 
-![현대적인 MRI 스캐너 장비가 있는 병원 검사실](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
+![천연가스 추출 시설과 산업 플랜트](https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=800&h=400&fit=crop)
 
 ## 헬륨은 어디서 올까?
 
@@ -158,7 +158,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 지금 당신이 들고 있는 스마트폰, 그 안에는 리튬이 들어있습니다. 노트북, 무선 이어폰, 전동 킥보드, 전기차... 현대 문명은 리튬 없이는 돌아가지 않아요.
 
-![스마트폰을 충전하는 모습과 리튬이온 배터리 팩](https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&h=400&fit=crop)
+![전기차 충전소에서 충전 중인 전기 자동차](https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop)
 
 ## 리튬 이온 배터리의 원리
 
@@ -2305,6 +2305,8 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 발음이 같아서 헷갈리지만 다른 거예요!
 
+![투명한 유리창과 빛의 반사](https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=400&fit=crop)
+
 ## 유리 = 이산화규소
 
 ### 유리의 주성분
@@ -2381,7 +2383,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 
 지붕이나 들판에 설치된 까만 패널들. 햇빛만 받으면 전기가 나옵니다. 어떻게 가능할까요?
 
-![태양에서 콘센트까지 관련 이미지](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop)
+![푸른 하늘 아래 태양광 패널 어레이](https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop)
 
 ## 광전 효과
 
@@ -2464,7 +2466,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 
 성냥이 발명되기 전, 불을 피우려면 부싯돌을 부딪치거나 나무를 비벼야 했어요. 1826년 영국의 존 워커가 최초의 마찰 성냥을 발명했습니다.
 
-![성냥의 탄생 관련 이미지](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
+![불타는 성냥개비와 화염](https://images.unsplash.com/photo-1515694590661-c68162c265b8?w=800&h=400&fit=crop)
 
 ## 성냥의 구조
 
@@ -2546,7 +2548,7 @@ SiO₂ (이산화규소/실리카) + 기타 첨가물
 
 탄소, 수소, 산소, 질소 다음으로 생명체에 중요한 원소가 바로 **인(P)**입니다.
 
-![생명의 필수 원소 관련 이미지](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
+![DNA 이중나선 구조와 과학 연구](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
 
 ## 인이 하는 일
 
@@ -2633,7 +2635,7 @@ ATP → ADP + 에너지
 
 1669년, 독일의 연금술사 헤니히 브란트는 금을 만들려고 소변을 끓이고 있었습니다. (진짜예요!)
 
-![빛나는 돌의 발견 관련 이미지](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
+![어둠 속에서 빛나는 야광 물질](https://images.unsplash.com/photo-1517423568366-8b83523034fd?w=800&h=400&fit=crop)
 
 그런데 어둠 속에서 빛나는 물질을 발견했어요. 이것이 **인(Phosphorus)**의 발견입니다.
 
@@ -2712,7 +2714,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 썩은 달걀 냄새, 방귀 냄새, 하수구 냄새...
 공통적으로 나는 불쾌한 냄새의 주범은 **황화수소(H₂S)**입니다.
 
-![그 냄새의 정체 관련 이미지](https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop)
+![깨진 달걀과 껍데기](https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=800&h=400&fit=crop)
 
 ## 황화수소란?
 
@@ -2792,7 +2794,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 화산 분화구 주변에서 볼 수 있는 선명한 노란색 결정. 이것이 바로 순수한 황(S)입니다.
 
-![화산의 노란 보석 관련 이미지](https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop)
+![화산 분화구와 용암이 흐르는 모습](https://images.unsplash.com/photo-1551244072-5d12893278ab?w=800&h=400&fit=crop)
 
 ## 황의 특성
 
@@ -2875,7 +2877,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 9세기 중국, 연금술사들은 불로장생약을 찾고 있었습니다. 그런데 실험 중 폭발하는 물질을 발견했어요!
 
-![화약의 발명 관련 이미지](https://images.unsplash.com/photo-1613109526778-27605f1f27d2?w=800&h=400&fit=crop)
+![밤하늘의 화려한 불꽃놀이](https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&h=400&fit=crop)
 
 이것이 **흑색화약(Black Powder)**의 시작입니다.
 
@@ -2970,7 +2972,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 
 수영장에 들어가면 나는 특유의 "염소 냄새". 우리는 이게 소독용 염소 때문이라고 생각하죠.
 
-![그 냄새의 정체 관련 이미지](https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop)
+![맑고 푸른 수영장 물](https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=800&h=400&fit=crop)
 
 **틀렸습니다!**
 
@@ -3060,7 +3062,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 - Na: 나트륨 (물에 닿으면 폭발)
 - Cl: 염소 (독가스)
 
-![소금의 화학 관련 이미지](https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop)
+![나무 숟가락에 담긴 굵은 소금 결정](https://images.unsplash.com/photo-1598514982901-ae62764ae75e?w=800&h=400&fit=crop)
 
 위험한 두 원소가 만나서 **맛있는 소금**이 됩니다!
 
@@ -3146,7 +3148,7 @@ Phosphorus = 그리스어로 "빛을 나르는 자"
 미국 질병통제센터(CDC)가 선정한 20세기 10대 공중보건 성과 중 하나:
 **수돗물 염소 소독**
 
-![20세기 최고의 공중보건 업적 관련 이미지](https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&h=400&fit=crop)
+![수도꼭지에서 흐르는 깨끗한 물](https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=800&h=400&fit=crop)
 
 ## 염소 소독 이전
 
@@ -3244,7 +3246,7 @@ Cl₂ + H₂O → HOCl + HCl
 아르곤(Argon)의 이름은 그리스어 "argos"에서 왔습니다.
 뜻은 "게으른" 또는 "비활성의".
 
-![게으름의 대명사 관련 이미지](https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop)
+![투명한 유리 전구 안의 불꽃](https://images.unsplash.com/photo-1535263788804-d0cb43a0fb64?w=800&h=400&fit=crop)
 
 정말 아무것도 안 하는 원소예요!
 
@@ -3336,7 +3338,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 요즘 집의 이중창/삼중창 유리를 보세요. 유리 사이에 뭐가 들어있을까요?
 
-![창문의 비밀 관련 이미지](https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop)
+![햇살이 비치는 현대식 큰 창문](https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=400&fit=crop)
 
 공기? 진공? 아니요, **아르곤 가스**입니다!
 
@@ -3435,7 +3437,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 용접은 금속을 녹여 붙이는 작업입니다. 문제는 뜨거운 금속이 공기 중 산소와 만나면 **산화**된다는 거예요.
 
-![용접과 산소의 적대적 관계 관련 이미지](https://images.unsplash.com/photo-1473186578172-c141e6798cf4?w=800&h=400&fit=crop)
+![밝은 불꽃이 튀는 금속 용접 작업](https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=400&fit=crop)
 
 산화된 용접부:
 - 약해짐
@@ -3537,7 +3539,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 바나나에는 방사성 물질이 들어있습니다.
 
-![충격적인 사실? 관련 이미지](https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop)
+![노란 바나나 한 송이](https://images.unsplash.com/photo-1603833665858-e61d17a86224?w=800&h=400&fit=crop)
 
 놀라셨나요? 하지만 걱정 마세요!
 
@@ -3631,7 +3633,7 @@ Cl₂ + H₂O → HOCl + HCl
 - P: 인 (Phosphorus)
 - **K: 칼륨 (Kalium)**
 
-![식물의 3대 영양소 관련 이미지](https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop)
+![푸른 농장의 건강한 채소밭](https://images.unsplash.com/photo-1560493676-04071c5f467b?w=800&h=400&fit=crop)
 
 칼륨의 원소 기호가 K인 이유는 라틴어 Kalium에서 왔기 때문!
 
@@ -3732,7 +3734,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 심장은 전기로 뜁니다. 매 박동마다 전기 신호가 심장 전체로 퍼져 근육을 수축시켜요.
 
-![심장의 전기 시스템 관련 이미지](https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&h=400&fit=crop)
+![가슴에 손을 얹고 심장 박동을 느끼는 모습](https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=800&h=400&fit=crop)
 
 이 전기 신호의 핵심이 **칼륨**입니다.
 
@@ -3838,7 +3840,7 @@ Cl₂ + H₂O → HOCl + HCl
 - 콘크리트보다 압축 강도 높음
 - 그런데 가벼움!
 
-![뼈의 놀라운 성질 관련 이미지](https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&h=400&fit=crop)
+![인체 골격 엑스레이 이미지](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=400&fit=crop)
 
 이 비결이 뭘까요?
 
@@ -3943,7 +3945,7 @@ Cl₂ + H₂O → HOCl + HCl
 
 탄산칼슘(CaCO₃)은 자연에서 가장 흔한 건축 재료입니다.
 
-![자연의 건축 재료 관련 이미지](https://images.unsplash.com/photo-1550583724-b2692b85b150?w=800&h=400&fit=crop)
+![여러 개의 흰색 달걀과 깨진 껍데기](https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?w=800&h=400&fit=crop)
 
 ## 탄산칼슘이 있는 곳
 

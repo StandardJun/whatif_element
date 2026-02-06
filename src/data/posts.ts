@@ -71,7 +71,7 @@ const basePosts: Record<string, Post[]> = {
 ![파란 플랫폼 위에 설치된 수소 충전 디스펜서](https://images.unsplash.com/photo-1691046969792-1e5cfd8f0a6b?w=800&h=400&fit=crop)
 
 ### 2. 주행거리
-현대 넥쏘의 경우 1회 충전으로 약 600km를 주행할 수 있습니다.
+현대 넥쏘의 경우 1회 충전으로 약 720km를 주행할 수 있습니다. 이는 승용 수소차 세계 최고 수준입니다.
 
 ### 3. 배터리 무게 문제 해결
 전기차의 무거운 배터리 문제가 없어, 대형 트럭이나 버스에 더 적합합니다.
@@ -81,6 +81,8 @@ const basePosts: Record<string, Post[]> = {
 - 수소 충전소 인프라 부족
 - 수소 생산 과정에서의 에너지 효율 문제
 - 높은 차량 가격
+
+![미래형 수소 에너지 기술과 친환경 모빌리티](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop)
 
 ## 둘 다 필요한 미래
 
@@ -252,7 +254,7 @@ const basePosts: Record<string, Post[]> = {
     {
       slug: 'carbon-dating-archaeology',
       title: '탄소 연대측정: 과거로 가는 타임머신',
-      summary: '공룡 화석의 나이는 어떻게 알 수 있을까요? 방사성 탄소를 이용한 연대측정의 비밀.',
+      summary: '고대 유물의 나이는 어떻게 알 수 있을까요? 방사성 탄소를 이용한 연대측정의 비밀을 알아봅니다.',
       content: `## 역사의 나이를 재는 방법
 
 오래된 유물이나 화석의 나이는 어떻게 알 수 있을까요? 여기서 탄소-14(¹⁴C)라는 특별한 탄소 동위원소가 등장합니다.
@@ -292,6 +294,8 @@ const basePosts: Record<string, Post[]> = {
 더 오래된 것은 칼륨-아르곤법이나 우라늄-납법 같은 다른 방법을 사용합니다.
 
 ## 역사를 밝힌 발견들
+
+![오래된 양피지 두루마리와 고대 문서들](https://images.unsplash.com/photo-1604514628550-37477afdf4e3?w=800&h=400&fit=crop)
 
 탄소 연대측정법으로 밝혀진 것들:
 - 투탕카멘 무덤의 연대

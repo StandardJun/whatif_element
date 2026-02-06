@@ -1066,10 +1066,11 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 유리에 금속 원소를 넣으면 다양한 색이 납니다:
 - 코발트 → 파란색
-![색을 만드는 원소](https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop)
 - 철 → 초록색/갈색
 - 금 → 빨간색
 - 어븀 → 분홍색!
+
+![어븀이 만드는 분홍빛 유리공예](https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop)
 
 ## 어븀의 색
 
@@ -1121,15 +1122,16 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 스웨덴 이테르비 마을에서 이름을 딴 원소 4개:
 
+![이테르비 마을의 역사적인 채석장](https://images.unsplash.com/photo-1485962398199-11808db631fc?w=800&h=400&fit=crop)
+
 | 원소 | 기호 | 이름 변형 |
-![이테르비 4형제](https://images.unsplash.com/photo-1485962398199-11808db631fc?w=800&h=400&fit=crop)
 |-----|------|----------|
 | 이트륨 | Y | Ytterby |
 | 테르븀 | Tb | yTERBium |
 | 어븀 | Er | yttERBium |
 | 이터븀 | Yb | YTTERBium |
 
-창의적이라고 해야 할까요, 게으르다고 해야 할까요? 😄
+창의적이라고 해야 할까요, 게으르다고 해야 할까요?
 
 ## 어븀의 발견
 
@@ -1177,10 +1179,11 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 병원 엑스레이 기계는 크고 무겁습니다:
 - 고전압 발생 장치 필요
-![엑스레이의 문제](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop)
 - 냉각 시스템
 - 전원 공급
 - 이동이 어려움
+
+![휴대용 의료 장비의 중요성](https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=400&fit=crop)
 
 재난 현장이나 오지에서는 어떻게 할까요?
 
@@ -1243,8 +1246,9 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 각 레이저는 다른 파장, 다른 용도:
 
+![의료용 레이저 장비](https://images.unsplash.com/photo-1526628953301-4458c87d98a9?w=800&h=400&fit=crop)
+
 | 레이저 | 파장 | 주요 용도 |
-![의료 레이저의 종류](https://images.unsplash.com/photo-1526628953301-4458c87d98a9?w=800&h=400&fit=crop)
 |-------|------|----------|
 | CO2 | 10,600nm | 피부, 미용 |
 | Nd:YAG | 1,064nm | 깊은 조직 |
@@ -1306,7 +1310,8 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
       content: `## 툴레(Thule)란?
 
 고대 그리스와 로마인들에게 "툴레"는 세상의 끝, 가장 북쪽에 있는 신비로운 땅이었습니다.
-![툴레(Thule)란?](https://images.unsplash.com/photo-1513475561655-a26a7e0ea860?w=800&h=400&fit=crop)
+
+![북극의 신비로운 풍경](https://images.unsplash.com/photo-1513475561655-a26a7e0ea860?w=800&h=400&fit=crop)
 
 ### 전설 속 툴레
 - 세상의 북쪽 끝
@@ -1361,7 +1366,8 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 시계의 역사:
 - 해시계 → 물시계 → 기계시계 → 쿼츠 → 원자시계
-![시간을 재는 방법](https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=400&fit=crop)
+
+![정밀한 시계 메커니즘](https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&h=400&fit=crop)
 
 현재 가장 정확한 것은 원자시계입니다.
 
@@ -1418,7 +1424,8 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
       content: `## 산업용 레이저
 
 공장에서 금속을 자르고, 용접하고, 마킹하는 데 레이저가 사용됩니다. 그중 파이버 레이저가 가장 주목받고 있어요.
-![산업용 레이저](https://images.unsplash.com/photo-1513542789411-b6a5d3bcf632?w=800&h=400&fit=crop)
+
+![첨단 산업용 레이저 장비](https://images.unsplash.com/photo-1513542789411-b6a5d3bcf632?w=800&h=400&fit=crop)
 
 ## 파이버 레이저란?
 
@@ -1480,8 +1487,9 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 이테르비에서 이름을 딴 4개 원소 중 이터븀은 가장 나중에 발견되었습니다.
 
+![이테르비 광물 연구의 역사](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
+
 | 원소 | 발견 연도 | 발견자 |
-![4형제의 막내](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
 |-----|----------|-------|
 | 이트륨 | 1794 | 가돌린 |
 | 테르븀 | 1843 | 모산데르 |
@@ -1534,10 +1542,11 @@ EDFA = Erbium-Doped Fiber Amplifier (어븀 첨가 광섬유 증폭기)
 
 PET(양전자 방출 단층촬영)은 암 진단에 필수적인 검사입니다:
 - 방사성 포도당 주사
-![PET 스캔이란?](https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=400&fit=crop)
 - 암세포가 포도당을 많이 흡수
 - 방출되는 감마선 검출
 - 암 위치 파악
+
+![PET-CT 의료 영상 장비](https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=400&fit=crop)
 
 ## 감마선을 어떻게 볼까?
 
@@ -1591,12 +1600,13 @@ LYSO 검출기 덕분에:
 
 기존 방사선 치료:
 - 외부에서 방사선 조사
-![표적 방사선 치료](https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=800&h=400&fit=crop)
 - 정상 조직도 피해
 
 표적 방사선 치료:
 - 방사성 물질이 암세포로 이동
 - 암세포만 집중 공격
+
+![암 치료를 위한 방사선 치료 장비](https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=800&h=400&fit=crop)
 
 ## 루테튬-177의 특징
 
@@ -1649,9 +1659,10 @@ LYSO 검출기 덕분에:
 
 고대 로마 시대, 지금의 파리는 "루테티아"라고 불렸습니다:
 - 센 강변의 작은 도시
-![루테티아(Lutetia)](https://images.unsplash.com/photo-1525031173046-3abd94b4a43b?w=800&h=400&fit=crop)
 - 갈리아 지방의 중심지
 - 나중에 "파리"로 이름 변경
+
+![파리의 아름다운 도시 풍경](https://images.unsplash.com/photo-1525031173046-3abd94b4a43b?w=800&h=400&fit=crop)
 
 ## 루테튬의 발견
 
@@ -1709,10 +1720,11 @@ LYSO 검출기 덕분에:
 "반도체 집적도는 2년마다 2배로 증가한다" - 무어의 법칙
 
 하지만 2000년대 중반, 위기가 왔습니다:
-![무어의 법칙과 위기](https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop)
 - 트랜지스터가 너무 작아짐
 - 기존 절연체(실리콘 산화물)가 너무 얇아짐
 - 전류 누설 발생
+
+![반도체 칩의 미세한 회로 구조](https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&h=400&fit=crop)
 
 ## 구원자 하프늄
 
@@ -1765,9 +1777,10 @@ LYSO 검출기 덕분에:
 
 원자력 잠수함은 핵반응로로 움직입니다:
 - 연료 재보급 없이 수십 년 운항
-![바닷속의 원자로](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&h=400&fit=crop)
 - 은밀한 잠항 가능
 - 강력한 추진력
+
+![해저를 항해하는 잠수함](https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=800&h=400&fit=crop)
 
 하지만 좁은 잠수함 안에서 원자로를 제어하려면?
 
@@ -1819,7 +1832,8 @@ LYSO 검출기 덕분에:
       content: `## 오래 기다린 원소
 
 멘델레예프가 주기율표를 만들 때(1869년), 72번 원소 자리는 비어 있었습니다. 50년 넘게 과학자들이 찾았지만 실패했죠.
-![오래 기다린 원소](https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&h=400&fit=crop)
+
+![주기율표와 과학 연구](https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?w=800&h=400&fit=crop)
 
 ## 닐스 보어의 예언
 
@@ -1870,9 +1884,10 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 커패시터(축전기)는 전기를 저장하는 부품입니다:
 - 전기를 모았다가 방출
-![커패시터란?](https://images.unsplash.com/photo-1508138221679-760a23a2285b?w=800&h=400&fit=crop)
 - 전압 안정화
 - 노이즈 필터링
+
+![전자 부품과 회로 기판](https://images.unsplash.com/photo-1508138221679-760a23a2285b?w=800&h=400&fit=crop)
 
 스마트폰 하나에 수백 개가 들어가요!
 
@@ -1927,9 +1942,10 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 몸속에 금속을 넣으면:
 - 면역 반응 (거부)
-![생체적합성이란?](https://images.unsplash.com/photo-1534670007418-fce0ec30dd04?w=800&h=400&fit=crop)
 - 부식
 - 독성 물질 방출
+
+![의료용 임플란트와 인공 관절](https://images.unsplash.com/photo-1534670007418-fce0ec30dd04?w=800&h=400&fit=crop)
 
 생체적합성 좋은 재료는 이런 문제가 적어요.
 
@@ -1988,7 +2004,8 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
       content: `## 탄탈로스의 전설
 
 그리스 신화에서 탄탈로스는 제우스의 아들이었습니다.
-![탄탈로스의 전설](https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=800&h=400&fit=crop)
+
+![그리스 신화의 세계](https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?w=800&h=400&fit=crop)
 
 ### 그의 죄
 - 신들의 비밀을 인간에게 누설
@@ -2040,7 +2057,8 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
       content: `## 전구의 역사
 
 1879년, 에디슨이 실용적인 백열전구를 발명했습니다. 하지만 초기 필라멘트는 탄소였고, 수명이 짧았어요.
-![전구의 역사](https://images.unsplash.com/photo-1546514714-5f0f933c8c6d?w=800&h=400&fit=crop)
+
+![빛나는 백열전구](https://images.unsplash.com/photo-1546514714-5f0f933c8c6d?w=800&h=400&fit=crop)
 
 ## 왜 텅스텐인가?
 
@@ -2094,9 +2112,10 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 철갑탄이 장갑을 뚫으려면:
 - 높은 밀도 (운동에너지)
-![관통력의 비밀](https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=800&h=400&fit=crop)
 - 높은 경도 (변형 안 됨)
 - 고온에서도 강도 유지
+
+![군사 기술과 첨단 재료](https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=800&h=400&fit=crop)
 
 ## 텅스텐 카바이드
 
@@ -2148,7 +2167,8 @@ Hafnium ← Hafnia ← 코펜하겐의 라틴어 이름
 
 주기율표에서 텅스텐은 "W"입니다.
 Tungsten인데 왜 W?
-![이상한 원소기호](https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&h=400&fit=crop)
+
+![주기율표의 원소 기호들](https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&h=400&fit=crop)
 
 ## 두 개의 이름
 
@@ -2207,9 +2227,10 @@ Tungsten인데 왜 W?
 
 제트 엔진에서 가장 뜨거운 곳은 터빈입니다:
 - 연소 가스 온도: 1,500°C 이상
-![제트 엔진의 심장](https://images.unsplash.com/photo-1543872084-c7bd3f20bdf0?w=800&h=400&fit=crop)
 - 블레이드 회전 속도: 분당 10,000회 이상
 - 엄청난 원심력
+
+![제트 엔진의 정교한 터빈 구조](https://images.unsplash.com/photo-1543872084-c7bd3f20bdf0?w=800&h=400&fit=crop)
 
 어떤 금속이 이걸 견딜 수 있을까요?
 
@@ -2259,9 +2280,10 @@ Tungsten인데 왜 W?
 
 원유에서 휘발유를 뽑아내는 과정:
 1. 증류: 끓는점으로 분리
-![휘발유는 어떻게 만들어지나?](https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop)
 2. 크래킹: 큰 분자 쪼개기
 3. 리포밍: 분자 구조 바꾸기
+
+![정유 공장의 대규모 시설](https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop)
 
 레늄은 3번 과정에서 핵심!
 
@@ -2316,11 +2338,12 @@ Tungsten인데 왜 W?
 
 1925년, 주기율표에는 아직 빈칸이 있었습니다:
 - 43번 (테크네튬 - 자연에 없음)
-![빈칸 채우기](https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop)
 - 61번 (프로메튬 - 자연에 없음)
 - 75번 (?)
 - 85번 (아스타틴 - 극미량)
 - 87번 (프랑슘 - 극미량)
+
+![주기율표의 미완성 퍼즐](https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop)
 
 ## 레늄의 발견
 
@@ -2371,7 +2394,8 @@ X선 분광법이 발명되고 나서야 발견 가능
       content: `## 밀도의 챔피언
 
 오스뮴의 밀도: 22.59 g/cm³
-![밀도의 챔피언](https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=800&h=400&fit=crop)
+
+![밀도가 높은 금속의 무게감](https://images.unsplash.com/photo-1551033406-611cf9a28f67?w=800&h=400&fit=crop)
 
 ### 비교하면
 | 물질 | 밀도 (g/cm³) |
@@ -2430,9 +2454,10 @@ X선 분광법이 발명되고 나서야 발견 가능
 
 만년필 펜촉의 조건:
 - 종이에 부드럽게 미끄러짐
-![만년필의 심장, 펜촉](https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&h=400&fit=crop)
 - 오래 써도 닳지 않음
 - 잉크와 반응하지 않음
+
+![고급 만년필의 정교한 펜촉](https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&h=400&fit=crop)
 
 ## 이리듐과 오스뮴
 
@@ -2485,7 +2510,8 @@ X선 분광법이 발명되고 나서야 발견 가능
       content: `## 이상한 이름
 
 오스뮴(Osmium)은 그리스어 "osme(냄새)"에서 왔습니다. 왜 금속에 "냄새"라는 이름을?
-![이상한 이름](https://images.unsplash.com/photo-1475669698648-2f5c4b0c9b5c?w=800&h=400&fit=crop)
+
+![화학 실험실에서의 원소 발견](https://images.unsplash.com/photo-1475669698648-2f5c4b0c9b5c?w=800&h=400&fit=crop)
 
 ## 발견의 순간
 
@@ -2542,9 +2568,10 @@ OsO4 (사산화오스뮴)의 특징:
 
 6,600만 년 전, 지구에 대멸종이 일어났습니다:
 - 공룡 멸종
-![K-Pg 경계](https://images.unsplash.com/photo-1567095761054-7a02e1e7b34d?w=800&h=400&fit=crop)
 - 전체 종의 75% 사라짐
 - 백악기-팔레오기 경계
+
+![공룡 화석과 고대 지층](https://images.unsplash.com/photo-1567095761054-7a02e1e7b34d?w=800&h=400&fit=crop)
 
 무슨 일이 있었을까요?
 
@@ -2595,7 +2622,8 @@ OsO4 (사산화오스뮴)의 특징:
 
 2019년 이전, 1kg의 정의:
 "국제 킬로그램 원기의 질량"
-![킬로그램의 정의](https://images.unsplash.com/photo-1486473899456-efc9c064de01?w=800&h=400&fit=crop)
+
+![정밀 측정과 과학 표준](https://images.unsplash.com/photo-1486473899456-efc9c064de01?w=800&h=400&fit=crop)
 
 그게 뭔가요?
 
@@ -2652,9 +2680,10 @@ OsO4 (사산화오스뮴)의 특징:
 
 그리스 신화의 이리스:
 - 무지개의 여신
-![이리스(Iris)](https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop)
 - 신들의 전령
 - 하늘과 땅을 잇는 존재
+
+![아름다운 무지개 빛깔](https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=800&h=400&fit=crop)
 
 왜 금속에 무지개 여신의 이름을?
 
@@ -2710,9 +2739,10 @@ OsO4 (사산화오스뮴)의 특징:
 
 자동차 연소 시 나오는 유해 물질:
 - 일산화탄소(CO) - 독성
-![배기가스의 위험](https://images.unsplash.com/photo-1573767606192-3d3d70d79eba?w=800&h=400&fit=crop)
 - 질소산화물(NOx) - 스모그 원인
 - 탄화수소(HC) - 발암물질
+
+![자동차 배기구와 환경 오염](https://images.unsplash.com/photo-1573767606192-3d3d70d79eba?w=800&h=400&fit=crop)
 
 이것들을 어떻게 처리할까요?
 
@@ -2769,9 +2799,10 @@ OsO4 (사산화오스뮴)의 특징:
 
 1965년, 미시간 주립대의 바넷 로젠버그:
 - 전기장이 세균에 미치는 영향 연구
-![우연한 발견](https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=400&fit=crop)
 - 백금 전극 사용
 - 세균 분열이 멈추는 것 발견!
+
+![과학 실험실에서의 세균 연구](https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=400&fit=crop)
 
 원인은 전극에서 녹아 나온 백금 화합물이었어요.
 
@@ -2825,9 +2856,10 @@ OsO4 (사산화오스뮴)의 특징:
 
 Platinum의 어원:
 - 스페인어 "platina"
-![플라티나의 기원](https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?w=800&h=400&fit=crop)
 - "plata(은)" + "-ina(작은)"
 - 즉, "작은 은" 또는 "은 같은 것"
+
+![은빛 광택의 귀금속](https://images.unsplash.com/photo-1520453803296-c39eabe2dab4?w=800&h=400&fit=crop)
 
 ## 스페인 정복자들의 좌절
 
@@ -2883,10 +2915,11 @@ Platinum의 어원:
 
 금속들의 색:
 - 철: 은색
-![금색의 미스터리](https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=400&fit=crop)
 - 구리: 붉은색
 - 은: 은색
 - 금: 노란색!
+
+![빛나는 금의 아름다운 색상](https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=800&h=400&fit=crop)
 
 왜 금만 노란색일까요?
 
@@ -2936,9 +2969,10 @@ Platinum의 어원:
 
 연금술(Alchemy)의 목표:
 - 비금속을 금으로 변환
-![연금술의 역사](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop)
 - "현자의 돌" 발견
 - 불로불사의 영약
+
+![고대 연금술 실험실](https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=400&fit=crop)
 
 수천 년간 인류의 꿈이었습니다.
 
@@ -2996,9 +3030,10 @@ Platinum의 어원:
 
 올림픽 금메달의 실제 구성:
 - 은: 약 92.5%
-![금메달의 비밀](https://images.unsplash.com/photo-1501426026921-e960c18a0f8c?w=800&h=400&fit=crop)
 - 금: 약 1.2% (도금)
 - 기타: 구리 등
+
+![올림픽 메달의 영광스러운 순간](https://images.unsplash.com/photo-1501426026921-e960c18a0f8c?w=800&h=400&fit=crop)
 
 순금이 아니에요!
 
@@ -3058,8 +3093,9 @@ Platinum의 어원:
 
 상온에서 액체인 원소:
 - 수은 (금속) - 녹는점 -39°C
-![액체 금속?](https://images.unsplash.com/photo-1465146633927-f9f7533d9f3f?w=800&h=400&fit=crop)
 - 브로민 (비금속) - 녹는점 -7°C
+
+![은빛으로 빛나는 액체 수은](https://images.unsplash.com/photo-1465146633927-f9f7533d9f3f?w=800&h=400&fit=crop)
 
 금속 중에는 수은이 유일!
 
@@ -3114,9 +3150,10 @@ Platinum의 어원:
 
 수은 온도계가 작동하는 이유:
 - 수은이 열을 받으면 팽창
-![수은 온도계의 원리](https://images.unsplash.com/photo-1496065187959-7f4b25db5deb?w=800&h=400&fit=crop)
 - 좁은 유리관 속 수은 기둥 상승
 - 눈금으로 온도 확인
+
+![유리 온도계의 정밀한 눈금](https://images.unsplash.com/photo-1496065187959-7f4b25db5deb?w=800&h=400&fit=crop)
 
 단순하지만 정확해서 오래 사용되었어요.
 
@@ -3173,7 +3210,8 @@ Platinum의 어원:
       content: `## Mercury (머큐리)
 
 수은의 영어 이름 Mercury는 로마 신화에서 왔습니다.
-![Mercury (머큐리)](https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&h=400&fit=crop)
+
+![로마 신화의 전령신 메르쿠리우스](https://images.unsplash.com/photo-1512428559087-560fa5ceab42?w=800&h=400&fit=crop)
 
 ### 메르쿠리우스
 - 로마의 전령 신

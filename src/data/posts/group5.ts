@@ -1216,7 +1216,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 그녀들의 희생이 오늘날 우리를 보호하고 있습니다.`,
       tags: ['라듐걸스', '노동자', '역사', '안전', '방사능'],
-      image: 'https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581093458791-9d42e1540f50?w=800&h=400&fit=crop',
     },
     {
       slug: 'radium-curie-discovery',
@@ -1454,7 +1454,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 악티늄-225(Ac-225)가 암 치료 분야에서 큰 주목을 받고 있습니다. 아스타틴-211과 함께 "표적 알파 치료(TAT)"의 핵심 후보이죠.
 
-![악티늄-225](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
+![악티늄-225](https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop)
 
 ## 악티늄-225의 장점
 
@@ -1557,7 +1557,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 1880년대, 전기 조명은 아직 보급되지 않았습니다. 가스등을 사용했지만 밝기가 부족했어요.
 
-![가로등을 밝힌 토륨](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![가로등을 밝힌 토륨](https://images.unsplash.com/photo-1495364037436-fed1ba81ad3e?w=800&h=400&fit=crop)
 
 ## 가스 맨틀의 발명
 
@@ -1590,7 +1590,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 토륨(Thorium)은 북유럽 신화의 천둥신 토르(Thor)의 이름에서 왔습니다.
 
-![천둥의 신 토르와 토륨](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![천둥의 신 토르와 토륨](https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=800&h=400&fit=crop)
 
 토르는 마블 영화로도 유명하죠!
 
@@ -1660,7 +1660,7 @@ Proto(먼저) + Actinium = Protactinium
 
 리제 마이트너(1878-1968)는 오스트리아 출신의 물리학자입니다.
 
-![리제 마이트너와 프로탁티늄](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![리제 마이트너와 프로탁티늄](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
 
 그녀의 업적:
 - 핵분열 최초 이론적 설명
@@ -1698,7 +1698,7 @@ Proto(먼저) + Actinium = Protactinium
 
 불안정한 원자핵은 방사선을 내보내며 다른 원소로 변합니다.
 
-![프로탁티늄](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![프로탁티늄](https://images.unsplash.com/photo-1635070041409-e63e783ce3b0?w=800&h=400&fit=crop)
 
 ## 악티늄 계열
 
@@ -1766,7 +1766,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 옐로케이크는 우라늄 정광의 별명입니다. 실제로 노란색 파우더처럼 생겼어요.
 
-![옐로케이크](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![옐로케이크](https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&h=400&fit=crop)
 
 ## 왜 노란색?
 
@@ -1802,7 +1802,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 1781년, 윌리엄 허셜이 새로운 행성을 발견했습니다.
 "우라누스(Uranus)"라고 명명되었죠.
 
-![우라늄](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![우라늄](https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=800&h=400&fit=crop)
 
 ## 우라늄의 발견
 
@@ -1868,7 +1868,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 원자력 발전소에서 사용된 연료에는 방사성 물질이 포함됩니다.
 
-![넵투늄](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![넵투늄](https://images.unsplash.com/photo-1605711285791-0219e80e43a3?w=800&h=400&fit=crop)
 
 ## 넵투늄-237의 문제
 
@@ -1895,7 +1895,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 미국의 물리학자, 1951년 노벨 화학상 수상.
 
-![맥밀런과 넵투늄 발견 이야기](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![맥밀런과 넵투늄 발견 이야기](https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop)
 
 ## 1940년, 버클리
 
@@ -1954,7 +1954,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 태양에서 멀면 태양 전지가 작동하지 않습니다.
 
-![우주를 밝히는 플루토늄 배터리](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![우주를 밝히는 플루토늄 배터리](https://images.unsplash.com/photo-1446776811648-aa78eefe8ed0?w=800&h=400&fit=crop)
 
 ## RTG: 방사성동위원소 열전기 발전기
 
@@ -1981,7 +1981,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 역사상 가장 많은 원소를 발견한 사람!
 1951년 노벨 화학상 수상.
 
-![시보그와 플루토늄의 발견](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![시보그와 플루토늄의 발견](https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800&h=400&fit=crop)
 
 ## 플루토늄 발견 (1940-41)
 
@@ -2038,7 +2038,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 글렌 시보그 팀이 시카고 대학에서 발견했습니다.
 
-![아메리카의 이름을 딴 원소](https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop)
+![아메리카의 이름을 딴 원소](https://images.unsplash.com/photo-1485081669829-bacb8c7bb1f3?w=800&h=400&fit=crop)
 
 ## 이름의 유래
 
@@ -2066,7 +2066,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 Am-241의 감마선으로 골밀도 측정.
 골다공증 진단에 활용됩니다.
 
-![아메리슘의 다양한 응용](https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop)
+![아메리슘의 다양한 응용](https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=800&h=400&fit=crop)
 
 ## 산업적 용도
 
@@ -2134,7 +2134,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 NASA의 화성 탐사 로버들은 APXS라는 장비를 가지고 있습니다.
 Alpha Particle X-ray Spectrometer의 약자예요.
 
-![퀴륨이 화성에서 하는 일](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![퀴륨이 화성에서 하는 일](https://images.unsplash.com/photo-1608889476518-738c9b1c9b56?w=800&h=400&fit=crop)
 
 ## APXS의 작동 원리
 
@@ -2175,7 +2175,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 순수한 퀴륨은 어둠 속에서 보랏빛으로 빛납니다!
 
-![어둠 속에서 빛나는 퀴륨](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![어둠 속에서 빛나는 퀴륨](https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=400&fit=crop)
 
 ## 왜 빛날까?
 
@@ -2263,7 +2263,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 버클륨-249의 가격:
 **1그램당 약 270억 원!**
 
-![세상에서 가장 비싼 물질 중 하나](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![세상에서 가장 비싼 물질 중 하나](https://images.unsplash.com/photo-1635241161466-541f065683ba?w=800&h=400&fit=crop)
 
 다이아몬드의 수십만 배입니다.
 
@@ -2309,7 +2309,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 2010년, 과학자들은 117번 원소를 만들고 싶었습니다.
 필요한 재료: 버클륨-249
 
-![버클륨으로 새 원소를 만들다](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![버클륨으로 새 원소를 만들다](https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=800&h=400&fit=crop)
 
 ## 버클륨 조달 작전
 
@@ -2396,7 +2396,7 @@ California + -ium = Californium
 캘리포늄-252는 스스로 핵분열하며 중성자를 방출합니다.
 1μg(백만분의 1그램)에서 초당 230만 개의 중성자!
 
-![캘리포늄](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
+![캘리포늄](https://images.unsplash.com/photo-1581092918484-8313b8f181a4?w=800&h=400&fit=crop)
 
 ## 왜 중요할까?
 
@@ -2443,7 +2443,7 @@ California + -ium = Californium
 방사선 치료의 한 종류입니다.
 중성자를 암세포에 쏘아 파괴해요.
 
-![캘리포늄으로 암을 치료한다?](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
+![캘리포늄으로 암을 치료한다?](https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop)
 
 ## 캘리포늄의 장점
 
@@ -2536,7 +2536,7 @@ E=mc² 공식의 주인공이죠.
 
 20세기 최고의 물리학자 중 한 명입니다.
 
-![아인슈타인의 이름을 딴 원소](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![아인슈타인의 이름을 딴 원소](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
 
 주요 업적:
 - 특수상대성이론 (E=mc²)
@@ -2583,7 +2583,7 @@ E=mc²는 질량이 에너지로 변환될 수 있음을 보여줍니다.
 아인슈타이늄은 원자로에서 만들어야 합니다.
 연간 생산량: 약 1mg (밀리그램!)
 
-![아인슈타이늄 연구의 어려움](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![아인슈타이늄 연구의 어려움](https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800&h=400&fit=crop)
 
 ## 연구의 도전
 
@@ -2678,7 +2678,7 @@ Es-253의 반감기는 20일!
 페르뮴은 원자번호 100번입니다.
 딱 떨어지는 숫자라 기억하기 쉽죠!
 
-![100번째 원소, 페르뮴](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![100번째 원소, 페르뮴](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
 
 ## 원소의 확장
 
@@ -2725,7 +2725,7 @@ Es-253의 반감기는 20일!
 더 무거운 원소를 만들려면 가벼운 원소를 합쳐야 합니다.
 페르뮴은 그 재료가 될 수 있어요.
 
-![페르뮴](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![페르뮴](https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=800&h=400&fit=crop)
 
 ## 노벨륨의 합성
 

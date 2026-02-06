@@ -1,0 +1,47 @@
+Session Log — 2026-02-07 03:00~03:35
+=========================================
+
+## 이전 세션 복원
+
+컨텍스트 압축으로부터 복원. 이전 세션에서 /save가 미완료 상태였으므로 이어서 완료:
+- NOTES.md에 2차 콘텐츠 리뷰 진행 항목 + 의사결정 2건 추가
+- logs/session-2026-02-07-05.txt 세션 로그 생성
+
+## 2차 콘텐츠 리뷰 커밋/푸시
+
+사용자 요청으로 커밋 및 푸시 진행:
+- 커밋 `bde8877`: 2차 콘텐츠 리뷰 22개 수정 + review2_batch_{1-6}.json + 세션 로그
+- 스테이징 파일: src/data/elements.ts, NOTES.md, logs/session-2026-02-07-05.txt, results/review2_batch_{1-6}.json
+- 푸시: origin/main → Cloudflare 자동 배포
+
+## 커스텀 Favicon 작업
+
+### 사용자 요청
+브라우저 탭의 favicon이 모든 프로젝트에서 동일한 Next.js 기본 아이콘(검은 원 + 흰 삼각형)임.
+"만약..." 사이트 컨셉에 맞는 아이콘으로 교체 요청.
+
+### 접근 1: icon.tsx (실패)
+- Next.js App Router의 `icon.tsx` + `ImageResponse`로 동적 생성 시도
+- `apple-icon.tsx`도 함께 생성
+- **빌드 실패**: `output: "export"` (정적 빌드)에서는 동적 라우트(/icon) 미지원
+- 에러: `export const dynamic = "force-static"/export const revalidate not configured on route "/icon"`
+
+### 접근 2: icon.svg (성공)
+- icon.tsx, apple-icon.tsx 삭제
+- `src/app/icon.svg` 생성 (정적 파일이므로 static export 호환)
+- 디자인: 32x32 rounded rect, orange→pink 그라데이션 (#fb923c → #f472b6), 흰색 "?" 텍스트
+- 빌드 성공: out/icon.svg 정상 생성, HTML에서 icon.svg 참조 확인
+
+### 커밋/푸시
+- 커밋 `0548a54`: favicon.ico 삭제 + icon.svg 추가
+- 푸시: origin/main
+
+### 학습 포인트
+- Next.js static export(`output: "export"`)에서는 `icon.tsx`/`apple-icon.tsx` 동적 생성 불가
+- `icon.svg`는 정적 파일로 정상 작동
+- SVG favicon은 대부분의 모던 브라우저에서 지원됨
+
+## 수정된 파일
+- src/app/favicon.ico (삭제)
+- src/app/icon.svg (생성)
+- NOTES.md (진행 항목 추가)

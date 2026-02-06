@@ -38,7 +38,7 @@ export const group6Posts: Record<string, Post[]> = {
 - 악티늄족 원소
 - 지금까지 극소량만 생성됨`,
       tags: ['멘델레예프', '주기율표', '악티늄족', '냉전', '과학사'],
-      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=400&fit=crop',
     },
     {
       slug: 'mendelevium-17-atoms-discovery',
@@ -598,9 +598,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 글렌 시보그(Glenn Seaborg)는 10개의 원소 발견에 참여한 전설적인 화학자입니다.
 
-![노벨상 메달의 클로즈업 사진](https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop)
-
-
 그가 발견에 기여한 원소들:
 - 플루토늄(94)
 - 아메리슘(95)
@@ -640,9 +637,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
       content: `## 1940년대의 혼란
 
 1940년대, 과학자들은 새로 발견된 초우라늄 원소들을 어디에 놓아야 할지 몰랐습니다.
-
-![책상 위에 펼쳐진 주기율표 포스터](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
-
 
 당시 주기율표에서 우라늄은 전이금속으로 분류되어 있었습니다. 넵투늄, 플루토늄도 같은 줄에 넣어야 할까요?
 
@@ -685,9 +679,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 몰리브덴(Mo)
 - 텅스텐(W)
 - 시보귬(Sg)
-
-![은색 금속 표면의 반짝이는 질감](https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop)
-
 
 이론적으로 시보귬은 텅스텐과 유사한 화학적 성질을 가져야 합니다.
 
@@ -819,9 +810,6 @@ GSI는 새로운 방법론을 개발했습니다:
 - 레늄(Re)
 - 보륨(Bh)
 
-![실험실 테이블에 놓인 다양한 유리 비커](https://images.unsplash.com/photo-1581093458791-9d42e0c95a8f?w=800&h=400&fit=crop)
-
-
 이론적으로 보륨은 레늄과 비슷한 화학적 성질을 가져야 합니다.
 
 ## 레늄의 특성
@@ -903,9 +891,6 @@ BhO3Cl 화합물 형성 확인!
 
 오스뮴의 밀도: 22.59 g/cm³
 
-![무겁고 밀도높은 금속의 반짝이는 표면](https://images.unsplash.com/photo-1533042789716-e9a9c97cf4ee?w=800&h=400&fit=crop)
-
-
 오스뮴의 밀도: 22.59 g/cm³
 
 물의 22배 이상 무겁습니다!
@@ -946,9 +931,6 @@ BhO3Cl 화합물 형성 확인!
 하슘의 화학을 연구하는 것은 거의 불가능해 보였습니다. 반감기가 10초도 안 되고, 한 번에 몇 개밖에 만들 수 없으니까요.
 
 하지만 2001년, 국제 연구팀이 도전했습니다.
-
-![첨단 분석 장비가 있는 연구실](https://images.unsplash.com/photo-1581093458791-9d42e0c95a8f?w=800&h=400&fit=crop)
-
 
 하지만 2001년, 국제 연구팀이 도전했습니다.
 
@@ -1080,9 +1062,6 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
 
-![은색으로 반짝이는 귀금속의 표면](https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop)
-
-
 마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
 
 ## 이리듐의 특성
@@ -1125,9 +1104,6 @@ BhO3Cl 화합물 형성 확인!
 다름슈타트는 독일 헤센주에 위치한 도시입니다. 인구 약 16만 명의 이 도시는 과학과 기술로 유명하죠.
 
 유네스코 문학의 도시로 지정될 만큼 예술적 전통도 깊습니다.
-
-![독일의 전통적인 도시 건축물](https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&h=400&fit=crop)
-
 
 유네스코 문학의 도시로 지정될 만큼 예술적 전통도 깊습니다.
 
@@ -1584,7 +1560,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 니호늄은 과학에서 인내와 집념이 얼마나 중요한지를 보여주는 완벽한 예입니다.`,
       tags: ['모리타코스케', 'RIKEN', '인내', '연구', '발견과정'],
-      image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop',
     },
     {
       slug: 'nihonium-thallium-comparison',
@@ -1629,7 +1605,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 더 많은 원자를 생성하고, 더 빠른 화학 분석 기술을 개발해야 니호늄의 진정한 성질을 알 수 있을 것입니다.`,
       tags: ['탈륨', '13족', '화학적성질', '산화상태', '예측'],
-      image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1554475900-4e0c5c8577c6?w=800&h=400&fit=crop',
     },
   ],
   Fl: [
@@ -1717,7 +1693,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 상대론적 효과가 원소의 근본적인 성질까지 바꿀 수 있음을 보여주는 흥미로운 사례입니다.`,
       tags: ['납', '14족', '상대론적효과', '비활성기체', '화학실험'],
-      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-island-of-stability',
@@ -1754,7 +1730,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 언젠가 정말로 오래 사는 초중원소를 만들 수 있을까요? 플레로븀이 그 가능성을 열어주었습니다.`,
       tags: ['안정성의섬', '마법의수', '핵물리학', '동위원소', '미래연구'],
-      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
     },
   ],
   Mc: [
@@ -1827,7 +1803,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 실제 원소 115는 SF 영화처럼 신비하지 않습니다. 하지만 그 자체로 과학의 경이로운 성과입니다.`,
       tags: ['음모론', 'UFO', '밥라자르', '과학적사실', '미신'],
-      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-bismuth-comparison',
@@ -1874,7 +1850,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 안타깝게도 우리는 그것을 절대 볼 수 없을 것입니다. 반감기가 너무 짧아 결정이 형성되기 전에 붕괴해버리니까요.`,
       tags: ['비스무트', '15족', '결정', '화학적성질', '상상'],
-      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
     },
   ],
   Lv: [
@@ -1966,7 +1942,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 
 리버모륨은 너무 희귀하고 불안정해서 무기로 사용될 수 없습니다. 아이러니하게도, 가장 무거운 원소가 가장 안전합니다.`,
       tags: ['폴로늄', '16족', '방사능', '안전', '독살'],
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-fleeting-existence',
@@ -2007,7 +1983,7 @@ Lv-293 → Fl-289 → Cn-285 → ...
 
 이 짧은 존재가 주기율표를 채웁니다.`,
       tags: ['반감기', '붕괴', '찰나', '검출', '존재'],
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
   ],
   Ts: [
@@ -2091,7 +2067,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 117번에서 할로겐의 특성이 끝나는 걸까요?`,
       tags: ['할로겐', '17족', '금속성', '상대론적효과', '예측'],
-      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-berkelium-journey',
@@ -2133,7 +2109,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 냉전의 경쟁자들이 과학을 위해 손을 잡았습니다. 테네신은 이 협력의 결실입니다.`,
       tags: ['버클륨', '오크리지', '두브나', '협력', '희귀물질'],
-      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
     },
   ],
   Og: [
@@ -2171,7 +2147,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 하지만 갈수록 합성이 어려워집니다. 8주기 원소는 언제 발견될까요?`,
       tags: ['주기율표', '7주기', '마지막원소', '오가네시안', '미래'],
-      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-noble-gas-not',
@@ -2220,7 +2196,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 주기율표의 끝에서 화학은 새로운 영역으로 들어섭니다.`,
       tags: ['비활성기체', '18족', '고체', '전자구조', '상대론적효과'],
-      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-future-elements',
@@ -2272,7 +2248,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 오가네손은 끝이 아니라 새로운 시작입니다.`,
       tags: ['119번', '8주기', '미래', '도전', '안정성의섬'],
-      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
   ],
 };
