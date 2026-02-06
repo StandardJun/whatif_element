@@ -167,9 +167,12 @@ translations = {
 - [x] **결과 창에 포스트 미리보기** 섹션 추가
 - [x] **도감 창에 공유 버튼** 추가
 - [x] 빌드 테스트 통과 (595페이지 정적 생성)
-- [ ] Cloudflare Pages 배포 (GitHub 연동 필요)
+- [x] **AdSense 승인 대응 (1-6번)**: 개인정보처리방침, 이용약관, 소개/연락처 페이지, 글로벌 Footer, sitemap.xml/robots.txt, 메인 SEO 콘텐츠
+- [ ] **AdSense 승인 대응 (7번)**: 103개 원소 elementExtras 고유 콘텐츠 작성 (generic → 고유)
+- [ ] 빌드 재확인 (7번 완료 후)
+- [ ] GitHub Push → Cloudflare 자동 배포
 - [ ] 도메인 연결 (manyak.xyz)
-- [ ] Google AdSense 승인 대기
+- [ ] Google AdSense 재심사 요청
 
 ## 의사결정 기록
 | 날짜 | 결정 | 이유 |
@@ -327,9 +330,11 @@ translations = {
 
 ## 다음 단계
 1. ✅ 빌드 테스트 통과 (595페이지 정적 생성 확인)
-2. ⏳ GitHub Push → Cloudflare 자동 배포
-3. ⏳ 이미지 저장 기능 실제 기기 테스트
-4. ⏳ AdSense 승인 확인 요청
+2. ✅ AdSense 승인 대응 1-6번 완료 (정책페이지, Footer, SEO 등)
+3. ⏳ **AdSense 승인 대응 7번**: 103개 원소 elementExtras 고유 콘텐츠 (ELEMENT_EXTRAS_TASK.md 참조)
+4. ⏳ 빌드 재확인 + GitHub Push → Cloudflare 자동 배포
+5. ⏳ AdSense 재심사 요청
+6. ⏳ 이미지 저장 기능 실제 기기 테스트
 
 ## 향후 확장 계획
 사이트 구조 예시:
