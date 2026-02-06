@@ -11,8 +11,6 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 고대 이집트 벽화를 보면 눈을 짙게 그린 사람들이 많습니다. 남녀 모두 검은 아이라이너를 사용했죠. 이것이 바로 '콜(Kohl)'입니다.
 
-![이집트의 검은 눈](https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop)
-
 
 ## 콜의 정체
 
@@ -33,6 +31,8 @@ export const group3Part2Posts: Record<string, Post[]> = {
 - **의료**: 눈병 예방
 - **종교**: 악령 퇴치
 - **실용**: 햇빛 눈부심 감소
+
+![고대 이집트 벽화에 그려진 눈 화장](https://images.unsplash.com/photo-Z5glwhD3LH8?w=800&h=400&fit=crop)
 
 ## 현대 과학의 발견
 
@@ -72,7 +72,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 5000년 전 클레오파트라가 사용한 그 아이라이너, 오늘날까지 이어지고 있습니다.`,
       tags: ['화장품', '역사', '이집트', '클레오파트라', '고대'],
-      image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1587387119725-d3989af7579b?w=800&h=400&fit=crop',
     },
     {
       slug: 'antimony-flame-retardant-safety',
@@ -81,9 +81,6 @@ export const group3Part2Posts: Record<string, Post[]> = {
       content: `## 불이 나도 타지 않는 물질?
 
 비행기 좌석, 어린이 잠옷, 전선 피복... 이것들은 불에 잘 타지 않습니다. 화재 시 생명을 구할 수 있는 이 특성, 안티모니 덕분이에요!
-
-![불이 나도 타지 않는 물질?](https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop)
-
 
 ## 난연제란?
 
@@ -111,6 +108,8 @@ export const group3Part2Posts: Record<string, Post[]> = {
 - **건축**: 단열재, 벽지
 - **운송**: 비행기/자동차 내장재
 - **가구**: 매트리스, 소파
+
+![비행기 객실의 난연 처리된 좌석들](https://images.unsplash.com/photo-avvyNj7FWb8?w=800&h=400&fit=crop)
 
 ## 화재 안전 규정
 
@@ -145,7 +144,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 보이지 않는 곳에서 화재로부터 우리를 보호하는 원소, 안티모니입니다.`,
       tags: ['난연제', '안전', '화재예방', '소재', '화학'],
-      image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-Igct8iZucFI?w=800&h=400&fit=crop',
     },
     {
       slug: 'antimony-pewter-history-poison',
@@ -154,9 +153,6 @@ export const group3Part2Posts: Record<string, Post[]> = {
       content: `## 귀족의 식기, 백랍
 
 중세와 르네상스 시대, 부유한 가문들은 '퓨터(Pewter, 백랍)'로 만든 식기를 사용했습니다. 은처럼 빛나면서도 훨씬 저렴했거든요.
-
-![귀족의 식기, 백랍](https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop)
-
 
 ## 백랍의 구성
 
@@ -179,6 +175,8 @@ export const group3Part2Posts: Record<string, Post[]> = {
 - 토마토 소스
 
 산성 음식이 백랍과 반응하면 안티모니와 납이 녹아 나왔어요!
+
+![화려한 장식의 금속 고블릿 잔](https://images.unsplash.com/photo-8yeyzVfMv0M?w=800&h=400&fit=crop)
 
 ## 만성 중독 증상
 
@@ -224,7 +222,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 역사의 교훈으로 우리는 더 안전한 식기를 사용하게 되었습니다.`,
       tags: ['역사', '독성', '식기', '중세', '건강'],
-      image: 'https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1536522731787-946bb93f8089?w=800&h=400&fit=crop',
     },
   ],
   Te: [
@@ -235,9 +233,6 @@ export const group3Part2Posts: Record<string, Post[]> = {
       content: `## 태양전지의 진화
 
 지붕 위의 태양광 패널, 대부분 실리콘으로 만들어집니다. 하지만 더 저렴한 대안이 있어요. 바로 카드뮴 텔루라이드(CdTe) 박막 태양전지!
-
-![태양전지의 진화](https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop)
-
 
 ## 박막 태양전지란?
 
@@ -269,6 +264,8 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 - 연구실 최고: 22.1%
 
 실리콘과의 격차를 점점 좁히고 있어요!
+
+![태양광 패널이 설치된 지붕의 모습](https://images.unsplash.com/photo-L9LrBpNY5sw?w=800&h=400&fit=crop)
 
 ## 퍼스트 솔라의 성공
 
@@ -303,7 +300,7 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 지구의 희귀한 원소가 태양의 에너지를 잡는 데 쓰이고 있습니다!`,
       tags: ['태양전지', '신재생에너지', '박막', '그린테크', '반도체'],
-      image: 'https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&h=400&fit=crop',
     },
     {
       slug: 'tellurium-garlic-smell-body',
@@ -312,9 +309,6 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
       content: `## 텔루륨의 저주
 
 텔루륨을 다루는 과학자들에게는 오래된 고민이 있었습니다. 실험 후 몸에서 강한 마늘 냄새가 나기 시작하고, 몇 주에서 몇 달이나 지속된다는 거예요!
-
-![텔루륨의 저주](https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop)
-
 
 ## 텔루륨 호흡(Tellurium Breath)
 
@@ -336,6 +330,8 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 - 마늘의 냄새 성분과 구조가 유사
 
 마늘에는 황(S) 화합물이 있는데, 텔루륨(Te)은 황과 같은 족이라서 비슷한 화합물을 만들어요!
+
+![하얀 표면 위의 마늘 알](https://images.unsplash.com/photo-gKt9wZp2ujU?w=800&h=400&fit=crop)
 
 ## 검출의 역설
 
@@ -374,7 +370,7 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 희귀한 원소에 대한 희귀한 저주, 텔루륨의 마늘 냄새입니다.`,
       tags: ['독성', '화학', '냄새', '연구', '안전'],
-      image: 'https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1559181567-c3190ca9959b?w=800&h=400&fit=crop',
     },
     {
       slug: 'tellurium-earth-name-rare',
@@ -383,9 +379,6 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
       content: `## 이름과 현실의 괴리
 
 텔루륨(Tellurium)은 라틴어 'tellus'에서 왔습니다. 뜻은 '지구'. 그런데 정작 지구에서 가장 희귀한 원소 중 하나예요!
-
-![이름과 현실의 괴리](https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop)
-
 
 ## 얼마나 희귀할까?
 
@@ -437,6 +430,8 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 트란실바니아의 텔루륨 광산은 사실 금 채굴이 목적이었어요!
 
+![광산 내부의 광물과 암석들](https://images.unsplash.com/photo-1595138394086-cf43c290d01e?w=800&h=400&fit=crop)
+
 ## 우주에서의 텔루륨
 
 텔루륨은 우주에서는 상대적으로 풍부합니다.
@@ -448,7 +443,7 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 가장 '지구적' 이름을 가진 원소가 가장 지구에 없는 원소라니, 아이러니하죠!`,
       tags: ['희소원소', '어원', '발견', '역사', '금'],
-      image: 'https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1609166214994-502d326bafee?w=800&h=400&fit=crop',
     },
   ],
   I: [
@@ -459,9 +454,6 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
       content: `## 갑상선종이란?
 
 목 앞쪽이 큰 공처럼 부푸는 병이 있습니다. 갑상선종(Goiter)이죠. 과거에는 매우 흔한 질병이었어요.
-
-![갑상선종이란?](https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop)
-
 
 ## 갑상선의 역할
 
@@ -493,6 +485,8 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 - 체중 증가
 - 추위에 민감
 - 아이: 성장/지능 발달 장애
+
+![의료진이 환자의 목 부위를 진찰하는 모습](https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=400&fit=crop)
 
 ## 요오드화 소금의 등장
 
@@ -528,7 +522,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 작은 원소 하나가 수백만 명의 건강을 지키고 있어요!`,
       tags: ['갑상선', '건강', '영양소', '소금', '의학'],
-      image: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
     },
     {
       slug: 'iodine-seaweed-purple-vapor',
@@ -537,9 +531,6 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
       content: `## 나폴레옹 전쟁 시대
 
 1811년, 프랑스는 화약 제조에 필요한 질산칼륨(초석)이 급히 필요했습니다. 화학자 베르나르 쿠르투아는 해초 재에서 추출을 연구하고 있었죠.
-
-![나폴레옹 전쟁 시대](https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop)
-
 
 ## 우연한 발견
 
@@ -572,6 +563,8 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 - 보라색 증기 발생
 
 밀폐 용기에서 아이오딘 결정 위로 보라색 안개가 피어오르는 모습은 매우 아름다워요!
+
+![보라색 연기가 피어오르는 모습](https://images.unsplash.com/photo-5JZXtQCjf0Y?w=800&h=400&fit=crop)
 
 ## 해초 속의 아이오딘
 
@@ -606,7 +599,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 보라색 증기로 시작된 발견, 오늘날 우리 건강을 지키고 있습니다.`,
       tags: ['발견', '역사', '해초', '화학', '승화'],
-      image: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-vRCUreFfomU?w=800&h=400&fit=crop',
     },
     {
       slug: 'iodine-wound-disinfection-history',
@@ -615,9 +608,6 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
       content: `## 빨간 약의 추억
 
 어린 시절 무릎을 깨면 엄마가 빨간 약을 발라주셨죠. 따끔했지만 상처가 곪지 않았습니다. 그 빨간 약의 정체는 아이오딘 팅크처(Tincture of Iodine)였어요.
-
-![빨간 약의 추억](https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop)
-
 
 ## 아이오딘의 살균력
 
@@ -653,6 +643,8 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 오늘날 가장 흔히 사용되는 형태죠.
 
+![손가락에 붙인 밴드에이드](https://images.unsplash.com/photo-SwWjCbIIoFE?w=800&h=400&fit=crop)
+
 ## 수술실에서의 활용
 
 아이오딘 소독제는 수술 전 피부 소독의 표준입니다.
@@ -686,7 +678,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 따끔한 빨간 약의 기억, 그것이 아이오딘이 우리를 지켜온 방법이었어요.`,
       tags: ['소독', '의학', '살균', '건강', '역사'],
-      image: 'https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1603398938378-e54eab446dde?w=800&h=400&fit=crop',
     },
   ],
   Xe: [
@@ -697,9 +689,6 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
       content: `## 마취의 역사
 
 수술은 마취 없이는 상상할 수 없습니다. 에테르, 클로로포름, 현대의 흡입 마취제까지... 하지만 모두 부작용이 있었어요.
-
-![마취의 역사](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop)
-
 
 ## 제논이 특별한 이유
 
@@ -732,6 +721,8 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 - 고령자 수술 (회복 빠름)
 - 뇌 손상 환자 (신경 보호)
 
+![수술실에서 의료진이 수술하는 모습](https://images.unsplash.com/photo-j55TmqkzQ4k?w=800&h=400&fit=crop)
+
 ## 치명적인 단점: 가격
 
 제논은 매우 비쌉니다.
@@ -761,7 +752,7 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 
 완벽에 가까운 마취제, 그 비용만 낮아진다면 수술의 미래가 바뀔 수 있습니다.`,
       tags: ['마취', '의학', '비활성기체', '수술', '미래의료'],
-      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=800&h=400&fit=crop',
     },
     {
       slug: 'xenon-ion-propulsion-space',
@@ -770,9 +761,6 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
       content: `## 화학 로켓의 한계
 
 전통적인 로켓은 화학 연료를 태웁니다. 강력하지만, 연료를 다 쓰면 끝이에요.
-
-![화학 로켓의 한계](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop)
-
 
 ### 화학 로켓의 문제
 - 엄청난 연료 필요
@@ -810,6 +798,8 @@ WHO에 따르면 요오드화 소금은 공중보건 역사상 가장 성공적�
 - 수 년간 계속 가속
 - 최종 속도는 화학 로켓의 10배!
 
+![우주를 날아가는 로켓과 인공위성](https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&h=400&fit=crop)
+
 마라톤 선수가 단거리 선수를 이기는 것과 같아요.
 
 ## 실제 미션들
@@ -837,7 +827,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 작은 원소가 우주의 문을 열고 있습니다!`,
       tags: ['이온엔진', '우주탐사', '추진체', 'NASA', '미래기술'],
-      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&h=400&fit=crop',
     },
     {
       slug: 'xenon-noble-gas-chemistry',
@@ -846,9 +836,6 @@ SF 영화 속 장면이 현실이 된 거예요.
       content: `## 절대 불변의 진리?
 
 "비활성 기체는 화학 반응을 하지 않는다"
-
-![절대 불변의 진리?](https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop)
-
 
 이것은 수십 년간 화학의 기본 원칙이었습니다. 가장 바깥 전자 껍질이 꽉 차 있으니, 다른 원자와 결합할 이유가 없다고요.
 
@@ -892,6 +879,8 @@ SF 영화 속 장면이 현실이 된 거예요.
 - 이온화 에너지가 상대적으로 낮음
 - 더 무거운 라돈도 반응하지만 방사성
 
+![화학 실험실의 플라스크와 비커들](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=400&fit=crop)
+
 ## 실용적 응용
 
 제논 화합물이 실제로 쓰이는 곳이 있습니다.
@@ -909,7 +898,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 항상 열린 마음으로 탐구하는 것, 그것이 과학의 정신입니다.`,
       tags: ['비활성기체', '화학반응', '발견', '역사', '과학혁명'],
-      image: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop',
     },
   ],
   Cs: [
@@ -920,8 +909,6 @@ SF 영화 속 장면이 현실이 된 거예요.
       content: `## 1초는 얼마나 정확할까?
 
 시계가 가리키는 1초, 그게 정확히 얼마인지 생각해본 적 있나요?
-
-![1초는 얼마나 정확할까?](https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop)
 
 
 ### 1967년 이전의 정의
@@ -976,13 +963,15 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 1나노초 오차 = 30cm 위치 오차. 정밀한 시간이 필수죠.
 
+![정밀한 시계와 시간 측정 장치](https://images.unsplash.com/photo-w2JtIQQXoRU?w=800&h=400&fit=crop)
+
 ## 미래의 시간
 
 광학 원자시계가 세슘을 대체할 수도 있습니다. 이터븀, 스트론튬 등이 후보예요.
 
 하지만 당분간, 세슘이 세계의 시간을 지키고 있습니다!`,
       tags: ['원자시계', '시간', 'GPS', '물리학', '정밀과학'],
-      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&h=400&fit=crop',
     },
     {
       slug: 'cesium-most-reactive-metal',
@@ -991,9 +980,6 @@ SF 영화 속 장면이 현실이 된 거예요.
       content: `## 알칼리 금속의 물 반응
 
 화학 시간에 나트륨을 물에 넣으면 불꽃이 튀는 실험, 본 적 있나요? 알칼리 금속들은 물과 격렬하게 반응합니다.
-
-![알칼리 금속의 물 반응](https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop)
-
 
 ## 반응의 격렬함 순위
 
@@ -1019,6 +1005,8 @@ SF 영화 속 장면이 현실이 된 거예요.
 ## 반응식
 
 2Cs + 2H₂O → 2CsOH + H₂ + 열
+
+![물에 떨어진 물방울이 튀는 모습과 파란 빛의 폭발](https://images.unsplash.com/photo-3k9PGKWt7ik?w=800&h=400&fit=crop)
 
 수소 가스가 발생하고, 엄청난 열이 나서 수소가 폭발합니다!
 
@@ -1058,7 +1046,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 세슘은 실험 가능한 가장 격렬한 금속입니다!`,
       tags: ['알칼리금속', '화학반응', '물', '폭발', '실험'],
-      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1628595351029-c2bf17511435?w=800&h=400&fit=crop',
     },
     {
       slug: 'cesium-chernobyl-fukushima-fallout',
@@ -1067,9 +1055,6 @@ SF 영화 속 장면이 현실이 된 거예요.
       content: `## 핵분열의 부산물
 
 우라늄이나 플루토늄이 핵분열할 때 다양한 원소가 만들어집니다. 그중 하나가 세슘-137입니다.
-
-![핵분열의 부산물](https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop)
-
 
 ### 세슘-137의 특성
 - 반감기: 30.17년
@@ -1094,6 +1079,8 @@ SF 영화 속 장면이 현실이 된 거예요.
 - 약 15페타베크렐 방출 (체르노빌의 약 1/6)
 - 해양 오염
 - 수산물 오염 우려
+
+![체르노빌 원전의 폐허](https://images.unsplash.com/photo-1650903908023-9cd5dec88086?w=800&h=400&fit=crop)
 
 ## 세슘이 위험한 이유
 
@@ -1130,7 +1117,7 @@ SF 영화 속 장면이 현실이 된 거예요.
 
 과학기술의 발전에는 항상 신중함이 필요합니다.`,
       tags: ['방사능', '핵사고', '체르노빌', '후쿠시마', '환경'],
-      image: 'https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1584364875850-3b8eeddf8495?w=800&h=400&fit=crop',
     },
   ],
   Ba: [
@@ -1141,8 +1128,6 @@ SF 영화 속 장면이 현실이 된 거예요.
       content: `## 보이지 않는 것을 보다
 
 X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 보입니다. 어떻게 하면 볼 수 있을까요?
-
-![보이지 않는 것을 보다](https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop)
 
 
 ## 바륨 조영제
@@ -1176,6 +1161,8 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 - 대장 용종
 - 장폐색
 - 게실(주머니 형성)
+
+![X선 필름을 확인하는 의사의 모습](https://images.unsplash.com/photo-_GpJpHnyCSw?w=800&h=400&fit=crop)
 
 ## 바륨 vs 내시경
 
@@ -1211,7 +1198,7 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 하얀 음료 한 잔이 의사에게 당신의 몸속을 보여줍니다!`,
       tags: ['조영제', 'X선', '의료검사', '위장', '진단'],
-      image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
     {
       slug: 'barium-fireworks-green',
@@ -1220,8 +1207,6 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
       content: `## 불꽃놀이의 색
 
 화려한 불꽃놀이의 색은 어떻게 만들어질까요? 각 색깔마다 다른 금속 화합물이 사용됩니다.
-
-![불꽃놀이의 색](https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop)
 
 
 ### 불꽃 색상의 원소들
@@ -1292,9 +1277,11 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 색이 있는 불꽃은 19세기 이탈리아에서 발전했습니다. 그때부터 바륨의 초록빛이 밤하늘을 수놓기 시작했죠.
 
+![밤하늘의 초록색과 빨간색 불꽃놀이](https://images.unsplash.com/photo-gdTxVSAE5sk?w=800&h=400&fit=crop)
+
 축제의 밤, 초록빛이 보인다면 바륨을 떠올려보세요!`,
       tags: ['불꽃놀이', '색', '축제', '화학', '전통'],
-      image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=400&fit=crop',
     },
     {
       slug: 'barium-heavy-name-greek',
@@ -1303,9 +1290,6 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
       content: `## 이름의 의미
 
 바륨(Barium)은 그리스어 'barys'에서 왔습니다. 뜻은 "무거운"이에요.
-
-![이름의 의미](https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop)
-
 
 ## 무거움의 기준
 
@@ -1374,9 +1358,11 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 이름은 발견 당시의 맥락을 담고 있어요.
 
+![무거운 금속 샘플들과 과학 장비](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+
 역사가 담긴 이름, 바륨입니다.`,
       tags: ['어원', '역사', '발견', '광물', '데이비'],
-      image: 'https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&h=400&fit=crop',
     },
   ],
   La: [
@@ -1387,9 +1373,6 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
       content: `## 하이브리드 차의 비밀
 
 도요타 프리우스가 세상을 바꿨습니다. 휘발유와 전기를 함께 쓰는 하이브리드 자동차의 시대를 열었죠.
-
-![하이브리드 차의 비밀](https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop)
-
 
 이 차의 심장인 배터리에 란타넘이 들어있다는 거, 알고 계셨나요?
 
@@ -1430,6 +1413,8 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 2010년 중국이 희토류 수출을 제한했을 때, 자동차 업계가 큰 충격을 받았습니다.
 
+![하이브리드 전기차 배터리 팩의 모습](https://images.unsplash.com/photo-_54JHpRkK0Y?w=800&h=400&fit=crop)
+
 ## 리튬이온 배터리로의 전환
 
 최근에는 전기차와 함께 리튬이온 배터리가 대세입니다.
@@ -1451,7 +1436,7 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 친환경 기술의 숨은 기둥, 란타넘입니다!`,
       tags: ['하이브리드', '배터리', '전기차', '희토류', '친환경'],
-      image: 'https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop',
     },
     {
       slug: 'lanthanum-hidden-name-meaning',
@@ -1461,7 +1446,6 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 
 란타넘(Lanthanum)은 그리스어 'lanthanein'에서 왔습니다. 뜻은 "숨다, 감춰지다"예요.
 
-![이름의 의미](https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop)
 
 
 ## 세륨 속에 숨어있었다
@@ -1487,6 +1471,8 @@ X선은 뼈는 잘 보여주지만, 위나 장 같은 연조직은 거의 안 �
 - 순수 분리에 수십 년 걸림
 
 란타넘도 처음에는 불순물이 섞여있었고, 완전히 순수하게 분리하기까지 오래 걸렸어요.
+
+![실험실의 광물 샘플들과 분석 장비](https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop)
 
 ## 모산데르의 다른 발견
 
@@ -1522,7 +1508,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 다른 원소 안에 숨어, 분리되기를 기다리던 란타넘. 희토류의 복잡한 역사를 한 단어로 표현합니다.`,
       tags: ['발견', '역사', '희토류', '어원', '화학자'],
-      image: 'https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=400&fit=crop',
     },
     {
       slug: 'lanthanum-night-vision-optical-glass',
@@ -1532,7 +1518,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 카메라 렌즈, 망원경, 현미경... 이 광학 기기들은 빛을 정밀하게 굴절시켜야 합니다. 그래야 선명한 이미지를 얻을 수 있죠.
 
-![빛을 굴절시키는 유리](https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop)
 
 
 ## 란타넘 유리란?
@@ -1599,7 +1584,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 당신의 주머니 속에 희토류 기술이 들어있습니다!`,
       tags: ['광학', '렌즈', '카메라', '유리', '기술'],
-      image: 'https://images.unsplash.com/photo-1606918801925-e2c914c4b503?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1545127398-14699f92334b?w=800&h=400&fit=crop',
     },
   ],
   Ce: [
@@ -1611,7 +1596,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 주머니에서 라이터를 꺼내 돌려 보세요. 불꽃이 튀어 가스에 불이 붙습니다. 이 간단한 동작에 숨겨진 과학이 있어요.
 
-![불을 지펴라!](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
 
 
 ## 플린트의 정체
@@ -1665,6 +1649,8 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 캠핑과 생존 장비의 필수품이에요.
 
+![라이터에서 불꽃이 튀는 모습](https://images.unsplash.com/photo-_icmdNXUFUI?w=800&h=400&fit=crop)
+
 ## 안전 주의
 
 페로세륨은 자체로 위험하지 않지만 주의가 필요합니다.
@@ -1680,7 +1666,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 성냥 없이도, 어디서든 불을 피울 수 있게 해준 세륨. 주머니 속의 프로메테우스입니다!`,
       tags: ['라이터', '불꽃', '발명', '희토류', '서바이벌'],
-      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614111576813-309cbf8637d5?w=800&h=400&fit=crop',
     },
     {
       slug: 'cerium-glass-polishing-lcd',
@@ -1690,7 +1676,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 스마트폰 화면, TV, 거울... 이 유리들은 어떻게 이렇게 매끄럽고 투명할까요?
 
-![유리를 매끄럽게](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
 
 
 비밀은 세륨 산화물(CeO₂) 연마제에 있습니다.
@@ -1766,7 +1751,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 스마트폰을 볼 때마다, 그 맑은 화면을 만든 세륨을 떠올려보세요!`,
       tags: ['연마제', '유리', 'LCD', '반도체', '제조'],
-      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614111576813-309cbf8637d5?w=800&h=400&fit=crop',
     },
     {
       slug: 'cerium-diesel-catalyst-emission',
@@ -1776,7 +1761,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 디젤 엔진은 연비가 좋지만, 까만 매연(입자상 물질)을 내뿜습니다. 이건 건강과 환경에 해로워요.
 
-![디젤의 딜레마](https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop)
 
 
 어떻게 해결할 수 있을까요?
@@ -1848,7 +1832,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 환경을 지키는 데 희귀하지 않은 "희토류"가 기여하고 있어요!`,
       tags: ['디젤', '촉매', '환경', '매연', '자동차'],
-      image: 'https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614111576813-309cbf8637d5?w=800&h=400&fit=crop',
     },
   ],
   Pr: [
@@ -1860,7 +1844,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 프라세오디뮴(Praseodymium)의 이름은 그리스어에서 왔습니다.
 
-![녹색의 기원](https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop)
 
 
 ### 이름의 의미
@@ -1879,6 +1862,8 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 - **네오디뮴**: 분홍색 염 형성
 
 쌍둥이처럼 붙어있던 두 원소, 녹색인 쪽이 프라세오디뮴입니다!
+
+![녹색 빛을 띤 유리 조각들](https://images.unsplash.com/photo-PrQqQVPzmlw?w=800&h=400&fit=crop)
 
 ## 프라세오디뮴의 색
 
@@ -1940,7 +1925,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 자연이 만든 색의 향연입니다!`,
       tags: ['색', '유리', '용접', '도자기', '희토류'],
-      image: 'https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092916188-60fc49ffcfb7?w=800&h=400&fit=crop',
     },
     {
       slug: 'praseodymium-magnet-aircraft-engine',
@@ -1950,7 +1935,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 제트 엔진 내부는 극한 환경입니다.
 
-![항공 엔진의 도전](https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop)
 
 
 ### 엔진 조건
@@ -1981,6 +1965,8 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 - 산화 저항성 증가
 
 소량으로 큰 차이를 만들어요!
+
+![제트 엔진의 터빈 블레이드](https://images.unsplash.com/photo-PfYaLrYS1Oc?w=800&h=400&fit=crop)
 
 ## 영구자석에서도
 
@@ -2027,7 +2013,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 하늘 높이 나는 비행기 속에, 지구의 희귀한 원소가 숨어있습니다.`,
       tags: ['항공', '엔진', '자석', '합금', '희토류'],
-      image: 'https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092916188-60fc49ffcfb7?w=800&h=400&fit=crop',
     },
     {
       slug: 'praseodymium-twin-element-neodymium',
@@ -2037,7 +2023,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 1841년, 칼 구스타프 모산데르가 세륨에서 새 원소를 분리했습니다. 그는 이것을 '디디뮴(Didymium, 쌍둥이)'이라 불렀어요.
 
-![디디뮴의 시대](https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop)
 
 
 왜 쌍둥이? 세륨과 항상 함께 발견되어서요.
@@ -2110,7 +2095,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 40년간 하나였던 쌍둥이, 이제는 각자의 자리에서 빛나고 있습니다.`,
       tags: ['발견', '역사', '희토류', '분리', '화학'],
-      image: 'https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092916188-60fc49ffcfb7?w=800&h=400&fit=crop',
     },
   ],
   Nd: [
@@ -2122,7 +2107,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 네오디뮴 자석(NdFeB)은 현존하는 가장 강력한 영구자석입니다. 같은 크기의 일반 자석보다 수십 배 강해요!
 
-![자석의 왕](https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop)
 
 
 ## 얼마나 강할까?
@@ -2164,6 +2148,8 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 현대 기술의 핵심입니다!
 
+![강력한 네오디뮴 자석들이 서로 끌어당기는 모습](https://images.unsplash.com/photo-1606850780554-b55fbf31c543?w=800&h=400&fit=crop)
+
 ## 전기차 한 대에
 
 전기차 모터에 들어가는 네오디뮴 양은 상당합니다.
@@ -2196,7 +2182,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 네오디뮴, 작지만 강력한 현대 문명의 기둥입니다!`,
       tags: ['자석', 'NdFeB', '전기차', '풍력', '기술'],
-      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=400&fit=crop',
     },
     {
       slug: 'neodymium-laser-eye-surgery',
@@ -2206,7 +2192,6 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 레이저는 특별한 빛입니다. 한 가지 파장의 빛이 정렬되어 나아가죠. 그 빛을 만드는 재료 중 하나가 네오디뮴입니다.
 
-![레이저의 심장](https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop)
 
 
 ## Nd:YAG 레이저란?
@@ -2237,6 +2222,8 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 - 문신 제거
 - 색소 치료
 - 혈관 치료
+
+![레이저 장비에서 나오는 빛 빔](https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop)
 
 ## 작동 원리
 
@@ -2285,7 +2272,7 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 
 네오디뮴이 만드는 빛이 인류의 미래를 밝히고 있습니다!`,
       tags: ['레이저', '의료', '안과', 'Nd:YAG', '기술'],
-      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=400&fit=crop',
     },
     {
       slug: 'neodymium-pink-purple-glass',
@@ -2295,7 +2282,6 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 
 어떤 유리는 낮에는 라벤더색인데 밤에 형광등 아래에서는 파란색으로 변합니다. 마법일까요?
 
-![변하는 색](https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop)
 
 
 아니요, 네오디뮴의 과학입니다!
@@ -2329,6 +2315,8 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 - 백열등: 분홍/보라
 
 같은 유리가 세 가지 다른 색으로!
+
+![보라색과 분홍색으로 빛나는 유리 조각](https://images.unsplash.com/photo-1551269901-5c5e14c25df7?w=800&h=400&fit=crop)
 
 ## 용도
 
@@ -2372,7 +2360,7 @@ YAG(이트륨 알루미늄 가넷) 결정에 네오디뮴을 도핑한 레이저
 
 과학과 예술이 만나는 네오디뮴 유리의 세계입니다!`,
       tags: ['유리', '색', '광학', '수집품', '과학'],
-      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&h=400&fit=crop',
     },
   ],
 };

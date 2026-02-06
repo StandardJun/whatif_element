@@ -27,7 +27,7 @@ const basePosts: Record<string, Post[]> = {
 
 이때 만들어진 것이 바로 수소와 헬륨입니다. 그중에서도 수소가 압도적으로 많았죠. 지금도 우주 전체 물질의 약 75%가 수소입니다!
 
-![빅뱅 이후 형성된 우주의 은하계](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
+![색색의 별과 성운이 가득한 깊은 우주 공간](https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=800&h=400&fit=crop)
 
 ## 별의 연료, 수소
 
@@ -41,6 +41,8 @@ const basePosts: Record<string, Post[]> = {
 - 이 과정에서 질량의 0.7%가 에너지로 변환
 - 1초에 약 6억 톤의 수소가 헬륨으로 변환됨
 
+![태양의 표면에서 일어나는 핵융합 반응](https://images.unsplash.com/photo-1614642264762-d0a3b8bf3700?w=800&h=400&fit=crop)
+
 ## 물의 구성 원소
 
 수소(Hydrogen)라는 이름의 의미를 아시나요? 그리스어로 "물을 만드는 것"이라는 뜻입니다. 실제로 수소 2개와 산소 1개가 결합하면 물(H₂O)이 됩니다.
@@ -51,7 +53,7 @@ const basePosts: Record<string, Post[]> = {
 
 화석연료 고갈과 기후변화 문제로 인해 수소가 미래 에너지원으로 주목받고 있습니다. 수소 연료전지는 수소와 산소를 결합시켜 전기를 만드는데, 부산물이 오직 물뿐이에요. 완벽한 친환경 에너지인 셈이죠!`,
       tags: ['우주', '빅뱅', '별', '핵융합', '미래에너지'],
-      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=800&h=400&fit=crop',
     },
     {
       slug: 'hydrogen-fuel-cell-future',
@@ -61,12 +63,12 @@ const basePosts: Record<string, Post[]> = {
 
 테슬라가 전기차 시장을 선도하면서, 많은 사람들이 미래 자동차는 당연히 배터리 전기차(BEV)가 될 거라고 생각합니다. 하지만 도요타, 현대자동차 등은 여전히 수소 연료전지차(FCEV)에 투자하고 있어요. 왜 그럴까요?
 
-![미래 친환경 자동차 기술](https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop)
-
 ## 수소차의 장점
 
 ### 1. 충전 시간
 수소차는 5분이면 완충됩니다. 전기차가 급속충전으로도 30분 이상 걸리는 것과 비교하면 압도적이죠.
+
+![파란 플랫폼 위에 설치된 수소 충전 디스펜서](https://images.unsplash.com/photo-1691046969792-1e5cfd8f0a6b?w=800&h=400&fit=crop)
 
 ### 2. 주행거리
 현대 넥쏘의 경우 1회 충전으로 약 600km를 주행할 수 있습니다.
@@ -102,7 +104,7 @@ const basePosts: Record<string, Post[]> = {
 
 이 사고로 36명이 목숨을 잃었고, 비행선 시대는 사실상 막을 내렸습니다.
 
-![거대한 비행선의 비극적인 최후](https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=400&fit=crop)
+![1936년 독일 프랑크푸르트 격납고에 들어가는 그라프 체펠린 비행선](https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop)
 
 ## 왜 수소였을까?
 
@@ -116,6 +118,8 @@ const basePosts: Record<string, Post[]> = {
 - 점화원 존재
 
 개방된 공간에서 수소가 누출되면 가장 가벼운 기체이므로 빠르게 위로 흩어집니다. 밀폐된 공간이 아니라면 폭발 위험은 생각보다 낮아요.
+
+![폭발로 인한 연기와 불길의 강렬한 순간](https://images.unsplash.com/photo-1530478671185-4a0c0c16e6f8?w=800&h=400&fit=crop)
 
 ## 현대의 수소 안전 기술
 
@@ -132,7 +136,7 @@ const basePosts: Record<string, Post[]> = {
 
 힌덴부르크 참사는 분명 비극이었지만, 그 사고를 통해 우리는 수소를 더 안전하게 다루는 법을 배웠습니다. 오늘날의 수소 기술은 그 어느 때보다 안전합니다.`,
       tags: ['힌덴부르크', '비행선', '역사', '안전', '사고'],
-      image: 'https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1595246140625-573b715d11dc?w=800&h=400&fit=crop',
     },
   ],
   C: [
@@ -146,7 +150,7 @@ const basePosts: Record<string, Post[]> = {
 
 어떻게 같은 원소가 이토록 다른 성질을 가질 수 있을까요?
 
-![다이아몬드와 흑연, 같은 탄소의 두 얼굴](https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=400&fit=crop)
+![빛을 받아 반짝이는 투명한 다이아몬드 원석](https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&h=400&fit=crop)
 
 ## 비밀은 구조에 있다
 
@@ -163,6 +167,8 @@ const basePosts: Record<string, Post[]> = {
 - 층이 쉽게 미끄러짐 (그래서 연필로 쓸 수 있음)
 - 층 사이에 자유 전자가 있어 전기 전도성 있음
 - 윤활제로 사용됨
+
+![나무 테이블 위에 놓인 흑연 연필](https://images.unsplash.com/photo-1587058420000-7a90c7293b92?w=800&h=400&fit=crop)
 
 ## 그래핀: 탄소의 새로운 변신
 
@@ -187,7 +193,7 @@ const basePosts: Record<string, Post[]> = {
 
 탄소가 없었다면 지구에 생명은 존재하지 않았을 거예요!`,
       tags: ['다이아몬드', '흑연', '그래핀', '동소체', '나노기술'],
-      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=400&fit=crop',
     },
     {
       slug: 'carbon-footprint-climate',
@@ -196,8 +202,6 @@ const basePosts: Record<string, Post[]> = {
       content: `## 탄소발자국이란?
 
 탄소발자국(Carbon Footprint)은 개인이나 단체가 직간접적으로 발생시키는 온실가스의 총량을 의미합니다. 주로 이산화탄소(CO₂) 배출량으로 환산하여 표현하죠.
-
-![우주에서 바라본 지구의 대기](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
 
 ## 일상 속 탄소발자국
 
@@ -210,6 +214,8 @@ const basePosts: Record<string, Post[]> = {
 - 자가용 10km: 약 2.5kg CO₂
 - 대중교통 10km: 약 0.5kg CO₂
 - 자전거: 0kg CO₂
+
+![푸른 대기층이 보이는 우주에서 촬영한 지구](https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&h=400&fit=crop)
 
 ### 식사
 - 소고기 스테이크: 약 6kg CO₂
@@ -233,13 +239,15 @@ const basePosts: Record<string, Post[]> = {
 - 전기차 구매
 - 탄소 상쇄 프로그램 참여
 
+![햇빛이 비치는 울창한 녹색 숲](https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=400&fit=crop)
+
 ## 탄소중립의 미래
 
 많은 국가들이 2050년까지 탄소중립(Net Zero)을 선언했습니다. 이는 배출하는 탄소량만큼 흡수하여 순 배출량을 0으로 만드는 것을 의미해요.
 
 우리 모두의 작은 노력이 모여 지구를 살릴 수 있습니다!`,
       tags: ['탄소발자국', '기후변화', '환경', '탄소중립', '지속가능성'],
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1569163139394-de4798aa62b6?w=800&h=400&fit=crop',
     },
     {
       slug: 'carbon-dating-archaeology',
@@ -249,8 +257,6 @@ const basePosts: Record<string, Post[]> = {
 
 오래된 유물이나 화석의 나이는 어떻게 알 수 있을까요? 여기서 탄소-14(¹⁴C)라는 특별한 탄소 동위원소가 등장합니다.
 
-![고대 유물의 연대를 밝히는 과학](https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&h=400&fit=crop)
-
 ## 탄소-14란?
 
 보통 탄소는 원자핵에 양성자 6개와 중성자 6개를 가진 탄소-12입니다. 하지만 대기 중에는 소량의 탄소-14도 존재해요. 탄소-14는 중성자가 2개 더 많은, 불안정한 방사성 동위원소입니다.
@@ -259,6 +265,8 @@ const basePosts: Record<string, Post[]> = {
 
 ### 살아있는 동안
 모든 생물은 살아있는 동안 대기 중의 탄소를 흡수합니다. 식물은 광합성으로, 동물은 음식을 통해서요. 이때 탄소-14도 함께 흡수됩니다.
+
+![박물관에 전시된 고대 유물과 유적](https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=800&h=400&fit=crop)
 
 ### 죽은 후
 생물이 죽으면 더 이상 탄소를 흡수하지 않습니다. 하지만 탄소-14는 방사성 붕괴를 계속하죠.
@@ -292,7 +300,7 @@ const basePosts: Record<string, Post[]> = {
 
 이 위대한 발견을 한 윌러드 리비는 1960년 노벨 화학상을 받았습니다!`,
       tags: ['탄소연대측정', '방사성동위원소', '고고학', '과학', '역사'],
-      image: 'https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1566127444979-b3d2b654e3a5?w=800&h=400&fit=crop',
     },
   ],
 };

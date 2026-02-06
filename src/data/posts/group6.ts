@@ -10,10 +10,9 @@ export const group6Posts: Record<string, Post[]> = {
 
 1869년, 러시아의 화학자 드미트리 멘델레예프는 당시 알려진 63개의 원소를 원자량 순으로 배열하다가 놀라운 패턴을 발견했습니다. 원소들의 성질이 주기적으로 반복된다는 것이었죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop)
-
-
 더 놀라운 것은 그가 빈칸을 남겨두고 "아직 발견되지 않은 원소가 여기 있을 것"이라고 예언했다는 점입니다. 실제로 그 빈칸들은 후에 발견된 원소들로 채워졌어요!
+
+![오래된 책들이 꽂혀있는 도서관 서가](https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=800&h=400&fit=crop)
 
 ## 멘델레븀의 발견
 
@@ -39,7 +38,7 @@ export const group6Posts: Record<string, Post[]> = {
 - 악티늄족 원소
 - 지금까지 극소량만 생성됨`,
       tags: ['멘델레예프', '주기율표', '악티늄족', '냉전', '과학사'],
-      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop',
     },
     {
       slug: 'mendelevium-17-atoms-discovery',
@@ -49,10 +48,9 @@ export const group6Posts: Record<string, Post[]> = {
 
 1955년, 버클리 연구팀은 전례 없는 도전에 직면했습니다. 사이클로트론으로 아인슈타이늄-253에 알파 입자를 충돌시켜 새로운 원소를 만들려 했죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop)
-
-
 문제는 아인슈타이늄 자체가 극히 희귀했다는 것. 연구팀이 가진 양은 고작 10억분의 1그램이었습니다!
+
+![현미경으로 샘플을 관찰하는 연구원의 손](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
 
 ## 밤새 진행된 실험
 
@@ -69,6 +67,8 @@ export const group6Posts: Record<string, Post[]> = {
 3. 각 원소가 다른 속도로 이동
 4. 예상 위치에서 방사선 검출
 
+![실험실의 정밀 분석 장비와 유리 플라스크](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
+
 101번 원소 위치에서 방사선이 검출되었고, 이것이 멘델레븀의 존재 증거가 되었습니다.
 
 ## 현대 과학의 경이
@@ -77,7 +77,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 이것이 바로 현대 핵화학의 놀라운 정밀성입니다.`,
       tags: ['핵화학', '사이클로트론', '버클리', '실험과학', '발견'],
-      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
     },
     {
       slug: 'mendelevium-cold-war-science',
@@ -87,9 +87,6 @@ export const group6Posts: Record<string, Post[]> = {
 
 1955년은 냉전이 절정에 달하던 시기였습니다. 미국과 소련은 핵무기 경쟁을 벌이고 있었고, 과학 분야에서도 치열한 경쟁이 이어졌죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop)
-
-
 이런 상황에서 미국 과학자들이 새로 발견한 원소에 러시아 과학자의 이름을 붙인다? 상상하기 어려운 일이었습니다.
 
 ## 글렌 시보그의 결단
@@ -97,6 +94,8 @@ export const group6Posts: Record<string, Post[]> = {
 노벨상 수상자이자 발견팀의 리더였던 글렌 시보그는 과감한 결정을 내렸습니다.
 
 "멘델레예프는 국적을 초월한 과학자입니다. 그의 주기율표는 모든 화학의 기초입니다."
+
+![악수를 나누는 두 손의 클로즈업](https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&h=400&fit=crop)
 
 ## 과학은 국경이 없다
 
@@ -112,7 +111,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 멘델레븀은 단순한 원소가 아닙니다. 과학의 보편성을 상징하는 원소입니다.`,
       tags: ['냉전', '과학외교', '글렌시보그', '역사', '국제협력'],
-      image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800&h=400&fit=crop',
     },
   ],
   No: [
@@ -124,9 +123,6 @@ export const group6Posts: Record<string, Post[]> = {
 
 다이너마이트를 발명한 알프레드 노벨. 그는 자신의 발명품이 전쟁에 사용되는 것을 보고 깊은 죄책감을 느꼈습니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 결국 그는 유산의 대부분을 인류에 공헌한 사람들에게 주는 상을 만드는 데 사용하도록 유언을 남겼죠. 이것이 바로 노벨상입니다.
 
 ## 노벨륨의 발견
@@ -136,6 +132,8 @@ export const group6Posts: Record<string, Post[]> = {
 - 1957년: 스웨덴 팀이 최초 발견 주장 (이름 제안)
 - 1958년: 버클리 팀이 발견 주장
 - 1966년: 소련 두브나 연구소가 확인
+
+![금색 메달과 트로피가 놓인 시상대](https://images.unsplash.com/photo-1563518411-e0a80e28be6d?w=800&h=400&fit=crop)
 
 결국 소련의 실험이 가장 신뢰할 만하다고 인정되었지만, 스웨덴 팀이 제안한 '노벨륨'이라는 이름은 유지되었습니다.
 
@@ -152,7 +150,7 @@ export const group6Posts: Record<string, Post[]> = {
 
 노벨륨이라는 원소는 과학 발전에 대한 노벨의 헌신을 영원히 기억하게 합니다.`,
       tags: ['노벨상', '알프레드노벨', '악티늄족', '발견논쟁', '과학사'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
     },
     {
       slug: 'nobelium-discovery-controversy',
@@ -162,10 +160,9 @@ export const group6Posts: Record<string, Post[]> = {
 
 스톡홀름의 노벨 연구소 팀이 처음으로 102번 원소 발견을 발표했습니다. 그들은 퀴륨에 탄소-13을 충돌시켜 새로운 원소를 만들었다고 주장했죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 연구소의 이름을 따 '노벨륨'이라고 명명했습니다.
+
+![회의실에서 토론 중인 과학자들](https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=400&fit=crop)
 
 ## 1958년: 미국의 반박
 
@@ -190,7 +187,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 노벨륨 논쟁은 과학에서 재현성의 중요성을 보여줍니다. 아무리 먼저 발표해도, 다른 연구팀이 재현할 수 없다면 인정받기 어렵습니다.`,
       tags: ['발견논쟁', 'IUPAC', '두브나', '버클리', '재현성'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=400&fit=crop',
     },
     {
       slug: 'nobelium-unique-chemistry',
@@ -200,9 +197,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 악티늄족 원소들은 대부분 +3 산화 상태를 선호합니다. 우라늄, 플루토늄, 아메리슘... 모두 +3가가 안정적이죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 하지만 노벨륨은 다릅니다.
 
 ## +2가 선호하는 노벨륨
@@ -210,6 +204,8 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 노벨륨은 +2 산화 상태가 가장 안정합니다. 이것은 악티늄족에서 매우 이례적인 현상이에요.
 
 왜 그럴까요?
+
+![다양한 색상의 화학 용액이 담긴 시험관들](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
 
 ## 전자 배치의 비밀
 
@@ -227,7 +223,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것은 주기율표의 규칙성이 초중원소에서도 유지된다는 증거입니다!`,
       tags: ['화학적성질', '산화상태', '전자배치', '악티늄족', '주기성'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1554475900-4e0c5c8577c6?w=800&h=400&fit=crop',
     },
   ],
   Lr: [
@@ -239,10 +235,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1930년대, 어니스트 로렌스는 혁명적인 장치를 발명했습니다. 바로 사이클로트론이죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
-
 사이클로트론은 입자를 나선형으로 가속시켜 높은 에너지를 얻는 장치입니다. 이 발명으로 로렌스는 1939년 노벨 물리학상을 받았습니다.
+
+![거대한 원형 입자가속기의 내부 구조](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
 
 ## 새로운 원소 공장
 
@@ -263,7 +258,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 반감기: 가장 안정한 동위원소가 약 11시간
 - 화학적 성질: 주로 +3 산화 상태`,
       tags: ['사이클로트론', '어니스트로렌스', '버클리', '노벨상', '악티늄족'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
     },
     {
       slug: 'lawrencium-end-of-actinides',
@@ -273,9 +268,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 악티늄(Ac, 89번)부터 로렌슘(Lr, 103번)까지 15개 원소를 악티늄족이라고 합니다. 이들은 모두 5f 오비탈에 전자가 채워지는 원소들이에요.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
-
 ## 5f 오비탈의 여정
 
 - 악티늄(89): 5f0
@@ -284,6 +276,8 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - ... (차례로 채워짐)
 - 노벨륨(102): 5f14
 - 로렌슘(103): 5f14 (완료!)
+
+![벽에 걸린 대형 주기율표 차트](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
 
 로렌슘에서 5f 오비탈이 완전히 채워집니다.
 
@@ -302,7 +296,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이 발견은 초중원소의 화학이 예상과 다를 수 있음을 보여줍니다.`,
       tags: ['악티늄족', '전자배치', '주기율표', '전이금속', 'f블록'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
     {
       slug: 'lawrencium-berkeley-legacy',
@@ -311,9 +305,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
       content: `## 버클리 방사선 연구소
 
 어니스트 로렌스가 설립한 버클리 방사선 연구소(현 로렌스버클리국립연구소)는 원소 발견의 성지입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
 
 이곳에서 발견된 원소들:
 - 테크네튬(43)
@@ -331,6 +322,8 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 무려 16개의 원소가 버클리에서 발견되었습니다!
 
+![현대적인 연구소 건물 외관](https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop)
+
 ## 글렌 시보그의 시대
 
 글렌 시보그는 버클리에서 10개의 원소 발견에 참여했습니다. 그는 1951년 노벨 화학상을 받았고, 살아있는 동안 자신의 이름을 가진 원소(시보귬)를 갖게 된 유일한 과학자가 되었죠.
@@ -341,7 +334,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것은 단순한 우연이 아닙니다. 로렌스가 구축한 인프라와 문화가 수십 년간 원소 발견을 가능하게 했습니다.`,
       tags: ['버클리', '글렌시보그', '연구소', '원소발견', '과학사'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
     },
   ],
   Rf: [
@@ -353,12 +346,11 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1911년, 어니스트 러더포드는 역사상 가장 유명한 실험 중 하나를 수행했습니다. 금박에 알파 입자를 쏘는 실험이었죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
-
-
 대부분의 입자는 그냥 통과했지만, 일부는 크게 튕겨나왔습니다. 러더포드의 말을 빌리면:
 
 "마치 15인치 포탄을 휴지에 쏘았는데 되돌아온 것 같았다."
+
+![황금색 반짝이는 금속 표면의 질감](https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop)
 
 ## 원자핵의 발견
 
@@ -383,7 +375,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 예상 성질: 지르코늄, 하프늄과 유사
 - 반감기: 가장 안정한 동위원소가 약 1시간`,
       tags: ['러더포드', '원자핵', '금박실험', '핵물리학', '전이금속'],
-      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1533042789716-e9a9c97cf4ee?w=800&h=400&fit=crop',
     },
     {
       slug: 'rutherfordium-naming-war',
@@ -393,10 +385,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1964년, 소련 두브나 연구소는 104번 원소를 합성하고 '쿠르차토븀(Kurchatovium)'이라 명명했습니다. 소련 핵물리학의 아버지 이고르 쿠르차토프를 기린 것이죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
-
-
 1969년, 미국 버클리 연구소도 104번 원소를 합성했습니다. 그들은 '러더포듐(Rutherfordium)'이라는 이름을 제안했습니다.
+
+![붉은 벽돌로 지어진 모스크바 크렘린 궁전](https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop)
 
 ## 30년간의 논쟁
 
@@ -423,7 +414,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 오늘날 러더포듐이라는 이름은 전 세계에서 통용됩니다.`,
       tags: ['냉전', '이름논쟁', 'IUPAC', '쿠르차토프', '두브나'],
-      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=800&h=400&fit=crop',
     },
     {
       slug: 'rutherfordium-superheavy-chemistry',
@@ -432,9 +423,6 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
       content: `## 초중원소란?
 
 원자번호 104 이상의 원소를 초중원소(Superheavy elements)라고 합니다. 러더포듐은 이 초중원소의 첫 번째 멤버입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop)
-
 
 모두 인공적으로 합성되며, 반감기가 매우 짧습니다.
 
@@ -447,6 +435,8 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 러더포듐(Rf)
 
 이론적으로 러더포듐은 하프늄과 비슷한 화학적 성질을 가져야 합니다.
+
+![3D로 렌더링된 원자 구조 모델](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
 
 ## 실제 실험 결과
 
@@ -465,7 +455,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 러더포듐에서 이 효과가 시작됩니다. 더 무거운 원소로 갈수록 효과는 더 커집니다!`,
       tags: ['초중원소', '상대론적효과', '화학적성질', '주기율표', '4족'],
-      image: 'https://images.unsplash.com/photo-1612892483236-52d32a0e0ac1?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
     },
   ],
   Db: [
@@ -477,10 +467,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 모스크바에서 북쪽으로 약 120km, 볼가강과 두브나강이 만나는 곳에 작은 도시가 있습니다. 인구 약 7만의 두브나시입니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 이 도시는 1956년 설립된 합동원자핵연구소(JINR)를 중심으로 발전했습니다. 도시 전체가 과학 연구를 위해 존재하는 곳이죠.
+
+![강가에 자리잡은 러시아 소도시의 전경](https://images.unsplash.com/photo-1520106212299-d99c443e4568?w=800&h=400&fit=crop)
 
 ## JINR의 업적
 
@@ -510,7 +499,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 러시아 과학의 자존심이 원소 이름에 새겨진 것입니다!`,
       tags: ['두브나', 'JINR', '러시아', '연구소', '이름논쟁'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
     },
     {
       slug: 'dubnium-hahnium-controversy',
@@ -520,10 +509,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 오토 한(Otto Hahn)은 독일의 화학자로, 핵분열을 발견한 공로로 1944년 노벨 화학상을 받았습니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 버클리 연구팀은 105번 원소를 발견하고 그의 이름을 따 '하늄(Hahnium)'이라 명명했습니다.
+
+![오래된 과학 서적과 실험 노트가 펼쳐진 책상](https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800&h=400&fit=crop)
 
 ## 양측의 주장
 
@@ -553,7 +541,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 오토 한의 이름은 원소에 붙지 않았지만, 그의 업적은 여전히 빛납니다. 핵분열의 발견은 원자력 시대를 열었고, 초중원소 합성의 기초가 되었죠.`,
       tags: ['하늄', '오토한', '이름논쟁', 'IUPAC', '핵분열'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
     },
     {
       slug: 'dubnium-chemistry-puzzle',
@@ -567,10 +555,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 탄탈럼(Ta)
 - 더브늄(Db)
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
-
 이론적으로 더브늄은 탄탈럼과 유사한 화학적 성질을 가져야 합니다.
+
+![컴퓨터 화면에 표시된 복잡한 화학 구조식](https://images.unsplash.com/photo-1632053002928-9c6eee1b4838?w=800&h=400&fit=crop)
 
 ## 놀라운 실험 결과
 
@@ -599,7 +586,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 이것이 초중원소 화학의 최전선입니다!`,
       tags: ['화학적성질', '상대론적효과', '5족', '단일원자화학', '탄탈럼'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551817958-20e39f8bac82?w=800&h=400&fit=crop',
     },
   ],
   Sg: [
@@ -611,7 +598,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 글렌 시보그(Glenn Seaborg)는 10개의 원소 발견에 참여한 전설적인 화학자입니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
+![노벨상 메달의 클로즈업 사진](https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop)
 
 
 그가 발견에 기여한 원소들:
@@ -644,7 +631,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 시보그는 1999년 세상을 떠났지만, 그의 이름은 주기율표에 영원히 남아있습니다.`,
       tags: ['글렌시보그', '노벨상', '버클리', '초우라늄', '악티늄족'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'seaborgium-actinide-concept',
@@ -654,7 +641,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1940년대, 과학자들은 새로 발견된 초우라늄 원소들을 어디에 놓아야 할지 몰랐습니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
+![책상 위에 펼쳐진 주기율표 포스터](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
 
 
 당시 주기율표에서 우라늄은 전이금속으로 분류되어 있었습니다. 넵투늄, 플루토늄도 같은 줄에 넣어야 할까요?
@@ -685,7 +672,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 106번 원소 시보귬은 주기율표를 재구성한 시보그에게 바치는 최고의 헌정입니다.`,
       tags: ['악티늄족', '주기율표', '란타넘족', 'f오비탈', '과학사'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&h=400&fit=crop',
     },
     {
       slug: 'seaborgium-tungsten-relative',
@@ -699,7 +686,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 텅스텐(W)
 - 시보귬(Sg)
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
+![은색 금속 표면의 반짝이는 질감](https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop)
 
 
 이론적으로 시보귬은 텅스텐과 유사한 화학적 성질을 가져야 합니다.
@@ -734,7 +721,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 시보귬 연구는 주기율표의 한계를 테스트하는 최전선입니다.`,
       tags: ['텅스텐', '6족', '화학적성질', '산화상태', '휘발성'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1554475900-4e0c5c8577c6?w=800&h=400&fit=crop',
     },
   ],
   Bh: [
@@ -746,7 +733,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1913년, 덴마크의 젊은 물리학자 닐스 보어는 원자 모형에 대한 혁명적인 이론을 발표했습니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![원자 구조를 나타내는 3D 렌더링 이미지](https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?w=800&h=400&fit=crop)
 
 
 보어의 원자 모형:
@@ -777,7 +764,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 - 원자번호: 107
 - 반감기: 가장 안정한 동위원소가 약 61초`,
       tags: ['닐스보어', '양자역학', '원자모형', 'GSI', '노벨상'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1611348586755-53860f7ae57a?w=800&h=400&fit=crop',
     },
     {
       slug: 'bohrium-gsi-darmstadt',
@@ -787,10 +774,9 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 1970년대까지 원소 발견은 미국 버클리와 소련 두브나의 독점이었습니다. 하지만 1980년대, 새로운 강자가 등장합니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
-
-
 독일 다름슈타트의 GSI(중이온연구소)입니다.
+
+![현대적인 유럽 건축물의 외관](https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=400&fit=crop)
 
 ## GSI의 비밀 무기
 
@@ -819,7 +805,7 @@ GSI는 새로운 방법론을 개발했습니다:
 
 이 성공은 GSI를 세계적인 원소 발견 기관으로 만들었습니다. 미국-소련의 양강 구도가 삼국 시대로 바뀐 것이죠.`,
       tags: ['GSI', '다름슈타트', '냉각융합', '독일', '연구소'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1467541473380-93b90a9a6b3b?w=800&h=400&fit=crop',
     },
     {
       slug: 'bohrium-rhenium-cousin',
@@ -833,7 +819,7 @@ GSI는 새로운 방법론을 개발했습니다:
 - 레늄(Re)
 - 보륨(Bh)
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![실험실 테이블에 놓인 다양한 유리 비커](https://images.unsplash.com/photo-1581093458791-9d42e0c95a8f?w=800&h=400&fit=crop)
 
 
 이론적으로 보륨은 레늄과 비슷한 화학적 성질을 가져야 합니다.
@@ -864,7 +850,7 @@ BhO3Cl 화합물 형성 확인!
 
 하지만 6개의 원자로 화학 실험을 한다는 것 자체가 놀라운 성취입니다. 이것이 초중원소 화학의 극한입니다.`,
       tags: ['레늄', '7족', '화학적성질', '산화상태', '옥시할라이드'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
   ],
   Hs: [
@@ -876,10 +862,9 @@ BhO3Cl 화합물 형성 확인!
 
 헤센(Hessen)은 독일 중서부의 주입니다. 프랑크푸르트, 다름슈타트 같은 도시가 여기에 있죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
-
 라틴어로 헤센은 'Hassia'입니다. 108번 원소 하슘(Hassium)은 여기서 유래했습니다.
+
+![프랑크푸르트의 현대적인 스카이라인](https://images.unsplash.com/photo-1581726695138-d3d8d4198f8f?w=800&h=400&fit=crop)
 
 ## 하슘의 발견
 
@@ -906,7 +891,7 @@ BhO3Cl 화합물 형성 확인!
 - 8족 원소 (오스뮴과 같은 족)
 - 예상: 매우 무겁고 밀도 높은 금속`,
       tags: ['헤센', '독일', 'GSI', '지명유래', '원소명명'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=400&fit=crop',
     },
     {
       slug: 'hassium-osmium-super-dense',
@@ -916,7 +901,9 @@ BhO3Cl 화합물 형성 확인!
 
 현재 알려진 원소 중 가장 밀도가 높은 것은 오스뮴입니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
+오스뮴의 밀도: 22.59 g/cm³
+
+![무겁고 밀도높은 금속의 반짝이는 표면](https://images.unsplash.com/photo-1533042789716-e9a9c97cf4ee?w=800&h=400&fit=crop)
 
 
 오스뮴의 밀도: 22.59 g/cm³
@@ -948,7 +935,7 @@ BhO3Cl 화합물 형성 확인!
 
 하슘의 밀도는 영원히 이론적 예측으로만 남을 것입니다.`,
       tags: ['밀도', '오스뮴', '상대론적효과', '8족', '물리적성질'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
     },
     {
       slug: 'hassium-chemistry-breakthrough',
@@ -958,7 +945,9 @@ BhO3Cl 화합물 형성 확인!
 
 하슘의 화학을 연구하는 것은 거의 불가능해 보였습니다. 반감기가 10초도 안 되고, 한 번에 몇 개밖에 만들 수 없으니까요.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
+하지만 2001년, 국제 연구팀이 도전했습니다.
+
+![첨단 분석 장비가 있는 연구실](https://images.unsplash.com/photo-1581093458791-9d42e0c95a8f?w=800&h=400&fit=crop)
 
 
 하지만 2001년, 국제 연구팀이 도전했습니다.
@@ -993,7 +982,7 @@ BhO3Cl 화합물 형성 확인!
 
 오스뮴 → 하슘의 관계는 예측대로였습니다.`,
       tags: ['화학실험', '사산화물', '오스뮴', '단일원자화학', '국제협력'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
     },
   ],
   Mt: [
@@ -1005,7 +994,9 @@ BhO3Cl 화합물 형성 확인!
 
 1938년, 오토 한과 프리츠 슈트라스만은 우라늄 핵분열을 실험적으로 발견했습니다. 하지만 그 현상을 '핵분열'이라고 설명한 것은 리제 마이트너와 그녀의 조카 오토 프리쉬였습니다.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+마이트너는 수십 년간 한과 함께 연구했고, 핵분열 발견의 이론적 토대를 제공했습니다.
+
+![여성 과학자가 칠판 앞에서 강의하는 빈티지 사진](https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&h=400&fit=crop)
 
 
 마이트너는 수십 년간 한과 함께 연구했고, 핵분열 발견의 이론적 토대를 제공했습니다.
@@ -1033,7 +1024,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너는 1968년 89세로 세상을 떠났습니다. 생전에 원소 이름으로 인정받지는 못했지만, 이제 그녀의 이름은 영원히 주기율표에 남아있습니다.`,
       tags: ['리제마이트너', '핵분열', '노벨상', '여성과학자', '불공정'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop',
     },
     {
       slug: 'meitnerium-nuclear-fission-story',
@@ -1042,9 +1033,6 @@ BhO3Cl 화합물 형성 확인!
       content: `## 1938년, 베를린의 발견
 
 오토 한과 프리츠 슈트라스만은 우라늄에 중성자를 쏘는 실험을 하고 있었습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
-
 
 이상한 결과가 나왔습니다. 우라늄보다 훨씬 가벼운 바륨이 검출된 것이죠.
 
@@ -1076,7 +1064,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨은 이 불공정에 대한 역사의 사과입니다.`,
       tags: ['핵분열', '역사', '오토한', '1938년', '원자력'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'meitnerium-iridium-comparison',
@@ -1090,7 +1078,9 @@ BhO3Cl 화합물 형성 확인!
 - 이리듐(Ir)
 - 마이트너륨(Mt)
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
+
+![은색으로 반짝이는 귀금속의 표면](https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop)
 
 
 마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
@@ -1122,7 +1112,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨의 화학은 아직 미지의 영역으로 남아있습니다.`,
       tags: ['이리듐', '9족', '예측', '백금족', '미지의영역'],
-      image: 'https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
     },
   ],
   Ds: [
@@ -1134,7 +1124,9 @@ BhO3Cl 화합물 형성 확인!
 
 다름슈타트는 독일 헤센주에 위치한 도시입니다. 인구 약 16만 명의 이 도시는 과학과 기술로 유명하죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
+유네스코 문학의 도시로 지정될 만큼 예술적 전통도 깊습니다.
+
+![독일의 전통적인 도시 건축물](https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&h=400&fit=crop)
 
 
 유네스코 문학의 도시로 지정될 만큼 예술적 전통도 깊습니다.
@@ -1163,7 +1155,7 @@ BhO3Cl 화합물 형성 확인!
 - 반감기: 가장 안정한 동위원소가 약 14초
 - 10족 원소 (니켈, 팔라듐, 백금과 같은 족)`,
       tags: ['다름슈타트', 'GSI', '독일', '도시이름', '1994년'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-platinum-family',
@@ -1176,9 +1168,6 @@ BhO3Cl 화합물 형성 확인!
 - 팔라듐(Pd)
 - 백금(Pt)
 - 다름슈타튬(Ds)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
 
 팔라듐과 백금은 귀금속으로, 보석과 촉매에 널리 사용됩니다.
 
@@ -1210,7 +1199,7 @@ BhO3Cl 화합물 형성 확인!
 
 하지만 이것은 영원히 상상 속에만 존재할 것입니다. 반감기가 너무 짧아 축적이 불가능하기 때문이죠.`,
       tags: ['백금', '10족', '귀금속', '예측', '촉매'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-ununnilium',
@@ -1219,9 +1208,6 @@ BhO3Cl 화합물 형성 확인!
       content: `## 체계적 원소명이란?
 
 새로운 원소가 발견되고 공식 이름이 정해지기까지는 시간이 걸립니다. 그 사이에 원소를 어떻게 부를까요?
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
 
 IUPAC은 '체계적 원소명(Systematic element name)'을 도입했습니다.
 
@@ -1270,9 +1256,6 @@ IUPAC은 '체계적 원소명(Systematic element name)'을 도입했습니다.
 
 빌헬름 뢴트겐은 음극선을 연구하다가 이상한 현상을 발견했습니다. 음극선관 근처의 형광판이 빛나는 것이었죠.
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
-
-
 관을 검은 종이로 감싸도 형광판은 계속 빛났습니다. 무언가 보이지 않는 것이 통과하고 있었던 것입니다.
 
 뢴트겐은 이 미지의 광선을 'X선'이라고 불렀습니다. X는 미지수를 뜻하죠.
@@ -1313,9 +1296,6 @@ X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것
 - 금(Au)
 - 뢴트게늄(Rg)
 
-![본문 관련 이미지](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
-
-
 구리, 은, 금은 인류 역사에서 동전과 장신구로 사용되어 왔습니다.
 
 ## 금의 특성
@@ -1347,7 +1327,7 @@ X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것
 
 금의 무거운 사촌 뢴트게늄의 실제 모습은 영원히 미스터리로 남을 것입니다.`,
       tags: ['금', '11족', '상대론적효과', '색상', '귀금속'],
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
     },
     {
       slug: 'roentgenium-medical-legacy',
@@ -1356,9 +1336,6 @@ X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것
       content: `## 의료의 혁명
 
 X선 발견 전, 의사들은 몸 속을 볼 수 없었습니다. 골절인지 확인하려면 직접 열어봐야 했죠.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
-
 
 X선은 이 모든 것을 바꿨습니다.
 
@@ -1393,7 +1370,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 뢴트겐의 호기심이 시작한 여정은 주기율표의 확장으로 계속됩니다.`,
       tags: ['X선', '의료', '방사선', '과학사', '유산'],
-      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516796181074-f453e90c4c59?w=800&h=400&fit=crop',
     },
   ],
   Cn: [
@@ -1404,9 +1381,6 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
       content: `## 니콜라우스 코페르니쿠스
 
 1473년 폴란드에서 태어난 코페르니쿠스는 천문학의 역사를 바꾼 인물입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
-
 
 당시 사람들은 지구가 우주의 중심이고 모든 것이 지구 주위를 돈다고 믿었습니다. 프톨레마이오스의 천동설이었죠.
 
@@ -1437,7 +1411,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 물리학자가 아닌 천문학자의 이름이 원소에 붙은 것은 이례적입니다. 하지만 코페르니쿠스의 업적은 그만큼 위대했죠.`,
       tags: ['코페르니쿠스', '태양중심설', '천문학', '과학혁명', '폴란드'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'copernicium-mercury-supersede',
@@ -1446,9 +1420,6 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
       content: `## 상온의 액체 금속
 
 주기율표에서 상온에서 액체인 금속은 수은뿐입니다. (갈륨은 30°C에서 녹음)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
-
 
 수은은:
 - 녹는점: -39°C
@@ -1484,7 +1455,7 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
 
 하지만 이런 예측은 초중원소에서 상대론적 효과가 얼마나 극적인지를 보여줍니다.`,
       tags: ['수은', '액체금속', '상대론적효과', '녹는점', '12족'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1543722530-d2c3201371e7?w=800&h=400&fit=crop',
     },
     {
       slug: 'copernicium-noble-gas-like',
@@ -1493,9 +1464,6 @@ X선으로 시작된 원자 내부 탐구가, 이제 새로운 원소의 창조�
       content: `## 금속이 아닐 수도 있다?
 
 코페르니슘은 12족 원소입니다. 같은 족에는 아연, 카드뮴, 수은이 있죠. 모두 금속입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
-
 
 하지만 코페르니슘은 다를 수 있습니다.
 
@@ -1532,7 +1500,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 112번 원소는 12족 금속일까요, 아니면 새로운 종류의 원소일까요?`,
       tags: ['비활성기체', '상대론적효과', '화학적성질', '원소분류', '실험'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
     },
   ],
   Nh: [
@@ -1543,9 +1511,6 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
       content: `## 역사적인 순간
 
 2004년 7월 23일, 일본 이화학연구소(RIKEN)의 모리타 코스케 팀이 113번 원소를 처음 합성했습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop)
-
 
 비스무트-209 + 아연-70 → 니호늄-278
 
@@ -1575,7 +1540,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 반감기: 가장 안정한 동위원소가 약 20초
 - 13족 원소 (붕소, 알루미늄, 갈륨, 인듐, 탈륨과 같은 족)`,
       tags: ['일본', 'RIKEN', '아시아최초', '모리타코스케', '2016년'],
-      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=400&fit=crop',
     },
     {
       slug: 'nihonium-morita-dedication',
@@ -1584,9 +1549,6 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
       content: `## 시작: 2003년
 
 모리타 코스케 교수는 RIKEN에서 새로운 원소 탐색 프로젝트를 시작했습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop)
-
 
 목표: 113번 원소 합성
 
@@ -1622,7 +1584,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 니호늄은 과학에서 인내와 집념이 얼마나 중요한지를 보여주는 완벽한 예입니다.`,
       tags: ['모리타코스케', 'RIKEN', '인내', '연구', '발견과정'],
-      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=400&fit=crop',
     },
     {
       slug: 'nihonium-thallium-comparison',
@@ -1637,9 +1599,6 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 인듐(In)
 - 탈륨(Tl)
 - 니호늄(Nh)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop)
-
 
 ## 탈륨의 특성
 
@@ -1670,7 +1629,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 더 많은 원자를 생성하고, 더 빠른 화학 분석 기술을 개발해야 니호늄의 진정한 성질을 알 수 있을 것입니다.`,
       tags: ['탈륨', '13족', '화학적성질', '산화상태', '예측'],
-      image: 'https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&h=400&fit=crop',
     },
   ],
   Fl: [
@@ -1681,9 +1640,6 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
       content: `## 게오르기 플료로프
 
 게오르기 플료로프(1913-1990)는 소련의 핵물리학자입니다. 그는 두브나 연구소의 초중원소 연구를 이끌었죠.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop)
-
 
 1942년, 플료로프는 스탈린에게 유명한 편지를 보냈습니다. 미국이 원자폭탄을 개발하고 있으니 소련도 서둘러야 한다는 내용이었죠.
 
@@ -1711,7 +1667,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 반감기: 가장 안정한 동위원소가 약 2.7초
 - 14족 원소`,
       tags: ['플료로프', '두브나', '소련', '핵물리학', 'JINR'],
-      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-lead-superlative',
@@ -1726,9 +1682,6 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 주석(Sn)
 - 납(Pb)
 - 플레로븀(Fl)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop)
-
 
 탄소에서 납까지, 성질이 급격히 변합니다. 비금속에서 금속으로요.
 
@@ -1764,7 +1717,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 상대론적 효과가 원소의 근본적인 성질까지 바꿀 수 있음을 보여주는 흥미로운 사례입니다.`,
       tags: ['납', '14족', '상대론적효과', '비활성기체', '화학실험'],
-      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-island-of-stability',
@@ -1773,9 +1726,6 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
       content: `## 안정성의 섬이란?
 
 1960년대, 과학자들은 흥미로운 이론을 제안했습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop)
-
 
 원자핵의 안정성은 양성자와 중성자의 "마법의 수"에 의존합니다:
 - 양성자: 2, 8, 20, 28, 50, 82, 114, 126...
@@ -1804,7 +1754,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 언젠가 정말로 오래 사는 초중원소를 만들 수 있을까요? 플레로븀이 그 가능성을 열어주었습니다.`,
       tags: ['안정성의섬', '마법의수', '핵물리학', '동위원소', '미래연구'],
-      image: 'https://images.unsplash.com/photo-1565344376217-c0c14d6d2b0c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
     },
   ],
   Mc: [
@@ -1815,9 +1765,6 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
       content: `## 모스크바: 러시아의 심장
 
 모스크바는 러시아의 수도이자 최대 도시입니다. 인구 1200만, 역사 800년 이상의 거대한 도시죠.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop)
-
 
 크렘린궁, 붉은 광장, 볼쇼이 극장... 러시아 문화와 역사의 중심입니다.
 
@@ -1843,7 +1790,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 - 반감기: 가장 안정한 동위원소가 약 0.22초
 - 15족 원소 (질소, 인, 비소, 안티모니, 비스무트와 같은 족)`,
       tags: ['모스크바', '러시아', '두브나', '2016년', '15족'],
-      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-element-115-ufo',
@@ -1852,9 +1799,6 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
       content: `## 밥 라자르의 주장
 
 1989년, 밥 라자르라는 남성이 충격적인 주장을 했습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop)
-
 
 "나는 미국 정부의 비밀 기지 S-4에서 일했다. 거기서 외계인 우주선을 연구했는데, 그 동력원이 원소 115였다."
 
@@ -1883,7 +1827,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 실제 원소 115는 SF 영화처럼 신비하지 않습니다. 하지만 그 자체로 과학의 경이로운 성과입니다.`,
       tags: ['음모론', 'UFO', '밥라자르', '과학적사실', '미신'],
-      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-bismuth-comparison',
@@ -1898,9 +1842,6 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 - 안티모니(Sb)
 - 비스무트(Bi)
 - 모스코븀(Mc)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop)
-
 
 ## 비스무트의 아름다움
 
@@ -1933,7 +1874,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 안타깝게도 우리는 그것을 절대 볼 수 없을 것입니다. 반감기가 너무 짧아 결정이 형성되기 전에 붕괴해버리니까요.`,
       tags: ['비스무트', '15족', '결정', '화학적성질', '상상'],
-      image: 'https://images.unsplash.com/photo-1520106212299-d99c37e4b86d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
     },
   ],
   Lv: [
@@ -1944,9 +1885,6 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
       content: `## 로렌스리버모어 국립연구소
 
 LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버모어에 위치한 연구소입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
 
 1952년 설립된 이 연구소는:
 - 핵무기 연구
@@ -1980,7 +1918,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 - 반감기: 가장 안정한 동위원소가 약 60밀리초
 - 16족 원소`,
       tags: ['리버모어', 'LLNL', '미국', '국제협력', '16족'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-polonium-relative',
@@ -1995,9 +1933,6 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 - 텔루륨(Te)
 - 폴로늄(Po)
 - 리버모륨(Lv)
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
 
 산소에서 폴로늄까지, 점점 금속적이 되고 방사능이 강해집니다.
 
@@ -2031,7 +1966,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 
 리버모륨은 너무 희귀하고 불안정해서 무기로 사용될 수 없습니다. 아이러니하게도, 가장 무거운 원소가 가장 안전합니다.`,
       tags: ['폴로늄', '16족', '방사능', '안전', '독살'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-fleeting-existence',
@@ -2040,9 +1975,6 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
       content: `## 60밀리초
 
 리버모륨의 가장 안정한 동위원소의 반감기는 약 60밀리초입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop)
-
 
 이 시간 동안 무엇을 할 수 있을까요?
 - 눈 깜빡임: 300-400밀리초
@@ -2075,7 +2007,7 @@ Lv-293 → Fl-289 → Cn-285 → ...
 
 이 짧은 존재가 주기율표를 채웁니다.`,
       tags: ['반감기', '붕괴', '찰나', '검출', '존재'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
     },
   ],
   Ts: [
@@ -2086,9 +2018,6 @@ Lv-293 → Fl-289 → Cn-285 → ...
       content: `## 테네시: 음악과 과학의 땅
 
 테네시주는 컨트리 음악의 고향 내슈빌이 있는 곳입니다. 하지만 과학에서도 중요한 역할을 합니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
 
 오크리지 국립연구소(ORNL)가 바로 테네시에 있죠.
 
@@ -2116,7 +2045,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 - 반감기: 가장 안정한 동위원소가 약 80밀리초
 - 17족 원소 (할로겐)`,
       tags: ['테네시', '오크리지', 'ORNL', '버클륨', '17족'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-halogen-mystery',
@@ -2131,9 +2060,6 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 - 아이오딘(I) - 보라색 승화
 - 아스타틴(At) - 반감기 짧음
 - 테네신(Ts) - ???
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
 
 할로겐은 전자를 하나 얻어 안정해지려는 성질이 있습니다.
 
@@ -2165,7 +2091,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 117번에서 할로겐의 특성이 끝나는 걸까요?`,
       tags: ['할로겐', '17족', '금속성', '상대론적효과', '예측'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-berkelium-journey',
@@ -2174,9 +2100,6 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
       content: `## 버클륨: 가장 희귀한 원료
 
 테네신을 합성하려면 버클륨-249가 필요합니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop)
-
 
 버클륨은:
 - 오직 원자로에서만 생산 가능
@@ -2210,7 +2133,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 냉전의 경쟁자들이 과학을 위해 손을 잡았습니다. 테네신은 이 협력의 결실입니다.`,
       tags: ['버클륨', '오크리지', '두브나', '협력', '희귀물질'],
-      image: 'https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
     },
   ],
   Og: [
@@ -2221,9 +2144,6 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
       content: `## 주기율표의 끝
 
 오가네손(Og)은 현재 공식적으로 인정된 가장 무거운 원소입니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
-
 
 - 원자번호: 118
 - 원자량: 294
@@ -2251,7 +2171,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 하지만 갈수록 합성이 어려워집니다. 8주기 원소는 언제 발견될까요?`,
       tags: ['주기율표', '7주기', '마지막원소', '오가네시안', '미래'],
-      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-noble-gas-not',
@@ -2267,9 +2187,6 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 - 제논(Xe) - 기체
 - 라돈(Rn) - 기체
 - 오가네손(Og) - ???
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
-
 
 모두 기체입니다. 화학적으로 거의 반응하지 않죠.
 
@@ -2303,7 +2220,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 주기율표의 끝에서 화학은 새로운 영역으로 들어섭니다.`,
       tags: ['비활성기체', '18족', '고체', '전자구조', '상대론적효과'],
-      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
     },
     {
       slug: 'oganesson-future-elements',
@@ -2312,9 +2229,6 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
       content: `## 8주기를 향해
 
 오가네손으로 7주기가 완성되었습니다. 하지만 과학자들의 탐구는 멈추지 않습니다.
-
-![본문 관련 이미지](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
-
 
 다음 목표:
 - 119번 (운운에늄, Uue)
@@ -2358,7 +2272,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 오가네손은 끝이 아니라 새로운 시작입니다.`,
       tags: ['119번', '8주기', '미래', '도전', '안정성의섬'],
-      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
     },
   ],
 };

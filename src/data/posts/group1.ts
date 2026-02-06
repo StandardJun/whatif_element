@@ -10,7 +10,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 생일파티에서 헬륨 풍선을 마시고 오리 목소리를 내본 적 있나요? 목소리가 갑자기 높아지면서 우스꽝스러워지죠. 하지만 이건 단순한 마법이 아니라 물리학입니다!
 
-![파티의 단골 장난, 헬륨 목소리 관련 이미지](https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop)
+![생일 파티에서 다양한 색상의 헬륨 풍선들이 떠 있는 모습](https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=400&fit=crop)
 
 ## 소리는 어떻게 전달될까?
 
@@ -30,6 +30,8 @@ export const group1Posts: Record<string, Post[]> = {
 
 그래서 헬륨을 마시면 목소리가 높아지는 겁니다!
 
+![음파와 주파수를 시각화한 사운드 웨이브 이미지](https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=400&fit=crop)
+
 ## 반대로 낮아지게 할 수도 있을까?
 
 물론이죠! 육불화황(SF₆)이라는 기체는 공기보다 5배나 무겁습니다. 이걸 마시면 목소리가 아주 낮아져요. 마치 악당 같은 목소리가 되죠.
@@ -44,7 +46,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 파티에서 잠깐 풍선 한두 번 마시는 정도는 괜찮지만, 과하게 하지 마세요!`,
       tags: ['헬륨', '소리', '물리학', '파티', '안전'],
-      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=800&h=400&fit=crop',
     },
     {
       slug: 'helium-balloon-float',
@@ -54,7 +56,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 어릴 때 손에서 놓친 헬륨 풍선이 하늘로 점점 올라가다 보이지 않게 된 경험, 다들 있으시죠? 그 풍선은 어디까지 올라갔을까요?
 
-![손에서 놓친 풍선의 운명 관련 이미지](https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop)
+![푸른 하늘로 떠올라가는 빨간 헬륨 풍선](https://images.unsplash.com/photo-1604006852748-903fccbc4019?w=800&h=400&fit=crop)
 
 ## 부력: 떠오르게 만드는 힘
 
@@ -67,6 +69,8 @@ export const group1Posts: Record<string, Post[]> = {
 - 공기 밀도: 1.225 kg/m³
 
 헬륨이 공기보다 약 7배 가볍기 때문에, 풍선은 주변 공기에 의해 위로 밀려 올라갑니다!
+
+![물속에서 공기방울이 떠오르는 모습으로 부력의 원리 설명](https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop)
 
 ## 풍선은 얼마나 높이 올라갈까?
 
@@ -92,7 +96,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 풍선은 터뜨려서 쓰레기통에 버려주세요!`,
       tags: ['헬륨', '풍선', '부력', '물리학', '환경'],
-      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1604006852748-903fccbc4019?w=800&h=400&fit=crop',
     },
     {
       slug: 'helium-shortage-crisis',
@@ -102,7 +106,7 @@ export const group1Posts: Record<string, Post[]> = {
 
 풍선이나 목소리 변조에 쓰이는 헬륨. 하지만 이 가벼운 기체가 지구에서 점점 사라지고 있다는 사실, 알고 계셨나요?
 
-![헬륨, 생각보다 귀한 자원 관련 이미지](https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop)
+![현대적인 MRI 스캐너 장비가 있는 병원 검사실](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
 
 ## 헬륨은 어디서 올까?
 
@@ -142,7 +146,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 다음에 헬륨 풍선을 볼 때, 이 귀한 자원이 우주로 날아가버리는 거라고 생각해보세요!`,
       tags: ['헬륨', '자원고갈', 'MRI', '환경', '미래'],
-      image: 'https://images.unsplash.com/photo-1615486511484-92e172cc4fe0?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop',
     },
   ],
   Li: [
@@ -154,7 +158,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 지금 당신이 들고 있는 스마트폰, 그 안에는 리튬이 들어있습니다. 노트북, 무선 이어폰, 전동 킥보드, 전기차... 현대 문명은 리튬 없이는 돌아가지 않아요.
 
-![당신의 주머니 속 리튬 관련 이미지](https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop)
+![스마트폰을 충전하는 모습과 리튬이온 배터리 팩](https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&h=400&fit=crop)
 
 ## 리튬 이온 배터리의 원리
 
@@ -195,7 +199,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 리튬은 현대 문명의 '하얀 석유'라고 불립니다. 그만큼 중요하다는 뜻이죠!`,
       tags: ['리튬', '배터리', '스마트폰', '전기차', '기술'],
-      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&h=400&fit=crop',
     },
     {
       slug: 'lithium-mental-health',
@@ -205,7 +209,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 리튬 하면 배터리가 먼저 떠오르지만, 사실 리튬은 100년 넘게 정신건강 치료에 사용되어온 약물이기도 합니다.
 
-![금속이 약이 된다? 관련 이미지](https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop)
+![상담 중인 심리 치료 세션 모습](https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=800&h=400&fit=crop)
 
 ## 리튬과 조울증
 
@@ -247,7 +251,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 물론 이것만으로 인과관계를 증명할 순 없지만, 리튬이 정신건강에 미치는 영향을 보여주는 흥미로운 사례입니다.`,
       tags: ['리튬', '정신건강', '조울증', '의학', '뇌과학'],
-      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=800&h=400&fit=crop',
     },
     {
       slug: 'lithium-white-gold-war',
@@ -257,7 +261,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 20세기가 석유의 시대였다면, 21세기는 리튬의 시대입니다. 전기차 배터리의 핵심 원료인 리튬을 확보하기 위한 국가들의 경쟁이 치열해지고 있어요.
 
-![하얀 석유, 리튬 관련 이미지](https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop)
+![전기차를 충전하는 모습과 글로벌 전기차 시장](https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop)
 
 ## 리튬은 어디에 있을까?
 
@@ -294,6 +298,8 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 - 수입 의존도: 거의 100%
 - 대응: 폐배터리 재활용, 해외 광산 투자
 
+![남미 리튬 삼각지대의 소금사막 광산 풍경](https://images.unsplash.com/photo-1611348524140-53c9a25263d6?w=800&h=400&fit=crop)
+
 ## 리튬의 가격 변동
 
 - 2020년: kg당 약 7달러
@@ -309,7 +315,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 자원 확보 전쟁은 이제 시작입니다!`,
       tags: ['리튬', '자원전쟁', '전기차', '경제', '국제관계'],
-      image: 'https://images.unsplash.com/photo-1588964895597-cfccd6e2dbf9?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop',
     },
   ],
   Be: [
@@ -321,7 +327,7 @@ MRI 기계의 초전도 자석은 -269°C로 냉각해야 합니다. 이 온도�
 
 2021년 발사된 제임스 웹 우주망원경(JWST). 인류 역사상 가장 강력한 이 망원경의 거대한 황금빛 거울은 사실 베릴륨으로 만들어졌어요.
 
-![우주망원경의 눈, 베릴륨 거울 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![제임스 웹 우주망원경의 황금빛 육각형 거울 배열](https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=400&fit=crop)
 
 ## 왜 베릴륨일까?
 
@@ -374,7 +380,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 맞아요, 에메랄드 보석도 베릴륨 화합물이랍니다!`,
       tags: ['베릴륨', '우주', '망원경', '항공우주', '과학'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1614732414444-096e5f1122d5?w=800&h=400&fit=crop',
     },
     {
       slug: 'beryllium-emerald-connection',
@@ -384,7 +390,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 클레오파트라는 에메랄드를 너무나 사랑해서 자신만의 에메랄드 광산을 소유했다고 해요. 이집트의 "클레오파트라 광산"은 세계에서 가장 오래된 보석 광산 중 하나입니다.
 
-![여왕의 보석 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![깊은 초록빛을 띤 에메랄드 원석과 세공된 보석](https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=800&h=400&fit=crop)
 
 ## 에메랄드의 정체
 
@@ -424,9 +430,11 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 이 아름다운 색은 약간의 크롬과 바나듐이 베릴륨 결정 구조 안에 들어가 만들어집니다.
 
+![다양한 색상의 베릴륨 보석 계열: 에메랄드, 아쿠아마린, 모거나이트](https://images.unsplash.com/photo-1611652022419-a9419f74343a?w=800&h=400&fit=crop)
+
 베릴륨 덕분에 우리는 이렇게 아름다운 보석을 볼 수 있는 거예요!`,
       tags: ['베릴륨', '에메랄드', '보석', '광물', '역사'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=800&h=400&fit=crop',
     },
     {
       slug: 'beryllium-danger-beauty',
@@ -436,7 +444,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 베릴륨의 이름은 그리스어 'beryllos'(녹주석, beryl)에서 왔어요. 예전에는 'glucinium'이라고도 불렸는데, 이는 그리스어로 "달다"는 뜻의 'glykys'에서 유래했습니다. 실제로 베릴륨 화합물은 단맛이 나요.
 
-![달콤한 맛의 정체 관련 이미지](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![산업 현장에서 보호 장비를 착용하고 작업하는 모습](https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&h=400&fit=crop)
 
 하지만 **절대로 맛보면 안 됩니다!** 베릴륨은 극도로 위험한 독성 물질이에요.
 
@@ -486,7 +494,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 베릴륨은 꼭 필요한 곳에 쓰이지만, 그만큼 조심해야 하는 양날의 검입니다.`,
       tags: ['베릴륨', '독성', '안전', '직업병', '건강'],
-      image: 'https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&h=400&fit=crop',
     },
   ],
   B: [
@@ -498,7 +506,7 @@ JWST는 -233°C의 극저온에서 작동합니다. 베릴륨은 이 온도에�
 
 손으로 주무르면 늘어나고, 놓으면 천천히 흐르는 슬라임. 이 신기한 물질은 어떻게 만들어질까요?
 
-![슬라임, 왜 이렇게 재밌을까? 관련 이미지](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![알록달록한 색상의 슬라임 장난감을 손으로 늘리는 모습](https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=800&h=400&fit=crop)
 
 ## 슬라임의 핵심 재료
 
@@ -548,7 +556,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 과학적 원리는 비슷하지만 촉감이 조금 다를 수 있어요!`,
       tags: ['붕소', '슬라임', '화학', '실험', '장난감'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1611312449412-6cefac5dc3e4?w=800&h=400&fit=crop',
     },
     {
       slug: 'boron-plant-nutrient',
@@ -558,7 +566,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 식물이 자라려면 질소, 인, 칼륨 같은 영양소가 필요하죠. 하지만 아주 소량이지만 없으면 안 되는 원소들이 있어요. 붕소가 그중 하나입니다.
 
-![필수 미량원소, 붕소 관련 이미지](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![온실에서 건강하게 자라는 채소와 농작물](https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&h=400&fit=crop)
 
 ## 붕소가 하는 일
 
@@ -603,9 +611,11 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 - 채소용 비료
 - 화훼용 비료
 
+![사과나무에 빨갛게 익은 사과들이 열린 모습](https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?w=800&h=400&fit=crop)
+
 우리가 먹는 맛있는 과일과 채소, 붕소 덕분입니다!`,
       tags: ['붕소', '식물', '비료', '농업', '영양소'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=800&h=400&fit=crop',
     },
     {
       slug: 'boron-nuclear-control',
@@ -615,7 +625,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 1986년 체르노빌 원전 사고 당시, 폭주하는 원자로를 막기 위해 헬리콥터로 뿌린 물질 중 하나가 붕소였습니다. 왜 붕소였을까요?
 
-![체르노빌에서 배운 교훈 관련 이미지](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![원자력 발전소 냉각탑과 제어 시스템](https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop)
 
 ## 붕소의 특별한 능력: 중성자 흡수
 
@@ -662,7 +672,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 눈에 보이지 않는 곳에서 붕소는 우리의 안전을 지키고 있습니다. 슬라임 재료이자, 식물 영양소이자, 원자로의 브레이크인 거죠!`,
       tags: ['붕소', '원자력', '안전', '핵분열', '에너지'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&h=400&fit=crop',
     },
   ],
   N: [
@@ -674,7 +684,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 "심호흡을 하세요, 산소를 마시세요!"
 
-![산소가 아니라 질소? 관련 이미지](https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop)
+![푸른 하늘과 흰 구름 - 질소로 가득한 대기](https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&h=400&fit=crop)
 
 사실 이 말은 좀 틀렸어요. 우리가 들이마시는 공기의 구성:
 - 질소(N₂): 78%
@@ -726,7 +736,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 질소, 보이지 않지만 없어선 안 될 원소입니다!`,
       tags: ['질소', '공기', '호흡', '대기', '화학'],
-      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1534088568595-a066f410bcda?w=800&h=400&fit=crop',
     },
     {
       slug: 'nitrogen-liquid-magic',
@@ -736,7 +746,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 물이 끓으면 수증기가 되듯, 질소도 끓는점이 있습니다. 다만 그 온도가 -196°C예요!
 
-![영하 196도의 세계 관련 이미지](https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop)
+![과학 실험실에서 액체 질소로 인해 피어오르는 냉기와 연기](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=400&fit=crop)
 
 이 온도에서 질소는 액체가 됩니다. 투명하고 물처럼 보이지만, 만지면 큰일 나요.
 
@@ -786,7 +796,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 액체 질소는 무섭지만, 제대로 사용하면 정말 유용해요!`,
       tags: ['질소', '액체질소', '실험', '온도', '과학'],
-      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=400&fit=crop',
     },
     {
       slug: 'nitrogen-diver-bends',
@@ -796,7 +806,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 스쿠버 다이빙 후 너무 빨리 수면으로 올라오면 '잠수병(감압병)'에 걸릴 수 있습니다. 관절통, 마비, 심하면 사망까지. 원인은 바로 질소입니다.
 
-![잠수병이란? 관련 이미지](https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop)
+![수중에서 스쿠버 다이빙을 하는 다이버의 모습](https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=400&fit=crop)
 
 ## 깊은 물속에서 일어나는 일
 
@@ -850,9 +860,11 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 - 헬륨은 질소보다 용해도가 낮고 빨리 빠져나감
 - 잠수병 위험 감소
 
+![고압 챔버에서 감압 치료를 받는 의료 장비](https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=800&h=400&fit=crop)
+
 깊은 바다에서도 질소를 조심해야 한다니, 신기하죠?`,
       tags: ['질소', '잠수병', '다이빙', '건강', '압력'],
-      image: 'https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=400&fit=crop',
     },
   ],
   O: [
@@ -864,7 +876,7 @@ PVA 풀은 긴 사슬 모양의 분자들이 미끄러지듯 움직입니다. �
 
 SF 영화에서나 볼 법한 상상, 하지만 과학적으로 생각해보면 정말 무서운 일들이 벌어집니다.
 
-![산소 없는 5분 관련 이미지](https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop)
+![산소 마스크를 착용하고 호흡하는 사람](https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=400&fit=crop)
 
 ## 0-10초: 첫 번째 충격
 
@@ -925,7 +937,7 @@ SF 영화에서나 볼 법한 상상, 하지만 과학적으로 생각해보면 
 
 다음 숨을 쉴 때, 산소에게 감사해보는 건 어떨까요?`,
       tags: ['산소', '생존', '대기', '과학', '상상'],
-      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=800&h=400&fit=crop',
     },
     {
       slug: 'oxygen-fire-truth',
@@ -935,7 +947,7 @@ SF 영화에서나 볼 법한 상상, 하지만 과학적으로 생각해보면 
 
 불이 타려면 세 가지가 필요합니다:
 
-![불의 세 가지 조건 관련 이미지](https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop)
+![모닥불이 활활 타오르며 불꽃과 연기를 내뿜는 모습](https://images.unsplash.com/photo-1525184782196-8e2ded604bf7?w=800&h=400&fit=crop)
 
 1. **연료** (탈 물질): 나무, 종이, 가스 등
 2. **열** (점화원): 성냥, 라이터, 마찰 등
@@ -997,7 +1009,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 직접 해보세요! 산소의 중요성을 눈으로 확인할 수 있어요.`,
       tags: ['산소', '연소', '불', '화학반응', '안전'],
-      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1525184782196-8e2ded604bf7?w=800&h=400&fit=crop',
     },
     {
       slug: 'oxygen-blood-red',
@@ -1007,7 +1019,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 우리 피는 왜 빨간색일까요? 답은 헤모글로빈이라는 단백질에 있습니다.
 
-![피가 빨간 진짜 이유 관련 이미지](https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop)
+![현미경으로 본 붉은 적혈구 세포들](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
 
 헤모글로빈의 구조:
 - 중심에 **철(Fe)** 원자가 있음
@@ -1063,7 +1075,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 철분이 부족하면 빈혈이 생기는 이유, 이제 이해되시죠?`,
       tags: ['산소', '혈액', '헤모글로빈', '생물학', '철'],
-      image: 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop',
     },
   ],
   F: [
@@ -1075,7 +1087,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 치약 뒷면을 보면 '불화나트륨', '불화주석', '일불소인산나트륨' 같은 성분이 적혀있어요. 모두 불소(플루오린) 화합물입니다.
 
-![치약 성분표를 본 적 있나요? 관련 이미지](https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop)
+![치약을 칫솔에 짜내는 모습과 치아 관리](https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=400&fit=crop)
 
 ## 충치는 어떻게 생길까?
 
@@ -1126,7 +1138,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 불소, 적절히 사용하면 충치 예방의 강력한 무기입니다!`,
       tags: ['플루오린', '불소', '치약', '충치', '건강'],
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&h=400&fit=crop',
     },
     {
       slug: 'fluorine-most-reactive',
@@ -1136,7 +1148,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 주기율표에서 가장 반응성이 강한 원소가 뭔지 아시나요? 바로 플루오린(불소)입니다. 얼마나 난폭하냐면...
 
-![원소계의 깡패, 플루오린 관련 이미지](https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop)
+![위험 표시가 있는 화학 물질 보관 용기](https://images.unsplash.com/photo-1582719366333-1e325cf0a0b9?w=800&h=400&fit=crop)
 
 ## 플루오린이 만나면 일어나는 일
 
@@ -1192,7 +1204,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 난폭하지만 길들이면 매우 유용한 원소, 플루오린입니다!`,
       tags: ['플루오린', '반응성', '화학', '위험', '테플론'],
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1582719366333-1e325cf0a0b9?w=800&h=400&fit=crop',
     },
     {
       slug: 'fluorine-teflon-invention',
@@ -1202,7 +1214,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 계란을 부쳐도, 고기를 구워도 눌어붙지 않는 프라이팬. 당연하게 여기지만, 이건 플루오린 덕분입니다.
 
-![주방의 혁명, 논스틱 코팅 관련 이미지](https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop)
+![논스틱 코팅 프라이팬에서 계란 프라이를 요리하는 모습](https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&h=400&fit=crop)
 
 ## 우연한 발견 (1938년)
 
@@ -1261,7 +1273,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 실수로 발견된 물질이 세상을 바꿨네요!`,
       tags: ['플루오린', '테플론', '프라이팬', '발명', '화학'],
-      image: 'https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1556909212-d5b604d0c90d?w=800&h=400&fit=crop',
     },
   ],
   Ne: [
@@ -1273,7 +1285,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 홍대, 이태원, 강남의 밤거리. 화려한 네온사인이 밤을 수놓습니다. 그런데 이 빛은 어떻게 만들어질까요?
 
-![밤을 밝히는 빛 관련 이미지](https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop)
+![밤거리를 밝히는 알록달록한 네온사인 간판들](https://images.unsplash.com/photo-1519915212116-7cfef71f1d3e?w=800&h=400&fit=crop)
 
 ## 네온사인의 원리
 
@@ -1332,7 +1344,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 하지만 진짜 네온사인만의 따뜻하고 부드러운 빛은 여전히 사랑받고 있어요!`,
       tags: ['네온', '네온사인', '빛', '물리학', '역사'],
-      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1519915212116-7cfef71f1d3e?w=800&h=400&fit=crop',
     },
     {
       slug: 'neon-noble-gas',
@@ -1348,7 +1360,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 - 제논(Xe)
 - 라돈(Rn)
 
-![비활성 기체란? 관련 이미지](https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop)
+![주기율표에서 비활성 기체를 강조한 화학 교육 자료](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
 
 이들을 '비활성 기체' 또는 '귀족 기체(Noble Gas)'라고 불러요.
 
@@ -1409,7 +1421,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 아무와도 반응하지 않는 고고함, 그게 네온의 매력입니다!`,
       tags: ['네온', '비활성기체', '화학', '원자구조', '귀족기체'],
-      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop',
     },
     {
       slug: 'neon-universe-rare-earth',
@@ -1419,7 +1431,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 우주 전체를 보면 네온은 굉장히 흔한 원소입니다.
 
-![우주의 네온 관련 이미지](https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop)
+![초신성 폭발로 빛나는 성운과 별들의 우주 공간](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
 
 우주 원소 풍부도 순위:
 1. 수소 (H)
@@ -1488,7 +1500,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 우주에선 흔해도 지구에선 귀한 존재, 네온의 역설입니다!`,
       tags: ['네온', '우주', '희귀원소', '별', '지구'],
-      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
     },
   ],
   Na: [
@@ -1500,7 +1512,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 "나트륨 + 물" 검색하면 나오는 화려한 폭발 영상들. 왜 이런 일이 벌어질까요?
 
-![위험한 실험의 유혹 관련 이미지](https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop)
+![과학 실험실에서 화학 반응으로 인한 작은 폭발](https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop)
 
 ## 나트륨의 특징
 
@@ -1565,7 +1577,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 과학 영상으로만 즐기세요!`,
       tags: ['나트륨', '폭발', '화학반응', '알칼리금속', '실험'],
-      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop',
     },
     {
       slug: 'sodium-salt-body',
@@ -1575,7 +1587,7 @@ CH₄ + 2O₂ → CO₂ + 2H₂O + 열
 
 소금의 화학식: NaCl (나트륨 + 염소)
 
-![소금 = 염화나트륨 관련 이미지](https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop)
+![하얀 소금 결정이 담긴 그릇과 조미료](https://images.unsplash.com/photo-1572158091921-ff69ed32a9cb?w=800&h=400&fit=crop)
 
 소금의 약 40%가 나트륨입니다. 우리가 "나트륨 섭취"라고 할 때 주로 소금을 말하는 이유죠.
 
@@ -1638,7 +1650,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 생명이 바다에서 시작되었다는 증거일 수도 있어요. 우리 몸 안에 바다가 있는 셈이죠.`,
       tags: ['나트륨', '소금', '건강', '신체', '영양'],
-      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1572158091921-ff69ed32a9cb?w=800&h=400&fit=crop',
     },
     {
       slug: 'sodium-street-light',
@@ -1648,7 +1660,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 예전 가로등을 떠올려보세요. 요즘 LED와 달리, 따뜻한 주황색 빛이었죠? 그게 바로 나트륨 램프입니다.
 
-![밤길의 주황빛 관련 이미지](https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop)
+![밤거리를 밝히는 주황색 나트륨 가로등](https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop)
 
 ## 나트륨 램프의 원리
 
@@ -1708,7 +1720,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 이것도 같은 원리! 나트륨 원자가 에너지를 받아 특유의 색을 내는 거예요. 화학 시간에 해봤다면 기억나실 거예요.`,
       tags: ['나트륨', '가로등', '빛', '물리학', '일상과학'],
-      image: 'https://images.unsplash.com/photo-1543362906-acfc16c67564?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
     },
   ],
   Mg: [
@@ -1720,7 +1732,7 @@ WHO 권장: 2,000mg 미만 (소금 5g)
 
 마그네슘에 불을 붙이면 눈이 아플 정도로 밝은 흰 빛이 납니다. 이 빛은 어떻게 만들어질까요?
 
-![눈을 찌르는 하얀 빛 관련 이미지](https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop)
+![밤하늘을 화려하게 수놓는 불꽃놀이의 흰색 섬광](https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=400&fit=crop)
 
 ## 마그네슘 연소 반응
 
@@ -1789,7 +1801,7 @@ Mg + 2H₂O → Mg(OH)₂ + H₂↑
 
 영상으로만 감상하세요!`,
       tags: ['마그네슘', '불꽃놀이', '연소', '화학반응', '플래시'],
-      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f9?w=800&h=400&fit=crop',
     },
     {
       slug: 'magnesium-muscle-cramp',
@@ -1799,7 +1811,7 @@ Mg + 2H₂O → Mg(OH)₂ + H₂↑
 
 자다가 갑자기 종아리가 딱딱해지면서 아픈 경험, 누구나 있죠? 이럴 때 "마그네슘 부족이야"라는 말을 들어봤을 거예요.
 
-![다리에 쥐가 날 때 관련 이미지](https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop)
+![운동 후 다리 근육을 스트레칭하는 모습](https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=400&fit=crop)
 
 ## 마그네슘과 근육의 관계
 
@@ -1869,7 +1881,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 결론: 마그네슘은 중요하지만, 다리에 쥐 난다고 무조건 마그네슘 부족은 아닙니다!`,
       tags: ['마그네슘', '근육', '건강', '영양소', '경련'],
-      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=400&fit=crop',
     },
     {
       slug: 'magnesium-aircraft-lightweight',
@@ -1879,7 +1891,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 비행기가 1kg 가벼워지면 연료비가 연간 수백만 원 절약됩니다. 자동차가 가벼워지면 연비가 좋아지고요. 가벼움은 돈이에요!
 
-![가벼움의 가치 관련 이미지](https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop)
+![하늘을 나는 비행기와 첨단 항공기 엔진](https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=400&fit=crop)
 
 ## 마그네슘의 특성
 
@@ -1956,7 +1968,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 마그네슘, 가벼움으로 세상을 바꾸고 있습니다!`,
       tags: ['마그네슘', '합금', '항공', '자동차', '소재'],
-      image: 'https://images.unsplash.com/photo-1529526224676-eddc29966a07?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=400&fit=crop',
     },
   ],
   Al: [
@@ -1968,7 +1980,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 지금은 캔이나 호일로 쓰이는 알루미늄. 하지만 150년 전만 해도 금보다 비싼 귀금속이었습니다!
 
-![은백색의 귀금속? 관련 이미지](https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop)
+![빛나는 알루미늄 금속 덩어리와 은백색 표면](https://images.unsplash.com/photo-1515704089429-fd06e6668458?w=800&h=400&fit=crop)
 
 ## 알루미늄의 발견
 
@@ -2033,7 +2045,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 과거의 귀금속이 현대의 필수품이 된 놀라운 역사입니다.`,
       tags: ['알루미늄', '역사', '귀금속', '과학사', '산업'],
-      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1515704089429-fd06e6668458?w=800&h=400&fit=crop',
     },
     {
       slug: 'aluminum-can-recycle',
@@ -2043,7 +2055,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 알루미늄 캔은 "재활용의 왕"이라 불립니다. 왜 그럴까요?
 
-![재활용의 모범생 관련 이미지](https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop)
+![분리수거함에 있는 알루미늄 캔들](https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&h=400&fit=crop)
 
 ## 알루미늄 재활용의 장점
 
@@ -2120,7 +2132,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 당신이 버린 캔, 꼭 재활용 해주세요!`,
       tags: ['알루미늄', '재활용', '환경', '캔', '지속가능성'],
-      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=800&h=400&fit=crop',
     },
     {
       slug: 'aluminum-foil-science',
@@ -2130,7 +2142,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 알루미늄 호일, 집집마다 있죠? 그런데 잘 보면 양면이 달라요. 한 면은 반짝이고, 한 면은 무광. 왜 그럴까요?
 
-![주방의 만능 아이템 관련 이미지](https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop)
+![알루미늄 호일로 음식을 포장하는 모습](https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&h=400&fit=crop)
 
 ## 양면이 다른 이유
 
@@ -2200,7 +2212,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 작은 조각은 선별 과정에서 누락될 수 있으니 크게 모아주세요!`,
       tags: ['알루미늄', '호일', '주방과학', '일상', '요리'],
-      image: 'https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=800&h=400&fit=crop',
     },
   ],
   Si: [
@@ -2212,7 +2224,7 @@ ATP(에너지 화폐)를 만들고 사용하는 데 필수
 
 해변에서 밟는 모래, 그 주성분이 이산화규소(SiO₂)입니다. 이 평범한 물질이 어떻게 스마트폰, 컴퓨터의 두뇌가 될까요?
 
-![모래 = 컴퓨터? 관련 이미지](https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop)
+![컴퓨터 반도체 칩과 마이크로프로세서](https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&h=400&fit=crop)
 
 ## 실리콘의 특별함
 
