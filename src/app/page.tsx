@@ -21,6 +21,7 @@ export default function Home() {
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [result, setResult] = useState<MatchResult | null>(null);
   const resultRef = useRef<HTMLDivElement>(null);
+  const [showScoreInfo, setShowScoreInfo] = useState(false);
 
   const t = translations[lang];
 
@@ -320,8 +321,54 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div style={{ color: '#6b7280', fontSize: '14px' }}>
-                  {t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span>
+                <div style={{ color: '#6b7280', fontSize: '14px', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
+                  <span>{t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span></span>
+                  <span
+                    onClick={() => setShowScoreInfo(prev => !prev)}
+                    onMouseEnter={() => setShowScoreInfo(true)}
+                    onMouseLeave={() => setShowScoreInfo(false)}
+                    style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      width: '18px',
+                      height: '18px',
+                      borderRadius: '50%',
+                      border: '1.5px solid #9ca3af',
+                      color: '#9ca3af',
+                      fontSize: '11px',
+                      fontWeight: 'bold',
+                      cursor: 'pointer',
+                      userSelect: 'none',
+                      flexShrink: 0,
+                    }}
+                  >
+                    i
+                  </span>
+                  {showScoreInfo && (
+                    <div
+                      style={{
+                        position: 'absolute',
+                        bottom: '28px',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        backgroundColor: '#1f2937',
+                        color: '#f3f4f6',
+                        fontSize: '12px',
+                        lineHeight: '1.5',
+                        padding: '12px 14px',
+                        borderRadius: '12px',
+                        width: '260px',
+                        boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                        zIndex: 50,
+                        textAlign: 'left',
+                      }}
+                    >
+                      {lang === 'ko'
+                        ? '5가지 성격 차원(활동성, 사교성, 안정성, 감성, 독창성)에서 나와 이 원소가 얼마나 닮았는지를 나타내요. 100%에 가까울수록 찰떡궁합! 실제로는 대부분 70~95% 사이에서 나와요.'
+                        : 'Shows how similar you are to this element across 5 personality dimensions. Closer to 100% = better match! Most results fall between 70-95%.'}
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
