@@ -4,11 +4,11 @@ import { useState, useRef } from 'react';
 import Link from 'next/link';
 import { questions, getQuestionText, getOptionLabel } from '@/data/questions';
 import { translations, type Language } from '@/data/translations';
-import { findMatchingElement, getCategoryNameKo, getCategoryColor } from '@/utils/matching';
+import { findMatchingElement, getCategoryNameKo } from '@/utils/matching';
 import type { MatchResult } from '@/utils/matching';
 import { getElementExtras, traitNames } from '@/data/elementExtras';
 import { elements } from '@/data/elements';
-import { TraitsChart, HistorySection, UsesSection, FunFactsSection, CompatibilitySection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
+import { HistorySection, UsesSection, FunFactsSection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
 import { getPostsBySymbol } from '@/data/posts';
 
 type Step = 'intro' | 'quiz' | 'result';
@@ -268,7 +268,7 @@ export default function Home() {
                   backgroundColor: 'rgba(255, 255, 255, 0.8)',
                   borderRadius: '24px',
                   padding: '32px',
-                  marginBottom: '24px',
+                  marginBottom: '16px',
                   textAlign: 'center',
                   border: '1px solid #fed7aa',
                   boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
@@ -276,21 +276,20 @@ export default function Home() {
               >
                 <div
                   style={{
-                    display: 'inline-block',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
                     padding: '4px 12px',
                     borderRadius: '9999px',
                     fontSize: '12px',
+                    lineHeight: '1',
                     color: 'white',
                     marginBottom: '16px',
-                    backgroundColor: getCategoryColor(result.element.category) === 'bg-red-500' ? '#ef4444' :
-                                    getCategoryColor(result.element.category) === 'bg-blue-500' ? '#3b82f6' :
-                                    getCategoryColor(result.element.category) === 'bg-green-500' ? '#22c55e' :
-                                    getCategoryColor(result.element.category) === 'bg-purple-500' ? '#a855f7' :
-                                    getCategoryColor(result.element.category) === 'bg-yellow-500' ? '#eab308' :
-                                    getCategoryColor(result.element.category) === 'bg-pink-500' ? '#ec4899' :
-                                    getCategoryColor(result.element.category) === 'bg-orange-500' ? '#f97316' :
-                                    getCategoryColor(result.element.category) === 'bg-teal-500' ? '#14b8a6' :
-                                    getCategoryColor(result.element.category) === 'bg-indigo-500' ? '#6366f1' : '#6b7280',
+                    backgroundColor: ({
+                      'nonmetal': '#22c55e', 'noble-gas': '#a855f7', 'alkali-metal': '#ef4444',
+                      'alkaline-earth': '#f97316', 'metalloid': '#14b8a6', 'post-transition': '#60a5fa',
+                      'transition': '#2563eb', 'lanthanide': '#ec4899', 'actinide': '#e11d48', 'halogen': '#eab308',
+                    } as Record<string, string>)[result.element.category] || '#6b7280',
                   }}
                 >
                   {getCategoryNameKo(result.element.category)}
@@ -316,7 +315,7 @@ export default function Home() {
                     border: '1px solid #fed7aa',
                   }}
                 >
-                  <p style={{ color: '#4b5563', lineHeight: '1.625', textAlign: 'left', fontSize: '14px' }}>
+                  <p style={{ color: '#4b5563', lineHeight: '1.625', textAlign: 'left', fontSize: '14px', margin: 0 }}>
                     {result.element.description}
                   </p>
                 </div>
@@ -371,6 +370,102 @@ export default function Home() {
                   )}
                 </div>
               </div>
+
+              {/* Traits Chart - inline CSS for capture */}
+              <div
+                style={{
+                  backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                  borderRadius: '16px',
+                  padding: '20px 24px',
+                  marginBottom: '12px',
+                  border: '1px solid #fed7aa',
+                }}
+              >
+                <h3 style={{ fontSize: '16px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 14px 0' }}>
+                  {lang === 'ko' ? '성격 지표' : 'Personality Traits'}
+                </h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  {Object.entries(result.element.traits).map(([key, value]) => (
+                    <div key={key} style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                      <span style={{ color: '#4b5563', width: '72px', fontSize: '13px', flexShrink: 0 }}>
+                        {traitNames[key]}
+                      </span>
+                      <div style={{ flex: 1, height: '10px', backgroundColor: '#fef3c7', borderRadius: '9999px', overflow: 'hidden' }}>
+                        <div style={{
+                          height: '100%',
+                          width: `${(value / 5) * 100}%`,
+                          background: 'linear-gradient(to right, #fb923c, #fb7185)',
+                          borderRadius: '9999px',
+                        }} />
+                      </div>
+                      <span style={{ color: '#6b7280', fontSize: '13px', width: '28px', textAlign: 'right', flexShrink: 0 }}>
+                        {value}/5
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Compatibility - inline CSS for capture */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                {/* Good Matches */}
+                <div style={{
+                  backgroundColor: 'rgba(236, 253, 245, 0.8)',
+                  borderRadius: '16px',
+                  padding: '16px',
+                  border: '1px solid #a7f3d0',
+                }}>
+                  <h3 style={{ color: '#047857', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0' }}>
+                    {lang === 'ko' ? '💚 잘 맞는 궁합' : '💚 Good Match'}
+                  </h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    {result.goodMatches.map((el) => (
+                      <div key={el.symbol} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px',
+                        backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
+                        padding: '8px 10px', border: '1px solid #d1fae5',
+                      }}>
+                        <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
+                          {el.symbol}
+                        </span>
+                        <div>
+                          <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
+                          <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Bad Matches */}
+                <div style={{
+                  backgroundColor: 'rgba(255, 241, 242, 0.8)',
+                  borderRadius: '16px',
+                  padding: '16px',
+                  border: '1px solid #fecdd3',
+                }}>
+                  <h3 style={{ color: '#e11d48', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0' }}>
+                    {lang === 'ko' ? '💔 안 맞는 궁합' : '💔 Bad Match'}
+                  </h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    {result.badMatches.map((el) => (
+                      <div key={el.symbol} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px',
+                        backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
+                        padding: '8px 10px', border: '1px solid #ffe4e6',
+                      }}>
+                        <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
+                          {el.symbol}
+                        </span>
+                        <div>
+                          <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
+                          <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
             {/* End Capture Area */}
 
@@ -379,17 +474,12 @@ export default function Home() {
               const extras = getElementExtras(result.element.symbol);
               return (
                 <div className="space-y-6 mt-6">
-                  <TraitsChart traits={result.element.traits} traitNames={traitNames} />
                   <HistorySection history={extras.history} />
                   <UsesSection uses={extras.uses} />
                   <FunFactsSection funFacts={extras.funFacts} />
                 </div>
               );
             })()}
-
-            <div className="mt-8">
-              <CompatibilitySection goodMatches={result.goodMatches} badMatches={result.badMatches} lang={lang} />
-            </div>
 
             <div className="mt-8">
               <SameCategorySection

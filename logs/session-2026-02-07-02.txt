@@ -1,0 +1,54 @@
+# Session Log: 2026-02-07 (결과 이미지 캡처 개선)
+
+## 이전 세션 이어받기
+- 컨텍스트 컴팩션 후 재개
+- 이전 세션: 포스트 이미지 고도화 + 매칭 점수 툴팁 완료
+
+## 작업: 결과 이미지 캡처 개선
+
+### 요청
+1. 이미지 저장 시 카테고리 배지(원소 종류)가 색깔 박스보다 아래로 밀림 → 정렬 수정
+2. 설명 텍스트가 설명 박스 안에서 아래로 밀림 → 정렬 수정
+3. 성격 지표 + 궁합(잘 맞는/안 맞는)을 캡처 영역에 포함 → 저장 이미지에 표시
+
+### 분석
+- 카테고리 배지: `display: inline-block`이 html2canvas에서 세로 정렬 문제 유발
+- 색상 매핑: 기존 Tailwind 클래스 거치는 방식에서 post-transition, transition, actinide 누락 → 기본 회색으로 표시되던 버그
+- 설명 `<p>`: 브라우저 기본 margin (1em 0)이 패딩 안에서 텍스트를 밀어냄
+- TraitsChart/CompatibilitySection: 캡처 영역 밖에 Tailwind CSS로 구현 → html2canvas 미포함
+
+### 수정 내역 (6개 Edit)
+
+1. **Import 정리**: `getCategoryColor`, `TraitsChart`, `CompatibilitySection` 제거
+2. **카테고리 배지 정렬**:
+   - `display: inline-block` → `inline-flex` + `alignItems/justifyContent: center`
+   - `lineHeight: '1'` 추가
+   - Tailwind 클래스 간접 매핑 → 카테고리 직접 hex 매핑 (10개 전체 카테고리)
+3. **설명 텍스트**: `<p>` 태그에 `margin: 0` 추가
+4. **메인 카드 간격**: `marginBottom: 24px` → `16px` (새 섹션 추가에 따른 조정)
+5. **캡처 영역 확장**: 메인 카드 뒤에 inline CSS로 삽입
+   - 성격 지표 (TraitsChart): bar chart 5개, gradient 색상
+   - 궁합 섹션: 2열 그리드, 잘 맞는(초록)/안 맞는(분홍) 각각
+6. **중복 제거**: 기존 Tailwind TraitsChart/CompatibilitySection 삭제
+
+### 결과
+- 빌드 성공 (598 페이지)
+- 커밋 대기 상태
+
+## 의사결정
+| 결정 | 이유 |
+|------|------|
+| 카테고리 직접 hex 매핑 | Tailwind 클래스 거치면 3개 카테고리 누락, IIFE로 직접 매핑이 정확 |
+| inline-flex for badge | inline-block의 baseline 정렬 문제를 flex centering으로 해결 |
+| 궁합 2열 그리드 | 캡처 이미지 높이 절약, 최소 340px 너비에서도 가독성 유지 |
+| 기존 Tailwind 컴포넌트 제거 | 캡처 영역 inline 버전과 중복, 한 번만 표시 |
+
+## Git 상태
+- main 브랜치, 수정사항 미커밋
+- 수정 파일: src/app/page.tsx
+
+## 다음 단계
+1. ⏳ 커밋 + push
+2. ⏳ 도메인 연결 (manyak.xyz)
+3. ⏳ AdSense 재심사 요청
+4. ⏳ 이미지 저장 기능 실기기 테스트
