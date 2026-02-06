@@ -110,6 +110,7 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
         {/* Sections as separate cards */}
         <div className="space-y-6 mb-8">
           <TraitsChart traits={element.traits} traitNames={traitNames} />
+          <CompatibilitySection goodMatches={goodMatches} badMatches={badMatches} />
           <HistorySection history={extras.history} />
           <UsesSection uses={extras.uses} />
           <FunFactsSection funFacts={extras.funFacts} />
@@ -125,11 +126,6 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
             </div>
           );
         })()}
-
-        {/* Compatibility */}
-        <div className="mb-8">
-          <CompatibilitySection goodMatches={goodMatches} badMatches={badMatches} />
-        </div>
 
         {/* Navigation Section */}
         <div className="space-y-6 mb-8">

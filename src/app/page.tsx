@@ -258,8 +258,8 @@ export default function Home() {
               }}
             >
               <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                <p style={{ color: '#6b7280', marginBottom: '8px', fontSize: '14px' }}>{t.resultFor(userName)}</p>
-                <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', letterSpacing: '-0.025em' }}>{t.yourElement}</h1>
+                <p style={{ color: '#6b7280', margin: '0 0 8px 0', fontSize: '14px' }}>{t.resultFor(userName)}</p>
+                <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', letterSpacing: '-0.025em', margin: 0 }}>{t.yourElement}</h1>
               </div>
 
               {/* Main Result Card */}
@@ -299,10 +299,10 @@ export default function Home() {
                   <span style={{ fontSize: '70px', fontWeight: 'bold', color: '#1f2937' }}>{result.element.symbol}</span>
                 </div>
 
-                <h2 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1f2937', marginBottom: '4px', letterSpacing: '-0.025em' }}>
+                <h2 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 4px 0', letterSpacing: '-0.025em' }}>
                   {lang === 'ko' ? result.element.nameKo : result.element.name}
                 </h2>
-                <p style={{ color: '#6b7280', marginBottom: '16px', fontSize: '14px' }}>
+                <p style={{ color: '#6b7280', margin: '0 0 16px 0', fontSize: '14px' }}>
                   {lang === 'ko' ? result.element.name : result.element.nameKo} • {t.atomicNumber} {result.element.number}
                 </p>
 
@@ -420,10 +420,11 @@ export default function Home() {
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {result.goodMatches.map((el) => (
-                      <div key={el.symbol} style={{
+                      <Link key={el.symbol} href={`/elements/${el.symbol}`} style={{
                         display: 'flex', alignItems: 'center', gap: '10px',
                         backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
                         padding: '8px 10px', border: '1px solid #d1fae5',
+                        textDecoration: 'none',
                       }}>
                         <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
                           {el.symbol}
@@ -432,7 +433,7 @@ export default function Home() {
                           <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
                           <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
                         </div>
-                      </div>
+                      </Link>
                     ))}
                   </div>
                 </div>
@@ -449,10 +450,11 @@ export default function Home() {
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {result.badMatches.map((el) => (
-                      <div key={el.symbol} style={{
+                      <Link key={el.symbol} href={`/elements/${el.symbol}`} style={{
                         display: 'flex', alignItems: 'center', gap: '10px',
                         backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
                         padding: '8px 10px', border: '1px solid #ffe4e6',
+                        textDecoration: 'none',
                       }}>
                         <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
                           {el.symbol}
@@ -461,7 +463,7 @@ export default function Home() {
                           <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
                           <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
                         </div>
-                      </div>
+                      </Link>
                     ))}
                   </div>
                 </div>
