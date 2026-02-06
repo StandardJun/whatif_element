@@ -16,7 +16,9 @@ export interface MatchResult {
   badMatches: Element[];
 }
 
-// 사용자 응답을 5가지 차원 점수로 변환
+// 사용자 응답을 5가지 차원 점수로 변환 (가중 평균)
+// 각 차원의 첫 번째 질문에 0.6, 두 번째 질문에 0.4 가중치 적용
+// → 차원당 가능값 9개→19개, 총 조합 59,049→2,476,099로 분해능 향상
 export function calculateUserTraits(answers: Record<number, number>): UserTraits {
   const traits: UserTraits = {
     activity: 0,
@@ -26,26 +28,22 @@ export function calculateUserTraits(answers: Record<number, number>): UserTraits
     originality: 0
   };
 
-  const dimensionCounts: Record<string, number> = {
+  // 차원별 질문 순서 추적 (첫 번째: 0.6, 두 번째: 0.4)
+  const dimensionOrder: Record<string, number> = {
     activity: 0,
     sociability: 0,
     stability: 0,
     sensitivity: 0,
     originality: 0
   };
+  const weights = [0.6, 0.4];
 
   questions.forEach(q => {
     if (answers[q.id] !== undefined) {
-      traits[q.dimension] += answers[q.id];
-      dimensionCounts[q.dimension]++;
-    }
-  });
-
-  // 평균 계산 (각 차원당 2문항이므로 2로 나눔)
-  Object.keys(traits).forEach(key => {
-    const k = key as keyof UserTraits;
-    if (dimensionCounts[k] > 0) {
-      traits[k] = traits[k] / dimensionCounts[k];
+      const order = dimensionOrder[q.dimension];
+      const w = weights[order] ?? 0.5;
+      traits[q.dimension] += answers[q.id] * w;
+      dimensionOrder[q.dimension]++;
     }
   });
 
