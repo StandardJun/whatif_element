@@ -7,6 +7,9 @@ import { translations, type Language } from '@/data/translations';
 import { findMatchingElement, getCategoryNameKo, getCategoryColor } from '@/utils/matching';
 import type { MatchResult } from '@/utils/matching';
 import { getElementExtras, traitNames } from '@/data/elementExtras';
+import { elements } from '@/data/elements';
+import { TraitsChart, HistorySection, UsesSection, FunFactsSection, CompatibilitySection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
+import { getPostsBySymbol } from '@/data/posts';
 
 type Step = 'intro' | 'quiz' | 'result';
 
@@ -76,19 +79,16 @@ export default function Home() {
     if (!resultRef.current) return;
 
     try {
-      const domtoimage = await import('dom-to-image-more');
+      const html2canvas = (await import('html2canvas')).default;
 
-      const blob = await domtoimage.toBlob(resultRef.current, {
-        bgcolor: '#fef7ed',
-        quality: 1,
+      const canvas = await html2canvas(resultRef.current, {
+        backgroundColor: '#fef7ed',
         scale: 2,
+        useCORS: true,
+        logging: false,
       });
 
-      if (!blob) {
-        throw new Error('Failed to create blob');
-      }
-
-      const url = URL.createObjectURL(blob);
+      const dataUrl = canvas.toDataURL('image/png');
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
 
       // iOS Safari 체크
@@ -96,19 +96,17 @@ export default function Home() {
 
       if (isIOS) {
         // iOS에서는 새 탭에서 이미지 열기 (길게 눌러서 저장)
-        window.open(url, '_blank');
+        const newWindow = window.open();
+        if (newWindow) {
+          newWindow.document.write(`<img src="${dataUrl}" style="max-width:100%">`);
+        }
       } else {
         // 데스크톱 및 Android
         const link = document.createElement('a');
-        link.href = url;
+        link.href = dataUrl;
         link.download = filename;
-        document.body.appendChild(link);
         link.click();
-        document.body.removeChild(link);
       }
-
-      // 메모리 해제
-      setTimeout(() => URL.revokeObjectURL(url), 1000);
     } catch (error) {
       console.error('Failed to save image:', error);
       alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
@@ -159,6 +157,13 @@ export default function Home() {
             >
               {t.startButton}
             </button>
+
+            <Link
+              href="/elements"
+              className="block w-full py-3 mt-3 rounded-2xl bg-white/70 hover:bg-white border border-orange-200 text-gray-600 font-medium text-center transition-all duration-200"
+            >
+              {lang === 'ko' ? '🧪 원소 도감 둘러보기' : '🧪 Browse Element Encyclopedia'}
+            </Link>
 
             <p className="mt-6 text-gray-400 text-sm">
               {t.questionCount}
@@ -224,136 +229,191 @@ export default function Home() {
         {/* Result Screen */}
         {step === 'result' && result && (
           <div className="max-w-lg w-full animate-fadeIn">
-            {/* Capture Area */}
-            <div ref={resultRef} className="bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 p-4 rounded-3xl">
-              <div className="text-center mb-6">
-                <p className="text-gray-500 mb-2">{t.resultFor(userName)}</p>
-                <h1 className="text-2xl font-bold text-gray-800 tracking-tight">{t.yourElement}</h1>
+            {/* Capture Area - 인라인 스타일 사용 (html2canvas 호환) */}
+            <div
+              ref={resultRef}
+              style={{
+                background: 'linear-gradient(to bottom right, #fffbeb, #fff7ed, #fff1f2)',
+                padding: '16px',
+                borderRadius: '24px',
+              }}
+            >
+              <div style={{ textAlign: 'center', marginBottom: '24px' }}>
+                <p style={{ color: '#6b7280', marginBottom: '8px', fontSize: '14px' }}>{t.resultFor(userName)}</p>
+                <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', letterSpacing: '-0.025em' }}>{t.yourElement}</h1>
               </div>
 
               {/* Main Result Card */}
-              <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 mb-6 text-center border border-orange-100 shadow-lg">
-              <div className={`inline-block px-3 py-1 rounded-full text-xs text-white mb-4 ${getCategoryColor(result.element.category)}`}>
-                {getCategoryNameKo(result.element.category)}
-              </div>
+              <div
+                style={{
+                  backgroundColor: 'rgba(255, 255, 255, 0.8)',
+                  borderRadius: '24px',
+                  padding: '32px',
+                  marginBottom: '24px',
+                  textAlign: 'center',
+                  border: '1px solid #fed7aa',
+                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                }}
+              >
+                <div
+                  style={{
+                    display: 'inline-block',
+                    padding: '4px 12px',
+                    borderRadius: '9999px',
+                    fontSize: '12px',
+                    color: 'white',
+                    marginBottom: '16px',
+                    backgroundColor: getCategoryColor(result.element.category) === 'bg-red-500' ? '#ef4444' :
+                                    getCategoryColor(result.element.category) === 'bg-blue-500' ? '#3b82f6' :
+                                    getCategoryColor(result.element.category) === 'bg-green-500' ? '#22c55e' :
+                                    getCategoryColor(result.element.category) === 'bg-purple-500' ? '#a855f7' :
+                                    getCategoryColor(result.element.category) === 'bg-yellow-500' ? '#eab308' :
+                                    getCategoryColor(result.element.category) === 'bg-pink-500' ? '#ec4899' :
+                                    getCategoryColor(result.element.category) === 'bg-orange-500' ? '#f97316' :
+                                    getCategoryColor(result.element.category) === 'bg-teal-500' ? '#14b8a6' :
+                                    getCategoryColor(result.element.category) === 'bg-indigo-500' ? '#6366f1' : '#6b7280',
+                  }}
+                >
+                  {getCategoryNameKo(result.element.category)}
+                </div>
 
-              <div className="mb-4">
-                <span className="text-7xl font-bold text-gray-800">{result.element.symbol}</span>
-              </div>
+                <div style={{ marginBottom: '16px' }}>
+                  <span style={{ fontSize: '70px', fontWeight: 'bold', color: '#1f2937' }}>{result.element.symbol}</span>
+                </div>
 
-              <h2 className="text-3xl font-bold text-gray-800 mb-1 tracking-tight">
-                {lang === 'ko' ? result.element.nameKo : result.element.name}
-              </h2>
-              <p className="text-gray-500 mb-4">
-                {lang === 'ko' ? result.element.name : result.element.nameKo} • {t.atomicNumber} {result.element.number}
-              </p>
-
-              <div className="bg-orange-50/50 rounded-2xl p-4 mb-4 border border-orange-100">
-                <p className="text-gray-600 leading-relaxed text-left text-sm">
-                  {result.element.description}
+                <h2 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1f2937', marginBottom: '4px', letterSpacing: '-0.025em' }}>
+                  {lang === 'ko' ? result.element.nameKo : result.element.name}
+                </h2>
+                <p style={{ color: '#6b7280', marginBottom: '16px', fontSize: '14px' }}>
+                  {lang === 'ko' ? result.element.name : result.element.nameKo} • {t.atomicNumber} {result.element.number}
                 </p>
-              </div>
 
-              <div className="text-gray-500">
-                {t.matchScore}: <span className="text-orange-500 font-bold">{result.score}%</span>
-              </div>
-            </div>
+                <div
+                  style={{
+                    backgroundColor: 'rgba(255, 247, 237, 0.5)',
+                    borderRadius: '16px',
+                    padding: '16px',
+                    marginBottom: '16px',
+                    border: '1px solid #fed7aa',
+                  }}
+                >
+                  <p style={{ color: '#4b5563', lineHeight: '1.625', textAlign: 'left', fontSize: '14px' }}>
+                    {result.element.description}
+                  </p>
+                </div>
 
-            {/* Compatibility */}
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              {/* Good Match */}
-              <div className="bg-emerald-50/80 backdrop-blur-md rounded-2xl p-4 border border-emerald-200">
-                <h3 className="text-emerald-600 font-medium mb-3 text-center text-sm">💚 {t.goodMatch}</h3>
-                <div className="space-y-2">
-                  {result.goodMatches.map(el => (
-                    <div key={el.number} className="bg-white/70 rounded-xl p-2 text-center border border-emerald-100">
-                      <span className="text-2xl font-bold text-gray-700">{el.symbol}</span>
-                      <p className="text-emerald-600 text-xs">{lang === 'ko' ? el.nameKo : el.name}</p>
-                    </div>
-                  ))}
+                <div style={{ color: '#6b7280', fontSize: '14px' }}>
+                  {t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span>
                 </div>
               </div>
 
-              {/* Bad Match */}
-              <div className="bg-rose-50/80 backdrop-blur-md rounded-2xl p-4 border border-rose-200">
-                <h3 className="text-rose-500 font-medium mb-3 text-center text-sm">💔 {t.badMatch}</h3>
-                <div className="space-y-2">
-                  {result.badMatches.map(el => (
-                    <div key={el.number} className="bg-white/70 rounded-xl p-2 text-center border border-rose-100">
-                      <span className="text-2xl font-bold text-gray-700">{el.symbol}</span>
-                      <p className="text-rose-500 text-xs">{lang === 'ko' ? el.nameKo : el.name}</p>
-                    </div>
-                  ))}
+              {/* Compatibility */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginBottom: '24px' }}>
+                {/* Good Match */}
+                <div
+                  style={{
+                    backgroundColor: 'rgba(236, 253, 245, 0.8)',
+                    borderRadius: '16px',
+                    padding: '16px',
+                    border: '1px solid #a7f3d0',
+                  }}
+                >
+                  <h3 style={{ color: '#059669', fontWeight: '500', marginBottom: '12px', textAlign: 'center', fontSize: '14px' }}>💚 {t.goodMatch}</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {result.goodMatches.map(el => (
+                      <div
+                        key={el.number}
+                        style={{
+                          backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                          borderRadius: '12px',
+                          padding: '8px',
+                          textAlign: 'center',
+                          border: '1px solid #d1fae5',
+                        }}
+                      >
+                        <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#374151' }}>{el.symbol}</span>
+                        <p style={{ color: '#059669', fontSize: '12px' }}>{lang === 'ko' ? el.nameKo : el.name}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Bad Match */}
+                <div
+                  style={{
+                    backgroundColor: 'rgba(255, 241, 242, 0.8)',
+                    borderRadius: '16px',
+                    padding: '16px',
+                    border: '1px solid #fecdd3',
+                  }}
+                >
+                  <h3 style={{ color: '#f43f5e', fontWeight: '500', marginBottom: '12px', textAlign: 'center', fontSize: '14px' }}>💔 {t.badMatch}</h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {result.badMatches.map(el => (
+                      <div
+                        key={el.number}
+                        style={{
+                          backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                          borderRadius: '12px',
+                          padding: '8px',
+                          textAlign: 'center',
+                          border: '1px solid #ffe4e6',
+                        }}
+                      >
+                        <span style={{ fontSize: '24px', fontWeight: 'bold', color: '#374151' }}>{el.symbol}</span>
+                        <p style={{ color: '#f43f5e', fontSize: '12px' }}>{lang === 'ko' ? el.nameKo : el.name}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
             </div>
             {/* End Capture Area */}
 
-            {/* Extended Info - Outside Capture Area */}
+            {/* Extended Info - Using shared components */}
             {(() => {
               const extras = getElementExtras(result.element.symbol);
               return (
-                <>
-                  {/* Traits Chart */}
-                  <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 mb-4 border border-orange-100 shadow-md">
-                    <h3 className="text-lg font-bold text-gray-800 mb-4">{lang === 'ko' ? '성격 지표' : 'Personality Traits'}</h3>
-                    <div className="space-y-3">
-                      {Object.entries(result.element.traits).map(([key, value]) => (
-                        <div key={key} className="flex items-center gap-3">
-                          <span className="text-gray-600 w-16 text-sm">{traitNames[key]}</span>
-                          <div className="flex-1 h-2.5 bg-orange-100 rounded-full overflow-hidden">
-                            <div
-                              className="h-full bg-gradient-to-r from-orange-400 to-rose-400 rounded-full"
-                              style={{ width: `${(value / 5) * 100}%` }}
-                            />
-                          </div>
-                          <span className="text-gray-500 text-xs w-6">{value}/5</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* History */}
-                  <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 mb-4 border border-orange-100 shadow-md">
-                    <h3 className="text-lg font-bold text-gray-800 mb-3">{lang === 'ko' ? '발견 역사' : 'Discovery'}</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">{extras.history}</p>
-                  </div>
-
-                  {/* Uses */}
-                  <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 mb-4 border border-orange-100 shadow-md">
-                    <h3 className="text-lg font-bold text-gray-800 mb-3">{lang === 'ko' ? '실생활 용도' : 'Real-world Uses'}</h3>
-                    <div className="flex flex-wrap gap-2">
-                      {extras.uses.map((use, index) => (
-                        <span key={index} className="px-3 py-1.5 bg-orange-50 text-orange-700 rounded-full text-sm border border-orange-200">
-                          {use}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Fun Facts */}
-                  <div className="bg-white/80 backdrop-blur-md rounded-2xl p-6 mb-4 border border-orange-100 shadow-md">
-                    <h3 className="text-lg font-bold text-gray-800 mb-3">{lang === 'ko' ? '재미있는 사실' : 'Fun Facts'}</h3>
-                    <ul className="space-y-2">
-                      {extras.funFacts.map((fact, index) => (
-                        <li key={index} className="flex items-start gap-2 text-gray-600 text-sm">
-                          <span className="text-orange-400 mt-0.5">✦</span>
-                          {fact}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </>
+                <div className="space-y-4 mt-4">
+                  <TraitsChart traits={result.element.traits} traitNames={traitNames} />
+                  <HistorySection history={extras.history} />
+                  <UsesSection uses={extras.uses} />
+                  <FunFactsSection funFacts={extras.funFacts} />
+                </div>
               );
             })()}
 
-            {/* Learn More Link */}
+            <div className="mt-4">
+              <CompatibilitySection goodMatches={result.goodMatches} badMatches={result.badMatches} lang={lang} />
+            </div>
+
+            <div className="mt-4">
+              <SameCategorySection
+                elements={elements.filter(el => el.category === result.element.category && el.symbol !== result.element.symbol)}
+                categoryName={getCategoryNameKo(result.element.category)}
+                currentSymbol={result.element.symbol}
+                lang={lang}
+                maxDisplay={8}
+              />
+            </div>
+
+            {/* Posts Preview */}
+            {(() => {
+              const posts = getPostsBySymbol(result.element.symbol);
+              if (posts.length === 0) return null;
+              return (
+                <div className="mt-4">
+                  <PostsPreview symbol={result.element.symbol} elementNameKo={lang === 'ko' ? result.element.nameKo : result.element.name} posts={posts} />
+                </div>
+              );
+            })()}
+
+            {/* Element Encyclopedia Button */}
             <Link
-              href={`/elements/${result.element.symbol}/posts`}
-              className="block w-full py-4 rounded-2xl bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-700 font-medium text-center transition-all duration-200 mb-4"
+              href="/elements"
+              className="block w-full py-4 rounded-2xl bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-bold text-lg text-center hover:from-purple-500 hover:to-indigo-500 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mb-4"
             >
-              📚 {t.learnMore}
+              {lang === 'ko' ? '🧪 전체 원소 도감 보기' : '🧪 View All Elements'}
             </Link>
 
             {/* Action Buttons */}

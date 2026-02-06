@@ -63,8 +63,11 @@ element-personality-test/
 │   │   ├── posts/                # 원소별 포스트 그룹 (group1-6.ts)
 │   │   ├── questions.ts          # 10개 질문 데이터 (다국어)
 │   │   └── translations.ts       # UI 번역 데이터 (한국어/영어)
+│   ├── components/
+│   │   ├── ElementSections.tsx   # 공유 UI 컴포넌트 (7개: TraitsChart, HistorySection 등)
+│   │   └── ShareButton.tsx       # 공유 버튼 (클라이언트 컴포넌트)
 │   ├── types/
-│   │   └── dom-to-image-more.d.ts  # 이미지 캡처 라이브러리 타입
+│   │   └── (html2canvas는 자체 타입 제공)
 │   └── utils/
 │       └── matching.ts           # 매칭 알고리즘
 ├── NOTES.md                      # 프로젝트 노트
@@ -150,12 +153,20 @@ translations = {
 - [x] 정적 빌드 설정 (output: 'export')
 - [x] 사이트명 변경: "만약..." (manyak.xyz)
 - [x] Google AdSense 코드 추가 (layout.tsx에 정적 스크립트 삽입)
-- [x] **결과 사진 저장 기능** (dom-to-image-more 라이브러리)
+- [x] **결과 사진 저장 기능** (html2canvas 라이브러리 + 인라인 CSS)
 - [x] **결과 화면 상세 정보 확장** (성격 특성, 발견 역사, 용도, 재미있는 사실, 궁합)
 - [x] **블로그 포스트 시스템** 데이터 구조 및 페이지 구현
-- [ ] 118개 원소별 블로그 포스트 작성 (6개 병렬 에이전트 작업 중)
-- [ ] posts.ts에 group1-6 포스트 통합
-- [ ] 빌드 테스트 및 배포
+- [x] 118개 원소별 블로그 포스트 작성 (354개 포스트 완료)
+- [x] posts.ts에 group1-6 포스트 통합 완료
+- [x] **포스트 가독성 개선** (h2/h3 크기, 줄 간격, 볼드 마크다운 파싱)
+- [x] **도감 창 네비게이션** (전체 도감, 이전/다음 원소, 같은 족 원소)
+- [x] **결과 창 개선** (궁합 원소 클릭 가능, 같은 족 원소 섹션 추가)
+- [x] **홈 화면 도감 버튼** 추가
+- [x] 포스트 팩트체크 완료 (14건 수정)
+- [x] **결과 창/도감 창 디자인 통일** (공유 컴포넌트 추출 완료)
+- [x] **결과 창에 포스트 미리보기** 섹션 추가
+- [x] **도감 창에 공유 버튼** 추가
+- [x] 빌드 테스트 통과 (595페이지 정적 생성)
 - [ ] Cloudflare Pages 배포 (GitHub 연동 필요)
 - [ ] 도메인 연결 (manyak.xyz)
 - [ ] Google AdSense 승인 대기
@@ -176,15 +187,18 @@ translations = {
 | 2026-02-05 | AdSense 정적 스크립트 | Next.js Script 컴포넌트 대신 정적 <script> 태그 사용 (크롤러 감지용) |
 | 2026-02-05 | dom-to-image-more | html2canvas가 배포 환경에서 작동 안함 → dom-to-image-more로 교체 |
 | 2026-02-05 | 병렬 에이전트 포스트 작성 | 118개 원소 포스트를 6개 그룹으로 나눠 병렬 작성 (컨텍스트 효율화) |
+| 2026-02-06 | html2canvas + 인라인 CSS | dom-to-image-more도 불안정 → html2canvas + 캡처영역 인라인 CSS로 최종 해결 |
+| 2026-02-06 | 캡처 영역 분리 | 클릭 가능한 요소는 캡처 영역 밖에 배치하여 이미지/인터랙션 분리 |
+| 2026-02-06 | 공유 컴포넌트 추출 | 결과/도감 두 페이지 디자인 통일 + 코드 중복 제거 (7개 컴포넌트) |
 
-## 최근 추가 기능 (2026-02-05)
+## 최근 추가 기능 (2026-02-06 업데이트)
 
 ### 1. 결과 사진 저장 기능
-- **라이브러리**: dom-to-image-more (html2canvas에서 변경)
+- **라이브러리**: html2canvas (dom-to-image-more에서 변경)
+- **핵심**: 캡처 영역(`resultRef`)에 **인라인 CSS** 사용 (Tailwind 미지원)
 - **동작**: 결과 카드를 PNG 이미지로 캡처
 - **iOS 대응**: Safari에서는 새 탭에서 이미지 열기 방식
 - **위치**: `handleSaveImage()` in page.tsx
-- **타입 정의**: `/src/types/dom-to-image-more.d.ts`
 
 ### 2. 결과 화면 확장
 - **성격 특성 차트**: 5가지 차원별 막대 그래프
@@ -209,13 +223,113 @@ translations = {
   - group5: Tl-Fm (20개)
   - group6: Md-Og (18개)
 
+## ✅ 해결된 문제점 (2026-02-06 업데이트)
+
+### 1. ✅ 사진 저장 문제 (해결됨)
+**해결 방법**:
+- dom-to-image-more → **html2canvas**로 교체
+- 캡처 영역(`resultRef`)에 **인라인 CSS** 적용
+- iOS Safari: 새 탭에서 이미지 열기 방식 유지
+- `package.json`: html2canvas 의존성 추가
+
+### 2. 결과 창 ↔ 도감 창 디자인 일관성 (우선순위: 높음)
+**현상**: 결과 화면(`page.tsx`)과 원소 상세 화면(`/elements/[symbol]/page.tsx`)의 디자인이 달라 일관성이 깨짐
+
+**차이점 분석**:
+| 요소 | 결과 창 | 도감 창 |
+|------|--------|--------|
+| 원소 심볼 크기 | 7xl | 8xl |
+| 카테고리 배지 | 있음 | 있음 |
+| 성격 설명 | 있음 | 있음 |
+| 성격 지표 차트 | 있음 (캡처 영역 밖) | 있음 |
+| 발견 역사/용도/재미있는 사실 | 있음 (캡처 영역 밖) | 있음 |
+| 궁합 원소 | 있음 (캡처 영역 안) | 있음 (별도 카드) |
+| 포스트 목록 | 없음 | 있음 |
+| 공유/저장 버튼 | 있음 | 없음 |
+
+**해결 방향**:
+1. 공통 원소 카드 컴포넌트 추출 (`ElementCard.tsx`)
+2. 결과 창에도 포스트 목록 섹션 추가
+3. 도감 창에도 "공유하기" 버튼 추가 (해당 원소 URL 공유)
+4. 카드 디자인 통일 (폰트 크기, 여백, 색상)
+
+### 3. ✅ 관련 원소/도감 네비게이션 버튼 (해결됨)
+**해결 방법**:
+- **결과 창**: 같은 족 원소 섹션 + "전체 원소 도감 보기" 버튼 추가
+- **도감 상세 창**:
+  - "전체 도감 보기" 버튼
+  - "이전/다음 원소" 네비게이션
+  - "같은 족 원소" 섹션 (같은 category)
+- **구현 위치**: `/src/app/elements/[symbol]/page.tsx`
+
+### 4. ✅ 포스트 팩트체크 (완료)
+**결과**: 354개 포스트 중 14건 수정 완료 (정확도 96%)
+
+**그룹별 수정 내역**:
+| 그룹 | 원소 범위 | 수정 건수 | 주요 수정 |
+|------|----------|----------|----------|
+| Group 1 | He~Ca | 2건 | He 밀도, Be 이름 유래 |
+| Group 2 | Sc~Zr | 5건 | Co 연도, V 배터리, Mn 생산량, Zr 합성연도 |
+| Group 3 | Nb~Nd | 1건 | Cd 반 고흐 안료 |
+| Group 4 | Pm~Hg | 2건 | Gd 중성자 흡수, Tb 분리 연도 |
+| Group 5 | Tl~Fm | 4건 | Bi, Pb, Ra, Tl 수치/연도 |
+| Group 6 | Md~Og | 0건 | - |
+| basePosts | H, C | 0건 | 모두 정확 |
+
+### 5. ✅ 포스트 가독성 개선 (해결됨)
+**해결 방법**:
+- **제목 스타일**: h2: `text-3xl font-bold mt-10 mb-5`, h3: `text-2xl font-semibold mt-8 mb-4`
+- **본문 스타일**: `text-lg leading-loose mb-6`
+- **볼드 마크다운 파싱**: `parseBoldText()` 함수 추가 (`**text**` → `<strong>`)
+- **리스트 스타일**: `space-y-3`, `pl-2 leading-relaxed`
+- **수정 파일**: `/src/app/elements/[symbol]/posts/[slug]/page.tsx`
+
+### 6. ✅ 결과 창에서 다른 원소 정보 보기 (해결됨)
+**해결 방법**:
+- 궁합 원소를 **캡처 영역 밖**에 클릭 가능한 `<Link>`로 구현
+- 캡처 영역 안의 궁합 정보는 그대로 유지 (이미지 캡처용)
+- 캡처 영역 밖에 "궁합 원소 더 알아보기" 섹션 추가
+- 클릭 시 `/elements/[symbol]` 페이지로 이동
+- **수정 파일**: `/src/app/page.tsx`
+
+### 7. ✅ 홈 화면에 도감 버튼 추가 (해결됨)
+**해결 방법**:
+- 인트로 화면에 "🧪 원소 도감 둘러보기" 버튼 추가
+- 위치: "시작하기" 버튼 아래
+- 스타일: Secondary 버튼 (bg-white/70)
+- **수정 파일**: `/src/app/page.tsx`
+
+### 8. ✅ 결과 창/도감 창 디자인 통일 (해결됨)
+**해결 방법**:
+- **공유 컴포넌트 7개** 추출 (`/src/components/ElementSections.tsx`):
+  - `TraitsChart`, `HistorySection`, `UsesSection`, `FunFactsSection`
+  - `CompatibilitySection`, `SameCategorySection`, `PostsPreview`
+- **도감 페이지 중복 데이터 제거**: 로컬 `elementExtras` 삭제 → `@/data/elementExtras` import
+- **결과 페이지**: 캡처 영역 밖 섹션을 공유 컴포넌트로 교체 + 포스트 미리보기 추가
+- **도감 페이지**: 공유 컴포넌트 사용 + ShareButton 추가
+- **디자인 기준**: 도감 페이지의 여유있는 레이아웃으로 통일
+- **캡처 영역**: html2canvas 인라인 CSS 유지 (변경 없음)
+- **수정 파일**: `page.tsx`, `elements/[symbol]/page.tsx`
+- **생성 파일**: `components/ElementSections.tsx`, `components/ShareButton.tsx`
+
+---
+
+## 작업 순서 (권장) - 2026-02-06 업데이트
+1. ✅ **높음**: 사진 저장 문제 해결 (html2canvas + 인라인 CSS)
+2. ✅ **높음**: 결과 창/도감 창 디자인 통일 (공유 컴포넌트 추출 완료)
+3. ✅ **중간**: 네비게이션 버튼 추가
+4. ✅ **중간**: 결과 창 궁합 원소 클릭 가능하게
+5. ✅ **중간**: 포스트 가독성 개선
+6. ✅ **중간**: 포스트 팩트체크 (14건 수정 완료)
+7. ✅ **낮음**: 홈 화면 도감 버튼
+
+---
+
 ## 다음 단계
-1. 병렬 에이전트 완료 대기 (118개 원소 포스트 작성)
-2. posts.ts에 group1-6 데이터 통합
-3. 빌드 테스트
-4. GitHub Push → Cloudflare 자동 배포
-5. 이미지 저장 기능 실제 기기 테스트
-6. AdSense 승인 확인 요청
+1. ✅ 빌드 테스트 통과 (595페이지 정적 생성 확인)
+2. ⏳ GitHub Push → Cloudflare 자동 배포
+3. ⏳ 이미지 저장 기능 실제 기기 테스트
+4. ⏳ AdSense 승인 확인 요청
 
 ## 향후 확장 계획
 사이트 구조 예시:

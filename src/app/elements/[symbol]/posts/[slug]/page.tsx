@@ -94,20 +94,35 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
           )}
 
           {/* Content */}
-          <div className="prose prose-gray max-w-none">
+          <div className="prose prose-lg prose-gray max-w-none">
             {post.content.split('\n\n').map((paragraph, index) => {
+              // 볼드 텍스트 파싱 함수
+              const parseBoldText = (text: string) => {
+                const parts = text.split(/(\*\*[^*]+\*\*)/g);
+                return parts.map((part, i) => {
+                  if (part.startsWith('**') && part.endsWith('**')) {
+                    return (
+                      <strong key={i} className="font-bold text-gray-900">
+                        {part.slice(2, -2)}
+                      </strong>
+                    );
+                  }
+                  return part;
+                });
+              };
+
               // 헤딩 처리
               if (paragraph.startsWith('## ')) {
                 return (
-                  <h2 key={index} className="text-2xl font-bold text-gray-800 mt-8 mb-4">
-                    {paragraph.replace('## ', '')}
+                  <h2 key={index} className="text-3xl font-bold text-gray-800 mt-10 mb-5">
+                    {parseBoldText(paragraph.replace('## ', ''))}
                   </h2>
                 );
               }
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={index} className="text-xl font-bold text-gray-800 mt-6 mb-3">
-                    {paragraph.replace('### ', '')}
+                  <h3 key={index} className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
+                    {parseBoldText(paragraph.replace('### ', ''))}
                   </h3>
                 );
               }
@@ -115,17 +130,19 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
               if (paragraph.startsWith('- ')) {
                 const items = paragraph.split('\n').filter(line => line.startsWith('- '));
                 return (
-                  <ul key={index} className="list-disc list-inside space-y-2 text-gray-700 my-4">
+                  <ul key={index} className="list-disc list-outside ml-6 space-y-3 text-lg text-gray-700 my-6">
                     {items.map((item, i) => (
-                      <li key={i}>{item.replace('- ', '')}</li>
+                      <li key={i} className="pl-2 leading-relaxed">
+                        {parseBoldText(item.replace('- ', ''))}
+                      </li>
                     ))}
                   </ul>
                 );
               }
               // 일반 단락
               return (
-                <p key={index} className="text-gray-700 leading-relaxed mb-4">
-                  {paragraph}
+                <p key={index} className="text-lg text-gray-700 leading-loose mb-6">
+                  {parseBoldText(paragraph)}
                 </p>
               );
             })}
