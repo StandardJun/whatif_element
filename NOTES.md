@@ -168,9 +168,9 @@ translations = {
 - [x] **도감 창에 공유 버튼** 추가
 - [x] 빌드 테스트 통과 (595페이지 정적 생성)
 - [x] **AdSense 승인 대응 (1-6번)**: 개인정보처리방침, 이용약관, 소개/연락처 페이지, 글로벌 Footer, sitemap.xml/robots.txt, 메인 SEO 콘텐츠
-- [ ] **AdSense 승인 대응 (7번)**: 103개 원소 elementExtras 고유 콘텐츠 작성 (generic → 고유)
-- [ ] 빌드 재확인 (7번 완료 후)
-- [ ] GitHub Push → Cloudflare 자동 배포
+- [x] **AdSense 승인 대응 (7번)**: 103개 원소 elementExtras 고유 콘텐츠 작성 완료 (6개 병렬 sub-agent)
+- [x] 빌드 재확인 (595+ 페이지 정적 생성 통과)
+- [x] GitHub Push → Cloudflare 자동 배포 (`122b462`)
 - [ ] 도메인 연결 (manyak.xyz)
 - [ ] Google AdSense 재심사 요청
 
@@ -331,10 +331,12 @@ translations = {
 ## 다음 단계
 1. ✅ 빌드 테스트 통과 (595페이지 정적 생성 확인)
 2. ✅ AdSense 승인 대응 1-6번 완료 (정책페이지, Footer, SEO 등)
-3. ⏳ **AdSense 승인 대응 7번**: 103개 원소 elementExtras 고유 콘텐츠 (ELEMENT_EXTRAS_TASK.md 참조)
-4. ⏳ 빌드 재확인 + GitHub Push → Cloudflare 자동 배포
-5. ⏳ AdSense 재심사 요청
-6. ⏳ 이미지 저장 기능 실제 기기 테스트
+3. ✅ **AdSense 승인 대응 7번**: 103개 원소 elementExtras 고유 콘텐츠 완료 (커밋 `122b462`)
+4. ✅ 빌드 재확인 + GitHub Push → Cloudflare 자동 배포 완료
+5. ⏳ 도메인 연결 (manyak.xyz)
+6. ⏳ AdSense 재심사 요청
+7. ⏳ 이미지 저장 기능 실제 기기 테스트
+8. ⏳ 정식 문의 이메일 생성 (현재 임시: jkgkgj@naver.com)
 
 ## 향후 확장 계획
 사이트 구조 예시:

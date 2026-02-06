@@ -69,7 +69,7 @@ export default function TermsPage() {
 
           <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">9. 문의</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            이메일: manyak.xyz@gmail.com
+            이메일: jkgkgj@naver.com
           </p>
 
           <footer className="mt-12 text-center text-gray-400 text-xs">

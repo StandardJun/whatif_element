@@ -169,7 +169,7 @@ export default function PrivacyPage() {
                 개인정보처리방침에 대한 문의사항이나 개인정보 관련 요청사항이 있으시면 아래 연락처로 문의해 주시기 바랍니다.
               </p>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
-                <li>이메일: manyak.xyz@gmail.com</li>
+                <li>이메일: jkgkgj@naver.com</li>
                 <li>사이트: manyak.xyz</li>
               </ul>
             </section>
@@ -219,7 +219,7 @@ export default function PrivacyPage() {
 
               <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">5. Contact</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                For questions about this privacy policy, contact us at: manyak.xyz@gmail.com
+                For questions about this privacy policy, contact us at: jkgkgj@naver.com
               </p>
             </section>
           </div>

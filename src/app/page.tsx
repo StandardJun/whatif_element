@@ -392,7 +392,7 @@ export default function Home() {
             {(() => {
               const extras = getElementExtras(result.element.symbol);
               return (
-                <div className="space-y-4 mt-4">
+                <div className="space-y-6 mt-8">
                   <TraitsChart traits={result.element.traits} traitNames={traitNames} />
                   <HistorySection history={extras.history} />
                   <UsesSection uses={extras.uses} />
@@ -401,11 +401,11 @@ export default function Home() {
               );
             })()}
 
-            <div className="mt-4">
+            <div className="mt-8">
               <CompatibilitySection goodMatches={result.goodMatches} badMatches={result.badMatches} lang={lang} />
             </div>
 
-            <div className="mt-4">
+            <div className="mt-8">
               <SameCategorySection
                 elements={elements.filter(el => el.category === result.element.category && el.symbol !== result.element.symbol)}
                 categoryName={getCategoryNameKo(result.element.category)}
@@ -420,7 +420,7 @@ export default function Home() {
               const posts = getPostsBySymbol(result.element.symbol);
               if (posts.length === 0) return null;
               return (
-                <div className="mt-4">
+                <div className="mt-8">
                   <PostsPreview symbol={result.element.symbol} elementNameKo={lang === 'ko' ? result.element.nameKo : result.element.name} posts={posts} />
                 </div>
               );
@@ -429,7 +429,7 @@ export default function Home() {
             {/* Element Encyclopedia Button */}
             <Link
               href="/elements"
-              className="block w-full py-4 rounded-2xl bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-bold text-lg text-center hover:from-purple-500 hover:to-indigo-500 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mb-4"
+              className="block w-full mt-8 py-4 rounded-2xl bg-gradient-to-r from-purple-400 to-indigo-400 text-white font-bold text-lg text-center hover:from-purple-500 hover:to-indigo-500 transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-[1.02] active:scale-[0.98] mb-4"
             >
               {lang === 'ko' ? '🧪 전체 원소 도감 보기' : '🧪 View All Elements'}
             </Link>

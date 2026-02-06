@@ -111,6 +111,21 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
                 });
               };
 
+              // 인라인 이미지 처리
+              if (paragraph.startsWith('![')) {
+                const match = paragraph.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+                if (match) {
+                  return (
+                    <figure key={index} className="my-8 -mx-2 sm:-mx-4">
+                      <img src={match[2]} alt={match[1]} className="w-full h-56 sm:h-72 object-cover rounded-2xl" />
+                      {match[1] && (
+                        <figcaption className="text-center text-gray-400 text-sm mt-3">{match[1]}</figcaption>
+                      )}
+                    </figure>
+                  );
+                }
+              }
+
               // 헤딩 처리
               if (paragraph.startsWith('## ')) {
                 return (

@@ -121,7 +121,7 @@ export default function AboutPage() {
 
         {/* Contact Section */}
         <div className="text-center text-gray-500 text-sm mb-8">
-          <p>문의사항이 있으시면 <a href="mailto:manyak.xyz@gmail.com" className="text-orange-600 hover:text-orange-700 underline">manyak.xyz@gmail.com</a>으로 연락해주세요.</p>
+          <p>문의사항이 있으시면 <a href="mailto:jkgkgj@naver.com" className="text-orange-600 hover:text-orange-700 underline">jkgkgj@naver.com</a>으로 연락해주세요.</p>
         </div>
 
         {/* Footer */}

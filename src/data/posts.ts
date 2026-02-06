@@ -27,6 +27,8 @@ const basePosts: Record<string, Post[]> = {
 
 이때 만들어진 것이 바로 수소와 헬륨입니다. 그중에서도 수소가 압도적으로 많았죠. 지금도 우주 전체 물질의 약 75%가 수소입니다!
 
+![빅뱅 이후 형성된 우주의 은하계](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
+
 ## 별의 연료, 수소
 
 수소는 단순히 많기만 한 게 아닙니다. 수소는 바로 별이 빛나는 이유예요. 태양을 포함한 모든 별은 수소 핵융합을 통해 에너지를 만들어냅니다.
@@ -49,6 +51,7 @@ const basePosts: Record<string, Post[]> = {
 
 화석연료 고갈과 기후변화 문제로 인해 수소가 미래 에너지원으로 주목받고 있습니다. 수소 연료전지는 수소와 산소를 결합시켜 전기를 만드는데, 부산물이 오직 물뿐이에요. 완벽한 친환경 에너지인 셈이죠!`,
       tags: ['우주', '빅뱅', '별', '핵융합', '미래에너지'],
+      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
     },
     {
       slug: 'hydrogen-fuel-cell-future',
@@ -57,6 +60,8 @@ const basePosts: Record<string, Post[]> = {
       content: `## 전기차 시대, 왜 수소차를 말하는가?
 
 테슬라가 전기차 시장을 선도하면서, 많은 사람들이 미래 자동차는 당연히 배터리 전기차(BEV)가 될 거라고 생각합니다. 하지만 도요타, 현대자동차 등은 여전히 수소 연료전지차(FCEV)에 투자하고 있어요. 왜 그럴까요?
+
+![미래 친환경 자동차 기술](https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop)
 
 ## 수소차의 장점
 
@@ -85,6 +90,7 @@ const basePosts: Record<string, Post[]> = {
 
 결국 미래는 두 기술이 공존하는 형태가 될 가능성이 높습니다.`,
       tags: ['수소차', '전기차', '친환경', '미래기술', '자동차'],
+      image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop',
     },
     {
       slug: 'hydrogen-hindenburg-disaster',
@@ -95,6 +101,8 @@ const basePosts: Record<string, Post[]> = {
 뉴저지주 레이크허스트 해군기지. 독일에서 출발한 거대 비행선 힌덴부르크호가 착륙을 시도하고 있었습니다. 그때 갑자기 비행선 꼬리 부분에서 불꽃이 피어올랐고, 단 34초 만에 245미터 길이의 거대한 비행선이 완전히 불타버렸습니다.
 
 이 사고로 36명이 목숨을 잃었고, 비행선 시대는 사실상 막을 내렸습니다.
+
+![거대한 비행선의 비극적인 최후](https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=400&fit=crop)
 
 ## 왜 수소였을까?
 
@@ -124,6 +132,7 @@ const basePosts: Record<string, Post[]> = {
 
 힌덴부르크 참사는 분명 비극이었지만, 그 사고를 통해 우리는 수소를 더 안전하게 다루는 법을 배웠습니다. 오늘날의 수소 기술은 그 어느 때보다 안전합니다.`,
       tags: ['힌덴부르크', '비행선', '역사', '안전', '사고'],
+      image: 'https://images.unsplash.com/photo-1518623489648-a173ef7824f3?w=800&h=400&fit=crop',
     },
   ],
   C: [
@@ -136,6 +145,8 @@ const basePosts: Record<string, Post[]> = {
 다이아몬드는 세상에서 가장 단단한 물질입니다. 반면 흑연(연필심)은 종이에 글씨를 쓸 만큼 부드럽죠. 놀랍게도 이 둘은 100% 같은 원소, 탄소로 이루어져 있습니다!
 
 어떻게 같은 원소가 이토록 다른 성질을 가질 수 있을까요?
+
+![다이아몬드와 흑연, 같은 탄소의 두 얼굴](https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=400&fit=crop)
 
 ## 비밀은 구조에 있다
 
@@ -176,6 +187,7 @@ const basePosts: Record<string, Post[]> = {
 
 탄소가 없었다면 지구에 생명은 존재하지 않았을 거예요!`,
       tags: ['다이아몬드', '흑연', '그래핀', '동소체', '나노기술'],
+      image: 'https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&h=400&fit=crop',
     },
     {
       slug: 'carbon-footprint-climate',
@@ -184,6 +196,8 @@ const basePosts: Record<string, Post[]> = {
       content: `## 탄소발자국이란?
 
 탄소발자국(Carbon Footprint)은 개인이나 단체가 직간접적으로 발생시키는 온실가스의 총량을 의미합니다. 주로 이산화탄소(CO₂) 배출량으로 환산하여 표현하죠.
+
+![우주에서 바라본 지구의 대기](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
 
 ## 일상 속 탄소발자국
 
@@ -225,6 +239,7 @@ const basePosts: Record<string, Post[]> = {
 
 우리 모두의 작은 노력이 모여 지구를 살릴 수 있습니다!`,
       tags: ['탄소발자국', '기후변화', '환경', '탄소중립', '지속가능성'],
+      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
     },
     {
       slug: 'carbon-dating-archaeology',
@@ -233,6 +248,8 @@ const basePosts: Record<string, Post[]> = {
       content: `## 역사의 나이를 재는 방법
 
 오래된 유물이나 화석의 나이는 어떻게 알 수 있을까요? 여기서 탄소-14(¹⁴C)라는 특별한 탄소 동위원소가 등장합니다.
+
+![고대 유물의 연대를 밝히는 과학](https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&h=400&fit=crop)
 
 ## 탄소-14란?
 
@@ -275,6 +292,7 @@ const basePosts: Record<string, Post[]> = {
 
 이 위대한 발견을 한 윌러드 리비는 1960년 노벨 화학상을 받았습니다!`,
       tags: ['탄소연대측정', '방사성동위원소', '고고학', '과학', '역사'],
+      image: 'https://images.unsplash.com/photo-1539650116574-8efeb43e2750?w=800&h=400&fit=crop',
     },
   ],
 };

@@ -119,11 +119,17 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
         {(() => {
           const posts = getPostsBySymbol(symbol);
           if (posts.length === 0) return null;
-          return <PostsPreview symbol={symbol} elementNameKo={element.nameKo} posts={posts} />;
+          return (
+            <div className="mb-8">
+              <PostsPreview symbol={symbol} elementNameKo={element.nameKo} posts={posts} />
+            </div>
+          );
         })()}
 
         {/* Compatibility */}
-        <CompatibilitySection goodMatches={goodMatches} badMatches={badMatches} />
+        <div className="mb-8">
+          <CompatibilitySection goodMatches={goodMatches} badMatches={badMatches} />
+        </div>
 
         {/* Navigation Section */}
         <div className="space-y-6 mb-8">

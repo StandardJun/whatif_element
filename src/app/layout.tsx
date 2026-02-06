@@ -66,7 +66,7 @@ export default function RootLayout({
               <span className="text-gray-300">|</span>
               <Link href="/terms" className="hover:text-gray-700 transition-colors">이용약관</Link>
               <span className="text-gray-300">|</span>
-              <a href="mailto:manyak.xyz@gmail.com" className="hover:text-gray-700 transition-colors">문의</a>
+              <a href="mailto:jkgkgj@naver.com" className="hover:text-gray-700 transition-colors">문의</a>
             </nav>
             <p className="text-center text-gray-400 text-xs">&copy; 2026 만약... All rights reserved.</p>
           </div>
