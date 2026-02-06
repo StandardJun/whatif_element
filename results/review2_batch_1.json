@@ -1,0 +1,68 @@
+{
+  "batch": 1,
+  "range": "1-20",
+  "reviewed": 20,
+  "issues": [
+    {
+      "number": 1,
+      "symbol": "H",
+      "type": "offensive_expression",
+      "severity": "medium",
+      "field": "description",
+      "current": "단순하지만 폭발적인 에너지를 가졌으며",
+      "suggestion": "단순하지만 강력한 에너지를 가졌으며",
+      "reason": "'폭발적'이라는 표현이 수소의 실제 특성(수소폭탄, 힌덴부르크 폭발)을 반영하긴 하지만, 사용자가 자신의 결과로 받기엔 부정적으로 느껴질 수 있음. '강력한'이 더 중립적이고 긍정적."
+    },
+    {
+      "number": 3,
+      "symbol": "Li",
+      "type": "tone_imbalance",
+      "severity": "medium",
+      "field": "description",
+      "current": "감정의 기복이 크고 에너지가 넘치는 당신! 열정적이고 반응이 빠르지만, 그만큼 쉽게 지치기도 합니다.",
+      "suggestion": "에너지가 넘치고 반응이 빠른 당신! 열정적이며 활력을 주지만, 때론 재충전이 필요한 타입입니다.",
+      "reason": "'감정의 기복이 크다'는 정신건강 문제를 암시할 수 있고(리튬이 조울증 치료제로 쓰이는 것과 관련), '쉽게 지친다'는 부정적. 배터리 특성을 살리되 더 긍정적으로 재구성."
+    },
+    {
+      "number": 9,
+      "symbol": "F",
+      "type": "offensive_expression",
+      "severity": "high",
+      "field": "description",
+      "current": "가장 반응성이 높은 원소처럼, 당신의 감정과 행동은 즉각적입니다. 열정적이고 몰입도 강하지만, 한번 마음먹으면 무엇이든 끝까지 가는 타입이에요.",
+      "suggestion": "가장 반응성이 높은 원소처럼, 당신은 열정적이고 몰입도가 강합니다. 관심 있는 일에 즉각적으로 뛰어들며, 한번 마음먹으면 무엇이든 끝까지 이루는 타입이에요.",
+      "reason": "'감정과 행동이 즉각적'은 충동적이거나 감정조절이 안 되는 사람으로 읽힐 수 있음. 긍정적인 특성(열정, 몰입, 추진력)만 강조하도록 수정."
+    },
+    {
+      "number": 11,
+      "symbol": "Na",
+      "type": "offensive_expression",
+      "severity": "high",
+      "field": "description",
+      "current": "물과 만나면 빠르게 반응하는 나트륨처럼, 당신은 작은 자극에도 민감하게 반응합니다.",
+      "suggestion": "물과 만나면 빠르게 반응하는 나트륨처럼, 당신은 새로운 환경에 빠르게 적응하고 반응합니다.",
+      "reason": "'작은 자극에도 민감하게 반응'은 예민하고 과민한 성격으로 읽힐 수 있어 부정적. '빠른 적응력'으로 긍정적 프레이밍."
+    },
+    {
+      "number": 19,
+      "symbol": "K",
+      "type": "offensive_expression",
+      "severity": "high",
+      "field": "description",
+      "current": "나트륨보다 더 격렬하게 반응하는 칼륨! 바나나에 많이 들어있듯, 당신은 건강하고 활력 넘치는 에너지를 전파합니다. 다만 흥분을 자제할 필요가 있어요.",
+      "suggestion": "나트륨보다 더 활발하게 반응하는 칼륨! 바나나에 많이 들어있듯, 당신은 건강하고 활력 넘치는 에너지를 전파합니다. 열정이 넘치는 만큼 타이밍을 잘 조절하면 완벽해요.",
+      "reason": "'격렬하다'와 '흥분을 자제할 필요'는 감정조절 문제를 지적하는 것처럼 들려 불쾌할 수 있음. '활발하다'와 '타이밍 조절'로 부드럽게 수정."
+    },
+    {
+      "number": 11,
+      "symbol": "Na",
+      "type": "match_error",
+      "severity": "low",
+      "field": "badMatch",
+      "current": "[1,3]",
+      "suggestion": "[2,4]",
+      "reason": "Na는 알칼리금속으로 H(수소)와 반응성이 높아 badMatch로 타당할 수 있으나, Li(3)도 같은 알칼리금속이므로 badMatch에 넣는 것은 화학적으로 모순. 대신 He(2, 불활성)와 Be(4, 단단한 알칼리토금속)가 더 적절."
+    }
+  ],
+  "clean_count": 14
+}

@@ -1,0 +1,68 @@
+{
+  "batch": 3,
+  "range": "41-60",
+  "reviewed": 20,
+  "issues": [
+    {
+      "number": 43,
+      "symbol": "Tc",
+      "type": "offensive_expression",
+      "severity": "high",
+      "field": "description",
+      "current": "방사성이지만 의료 진단에 꼭 필요한, 위험하지만 가치 있는 사람!",
+      "suggestion": "방사성이지만 의료 진단에 꼭 필요하듯, 독특하면서도 가치 있는 사람!",
+      "reason": "사용자를 '위험한 사람'으로 묘사하는 것은 결과 텍스트로 부적절. '독특하면서도'로 중립적 표현 전환 필요"
+    },
+    {
+      "number": 48,
+      "symbol": "Cd",
+      "type": "offensive_expression",
+      "severity": "medium",
+      "field": "description",
+      "current": "아름다운 노란 안료로 쓰이는 카드뮴처럼, 당신은 겉으로 화려하고 매력적입니다. 복잡한 내면을 가진 사람으로, 쉽게 마음을 열지 않는 신비로운 타입이에요.",
+      "suggestion": "아름다운 노란 안료로 쓰이는 카드뮴처럼, 당신은 화려하고 매력적입니다. 깊이 있는 내면을 가진 사람으로, 천천히 마음을 여는 신비로운 타입이에요.",
+      "reason": "카드뮴의 독성 특성을 암시하는 '겉으로만'의 뉘앙스와 '복잡한 내면'이 부정적으로 읽힐 수 있음. '깊이 있는'으로 긍정적 표현 전환"
+    },
+    {
+      "number": 55,
+      "symbol": "Cs",
+      "type": "tone_imbalance",
+      "severity": "medium",
+      "field": "description",
+      "current": "가장 반응성이 높은 안정 금속 세슘! 당신은 매우 민감하고 순간적으로 강렬한 반응을 보이는 성격입니다.",
+      "suggestion": "가장 반응성이 높은 금속 세슘! 당신은 민감하고 순간적으로 강렬한 열정을 보이는 성격입니다.",
+      "reason": "'매우 민감하고 강렬한 반응'이 정서적 불안정성으로 읽힐 수 있음. '열정'으로 바꿔 긍정적 특성 강조. 또한 세슘은 안정 금속이 아니라 매우 불안정한 금속이므로 '안정' 단어 삭제 필요"
+    },
+    {
+      "number": 55,
+      "symbol": "Cs",
+      "type": "scientific_inaccuracy",
+      "severity": "low",
+      "field": "description",
+      "current": "가장 반응성이 높은 안정 금속 세슘!",
+      "suggestion": "가장 반응성이 높은 알칼리 금속 세슘!",
+      "reason": "세슘은 물과 폭발적으로 반응하는 극도로 불안정한 금속. '안정 금속'은 과학적으로 부정확. '알칼리 금속'이 정확한 표현"
+    },
+    {
+      "number": 41,
+      "symbol": "Nb",
+      "type": "match_error",
+      "severity": "high",
+      "field": "goodMatch/badMatch",
+      "current": "goodMatch=[42,22] badMatch=[9,17]",
+      "suggestion": "goodMatch=[42,73] badMatch=[9,17]",
+      "reason": "원소 22(Ti)는 같은 4족 전이금속으로 나이오븀과 화학적 유사성이 있어 goodMatch로 적절하지만, 더 나은 매칭은 같은 5족인 탄탈럼(73)과의 매칭. Nb와 Ta는 화학적 쌍둥이로 불림"
+    },
+    {
+      "number": 42,
+      "symbol": "Mo",
+      "type": "awkward_korean",
+      "severity": "low",
+      "field": "description",
+      "current": "녹는점이 매우 높은 몰리브덴!",
+      "suggestion": "녹는점이 매우 높은 몰리브데넘!",
+      "reason": "원소 기호는 Mo인데 description에서 '몰리브덴'으로 표기. 제목의 '몰리브데넘'과 일관성 유지 필요"
+    }
+  ],
+  "clean_count": 14
+}
