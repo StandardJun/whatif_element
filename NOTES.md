@@ -353,6 +353,7 @@ translations = {
 6. ⏳ AdSense 재심사 요청
 7. ⏳ 이미지 저장 기능 실제 기기 테스트
 8. ⏳ 정식 문의 이메일 생성 (현재 임시: jkgkgj@naver.com)
+9. ⏳ **영어 도감 번역**: 영어 모드 시 도감(/elements) 페이지가 한국어로 표시됨. 도감 완성 후 번역 작업 필요 (elementExtras.ts, posts 콘텐츠 등)
 
 ---
 

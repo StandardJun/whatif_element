@@ -89,20 +89,41 @@ export default function Home() {
         logging: false,
       });
 
-      const dataUrl = canvas.toDataURL('image/png');
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
 
-      // iOS Safari 체크
+      // 모바일 감지
       const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+      const isAndroid = /Android/.test(navigator.userAgent);
+      const isMobile = isIOS || isAndroid;
 
-      if (isIOS) {
-        // iOS에서는 새 탭에서 이미지 열기 (길게 눌러서 저장)
-        const newWindow = window.open();
-        if (newWindow) {
-          newWindow.document.write(`<img src="${dataUrl}" style="max-width:100%">`);
-        }
+      if (isMobile) {
+        // 모바일: blob을 생성하여 새 탭에서 열기 (길게 눌러 저장)
+        canvas.toBlob((blob) => {
+          if (!blob) {
+            alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
+            return;
+          }
+
+          const blobUrl = URL.createObjectURL(blob);
+          const newWindow = window.open(blobUrl, '_blank');
+
+          if (!newWindow) {
+            // 팝업 차단 시 fallback: dataURL 사용
+            const dataUrl = canvas.toDataURL('image/png');
+            const fallbackWindow = window.open();
+            if (fallbackWindow) {
+              fallbackWindow.document.write(`<img src="${dataUrl}" style="max-width:100%; height:auto;">`);
+            } else {
+              alert(lang === 'ko' ? '팝업 차단을 해제해주세요.' : 'Please allow popups.');
+            }
+          }
+
+          // 메모리 정리 (5초 후)
+          setTimeout(() => URL.revokeObjectURL(blobUrl), 5000);
+        }, 'image/png');
       } else {
-        // 데스크톱 및 Android
+        // 데스크톱: 일반 다운로드
+        const dataUrl = canvas.toDataURL('image/png');
         const link = document.createElement('a');
         link.href = dataUrl;
         link.download = filename;
@@ -276,13 +297,11 @@ export default function Home() {
               >
                 <div
                   style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    padding: '4px 12px',
+                    display: 'inline-block',
+                    padding: '6px 14px',
                     borderRadius: '9999px',
                     fontSize: '12px',
-                    lineHeight: '1',
+                    lineHeight: '1.2',
                     color: 'white',
                     marginBottom: '16px',
                     backgroundColor: ({
@@ -290,6 +309,8 @@ export default function Home() {
                       'alkaline-earth': '#f97316', 'metalloid': '#14b8a6', 'post-transition': '#60a5fa',
                       'transition': '#2563eb', 'lanthanide': '#ec4899', 'actinide': '#e11d48', 'halogen': '#eab308',
                     } as Record<string, string>)[result.element.category] || '#6b7280',
+                    textAlign: 'center',
+                    verticalAlign: 'middle',
                   }}
                 >
                   {getCategoryNameKo(result.element.category)}
@@ -421,17 +442,21 @@ export default function Home() {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {result.goodMatches.map((el) => (
                       <Link key={el.symbol} href={`/elements/${el.symbol}`} style={{
-                        display: 'flex', alignItems: 'center', gap: '10px',
+                        display: 'block',
                         backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
-                        padding: '8px 10px', border: '1px solid #d1fae5',
+                        padding: '10px 12px', border: '1px solid #d1fae5',
                         textDecoration: 'none',
                       }}>
-                        <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
-                          {el.symbol}
-                        </span>
-                        <div>
-                          <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
-                          <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                        <div style={{ display: 'table', width: '100%' }}>
+                          <div style={{ display: 'table-cell', width: '40px', verticalAlign: 'middle', paddingRight: '10px' }}>
+                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center' }}>
+                              {el.symbol}
+                            </span>
+                          </div>
+                          <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
+                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.4', marginBottom: '2px' }}>{el.nameKo}</div>
+                            <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                          </div>
                         </div>
                       </Link>
                     ))}
@@ -451,17 +476,21 @@ export default function Home() {
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {result.badMatches.map((el) => (
                       <Link key={el.symbol} href={`/elements/${el.symbol}`} style={{
-                        display: 'flex', alignItems: 'center', gap: '10px',
+                        display: 'block',
                         backgroundColor: 'rgba(255,255,255,0.7)', borderRadius: '10px',
-                        padding: '8px 10px', border: '1px solid #ffe4e6',
+                        padding: '10px 12px', border: '1px solid #ffe4e6',
                         textDecoration: 'none',
                       }}>
-                        <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', width: '40px', textAlign: 'center' }}>
-                          {el.symbol}
-                        </span>
-                        <div>
-                          <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3' }}>{el.nameKo}</div>
-                          <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                        <div style={{ display: 'table', width: '100%' }}>
+                          <div style={{ display: 'table-cell', width: '40px', verticalAlign: 'middle', paddingRight: '10px' }}>
+                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center' }}>
+                              {el.symbol}
+                            </span>
+                          </div>
+                          <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
+                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.4', marginBottom: '2px' }}>{el.nameKo}</div>
+                            <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                          </div>
                         </div>
                       </Link>
                     ))}
@@ -535,11 +564,6 @@ export default function Home() {
             </div>
           </div>
         )}
-
-        {/* Footer */}
-        <footer className="mt-12 text-center text-gray-400 text-xs">
-          <p>{t.copyright}</p>
-        </footer>
       </div>
     </div>
   );
