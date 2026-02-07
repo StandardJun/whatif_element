@@ -557,7 +557,7 @@ export default function Home() {
               </button>
               <button
                 onClick={handleShare}
-                className="w-full py-4 rounded-2xl bg-white/70 hover:bg-white border border-orange-200 hover:border-orange-300 text-gray-600 font-medium transition-all duration-200"
+                className="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-100 to-orange-100 hover:from-amber-200 hover:to-orange-200 border border-orange-200 text-gray-700 font-bold transition-all duration-200 shadow-sm hover:shadow-md"
               >
                 🔗 {t.shareResult}
               </button>
