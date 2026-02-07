@@ -80,38 +80,12 @@ export default function Home() {
     if (!resultRef.current) return;
 
     try {
-      const html2canvas = (await import('html2canvas')).default;
-      const captureRoot = resultRef.current;
+      const { toPng } = await import('html-to-image');
 
-      // html2canvas 텍스트 하강 보정: 폰트 크기에 비례하여 실제 DOM 임시 수정
-      const textSelector = 'p, h1, h2, h3, h4, span';
-      const textEls = Array.from(captureRoot.querySelectorAll(textSelector));
-      const origStyles = textEls.map(el => (el as HTMLElement).style.cssText);
-
-      textEls.forEach((el) => {
-        const htmlEl = el as HTMLElement;
-        // 부모 중 텍스트 요소가 있으면 건너뛰기 (이중 보정 방지)
-        let ancestor = htmlEl.parentElement;
-        while (ancestor && ancestor !== captureRoot) {
-          if (ancestor.matches(textSelector)) return;
-          ancestor = ancestor.parentElement;
-        }
-        const fontSize = parseFloat(window.getComputedStyle(htmlEl).fontSize);
-        const offset = Math.max(1, Math.round(fontSize * 0.13));
-        htmlEl.style.position = 'relative';
-        htmlEl.style.top = `-${offset}px`;
-      });
-
-      const canvas = await html2canvas(captureRoot, {
+      // html-to-image: 브라우저 네이티브 렌더링(SVG foreignObject) → 텍스트 위치 정확
+      const dataUrl = await toPng(resultRef.current, {
         backgroundColor: '#fef7ed',
-        scale: 2,
-        useCORS: true,
-        logging: false,
-      });
-
-      // 캡처 후: 원본 스타일 복원
-      textEls.forEach((el, i) => {
-        (el as HTMLElement).style.cssText = origStyles[i];
+        pixelRatio: 2,
       });
 
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
@@ -121,12 +95,8 @@ export default function Home() {
 
       if (isMobile) {
         // 모바일: Web Share API로 네이티브 저장/공유 시트 호출
-        const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/png'));
-        if (!blob) {
-          alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
-          return;
-        }
-
+        const res = await fetch(dataUrl);
+        const blob = await res.blob();
         const file = new File([blob], filename, { type: 'image/png' });
 
         if (typeof navigator.canShare === 'function' && navigator.canShare({ files: [file] })) {
@@ -135,12 +105,10 @@ export default function Home() {
             return;
           } catch (e) {
             if ((e as Error).name === 'AbortError') return;
-            // 공유 실패 시 fallback으로 진행
           }
         }
 
         // Fallback: 이미지를 새 탭에 보여주고 길게 눌러 저장 안내
-        const dataUrl = canvas.toDataURL('image/png');
         const w = window.open();
         if (w) {
           w.document.write(
@@ -155,7 +123,6 @@ export default function Home() {
         }
       } else {
         // 데스크톱: 일반 다운로드
-        const dataUrl = canvas.toDataURL('image/png');
         const link = document.createElement('a');
         link.href = dataUrl;
         link.download = filename;
