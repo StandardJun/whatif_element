@@ -97,7 +97,28 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">4. 개인정보의 제3자 제공</h2>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">4. 정보 오류 제보</h2>
+              <p className="text-gray-600 leading-relaxed mb-4">
+                본 사이트는 콘텐츠의 정확성을 높이기 위해 &ldquo;정보 오류 제보&rdquo; 기능을 제공합니다.
+              </p>
+              <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
+                <li>
+                  제보 시 수집되는 정보: 제보 내용, 해당 페이지 URL, 페이지 유형, 원소 기호
+                </li>
+                <li>
+                  수집된 정보는 <strong>Supabase</strong> 클라우드 데이터베이스에 저장되며, 콘텐츠 정확성 개선 목적으로만 사용됩니다.
+                </li>
+                <li>
+                  이름, 이메일 등 개인식별정보는 수집하지 않습니다.
+                </li>
+                <li>
+                  제보 내용은 확인 후 적절히 반영되며, 별도의 응답은 제공되지 않습니다.
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">5. 개인정보의 제3자 제공</h2>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>
                   본 사이트는 법령에 의한 경우를 제외하고 이용자의 개인정보를 제3자에게 제공하지 않습니다.
@@ -109,7 +130,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">5. 이용자의 권리</h2>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">6. 이용자의 권리</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 이용자는 언제든지 다음과 같은 권리를 행사할 수 있습니다.
               </p>
@@ -137,7 +158,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">6. 개인정보 보호를 위한 기술적/관리적 대책</h2>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">7. 개인정보 보호를 위한 기술적/관리적 대책</h2>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>
                   본 사이트는 HTTPS 프로토콜을 사용하여 통신을 암호화합니다.
@@ -149,7 +170,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">7. 개인정보처리방침의 변경</h2>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">8. 개인정보처리방침의 변경</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 본 개인정보처리방침은 법령 또는 서비스의 변경사항을 반영하기 위해 수정될 수 있습니다.
               </p>
@@ -164,7 +185,7 @@ export default function PrivacyPage() {
             </section>
 
             <section>
-              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">8. 문의</h2>
+              <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">9. 문의</h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 개인정보처리방침에 대한 문의사항이나 개인정보 관련 요청사항이 있으시면 아래 연락처로 문의해 주시기 바랍니다.
               </p>
@@ -211,13 +232,21 @@ export default function PrivacyPage() {
                 <li>Data collected includes page views, time on site, browser type, etc. (non-personally identifiable).</li>
               </ul>
 
-              <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">4. Your Rights</h3>
+              <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">4. Error Reporting</h3>
+              <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
+                <li>We provide an &ldquo;Report Incorrect Information&rdquo; feature to improve content accuracy.</li>
+                <li>Information collected: report content, page URL, page type, and element symbol.</li>
+                <li>This data is stored in a <strong>Supabase</strong> cloud database and used solely for content improvement.</li>
+                <li>No personally identifiable information (name, email) is collected through this feature.</li>
+              </ul>
+
+              <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">5. Your Rights</h3>
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>You can disable cookies in your browser settings.</li>
                 <li>You can opt out of personalized ads via Google Ad Settings.</li>
               </ul>
 
-              <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">5. Contact</h3>
+              <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">6. Contact</h3>
               <p className="text-gray-600 leading-relaxed mb-4">
                 For questions about this privacy policy, contact us at: jkgkgj@naver.com
               </p>

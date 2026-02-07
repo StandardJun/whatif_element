@@ -47,7 +47,8 @@ export default function TermsPage() {
           <h2 className="text-xl font-bold text-gray-800 mt-8 mb-3">5. 면책 조항</h2>
           <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
             <li>성격 테스트 결과는 재미를 위한 것이며, 과학적 또는 심리학적 진단이 아닙니다</li>
-            <li>원소 관련 정보는 교육 목적으로 제공되며, 정확성을 보장하지 않습니다</li>
+            <li>원소 관련 정보는 교육 및 흥미 목적으로 제공되며, 전문적인 과학 자료를 대체하지 않습니다</li>
+            <li>콘텐츠의 정확성을 위해 노력하고 있으며, 이용자는 &ldquo;정보 오류 제보&rdquo; 기능을 통해 잘못된 정보를 알려줄 수 있습니다</li>
             <li>서비스 이용으로 인한 직간접적 손해에 대해 책임지지 않습니다</li>
           </ul>
 

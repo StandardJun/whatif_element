@@ -10,6 +10,7 @@ import { getElementExtras, traitNames } from '@/data/elementExtras';
 import { elements } from '@/data/elements';
 import { HistorySection, UsesSection, FunFactsSection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
 import { getPostsBySymbol } from '@/data/posts';
+import ReportButton from '@/components/ReportButton';
 
 type Step = 'intro' | 'quiz' | 'result';
 
@@ -514,6 +515,7 @@ export default function Home() {
                   <HistorySection history={extras.history} />
                   <UsesSection uses={extras.uses} />
                   <FunFactsSection funFacts={extras.funFacts} />
+                  <ReportButton pageType="result" elementSymbol={result.element.symbol} elementName={result.element.nameKo} />
                 </div>
               );
             })()}

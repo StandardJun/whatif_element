@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { elements } from '@/data/elements';
 import { getPost, getPostsBySymbol } from '@/data/posts';
 import { getCategoryColor, getCategoryNameKo } from '@/utils/matching';
+import ReportButton from '@/components/ReportButton';
 
 export function generateStaticParams() {
   const params: { symbol: string; slug: string }[] = [];
@@ -217,6 +218,7 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
                 </span>
               ))}
             </div>
+            <ReportButton pageType="post" elementSymbol={symbol} elementName={element.nameKo} postSlug={slug} postTitle={post.title} />
           </footer>
         </article>
 

@@ -7,6 +7,7 @@ import { getPostsBySymbol } from '@/data/posts';
 import { getElementExtras, traitNames } from '@/data/elementExtras';
 import { TraitsChart, HistorySection, UsesSection, FunFactsSection, CompatibilitySection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
 import ShareButton from '@/components/ShareButton';
+import ReportButton from '@/components/ReportButton';
 
 // Static params 생성
 export function generateStaticParams() {
@@ -114,6 +115,7 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
           <HistorySection history={extras.history} />
           <UsesSection uses={extras.uses} />
           <FunFactsSection funFacts={extras.funFacts} />
+          <ReportButton pageType="element" elementSymbol={symbol} elementName={element.nameKo} />
         </div>
 
         {/* Related Posts */}
