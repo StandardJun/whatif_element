@@ -1044,7 +1044,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 지금 주방을 둘러보세요. 은색으로 빛나는 것들이 보이나요? 대부분 니켈이 들어있습니다!
 
 
-![반짝이는 스테인리스 주방 조리도구들](https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&h=400&fit=crop)
+![반짝이는 스테인리스 주방 조리도구들](https://images.unsplash.com/photo-1580929753603-10519c6e480a?w=800&h=400&fit=crop)
 
 ## 스테인리스 스틸
 
@@ -1148,7 +1148,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 1886년 완공 당시, 자유의 여신상은 새 동전처럼 반짝이는 구리색이었습니다. 그런데 지금은 청록색이죠. 무슨 일이 있었을까요?
 
 
-![관련 이미지](https://images.unsplash.com/photo-1609166921511-5efbdce4d3ae?w=800&h=400&fit=crop)
+![관련 이미지](https://images.unsplash.com/photo-1759368483979-2c0fae8f3f33?w=800&h=400&fit=crop)
 
 ## 녹청(Patina)의 형성
 
@@ -1247,7 +1247,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 구리는 전기를 잘 통하고 예쁜 색을 가진 것 외에도 특별한 능력이 있습니다. 바로 세균을 죽이는 능력이에요!
 
 
-![관련 이미지](https://images.unsplash.com/photo-1609166921511-5efbdce4d3ae?w=800&h=400&fit=crop)
+![관련 이미지](https://images.unsplash.com/photo-1584451049700-ec9b394f3805?w=800&h=400&fit=crop)
 
 ## 접촉 살균 효과
 
@@ -1305,7 +1305,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 감기에 걸리면 아연 보충제를 먹으라는 말을 들어본 적 있나요? 이게 정말 효과가 있을까요?
 
 
-![비타민 보충제 캡슐과 정제들](https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop)
+![비타민 보충제 캡슐과 정제들](https://images.unsplash.com/photo-1747930318086-8dbe46e52ddb?w=800&h=400&fit=crop)
 
 ## 아연의 면역 기능
 
@@ -2769,7 +2769,7 @@ TV, 스마트폰, 모니터의 빨간색 픽셀. 그 안에는 이트륨이 숨�
 
 화면의 아름다운 색, 이트륨이 만듭니다!`,
       tags: ['이트륨', 'LED', 'TV', '형광체', '디스플레이'],
-      image: 'https://images.unsplash.com/photo-1593784991095-a205069470b6?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?w=800&h=400&fit=crop',
     },
     {
       slug: 'yttrium-village-ytterby',

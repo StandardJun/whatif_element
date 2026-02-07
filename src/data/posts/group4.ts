@@ -14,7 +14,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 1945년, 미국 오크리지 국립연구소에서 원자로 연료의 핵분열 생성물에서 새로운 원소가 발견되었습니다. 과학자들은 이 원소에 "프로메튬(Promethium)"이라는 이름을 붙였어요.
 
-![어둠 속에서 타오르는 불꽃 토치](https://images.unsplash.com/photo-1614728463380-7c3d11be5b3e?w=800&h=400&fit=crop)
+![어둠 속에서 타오르는 불꽃 토치](https://images.unsplash.com/photo-1586092979708-c33ebaaddbc4?w=800&h=400&fit=crop)
 
 그 이유는:
 - 원자력이라는 "새로운 불"을 인류가 얻었다는 의미

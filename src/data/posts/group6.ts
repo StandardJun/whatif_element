@@ -326,7 +326,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 무려 16개의 원소가 버클리에서 발견되었습니다!
 
-![현대적인 연구소 건물 외관](https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop)
+![현대적인 연구소 건물 외관](https://images.unsplash.com/photo-1770146604813-05a70dc6a46e?w=800&h=400&fit=crop)
 
 ## 글렌 시보그의 시대
 
@@ -716,7 +716,7 @@ IUPAC(국제순수응용화학연합)은 오랜 검토 끝에 결정을 내렸�
 
 시보귬 연구는 주기율표의 한계를 테스트하는 최전선입니다.`,
       tags: ['텅스텐', '6족', '화학적성질', '산화상태', '휘발성'],
-      image: 'https://images.unsplash.com/photo-1554475900-4e0c5c8577c6?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1633174294583-696d6d81b323?w=800&h=400&fit=crop',
     },
   ],
   Bh: [
@@ -883,7 +883,7 @@ BhO3Cl 화합물 형성 확인!
 - 8족 원소 (오스뮴과 같은 족)
 - 예상: 매우 무겁고 밀도 높은 금속`,
       tags: ['헤센', '독일', 'GSI', '지명유래', '원소명명'],
-      image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1769914167270-28431fc179d4?w=800&h=400&fit=crop',
     },
     {
       slug: 'hassium-osmium-super-dense',
@@ -892,8 +892,6 @@ BhO3Cl 화합물 형성 확인!
       content: `## 밀도의 왕, 오스뮴
 
 현재 알려진 원소 중 가장 밀도가 높은 것은 오스뮴입니다.
-
-오스뮴의 밀도: 22.59 g/cm³
 
 오스뮴의 밀도: 22.59 g/cm³
 
@@ -933,8 +931,6 @@ BhO3Cl 화합물 형성 확인!
       content: `## 2001년의 도전
 
 하슘의 화학을 연구하는 것은 거의 불가능해 보였습니다. 반감기가 10초도 안 되고, 한 번에 몇 개밖에 만들 수 없으니까요.
-
-하지만 2001년, 국제 연구팀이 도전했습니다.
 
 하지만 2001년, 국제 연구팀이 도전했습니다.
 
@@ -982,10 +978,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너는 수십 년간 한과 함께 연구했고, 핵분열 발견의 이론적 토대를 제공했습니다.
 
-![여성 과학자가 칠판 앞에서 강의하는 빈티지 사진](https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800&h=400&fit=crop)
-
-
-마이트너는 수십 년간 한과 함께 연구했고, 핵분열 발견의 이론적 토대를 제공했습니다.
+![여성 과학자가 칠판 앞에서 강의하는 빈티지 사진](https://images.unsplash.com/photo-1618053448748-b7251851d014?w=800&h=400&fit=crop)
 
 ## 노벨상의 불공정
 
@@ -1066,8 +1059,6 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
 
-마이트너륨은 이론적으로 이리듐과 비슷한 성질을 가져야 합니다.
-
 ## 이리듐의 특성
 
 이리듐은 매우 특별한 금속입니다:
@@ -1095,7 +1086,7 @@ BhO3Cl 화합물 형성 확인!
 
 마이트너륨의 화학은 아직 미지의 영역으로 남아있습니다.`,
       tags: ['이리듐', '9족', '예측', '백금족', '미지의영역'],
-      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1555158337-3afd64efb2d6?w=800&h=400&fit=crop',
     },
   ],
   Ds: [
@@ -1133,7 +1124,7 @@ BhO3Cl 화합물 형성 확인!
 - 반감기: 가장 안정한 동위원소가 약 14초
 - 10족 원소 (니켈, 팔라듐, 백금과 같은 족)`,
       tags: ['다름슈타트', 'GSI', '독일', '도시이름', '1994년'],
-      image: 'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1585082645979-47c2d05bd179?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-platinum-family',
@@ -1177,7 +1168,7 @@ BhO3Cl 화합물 형성 확인!
 
 하지만 이것은 영원히 상상 속에만 존재할 것입니다. 반감기가 너무 짧아 축적이 불가능하기 때문이죠.`,
       tags: ['백금', '10족', '귀금속', '예측', '촉매'],
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1642326343887-4a50e7f5514c?w=800&h=400&fit=crop',
     },
     {
       slug: 'darmstadtium-ununnilium',
@@ -1222,7 +1213,7 @@ IUPAC은 '체계적 원소명(Systematic element name)'을 도입했습니다.
 
 이것은 원소 발견과 명명 사이의 시간을 보여주는 역사적 흔적입니다.`,
       tags: ['체계적원소명', 'IUPAC', '우눈닐륨', '명명법', '역사'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1543878060-b220460cd02d?w=800&h=400&fit=crop',
     },
   ],
   Rg: [
@@ -1305,7 +1296,7 @@ X선을 발견한 뢴트겐의 이름이 주기율표에 영원히 새겨진 것
 
 금의 무거운 사촌 뢴트게늄의 실제 모습은 영원히 미스터리로 남을 것입니다.`,
       tags: ['금', '11족', '상대론적효과', '색상', '귀금속'],
-      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1643656350988-a39ad266a178?w=800&h=400&fit=crop',
     },
     {
       slug: 'roentgenium-medical-legacy',
@@ -1607,7 +1598,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 
 더 많은 원자를 생성하고, 더 빠른 화학 분석 기술을 개발해야 니호늄의 진정한 성질을 알 수 있을 것입니다.`,
       tags: ['탈륨', '13족', '화학적성질', '산화상태', '예측'],
-      image: 'https://images.unsplash.com/photo-1554475900-4e0c5c8577c6?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1687580712125-d73dffa7abd3?w=800&h=400&fit=crop',
     },
   ],
   Fl: [
@@ -1645,7 +1636,7 @@ GSI에서 코페르니슘 원자 2개의 흡착 실험이 수행되었습니다.
 - 반감기: 가장 안정한 동위원소가 약 2.7초
 - 14족 원소`,
       tags: ['플료로프', '두브나', '소련', '핵물리학', 'JINR'],
-      image: 'https://images.unsplash.com/photo-1548048026-5a1a941d93d3?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1647730324427-e912f097bc9f?w=800&h=400&fit=crop',
     },
     {
       slug: 'flerovium-lead-superlative',
@@ -1732,7 +1723,7 @@ GSI와 JINR에서 플레로븀의 화학 실험이 수행되었습니다.
 
 언젠가 정말로 오래 사는 초중원소를 만들 수 있을까요? 플레로븀이 그 가능성을 열어주었습니다.`,
       tags: ['안정성의섬', '마법의수', '핵물리학', '동위원소', '미래연구'],
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1603186668896-c4a4473c4e76?w=800&h=400&fit=crop',
     },
   ],
   Mc: [
@@ -1768,7 +1759,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 - 반감기: 가장 안정한 동위원소(Mc-290)가 약 0.65초
 - 15족 원소 (질소, 인, 비소, 안티모니, 비스무트와 같은 족)`,
       tags: ['모스크바', '러시아', '두브나', '2016년', '15족'],
-      image: 'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1712551185139-c3886a85af2a?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-element-115-ufo',
@@ -1805,7 +1796,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 실제 원소 115는 SF 영화처럼 신비하지 않습니다. 하지만 그 자체로 과학의 경이로운 성과입니다.`,
       tags: ['음모론', 'UFO', '밥라자르', '과학적사실', '미신'],
-      image: 'https://images.unsplash.com/photo-1547448415-e9f5b28e570d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1665321756483-a1f53349dcb8?w=800&h=400&fit=crop',
     },
     {
       slug: 'moscovium-bismuth-comparison',
@@ -1852,7 +1843,7 @@ IUPAC은 2016년 11월 115번 원소를 '모스코븀(Moscovium)'으로 공식 �
 
 안타깝게도 우리는 그것을 절대 볼 수 없을 것입니다. 반감기가 너무 짧아 결정이 형성되기 전에 붕괴해버리니까요.`,
       tags: ['비스무트', '15족', '결정', '화학적성질', '상상'],
-      image: 'https://images.unsplash.com/photo-1622737133809-d95047b9e673?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1676721492346-90bf798b6c34?w=800&h=400&fit=crop',
     },
   ],
   Lv: [
@@ -1896,7 +1887,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 - 반감기: 가장 안정한 동위원소가 약 60밀리초
 - 16족 원소`,
       tags: ['리버모어', 'LLNL', '미국', '국제협력', '16족'],
-      image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1676724141936-cac320eaaa78?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-polonium-relative',
@@ -1944,7 +1935,7 @@ LLNL(Lawrence Livermore National Laboratory)은 미국 캘리포니아주 리버
 
 리버모륨은 너무 희귀하고 불안정해서 무기로 사용될 수 없습니다. 아이러니하게도, 가장 무거운 원소가 가장 안전합니다.`,
       tags: ['폴로늄', '16족', '방사능', '안전', '독살'],
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1547218998-66e005c6fe41?w=800&h=400&fit=crop',
     },
     {
       slug: 'livermorium-fleeting-existence',
@@ -2023,7 +2014,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 - 반감기: 가장 안정한 동위원소가 약 80밀리초
 - 17족 원소 (할로겐)`,
       tags: ['테네시', '오크리지', 'ORNL', '버클륨', '17족'],
-      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1594238478794-5fdbd4f06c35?w=800&h=400&fit=crop',
     },
     {
       slug: 'tennessine-halogen-mystery',
@@ -2111,7 +2102,7 @@ ORNL은 테네신 발견에 핵심적인 역할을 했습니다.
 
 냉전의 경쟁자들이 과학을 위해 손을 잡았습니다. 테네신은 이 협력의 결실입니다.`,
       tags: ['버클륨', '오크리지', '두브나', '협력', '희귀물질'],
-      image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1594032799364-e7717367715d?w=800&h=400&fit=crop',
     },
   ],
   Og: [
