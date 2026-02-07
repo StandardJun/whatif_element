@@ -164,7 +164,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 몰리브데넘은 여러 중요한 효소의 핵심 구성요소입니다.
 
-![현미경으로 본 세포와 효소 구조 이미지](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
+![현미경으로 본 세포와 효소 구조 이미지](https://images.unsplash.com/photo-1580610448530-df1cb919b85a?w=800&h=400&fit=crop)
 *현미경으로 본 세포와 효소 구조 이미지*
 
 ### 질소 고정
@@ -244,7 +244,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 1869년 멘델레예프가 주기율표를 만들었을 때, 43번 자리는 비어있었습니다. 그는 이 원소가 분명 존재할 것이라고 예측했죠.
 
-![주기율표가 벽에 걸려있는 과학 연구실](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
+![주기율표가 벽에 걸려있는 과학 연구실](https://images.unsplash.com/photo-1628863353691-0071c8c1874c?w=800&h=400&fit=crop)
 *주기율표가 벽에 걸려있는 과학 연구실*
 
 ## 60년간의 탐색
@@ -259,12 +259,12 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 테크네튬(Technetium)은 그리스어로 "인공적인"을 뜻하는 "테크네토스(technetos)"에서 왔습니다. 인류가 만든 첫 번째 원소라는 의미죠!
 
-![원형 입자가속기 시설의 내부 모습](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![원형 입자가속기 시설의 내부 모습](https://images.unsplash.com/photo-1677108170350-468b8f32ab82?w=800&h=400&fit=crop)
 *현대 입자가속기 시설*
 
 ## 왜 자연에 없을까?
 
-![원형 입자가속기 시설의 내부 모습](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![원형 입자가속기 시설의 내부 모습](https://images.unsplash.com/photo-1677108170350-468b8f32ab82?w=800&h=400&fit=crop)
 *원형 입자가속기 시설의 내부 모습*
 
 
@@ -274,7 +274,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 - 일부 적색 거성에서 테크네튬이 발견됨
 - 이는 별에서 원소 합성이 일어난다는 증거!`,
       tags: ['인공원소', '방사성', '원소발견', '입자가속기', '과학사'],
-      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1697710700287-03ed62fab20f?w=800&h=400&fit=crop',
     },
     {
       slug: 'technetium-medical-imaging',
@@ -731,7 +731,7 @@ NOx + CO → N₂ + CO₂
 
 ## 어디에 쓰이나?
 
-![노벨상 메달과 증서 이미지](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![노벨상 메달과 증서 이미지](https://images.unsplash.com/photo-1602052577122-f73b9710adba?w=800&h=400&fit=crop)
 *노벨상 메달과 증서 이미지*
 
 
@@ -2090,7 +2090,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 ## 문제: 가격
 
-![희귀 기체가 든 유리 용기](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
+![희귀 기체가 든 유리 용기](https://images.unsplash.com/photo-1769251297393-8178b5988b08?w=800&h=400&fit=crop)
 *희귀 기체가 든 유리 용기*
 
 
@@ -2240,7 +2240,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
       summary: '세슘은 공기 중에서 저절로 불이 붙고, 물에 닿으면 폭발합니다. 왜 그럴까요?',
       content: `## 알칼리 금속의 왕
 
-![금속이 물과 격렬히 반응하는 실험](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![금속이 물과 격렬히 반응하는 실험](https://images.unsplash.com/photo-1564504910991-0a0119224173?w=800&h=400&fit=crop)
 *금속이 물과 격렬히 반응하는 실험*
 
 
@@ -2364,7 +2364,7 @@ Li < Na < K < Rb < Cs < Fr
       summary: '위장 X선 검사 전에 마시는 하얀 음료, 그 안에는 바륨이 들어있습니다.',
       content: `## X선과 위장
 
-![X선 촬영을 위한 의료 장비](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
+![X선 촬영을 위한 의료 장비](https://images.unsplash.com/photo-1581595219145-01060b2eb27d?w=800&h=400&fit=crop)
 *X선 촬영을 위한 의료 장비*
 
 
@@ -3041,7 +3041,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
 
 ## 왜 녹색?
 
-![화학 원소 분리 장치](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![화학 원소 분리 장치](https://images.unsplash.com/photo-1740065608441-eb8437765b98?w=800&h=400&fit=crop)
 *화학 원소 분리 장치*
 
 

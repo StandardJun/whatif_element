@@ -74,7 +74,7 @@ export const group4Posts: Record<string, Post[]> = {
 
 프로메튬 전지는 교체 없이 오래 작동해야 하는 곳에 이상적입니다. 언젠가 화성 기지나 달 기지에서 프로메튬 전지가 빛을 밝힐지도 모릅니다!`,
       tags: ['우주탐사', '원자력전지', 'RTG', '우주기술', '에너지'],
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1639782792143-d8ce97e5d330?w=800&h=400&fit=crop',
     },
     {
       slug: 'promethium-glow-dark',
@@ -766,7 +766,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 - 약 80도 이상에서 문제 발생
 - 전기차 모터, 풍력발전기에서는 더 뜨거워짐
 
-![전기차가 충전 중인 모습](https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop)
+![전기차가 충전 중인 모습](https://images.unsplash.com/photo-1642507229657-51fc87152fc7?w=800&h=400&fit=crop)
 
 ## 디스프로슘의 역할
 
@@ -873,7 +873,7 @@ MO 디스크는 플래시 메모리에 밀려났지만, 자기광학 효과는 �
 | 철 | 2.2 |
 | 코발트 | 1.7 |
 
-![강력한 자기장을 시각화한 자력선 패턴](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![강력한 자기장을 시각화한 자력선 패턴](https://images.unsplash.com/photo-1750101272014-88d4acf3da24?w=800&h=400&fit=crop)
 
 철보다 5배나 강합니다!
 

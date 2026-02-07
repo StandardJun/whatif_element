@@ -106,7 +106,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 ## 실제 응용
 
-![MRI 기계 내부의 초전도 자석](https://images.unsplash.com/photo-1516549655169-df83a0774514?w=800&h=400&fit=crop)
+![MRI 기계 내부의 초전도 자석](https://images.unsplash.com/photo-1682706841281-f723c5bfcd83?w=800&h=400&fit=crop)
 *MRI 기계 내부의 초전도 자석*
 
 탈륨 초전도체는 이미 여러 곳에서 사용되고 있습니다:
@@ -116,7 +116,7 @@ export const group5Posts: Record<string, Post[]> = {
 - 초고속 전자 회로
 - 양자 컴퓨터 부품
 
-![양자 컴퓨터의 극저온 냉각 시스템](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![양자 컴퓨터의 극저온 냉각 시스템](https://images.unsplash.com/photo-1634395407078-ba08aba59bcb?w=800&h=400&fit=crop)
 *양자 컴퓨터의 극저온 냉각 시스템*
 
 ## 미래 전망
@@ -453,7 +453,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 당시 폴란드는 지도에서 사라진 나라였습니다. 1795년부터 러시아, 프로이센, 오스트리아에 의해 분할 점령되어 있었거든요.
 
-![1900년대 초 실험실에서 연구 중인 여성 과학자](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![1900년대 초 실험실에서 연구 중인 여성 과학자](https://images.unsplash.com/photo-1620414713241-eab57beffbd7?w=800&h=400&fit=crop)
 *1900년대 초 실험실에서 연구 중인 여성 과학자*
 
 마리 퀴리는 러시아 지배하의 바르샤바에서 태어났습니다. 여성이라는 이유로 대학 진학이 거부당해 프랑스로 떠나야 했죠.
@@ -515,7 +515,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 방사능 흔적
 
-![방사능 측정기와 과학수사 장비](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
+![방사능 측정기와 과학수사 장비](https://images.unsplash.com/photo-1631557673907-35ab7488aea3?w=800&h=400&fit=crop)
 *방사능 측정기와 과학수사 장비*
 
 아이러니하게도, 폴로늄은 접촉한 모든 곳에 흔적을 남깁니다. 영국 경찰은 비행기, 호텔, 레스토랑 등에서 폴로늄 흔적을 추적해 용의자들의 동선을 파악했어요.
@@ -688,7 +688,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 금속일까 비금속일까?
 
-![주기율표와 원소 분류](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
+![주기율표와 원소 분류](https://images.unsplash.com/photo-1619885067109-e1dbec4e7cd0?w=800&h=400&fit=crop)
 *주기율표와 원소 분류*
 
 흥미로운 질문이 있습니다. 아스타틴은 할로겐(비금속)인가, 아니면 금속인가?
@@ -718,7 +718,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 언젠가 기술이 발전하면 아스타틴의 진짜 모습을 볼 수 있을까요?`,
       tags: ['할로겐', '주기율표', '원소', '과학', '미스터리'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1620414713241-eab57beffbd7?w=800&h=400&fit=crop',
     },
     {
       slug: 'astatine-cancer-treatment',
@@ -763,7 +763,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 현재 연구 상황
 
-![암 연구를 위한 현미경 관찰](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
+![암 연구를 위한 현미경 관찰](https://images.unsplash.com/photo-1571836840806-559779928c63?w=800&h=400&fit=crop)
 *암 연구를 위한 현미경 관찰*
 
 여러 암에서 임상시험 진행 중:
@@ -867,7 +867,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## "에마네이션"의 정체
 
-![19세기 과학 실험실의 장비](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![19세기 과학 실험실의 장비](https://images.unsplash.com/photo-1574687175332-dd01d500359e?w=800&h=400&fit=crop)
 *19세기 과학 실험실의 장비*
 
 처음에 과학자들은 이 기체를 "에마네이션(emanation, 방출물)"이라고 불렀습니다.
@@ -1505,7 +1505,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 희귀한 원소가 가장 치명적인 질병과 싸우는, 과학의 놀라운 여정입니다.`,
       tags: ['암치료', '의학', '방사선치료', '연구', '희망'],
-      image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800&h=400&fit=crop',
     },
   ],
   Th: [
@@ -1517,7 +1517,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 현재 원자력 발전소는 주로 우라늄-235를 연료로 사용합니다. 하지만 토륨이 더 나은 선택일 수 있어요.
 
-![토륨](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![토륨](https://images.unsplash.com/photo-1631125914042-6a0f27424504?w=800&h=400&fit=crop)
 
 ## 토륨의 장점
 
@@ -1660,7 +1660,7 @@ Proto(먼저) + Actinium = Protactinium
 
 리제 마이트너(1878-1968)는 오스트리아 출신의 물리학자입니다.
 
-![리제 마이트너와 프로탁티늄](https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop)
+![리제 마이트너와 프로탁티늄](https://images.unsplash.com/photo-1769251297393-8178b5988b08?w=800&h=400&fit=crop)
 
 그녀의 업적:
 - 핵분열 최초 이론적 설명
@@ -1733,7 +1733,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 2. 엄청난 에너지 방출
 3. 중성자도 방출되어 연쇄 반응!
 
-![원자력의 심장, 우라늄](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![원자력의 심장, 우라늄](https://images.unsplash.com/photo-1616072775440-ca2ea7c7ce13?w=800&h=400&fit=crop)
 
 ## 에너지 비교
 
@@ -2536,7 +2536,7 @@ E=mc² 공식의 주인공이죠.
 
 20세기 최고의 물리학자 중 한 명입니다.
 
-![아인슈타인의 이름을 딴 원소](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![아인슈타인의 이름을 딴 원소](https://images.unsplash.com/photo-1769538012116-b26a4cecbcf7?w=800&h=400&fit=crop)
 
 주요 업적:
 - 특수상대성이론 (E=mc²)
@@ -2678,7 +2678,7 @@ Es-253의 반감기는 20일!
 페르뮴은 원자번호 100번입니다.
 딱 떨어지는 숫자라 기억하기 쉽죠!
 
-![100번째 원소, 페르뮴](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![100번째 원소, 페르뮴](https://images.unsplash.com/photo-1707944746042-e4c81c191812?w=800&h=400&fit=crop)
 
 ## 원소의 확장
 

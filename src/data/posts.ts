@@ -94,7 +94,7 @@ const basePosts: Record<string, Post[]> = {
 
 결국 미래는 두 기술이 공존하는 형태가 될 가능성이 높습니다.`,
       tags: ['수소차', '전기차', '친환경', '미래기술', '자동차'],
-      image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1533134755454-9549758f0e06?w=800&h=400&fit=crop',
     },
     {
       slug: 'hydrogen-hindenburg-disaster',

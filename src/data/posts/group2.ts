@@ -56,7 +56,7 @@ export const group2Posts: Record<string, Post[]> = {
 닐슨이 발견한 원소의 성질은 멘델레예프가 예측한 것과 거의 완벽하게 일치했어요!
 
 
-![화학 실험실의 주기율표와 실험 장비](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
+![화학 실험실의 주기율표와 실험 장비](https://images.unsplash.com/photo-1608037222011-cbf484177126?w=800&h=400&fit=crop)
 
 | 성질 | 멘델레예프 예측 | 실제 스칸듐 |
 |------|----------------|-------------|
@@ -72,7 +72,7 @@ export const group2Posts: Record<string, Post[]> = {
 
 스칸듐의 발견은 멘델레예프의 주기율표가 단순한 정리가 아니라 자연의 법칙을 담고 있다는 것을 증명했습니다. 과학의 위대한 순간이었죠!`,
       tags: ['스칸듐', '멘델레예프', '주기율표', '과학사', '발견'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1599619351208-3e6c839d6828?w=800&h=400&fit=crop',
     },
     {
       slug: 'scandium-lighting-future',
@@ -329,7 +329,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 화학이 아름다울 수 있다는 것을 보여주는 멋진 예시입니다.`,
       tags: ['바나듐', '화학', '색깔', '실험', '산화'],
-      image: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1694230155228-cdde50083573?w=800&h=400&fit=crop',
     },
     {
       slug: 'vanadium-battery-future',
@@ -683,7 +683,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 ## 헤모글로빈의 구조
 
 
-![현미경으로 본 적혈구 세포들](https://images.unsplash.com/photo-1576086213369-97a306d36557?w=800&h=400&fit=crop)
+![현미경으로 본 적혈구 세포들](https://images.unsplash.com/photo-1574341792525-683b103fffe8?w=800&h=400&fit=crop)
 
 ### 철이 중심
 헤모글로빈은 적혈구 안에 있는 단백질입니다. 그 중심에는 철 원자가 있어요.
@@ -927,7 +927,7 @@ V₂O₅는 노란색에서 주황색 사이입니다.
 
 하지만 당분간 코발트는 전기차 시대의 필수 원소로 남을 거예요!`,
       tags: ['코발트', '배터리', '전기차', '스마트폰', '기술'],
-      image: 'https://images.unsplash.com/photo-1593941707882-a5bba14938c7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567083890085-94bcf65efba1?w=800&h=400&fit=crop',
     },
     {
       slug: 'cobalt-vitamin-b12',
@@ -1590,7 +1590,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 1869년, 멘델레예프는 주기율표를 만들면서 몇몇 빈칸을 남겼습니다. 그리고 이 빈칸에 들어갈 원소의 성질을 예측했죠.
 
 
-![벽에 걸린 빈티지 주기율표와 화학 실험 기구](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
+![벽에 걸린 빈티지 주기율표와 화학 실험 기구](https://images.unsplash.com/photo-1567509359570-60f36c83c577?w=800&h=400&fit=crop)
 
 ## 에카알루미늄
 
@@ -1627,7 +1627,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 갈륨의 발견은 주기율표가 단순한 정리가 아니라 자연의 법칙을 담고 있음을 증명했습니다. 과학의 예측력을 보여준 위대한 순간이었죠!`,
       tags: ['갈륨', '멘델레예프', '주기율표', '과학사', '발견'],
-      image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567017013849-69108d8c1dda?w=800&h=400&fit=crop',
     },
   ],
   Ge: [
@@ -1734,7 +1734,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 멘델레예프는 갈륨 외에도 여러 원소를 예언했습니다. 그중 하나가 "에카실리콘", 바로 저마늄입니다.
 
 
-![멘델레예프의 주기율표와 예언된 원소들](https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop)
+![멘델레예프의 주기율표와 예언된 원소들](https://images.unsplash.com/photo-1571126915601-586d90270e3f?w=800&h=400&fit=crop)
 
 ## 에카실리콘의 예측
 
@@ -1772,7 +1772,7 @@ LED는 백열등 대비 80% 전력 절감! 전 세계적으로 LED 전환만으�
 
 멘델레예프는 아직 발견되지 않은 원소의 성질까지 예측할 수 있음을 증명했죠. 과학사에서 가장 위대한 예측 중 하나입니다!`,
       tags: ['저마늄', '멘델레예프', '주기율표', '과학사', '발견'],
-      image: 'https://images.unsplash.com/photo-1603126857599-f6e157fa2fe6?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1608037222022-62649819f8aa?w=800&h=400&fit=crop',
     },
   ],
   As: [
@@ -2356,7 +2356,7 @@ DC 코믹스의 슈퍼맨은 크립톤 행성에서 왔습니다. 그런데 이 
 주기율표 맨 오른쪽에 있는 18족 원소들. 다른 원소와 거의 반응하지 않아 비활성 기체, 또는 귀족 기체(Noble Gas)라고 불립니다.
 
 
-![화려한 네온사인과 빛나는 기체 튜브들](https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop)
+![화려한 네온사인과 빛나는 기체 튜브들](https://images.unsplash.com/photo-1764418659027-b1da026826ec?w=800&h=400&fit=crop)
 
 ## 비활성 기체 가족
 
@@ -2403,7 +2403,7 @@ DC 코믹스의 슈퍼맨은 크립톤 행성에서 왔습니다. 그런데 이 
 
 비활성 기체들은 자기만의 방식으로 조용히 세상에 기여하고 있습니다!`,
       tags: ['크립톤', '비활성기체', '헬륨', '네온', '화학'],
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1500886834366-f7311927c60d?w=800&h=400&fit=crop',
     },
   ],
   Rb: [
@@ -2510,7 +2510,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 주기율표 1족의 알칼리 금속들: 리튬, 나트륨, 칼륨, 루비듐, 세슘. 이들은 공통점이 있습니다. 물과 격렬하게 반응해요!
 
 
-![광유에 보관된 은백색 알칼리 금속 조각](https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop)
+![광유에 보관된 은백색 알칼리 금속 조각](https://images.unsplash.com/photo-1605191737662-98ba90cb953e?w=800&h=400&fit=crop)
 
 ## 루비듐과 물
 
@@ -2550,7 +2550,7 @@ GPS는 위성 신호의 도착 시간 차이로 위치를 계산합니다.
 
 화학의 위험한 매력, 하지만 실험실에서만 즐기세요!`,
       tags: ['루비듐', '알칼리금속', '반응성', '물', '화학'],
-      image: 'https://images.unsplash.com/photo-1614935151651-0bea6508db6b?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1642507229657-51fc87152fc7?w=800&h=400&fit=crop',
     },
   ],
   Sr: [
@@ -2835,7 +2835,7 @@ TV, 스마트폰, 모니터의 빨간색 픽셀. 그 안에는 이트륨이 숨�
 초전도체는 전기저항이 0인 물질입니다. 전기가 손실 없이 흐르죠!
 
 
-![초전도체 위에 떠 있는 자석 부상 실험](https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop)
+![초전도체 위에 떠 있는 자석 부상 실험](https://images.unsplash.com/photo-1572024146343-c637e72f924b?w=800&h=400&fit=crop)
 
 ## YBCO의 등장
 
@@ -2878,7 +2878,7 @@ YBCO도 -180°C로 냉각해야 합니다. 상온 초전도체를 찾는 연구�
 
 이트륨 초전도체가 보여주는 물리학의 마법입니다!`,
       tags: ['이트륨', '초전도체', 'YBCO', '마이스너효과', '물리학'],
-      image: 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1572024146343-c637e72f924b?w=800&h=400&fit=crop',
     },
   ],
   Zr: [
