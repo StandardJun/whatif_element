@@ -87,6 +87,14 @@ export default function Home() {
         scale: 2,
         useCORS: true,
         logging: false,
+        onclone: (_clonedDoc: Document, clonedElement: HTMLElement) => {
+          clonedElement.querySelectorAll('p, h1, h2, h3, h4, span, div').forEach((el) => {
+            const htmlEl = el as HTMLElement;
+            if (!htmlEl.querySelector('p, h1, h2, h3, h4, span')) {
+              htmlEl.style.transform = 'translateY(-1px)';
+            }
+          });
+        },
       });
 
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
