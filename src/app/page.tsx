@@ -82,17 +82,26 @@ export default function Home() {
     try {
       const html2canvas = (await import('html2canvas')).default;
 
+      // 캡처 전: 실제 DOM 텍스트를 위로 이동 (html2canvas는 원본 DOM 위치 기준)
+      const textEls = resultRef.current.querySelectorAll('p, h1, h2, h3, h4, span');
+      const origStyles: string[] = [];
+      textEls.forEach((el, i) => {
+        const htmlEl = el as HTMLElement;
+        origStyles[i] = htmlEl.style.cssText;
+        htmlEl.style.position = 'relative';
+        htmlEl.style.top = '-3px';
+      });
+
       const canvas = await html2canvas(resultRef.current, {
         backgroundColor: '#fef7ed',
         scale: 2,
         useCORS: true,
         logging: false,
-        onclone: (_clonedDoc: Document, clonedElement: HTMLElement) => {
-          clonedElement.querySelectorAll('p, h1, h2, h3, h4, span').forEach((el) => {
-            const htmlEl = el as HTMLElement;
-            htmlEl.style.marginTop = '-3px';
-          });
-        },
+      });
+
+      // 캡처 후: 원본 스타일 복원
+      textEls.forEach((el, i) => {
+        (el as HTMLElement).style.cssText = origStyles[i];
       });
 
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
