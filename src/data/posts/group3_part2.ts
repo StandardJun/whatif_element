@@ -144,7 +144,7 @@ export const group3Part2Posts: Record<string, Post[]> = {
 
 보이지 않는 곳에서 화재로부터 우리를 보호하는 원소, 안티모니입니다.`,
       tags: ['난연제', '안전', '화재예방', '소재', '화학'],
-      image: 'https://images.unsplash.com/photo-Igct8iZucFI?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1496745109441-36ea45fed379?w=800&h=400&fit=crop',
     },
     {
       slug: 'antimony-pewter-history-poison',
@@ -331,7 +331,7 @@ CdTe 태양전지의 효율은 계속 높아지고 있습니다.
 
 마늘에는 황(S) 화합물이 있는데, 텔루륨(Te)은 황과 같은 족이라서 비슷한 화합물을 만들어요!
 
-![하얀 표면 위의 마늘 알](https://images.unsplash.com/photo-gKt9wZp2ujU?w=800&h=400&fit=crop)
+![하얀 표면 위의 마늘 알](https://images.unsplash.com/photo-1503097325940-ae094fdb97ba?w=800&h=400&fit=crop)
 
 ## 검출의 역설
 

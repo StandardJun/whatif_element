@@ -96,70 +96,113 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
           )}
 
           {/* Content */}
-          <div className="prose prose-lg prose-gray max-w-none">
+          <div className="prose prose-gray max-w-none">
             {post.content.split('\n\n').map((paragraph, index) => {
-              // 볼드 텍스트 파싱 함수
-              const parseBoldText = (text: string) => {
-                const parts = text.split(/(\*\*[^*]+\*\*)/g);
-                return parts.map((part, i) => {
+              const trimmed = paragraph.trim();
+
+              // 인라인 포맷팅 파싱 (볼드, 이탤릭)
+              const parseInline = (text: string) => {
+                const parts = text.split(/(\*\*[^*]+\*\*|\*[^*]+\*)/g);
+                return parts.filter(Boolean).map((part, i) => {
                   if (part.startsWith('**') && part.endsWith('**')) {
-                    return (
-                      <strong key={i} className="font-bold text-gray-900">
-                        {part.slice(2, -2)}
-                      </strong>
-                    );
+                    return <strong key={i} className="font-semibold text-gray-800">{part.slice(2, -2)}</strong>;
+                  }
+                  if (part.startsWith('*') && part.endsWith('*') && part.length > 2) {
+                    return <em key={i} className="italic">{part.slice(1, -1)}</em>;
                   }
                   return part;
                 });
               };
 
-              // 인라인 이미지 처리
-              if (paragraph.startsWith('![')) {
-                const match = paragraph.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
-                if (match) {
+              // 이미지 블록 (캡션 포함 가능: ![alt](url) *caption* 또는 ![alt](url)\n*caption*)
+              if (trimmed.startsWith('![')) {
+                const imgMatch = trimmed.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
+                if (imgMatch) {
+                  const remaining = trimmed.slice(imgMatch[0].length).trim();
+                  const captionMatch = remaining.match(/^\*([^*]+)\*$/m);
+                  const caption = captionMatch ? captionMatch[1] : imgMatch[1];
                   return (
                     <figure key={index} className="my-8 -mx-2 sm:-mx-4">
-                      <img src={match[2]} alt={match[1]} className="w-full h-56 sm:h-72 object-cover rounded-2xl" />
-                      {match[1] && (
-                        <figcaption className="text-center text-gray-400 text-sm mt-3">{match[1]}</figcaption>
-                      )}
+                      <img src={imgMatch[2]} alt={imgMatch[1]} className="w-full h-56 sm:h-72 object-cover rounded-2xl" />
+                      {caption && <figcaption className="text-center text-gray-400 text-sm mt-3">{caption}</figcaption>}
                     </figure>
                   );
                 }
               }
 
-              // 헤딩 처리
-              if (paragraph.startsWith('## ')) {
+              // 헤딩 (### 먼저 체크)
+              if (trimmed.startsWith('### ')) {
+                return <h3 key={index} className="text-xl font-semibold text-gray-800 mt-8 mb-3">{parseInline(trimmed.slice(4))}</h3>;
+              }
+              if (trimmed.startsWith('## ')) {
+                return <h2 key={index} className="text-2xl font-bold text-gray-800 mt-10 mb-4">{parseInline(trimmed.slice(3))}</h2>;
+              }
+
+              // 테이블
+              const lines = trimmed.split('\n');
+              if (lines[0]?.trim().startsWith('|') && lines.length >= 2) {
+                const parseRow = (line: string) => line.split('|').slice(1, -1).map(c => c.trim());
+                const isSep = (line: string) => /^\|[\s-:|]+\|$/.test(line.trim());
+                const headers = parseRow(lines[0]);
+                const dataStart = lines[1] && isSep(lines[1]) ? 2 : 1;
+                const rows = lines.slice(dataStart).filter(l => l.trim().startsWith('|')).map(parseRow);
                 return (
-                  <h2 key={index} className="text-3xl font-bold text-gray-800 mt-10 mb-5">
-                    {parseBoldText(paragraph.replace('## ', ''))}
-                  </h2>
+                  <div key={index} className="my-6 overflow-x-auto rounded-xl border border-orange-100">
+                    <table className="w-full text-sm border-collapse">
+                      <thead>
+                        <tr className="bg-orange-50">
+                          {headers.map((h, i) => (
+                            <th key={i} className="px-4 py-2.5 text-left font-semibold text-gray-700 border-b border-orange-200">{parseInline(h)}</th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {rows.map((row, ri) => (
+                          <tr key={ri} className={ri % 2 === 0 ? 'bg-white' : 'bg-orange-50/30'}>
+                            {row.map((cell, ci) => (
+                              <td key={ci} className="px-4 py-2 text-gray-600 border-b border-orange-100">{parseInline(cell)}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
                 );
               }
-              if (paragraph.startsWith('### ')) {
+
+              // 불릿 리스트
+              if (trimmed.startsWith('- ')) {
+                const items = trimmed.split('\n').filter(line => line.trim().startsWith('- '));
                 return (
-                  <h3 key={index} className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
-                    {parseBoldText(paragraph.replace('### ', ''))}
-                  </h3>
-                );
-              }
-              // 리스트 처리
-              if (paragraph.startsWith('- ')) {
-                const items = paragraph.split('\n').filter(line => line.startsWith('- '));
-                return (
-                  <ul key={index} className="list-disc list-outside ml-6 space-y-3 text-lg text-gray-700 my-6">
+                  <ul key={index} className="list-disc list-outside ml-6 space-y-1.5 text-base text-gray-700 my-4">
                     {items.map((item, i) => (
-                      <li key={i} className="pl-2 leading-relaxed">
-                        {parseBoldText(item.replace('- ', ''))}
-                      </li>
+                      <li key={i} className="pl-2 leading-relaxed">{parseInline(item.replace(/^-\s+/, ''))}</li>
                     ))}
                   </ul>
                 );
               }
+
+              // 번호 리스트
+              if (/^\d+\.\s/.test(trimmed)) {
+                const items = trimmed.split('\n').filter(line => /^\d+\.\s/.test(line.trim()));
+                return (
+                  <ol key={index} className="list-decimal list-outside ml-6 space-y-1.5 text-base text-gray-700 my-4">
+                    {items.map((item, i) => (
+                      <li key={i} className="pl-2 leading-relaxed">{parseInline(item.replace(/^\d+\.\s+/, ''))}</li>
+                    ))}
+                  </ol>
+                );
+              }
+
+              // 독립 이탤릭 (이미지 캡션으로 분리된 경우)
+              if (/^\*[^*]+\*$/.test(trimmed)) {
+                return <p key={index} className="text-center text-gray-400 text-sm italic -mt-5 mb-6">{trimmed.slice(1, -1)}</p>;
+              }
+
               // 일반 단락
               return (
-                <p key={index} className="text-lg text-gray-700 leading-loose mb-6">
-                  {parseBoldText(paragraph)}
+                <p key={index} className="text-base text-gray-700 leading-relaxed mb-4">
+                  {parseInline(trimmed)}
                 </p>
               );
             })}
