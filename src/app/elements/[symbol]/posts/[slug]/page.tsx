@@ -211,10 +211,6 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
           </Link>
         </div>
 
-        {/* Footer */}
-        <footer className="mt-12 text-center text-gray-400 text-xs">
-          <p>&copy; 2026 만약... All rights reserved.</p>
-        </footer>
       </div>
     </div>
   );

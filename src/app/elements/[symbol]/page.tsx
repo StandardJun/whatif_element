@@ -198,10 +198,6 @@ export default async function ElementDetailPage({ params }: { params: Promise<{ 
           />
         </div>
 
-        {/* Footer */}
-        <footer className="mt-12 text-center text-gray-400 text-xs">
-          <p>&copy; 2026 내가 원소라면? All rights reserved.</p>
-        </footer>
       </div>
     </div>
   );
