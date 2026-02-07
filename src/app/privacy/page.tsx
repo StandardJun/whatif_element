@@ -37,7 +37,8 @@ export default function PrivacyPage() {
                   브라우저를 종료하거나 페이지를 새로고침하면 해당 정보는 자동으로 삭제됩니다.
                 </li>
                 <li>
-                  별도의 회원가입이나 로그인 기능이 없으며, 이메일, 전화번호 등의 개인식별정보를 수집하지 않습니다.
+                  별도의 회원가입이나 로그인 기능이 없으며, 전화번호 등의 개인식별정보를 수집하지 않습니다.
+                  (단, 정보 오류 제보 시 선택적으로 이메일을 입력할 수 있습니다. 자세한 내용은 4항을 참조하세요.)
                 </li>
               </ul>
             </section>
@@ -106,13 +107,13 @@ export default function PrivacyPage() {
                   제보 시 수집되는 정보: 제보 내용, 해당 페이지 URL, 페이지 유형, 원소 기호
                 </li>
                 <li>
-                  수집된 정보는 <strong>Supabase</strong> 클라우드 데이터베이스에 저장되며, 콘텐츠 정확성 개선 목적으로만 사용됩니다.
+                  이메일 주소를 <strong>선택적</strong>으로 입력할 수 있습니다. 이메일을 입력하신 경우, 해당 정보가 수정 완료되었을 때 알림 목적으로만 사용됩니다.
                 </li>
                 <li>
-                  이름, 이메일 등 개인식별정보는 수집하지 않습니다.
+                  수집된 정보는 <strong>Supabase</strong> 클라우드 데이터베이스에 저장되며, 콘텐츠 정확성 개선 및 수정 완료 알림 목적으로만 사용됩니다.
                 </li>
                 <li>
-                  제보 내용은 확인 후 적절히 반영되며, 별도의 응답은 제공되지 않습니다.
+                  이메일 입력은 필수가 아니며, 입력하지 않아도 제보 기능을 정상적으로 이용할 수 있습니다.
                 </li>
               </ul>
             </section>
@@ -205,7 +206,7 @@ export default function PrivacyPage() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>We collect your <strong>name</strong> for the personality test experience.</li>
                 <li>This information is <strong>not stored on our servers</strong> and exists only in your browser session.</li>
-                <li>No registration or login is required. We do not collect email addresses or phone numbers.</li>
+                <li>No registration or login is required. We do not collect phone numbers. (You may optionally provide an email address when reporting errors. See section 4 for details.)</li>
               </ul>
 
               <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">2. Cookies and Advertising</h3>
@@ -236,8 +237,9 @@ export default function PrivacyPage() {
               <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-4">
                 <li>We provide an &ldquo;Report Incorrect Information&rdquo; feature to improve content accuracy.</li>
                 <li>Information collected: report content, page URL, page type, and element symbol.</li>
-                <li>This data is stored in a <strong>Supabase</strong> cloud database and used solely for content improvement.</li>
-                <li>No personally identifiable information (name, email) is collected through this feature.</li>
+                <li>You may <strong>optionally</strong> provide an email address. If provided, it will only be used to notify you when the reported issue has been corrected.</li>
+                <li>This data is stored in a <strong>Supabase</strong> cloud database and used solely for content improvement and correction notifications.</li>
+                <li>Providing an email is not required to use the reporting feature.</li>
               </ul>
 
               <h3 className="text-lg font-semibold text-gray-800 mt-6 mb-2">5. Your Rights</h3>

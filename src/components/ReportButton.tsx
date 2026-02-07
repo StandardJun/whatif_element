@@ -20,6 +20,7 @@ export default function ReportButton({
 }: ReportButtonProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [content, setContent] = useState('');
+  const [email, setEmail] = useState('');
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
   const contextLabel = postTitle
@@ -43,12 +44,14 @@ export default function ReportButton({
         element_symbol: elementSymbol || null,
         post_slug: postSlug || null,
         content: content.trim(),
+        email: email.trim() || null,
         page_url: window.location.href,
       });
 
       if (error) throw error;
       setStatus('success');
       setContent('');
+      setEmail('');
       setTimeout(() => {
         setIsOpen(false);
         setStatus('idle');
@@ -93,6 +96,7 @@ export default function ReportButton({
                 <p className="text-gray-700 font-medium">제보해 주셔서 감사합니다!</p>
                 <p className="text-gray-400 text-sm mt-1">확인 후 수정하겠습니다.</p>
               </div>
+
             ) : (
               <>
                 <textarea
@@ -103,11 +107,22 @@ export default function ReportButton({
                   maxLength={1000}
                   disabled={status === 'loading'}
                 />
-                <div className="flex justify-between items-center mt-1 mb-4">
+                <div className="flex justify-between items-center mt-1 mb-3">
                   <span className="text-xs text-gray-300">{content.length}/1000</span>
                   {status === 'error' && (
                     <span className="text-xs text-red-400">전송에 실패했습니다. 다시 시도해주세요.</span>
                   )}
+                </div>
+
+                <div className="mb-4">
+                  <input
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder="이메일 (선택) — 수정 완료 시 알려드릴게요"
+                    className="w-full px-4 py-2.5 rounded-xl bg-orange-50/50 border border-orange-200 text-gray-700 placeholder-gray-400 focus:outline-none focus:border-orange-300 focus:bg-white text-sm transition-all"
+                    disabled={status === 'loading'}
+                  />
                 </div>
 
                 <div className="flex gap-3">
@@ -116,6 +131,7 @@ export default function ReportButton({
                       setIsOpen(false);
                       setStatus('idle');
                       setContent('');
+                      setEmail('');
                     }}
                     className="flex-1 py-3 rounded-xl bg-gray-100 hover:bg-gray-200 text-gray-600 font-medium transition-colors"
                   >
