@@ -32,7 +32,7 @@ MRI 자석에는 나이오븀-티타늄(NbTi) 합금이 사용됩니다. 이 합
 
 CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사용됩니다. 힉스 입자를 발견한 그 장치에요!`,
       tags: ['초전도체', 'MRI', '의료기술', '자석', '물리학'],
-      image: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1750502487070-83607111880f?w=800&h=400&fit=crop',
     },
     {
       slug: 'niobium-jewelry-hypoallergenic',
@@ -46,7 +46,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 나이오븀은 생체 적합성이 뛰어난 금속입니다. 우리 몸이 이 금속을 이물질로 인식하지 않아요.
 
-![여러 색상의 금속 귀걸이들이 전시된 모습](https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&h=400&fit=crop)
+![여러 색상의 금속 귀걸이들이 전시된 모습](https://plus.unsplash.com/premium_photo-1670333183297-2314678e58fd?w=800&h=400&fit=crop)
 *여러 색상의 금속 귀걸이들이 전시된 모습*
 
 ### 나이오븀의 장점
@@ -79,7 +79,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 니오베는 자신의 많은 자녀를 자랑하며 레토 여신을 조롱했습니다. "레토는 겨우 아폴론과 아르테미스 둘뿐이잖아!"
 
-![고대 그리스 대리석 조각상이 박물관에 전시된 모습](https://images.unsplash.com/photo-1513415756442-d044b0c6a5e5?w=800&h=400&fit=crop)
+![고대 그리스 대리석 조각상이 박물관에 전시된 모습](https://plus.unsplash.com/premium_photo-1674112877062-55e8eea0c115?w=800&h=400&fit=crop)
 *고대 그리스 대리석 조각상이 박물관에 전시된 모습*
 
 이 말을 들은 아폴론과 아르테미스는 분노했고, 화살로 니오베의 자녀 14명을 모두 죽였습니다.
@@ -150,7 +150,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 자전거 마니아들이 좋아하는 "크로몰리" 프레임은 크롬-몰리브데넘 강철을 뜻합니다. 가볍고 튼튼해서 고급 자전거에 사용되죠!`,
       tags: ['합금', '강철', '군사', '자전거', '소재과학'],
-      image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1731317734838-12da6c9a6139?w=800&h=400&fit=crop',
     },
     {
       slug: 'molybdenum-enzyme-life',
@@ -193,7 +193,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 다행히 대부분의 식단에서 충분히 섭취할 수 있어요!`,
       tags: ['영양소', '효소', '미량원소', '건강', '생화학'],
-      image: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1679941208875-0fa8522fe6a5?w=800&h=400&fit=crop',
     },
     {
       slug: 'molybdenum-confusion-lead',
@@ -203,7 +203,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 오래전부터 사람들은 검은색의 부드러운 광석을 알고 있었습니다. 이 광석은 종이에 검은 자국을 남겨서 글씨를 쓸 수 있었죠.
 
-![검은색 광물 표본이 박물관에 전시된 모습](https://images.unsplash.com/photo-1604854513683-608c40595e8e?w=800&h=400&fit=crop)
+![검은색 광물 표본이 박물관에 전시된 모습](https://images.unsplash.com/photo-1645582025071-6b74068e297d?w=800&h=400&fit=crop)
 *검은색 광물 표본이 박물관에 전시된 모습*
 
 ## 납인가, 흑연인가?
@@ -232,7 +232,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 과학의 역사는 이런 재미있는 오해들로 가득합니다!`,
       tags: ['역사', '원소발견', '명명법', '화학사', '오해'],
-      image: 'https://images.unsplash.com/photo-1609069043109-c0fdeeb3f839?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1751276689616-d841081c88df?w=800&h=400&fit=crop',
     },
   ],
   Tc: [
@@ -338,7 +338,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 ### s-과정 (느린 중성자 포획)
 적색 거성 내부에서 원자핵이 천천히 중성자를 포획하며 무거운 원소로 변해갑니다. 이 과정에서 테크네튬이 만들어지죠.
 
-![은하수의 별들과 성운이 보이는 밤하늘](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop)
+![은하수의 별들과 성운이 보이는 밤하늘](https://plus.unsplash.com/premium_photo-1736239213986-448cb2863fc1?w=800&h=400&fit=crop)
 *별들로 가득한 은하수*
 
 ## 우주의 원소 공장
@@ -368,7 +368,7 @@ CERN의 거대강입자충돌기(LHC)에도 나이오븀 초전도 자석이 사
 
 ## 왜 루테늄인가?
 
-![고급 만년필 촉의 클로즈업 모습](https://images.unsplash.com/photo-1512428559087-560fa5ceabda?w=800&h=400&fit=crop)
+![고급 만년필 촉의 클로즈업 모습](https://plus.unsplash.com/premium_photo-1758633868411-7a14ab43bf3a?w=800&h=400&fit=crop)
 *고급 만년필 촉의 클로즈업 모습*
 
 최고급 만년필의 펜촉 끝에는 이리듐이나 루테늄 합금으로 만든 작은 공이 붙어있습니다.
@@ -476,7 +476,7 @@ NAMI-A, KP1019 등의 루테늄 항암제가 임상시험 중입니다. 아직 �
 
 ## 루테늄의 역할
 
-![데이터 센터의 서버 랙들](https://images.unsplash.com/photo-1558494949-ef5f9e4a3c71?w=800&h=400&fit=crop)
+![데이터 센터의 서버 랙들](https://plus.unsplash.com/premium_photo-1740505058305-636db2e8d1fc?w=800&h=400&fit=crop)
 *데이터 센터의 서버 랙들*
 
 이 문제를 해결하기 위해 루테늄 층이 도입되었습니다.
@@ -496,7 +496,7 @@ NAMI-A, KP1019 등의 루테늄 항암제가 임상시험 중입니다. 아직 �
 
 HAMR(열보조자기기록), MAMR(마이크로파보조자기기록) 등 새로운 기술이 개발 중입니다. 하드디스크 용량은 계속 늘어날 거예요!`,
       tags: ['하드디스크', '데이터저장', '컴퓨터', '자성', '기술'],
-      image: 'https://images.unsplash.com/photo-1588200745684-27d7682b52d1?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1661386266452-54ebeaf7339d?w=800&h=400&fit=crop',
     },
   ],
   Rh: [
@@ -506,7 +506,7 @@ HAMR(열보조자기기록), MAMR(마이크로파보조자기기록) 등 새로�
       summary: '2021년 로듐 가격은 온스당 29,000달러를 넘어섰습니다. 왜 이렇게 비쌀까요?',
       content: `## 귀금속 중의 귀금속
 
-![광택이 나는 귀금속 표면 클로즈업](https://images.unsplash.com/photo-1624365169913-08c9abd5bdf0?w=800&h=400&fit=crop)
+![광택이 나는 귀금속 표면 클로즈업](https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=400&fit=crop)
 *광택이 나는 귀금속 표면 클로즈업*
 
 로듐은 지구상에서 가장 희귀한 금속 중 하나입니다. 연간 생산량이 약 30톤에 불과하며, 금(3,000톤)의 1%도 안 됩니다.
@@ -540,7 +540,7 @@ HAMR(열보조자기기록), MAMR(마이크로파보조자기기록) 등 새로�
 
 로듐은 변동성이 너무 커서 투자 대상으로는 위험합니다. 하지만 산업적 가치는 변함없죠!`,
       tags: ['희귀금속', '투자', '자동차', '촉매', '귀금속'],
-      image: 'https://images.unsplash.com/photo-1610375461246-83df859d849d?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=400&fit=crop',
     },
     {
       slug: 'rhodium-catalytic-converter',
@@ -548,7 +548,7 @@ HAMR(열보조자기기록), MAMR(마이크로파보조자기기록) 등 새로�
       summary: '자동차 배기가스에서 유해물질을 제거하는 촉매변환기. 그 핵심에 로듐이 있습니다.',
       content: `## 배기가스의 독성 물질
 
-![자동차 엔진 부품과 배기 시스템](https://images.unsplash.com/photo-1552519507-cf3096c55e8d?w=800&h=400&fit=crop)
+![자동차 엔진 부품과 배기 시스템](https://plus.unsplash.com/premium_photo-1764060560809-b9f923b386f2?w=800&h=400&fit=crop)
 *자동차 엔진 부품과 배기 시스템*
 
 자동차 엔진에서 나오는 배기가스에는 유해 물질이 포함되어 있습니다.
@@ -579,7 +579,7 @@ NOx + CO → N₂ + CO₂
 
 ## 촉매 도둑의 등장
 
-![자동차 수리 공장의 모습](https://images.unsplash.com/photo-1601362280043-2bcb454c7892?w=800&h=400&fit=crop)
+![자동차 수리 공장의 모습](https://images.unsplash.com/photo-1573496130407-57329f01f769?w=800&h=400&fit=crop)
 *자동차 수리 공장의 모습*
 
 로듐 가격이 급등하면서 촉매변환기 절도가 사회 문제가 되었습니다. 차 밑에 있는 촉매변환기를 잘라가는 범죄가 늘어났죠.
@@ -588,7 +588,7 @@ NOx + CO → N₂ + CO₂
 
 전기차가 늘어나면 촉매변환기 수요가 줄어들까요? 하이브리드차와 내연기관차는 당분간 계속 존재할 것이므로, 로듐 수요는 유지될 전망입니다.`,
       tags: ['촉매변환기', '배기가스', '환경', '자동차', '대기오염'],
-      image: 'https://images.unsplash.com/photo-1486262715619-e3adc83aa3c0?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1679936310761-023234ac7029?w=800&h=400&fit=crop',
     },
     {
       slug: 'rhodium-rose-name',
@@ -611,7 +611,7 @@ NOx + CO → N₂ + CO₂
 
 울러스턴이 분리한 로듐 화합물(염화로듐)이 장밋빛을 띠었기 때문입니다. 특히 로듐염 수용액은 아름다운 장밋빛 색상을 보여주죠.
 
-![과학 실험실의 유리 비커와 시약들](https://images.unsplash.com/photo-1563206532-e90f217c7afe?w=800&h=400&fit=crop)
+![과학 실험실의 유리 비커와 시약들](https://images.unsplash.com/photo-1584283667567-eeac252c7240?w=800&h=400&fit=crop)
 *과학 실험실의 유리 비커와 시약들*
 
 ## 순수한 로듐의 색
@@ -633,7 +633,7 @@ NOx + CO → N₂ + CO₂
 
 이렇게 백금족 금속 6종이 모두 발견되었습니다!`,
       tags: ['원소발견', '역사', '명명법', '백금족', '화학사'],
-      image: 'https://images.unsplash.com/photo-1507925921958-8a62f3ec1f41?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1663962390198-cf3edf2817b2?w=800&h=400&fit=crop',
     },
   ],
   Pd: [
@@ -649,7 +649,7 @@ NOx + CO → N₂ + CO₂
 
 ## 어떻게 가능할까?
 
-![수소 에너지 저장 시스템 개념도](https://images.unsplash.com/photo-1581092918056-0584f3f4ed00?w=800&h=400&fit=crop)
+![수소 에너지 저장 시스템 개념도](https://plus.unsplash.com/premium_photo-1716824502431-b93e3756a6aa?w=800&h=400&fit=crop)
 *수소 에너지 저장 시스템 개념도*
 
 수소 분자(H₂)가 팔라듐 표면에 닿으면 원자(H)로 분리됩니다. 이 수소 원자들이 팔라듐 결정 격자 사이로 들어가 저장되죠.
@@ -695,7 +695,7 @@ NOx + CO → N₂ + CO₂
 
 ## 교차결합이 뭔가요?
 
-![화학 반응을 표현한 분자 구조 모형](https://images.unsplash.com/photo-1628863353693-ae5e0ef6f061?w=800&h=400&fit=crop)
+![화학 반응을 표현한 분자 구조 모형](https://plus.unsplash.com/premium_photo-1681400719508-6c909ddf0c90?w=800&h=400&fit=crop)
 *화학 반응을 표현한 분자 구조 모형*
 
 교차결합은 두 개의 탄소 원자를 연결하는 반응입니다. 탄소-탄소 결합을 만드는 건 유기화학에서 가장 중요한 일이에요!
@@ -729,7 +729,7 @@ NOx + CO → N₂ + CO₂
 
 현대 화학산업에서 팔라듐 촉매 없이는 많은 제품을 만들 수 없습니다!`,
       tags: ['노벨상', '촉매', '유기화학', '의약품', '화학반응'],
-      image: 'https://images.unsplash.com/photo-1507413245164-1e1d8e14d70e?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1669648891316-ea21653a6b4a?w=800&h=400&fit=crop',
     },
     {
       slug: 'palladium-asteroid-name',
@@ -737,7 +737,7 @@ NOx + CO → N₂ + CO₂
       summary: '팔라듐은 소행성 팔라스의 이름에서 왔습니다. 별과 금속의 인연을 알아볼까요?',
       content: `## 소행성 팔라스
 
-![소행성과 우주 공간 일러스트레이션](https://images.unsplash.com/photo-1614732484003-ba1d91e1ad9a?w=800&h=400&fit=crop)
+![소행성과 우주 공간 일러스트레이션](https://plus.unsplash.com/premium_photo-1680391379670-5907f52bb0d9?w=800&h=400&fit=crop)
 *소행성과 우주 공간 일러스트레이션*
 
 1802년, 천문학자 하인리히 올베르스가 화성과 목성 사이에서 새로운 천체를 발견했습니다. 그는 이것을 그리스 신화의 여신 팔라스 아테나의 이름을 따 "팔라스"라고 명명했죠.
@@ -756,7 +756,7 @@ NOx + CO → N₂ + CO₂
 
 ## 팔라스 아테나
 
-![천체 관측을 위한 망원경](https://images.unsplash.com/photo-1446941303332-3c3f2e1bd5f6?w=800&h=400&fit=crop)
+![천체 관측을 위한 망원경](https://plus.unsplash.com/premium_photo-1763235745111-3d3068cefe54?w=800&h=400&fit=crop)
 *천체 관측을 위한 망원경*
 
 그리스 신화에서 팔라스는 아테나 여신의 별명입니다. 지혜와 전쟁의 여신이죠.
@@ -782,7 +782,7 @@ NOx + CO → N₂ + CO₂
       summary: '영화와 소설에서 은은 괴물을 물리치는 무기입니다. 이 전설의 과학적 배경은 무엇일까요?',
       content: `## 은의 마법적 이미지
 
-![고딕 양초와 신비로운 분위기의 은제품](https://images.unsplash.com/photo-1573065527277-20c265d92d60?w=800&h=400&fit=crop)
+![고딕 양초와 신비로운 분위기의 은제품](https://plus.unsplash.com/premium_photo-1769077701098-079b8bccb723?w=800&h=400&fit=crop)
 *고딕 양초와 신비로운 분위기의 은제품*
 
 수천 년 동안 은은 신비로운 금속으로 여겨져 왔습니다. 달의 금속, 순수함의 상징, 악을 물리치는 힘...
@@ -812,7 +812,7 @@ NOx + CO → N₂ + CO₂
 
 ## 현대의 은
 
-![현미경으로 본 박테리아 세포](https://images.unsplash.com/photo-1556911220-fd0e5fad3f88?w=800&h=400&fit=crop)
+![현미경으로 본 박테리아 세포](https://plus.unsplash.com/premium_photo-1706401147779-4ca3aeb409b7?w=800&h=400&fit=crop)
 *현미경으로 본 박테리아 세포*
 
 오늘날에도 은의 항균성은 활용됩니다.
@@ -830,7 +830,7 @@ NOx + CO → N₂ + CO₂
       summary: '반짝이던 은 장신구가 까맣게 변한 경험 있으시죠? 그 과학적 원리를 알아봅니다.',
       content: `## 검게 변한 은
 
-![검게 변색된 은 장신구](https://images.unsplash.com/photo-1611923134239-a55af64b69ea?w=800&h=400&fit=crop)
+![검게 변색된 은 장신구](https://plus.unsplash.com/premium_photo-1753795570536-77b7ee48b18f?w=800&h=400&fit=crop)
 *검게 변색된 은 장신구*
 
 새로 산 은 반지가 몇 달 후 시커멓게 변했다면? 이건 녹이 슨 게 아니에요!
@@ -846,7 +846,7 @@ NOx + CO → N₂ + CO₂
 
 ## 황은 어디서 올까?
 
-![은 세척 과정을 보여주는 화학 실험](https://images.unsplash.com/photo-1603560925863-0ea50c93e1aa?w=800&h=400&fit=crop)
+![은 세척 과정을 보여주는 화학 실험](https://plus.unsplash.com/premium_photo-1677604598527-64755d1a60ac?w=800&h=400&fit=crop)
 *은 세척 과정을 보여주는 화학 실험*
 
 ### 공기 중
@@ -878,7 +878,7 @@ NOx + CO → N₂ + CO₂
 
 은은 금처럼 반응하지 않는 게 아니라, 단지 특정 물질(황)과만 반응하는 거예요!`,
       tags: ['화학반응', '황화은', '세척', '보관', '주얼리'],
-      image: 'https://images.unsplash.com/photo-1578697680914-e650598e5bbe?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1750785494644-8eff3405dca4?w=800&h=400&fit=crop',
     },
     {
       slug: 'silver-photography-history',
@@ -890,7 +890,7 @@ NOx + CO → N₂ + CO₂
 
 ## 할로겐화 은
 
-![빈티지 필름 카메라와 흑백 사진들](https://images.unsplash.com/photo-1611329532994-79e06e09c111?w=800&h=400&fit=crop)
+![빈티지 필름 카메라와 흑백 사진들](https://plus.unsplash.com/premium_photo-1752244267123-d2e1f35ee291?w=800&h=400&fit=crop)
 *빈티지 필름 카메라와 흑백 사진들*
 
 필름에는 할로겐화 은(AgBr, AgCl, AgI)이 코팅되어 있습니다. 이 물질들은 빛에 민감해요.
@@ -913,7 +913,7 @@ NOx + CO → N₂ + CO₂
 
 ## 흑백과 컬러
 
-![필름 현상 암실의 붉은 조명](https://images.unsplash.com/photo-1516035645781-fb21e03746ce?w=800&h=400&fit=crop)
+![필름 현상 암실의 붉은 조명](https://images.unsplash.com/photo-1724896728449-fae038f93e59?w=800&h=400&fit=crop)
 *필름 현상 암실의 붉은 조명*
 
 ### 흑백 사진
@@ -929,7 +929,7 @@ NOx + CO → N₂ + CO₂
 
 필름 사진의 그 느낌, 사실은 은의 느낌이었던 거죠!`,
       tags: ['사진', '필름', '역사', '화학', '예술'],
-      image: 'https://images.unsplash.com/photo-1495489164308-f73f4a60e41e?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673285096761-79e49ff5b760?w=800&h=400&fit=crop',
     },
   ],
   Cd: [
@@ -939,7 +939,7 @@ NOx + CO → N₂ + CO₂
       summary: '충전식 배터리의 시대를 연 니켈-카드뮴 배터리. 카드뮴의 역할을 알아봅니다.',
       content: `## 충전의 시작
 
-![여러 종류의 충전식 배터리들](https://images.unsplash.com/photo-1556099568-1aa46789e638?w=800&h=400&fit=crop)
+![여러 종류의 충전식 배터리들](https://images.unsplash.com/photo-1760131193080-d2c8f652f4b9?w=800&h=400&fit=crop)
 *여러 종류의 충전식 배터리들*
 
 1899년, 스웨덴의 발데마르 융너가 니켈-카드뮴(NiCd) 배터리를 발명했습니다. 최초의 실용적인 충전식 배터리였죠!
@@ -965,7 +965,7 @@ Cd + 2NiOOH + 2H₂O → Cd(OH)₂ + 2Ni(OH)₂
 
 ## 메모리 효과
 
-![전자기기 배터리 내부 구조](https://images.unsplash.com/photo-1593642634443-3ddca3c5b1e3?w=800&h=400&fit=crop)
+![전자기기 배터리 내부 구조](https://images.unsplash.com/photo-1572096082104-1a93185c9a45?w=800&h=400&fit=crop)
 *전자기기 배터리 내부 구조*
 
 니카드 배터리의 단점으로 유명한 "메모리 효과"!
@@ -995,7 +995,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
       summary: '인상파 화가들이 즐겨 쓴 선명한 노란색 물감. 그 안에 카드뮴이 들어있습니다.',
       content: `## 화가들의 노란색
 
-![화가의 팔레트에 있는 노란색 물감](https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&h=400&fit=crop)
+![화가의 팔레트에 있는 노란색 물감](https://plus.unsplash.com/premium_photo-1723921402794-723695ed048f?w=800&h=400&fit=crop)
 *화가의 팔레트에 있는 노란색 물감*
 
 19세기 이전, 화가들이 쓸 수 있는 노란색은 제한적이었습니다. 황토색이나 바래기 쉬운 천연 염료뿐이었죠.
@@ -1020,7 +1020,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 ## 유명 화가들의 선택
 
-![고흐의 해바라기 그림 (복제화)](https://images.unsplash.com/photo-1578301978018-2c8a4c1e1c8d?w=800&h=400&fit=crop)
+![고흐의 해바라기 그림 (복제화)](https://plus.unsplash.com/premium_photo-1663840074715-370897682c5a?w=800&h=400&fit=crop)
 *고흐의 해바라기 그림 (복제화)*
 
 ### 빈센트 반 고흐
@@ -1038,7 +1038,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 대체 안료(아조 옐로우, 한자 옐로우)가 있지만, 카드뮴만의 깊이와 선명함을 완전히 재현하지는 못해요.`,
       tags: ['미술', '안료', '고흐', '인상파', '화학'],
-      image: 'https://images.unsplash.com/photo-1513364776144-5fdbbfa3c8f7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1770295574600-ed4074ee3164?w=800&h=400&fit=crop',
     },
     {
       slug: 'cadmium-itai-itai-disease',
@@ -1046,7 +1046,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
       summary: '"아프다, 아프다"를 뜻하는 이 병은 카드뮴 오염으로 발생했습니다. 환경오염의 교훈.',
       content: `## 이상한 병의 발생
 
-![오염된 강물과 산업 폐수](https://images.unsplash.com/photo-1605289355680-75fb37ed2158?w=800&h=400&fit=crop)
+![오염된 강물과 산업 폐수](https://images.unsplash.com/photo-1650209887378-d222a0519524?w=800&h=400&fit=crop)
 *오염된 강물과 산업 폐수*
 
 1912년경부터 일본 도야마현 진즈가와강 유역에서 이상한 병이 발생했습니다.
@@ -1066,7 +1066,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 ## 카드뮴이 몸에 미치는 영향
 
-![환경 보호 캠페인 포스터](https://images.unsplash.com/photo-1581056710024-0c6a8ab5cdea?w=800&h=400&fit=crop)
+![환경 보호 캠페인 포스터](https://plus.unsplash.com/premium_photo-1681131451292-05f18e734c0c?w=800&h=400&fit=crop)
 *환경 보호 캠페인 포스터*
 
 ### 뼈
@@ -1093,7 +1093,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 피해자들은 1972년 법적 승리를 거뒀고, 이는 일본 환경운동의 이정표가 되었습니다.`,
       tags: ['환경오염', '공해병', '일본', '중금속', '역사'],
-      image: 'https://images.unsplash.com/photo-1559825481-12a05cc00a88?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1682125554685-2e52be3112db?w=800&h=400&fit=crop',
     },
   ],
   In: [
@@ -1103,7 +1103,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
       summary: '매일 손가락으로 터치하는 그 화면에 인듐이라는 희귀 금속이 숨어있습니다.',
       content: `## 터치의 시작
 
-![손가락으로 스마트폰 터치스크린을 조작하는 모습](https://images.unsplash.com/photo-1556656793-d5f28f5f6406?w=800&h=400&fit=crop)
+![손가락으로 스마트폰 터치스크린을 조작하는 모습](https://plus.unsplash.com/premium_photo-1671656333883-4deda5991595?w=800&h=400&fit=crop)
 *손가락으로 스마트폰 터치스크린을 조작하는 모습*
 
 스마트폰, 태블릿, ATM... 우리는 매일 수십 번 터치스크린을 사용합니다. 이 터치가 가능한 이유는?
@@ -1127,7 +1127,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 ## 인듐의 희소성
 
-![스마트폰과 태블릿의 디스플레이 화면](https://images.unsplash.com/photo-1605810230976-d28bfdfc7132?w=800&h=400&fit=crop)
+![스마트폰과 태블릿의 디스플레이 화면](https://plus.unsplash.com/premium_photo-1661578829166-0d13d725fd57?w=800&h=400&fit=crop)
 *스마트폰과 태블릿의 디스플레이 화면*
 
 인듐은 지구에서 매우 희귀합니다.
@@ -1163,7 +1163,7 @@ EU에서는 2006년부터 니카드 배터리 사용을 규제합니다. 리튬�
 
 ## 갈린스탄 (Galinstan)
 
-![손바닥 위에서 녹는 액체 금속](https://images.unsplash.com/photo-1554475900-0a4e1d0ac6f1?w=800&h=400&fit=crop)
+![손바닥 위에서 녹는 액체 금속](https://plus.unsplash.com/premium_photo-1754759085353-d4ef2feb53c5?w=800&h=400&fit=crop)
 *손바닥 위에서 녹는 액체 금속*
 
 갈륨-인듐-주석 합금인 갈린스탄은 영하 19도에서 녹습니다!
@@ -1209,7 +1209,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 뜨거운 물에도 녹는 금속! 하지만 독성 때문에 취급 주의가 필요해요.`,
       tags: ['합금', '녹는점', '갈린스탄', '열전도', '신기술'],
-      image: 'https://images.unsplash.com/photo-1517271710308-aa99f1e60460?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1646725432541-689c5661f8f5?w=800&h=400&fit=crop',
     },
     {
       slug: 'indium-spectral-line-discovery',
@@ -1240,7 +1240,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 분광학으로 발견된 원소들
 
-![19세기 과학자의 초상화와 연구 노트](https://images.unsplash.com/photo-1578386329913-ba74f8c57084?w=800&h=400&fit=crop)
+![19세기 과학자의 초상화와 연구 노트](https://plus.unsplash.com/premium_photo-1667239298606-aa41926e45f2?w=800&h=400&fit=crop)
 *19세기 과학자의 초상화와 연구 노트*
 
 ### 색깔로 이름 지은 원소
@@ -1255,7 +1255,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 1924년이 되어서야 1그램의 순수 인듐이 분리되었습니다!`,
       tags: ['원소발견', '분광학', '역사', '인디고', '화학'],
-      image: 'https://images.unsplash.com/photo-1581093450021-4a932f6d2b75?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1669075651184-d601d083325d?w=800&h=400&fit=crop',
     },
   ],
   Sn: [
@@ -1265,7 +1265,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '청동기 시대를 열었던 금속, 청동. 그 비밀 재료는 바로 주석입니다.',
       content: `## 청동기 시대의 시작
 
-![청동으로 만든 고대 검과 무기들](https://images.unsplash.com/photo-1595933834006-afaa287f913e?w=800&h=400&fit=crop)
+![청동으로 만든 고대 검과 무기들](https://plus.unsplash.com/premium_photo-1679811679795-90e8c8213686?w=800&h=400&fit=crop)
 *청동으로 만든 고대 검과 무기들*
 
 약 5000년 전, 인류는 구리에 주석을 섞으면 더 단단한 금속이 만들어진다는 것을 발견했습니다.
@@ -1305,7 +1305,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 철기 시대로의 전환
 
-![고대 문명의 청동 유물들](https://images.unsplash.com/photo-1551958219-acbc18f52c6f?w=800&h=400&fit=crop)
+![고대 문명의 청동 유물들](https://plus.unsplash.com/premium_photo-1700346089896-2eb21e67ffa7?w=800&h=400&fit=crop)
 *고대 문명의 청동 유물들*
 
 기원전 1200년경, 철이 청동을 대체하기 시작했습니다.
@@ -1322,7 +1322,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '나폴레옹 전쟁이 통조림 발명의 계기가 되었습니다. 주석 도금 캔의 역사를 알아봅니다.',
       content: `## 나폴레옹의 고민
 
-![다양한 통조림 캔들이 진열된 모습](https://images.unsplash.com/photo-1547514683-ab8bbcd4ad9f?w=800&h=400&fit=crop)
+![다양한 통조림 캔들이 진열된 모습](https://plus.unsplash.com/premium_photo-1761143490805-d435ee33e909?w=800&h=400&fit=crop)
 *다양한 통조림 캔들이 진열된 모습*
 
 "군대는 위장으로 행군한다"
@@ -1367,7 +1367,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 통조림 발명은 식품 산업과 세계 무역에 혁명을 일으켰습니다. 먼 바다를 항해하는 선원들, 전쟁터의 군인들, 그리고 일반 가정까지 혜택을 받았죠!`,
       tags: ['통조림', '음식보존', '나폴레옹', '발명', '역사'],
-      image: 'https://images.unsplash.com/photo-1604590011863-9263a6d98b43?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1763492117467-211728beb612?w=800&h=400&fit=crop',
     },
     {
       slug: 'tin-pest-cold-disease',
@@ -1375,7 +1375,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '추운 곳에 두면 주석이 가루가 되어 부서집니다. 이 신비한 현상의 과학을 알아봅니다.',
       content: `## 주석 페스트란?
 
-![부식되고 산화된 금속 표면](https://images.unsplash.com/photo-1518281420630-75ae6a2b8e68?w=800&h=400&fit=crop)
+![부식되고 산화된 금속 표면](https://plus.unsplash.com/premium_photo-1764688077126-5b6c34f4e26b?w=800&h=400&fit=crop)
 *부식되고 산화된 금속 표면*
 
 주석(Sn)은 저온에서 이상한 현상을 보입니다. 영하 13도 이하에서 천천히 회색 가루로 변해버리는 거예요!
@@ -1399,7 +1399,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 역사 속 주석 페스트
 
-![남극의 얼음과 극한 환경](https://images.unsplash.com/photo-1568213526726-a81c75acc736?w=800&h=400&fit=crop)
+![남극의 얼음과 극한 환경](https://plus.unsplash.com/premium_photo-1672234253962-f1244e5565d0?w=800&h=400&fit=crop)
 *남극의 얼음과 극한 환경*
 
 ### 나폴레옹의 러시아 원정
@@ -1416,7 +1416,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 마치 전염병처럼 퍼진다고 해서 "페스트"라는 이름이 붙었어요!`,
       tags: ['동소체', '저온', '상변화', '역사', '과학'],
-      image: 'https://images.unsplash.com/photo-1581594991032-e8e4d3f5aead?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1605595958357-e43e0ad57a1c?w=800&h=400&fit=crop',
     },
   ],
   Sb: [
@@ -1426,7 +1426,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '고대 이집트 여왕들의 눈 화장에는 안티모니가 사용되었습니다. 화장품 속 원소의 역사.',
       content: `## 클레오파트라의 눈
 
-![고대 이집트 벽화의 눈 화장을 한 여인](https://images.unsplash.com/photo-1596704017254-da82d36f6537?w=800&h=400&fit=crop)
+![고대 이집트 벽화의 눈 화장을 한 여인](https://plus.unsplash.com/premium_photo-1669075651877-956ed3c9d3c4?w=800&h=400&fit=crop)
 *고대 이집트 벽화의 눈 화장을 한 여인*
 
 고대 이집트 벽화를 보면 눈 주위를 검게 칠한 사람들이 등장합니다. 이 검은 아이라이너의 정체는?
@@ -1452,7 +1452,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 안티모니의 어원
 
-![고대 화장품 도구와 향료들](https://images.unsplash.com/photo-1556228578-dd78e18deff6?w=800&h=400&fit=crop)
+![고대 화장품 도구와 향료들](https://plus.unsplash.com/premium_photo-1744492017204-b215bab29f4b?w=800&h=400&fit=crop)
 *고대 화장품 도구와 향료들*
 
 안티모니(Antimony)의 어원에는 재미있는 전설이 있습니다.
@@ -1478,7 +1478,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '소파, 커튼, 전자기기... 불에 잘 타지 않는 비밀은 안티모니에 있습니다.',
       content: `## 화재로부터 지키다
 
-![소파와 커튼이 있는 거실 내부](https://images.unsplash.com/photo-1566846616-2db6aabd66e9?w=800&h=400&fit=crop)
+![소파와 커튼이 있는 거실 내부](https://images.unsplash.com/photo-1490789835736-500e5be85839?w=800&h=400&fit=crop)
 *소파와 커튼이 있는 거실 내부*
 
 우리 주변의 많은 물건에는 "난연제"가 들어있습니다. 불이 붙어도 빨리 타지 않게 해주는 물질이죠.
@@ -1512,7 +1512,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 안전성 논란
 
-![화재 안전 테스트 실험실](https://images.unsplash.com/photo-1602513606034-fdf1d05daff1?w=800&h=400&fit=crop)
+![화재 안전 테스트 실험실](https://plus.unsplash.com/premium_photo-1750827249609-344ad74807db?w=800&h=400&fit=crop)
 *화재 안전 테스트 실험실*
 
 안티모니 난연제의 안전성에 대한 우려도 있습니다.
@@ -1527,7 +1527,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 그래도 현재로서는 안티모니 난연제가 가장 효과적이고 경제적이에요!`,
       tags: ['난연제', '화재', '안전', '플라스틱', '화학'],
-      image: 'https://images.unsplash.com/photo-1581362280043-2bcb454c7892?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1667354155502-ba805e55d152?w=800&h=400&fit=crop',
     },
     {
       slug: 'antimony-lead-battery',
@@ -1535,7 +1535,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
       summary: '납축전지의 성능을 높이는 비밀 재료, 안티모니 합금에 대해 알아봅니다.',
       content: `## 자동차 시동의 비밀
 
-![자동차 배터리와 엔진룸](https://images.unsplash.com/photo-1588095580-b5c78a90a2f1?w=800&h=400&fit=crop)
+![자동차 배터리와 엔진룸](https://images.unsplash.com/photo-1598121210526-1d9c175028d5?w=800&h=400&fit=crop)
 *자동차 배터리와 엔진룸*
 
 자동차 시동을 걸 때마다 배터리가 큰 전류를 공급합니다. 이 배터리의 핵심에 안티모니가 있어요.
@@ -1552,7 +1552,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 ## 안티모니의 역할
 
-![자동차 정비 중인 모습](https://images.unsplash.com/photo-1542715234-86e9a48e6049?w=800&h=400&fit=crop)
+![자동차 정비 중인 모습](https://images.unsplash.com/photo-1611331411239-bbdf2e41223e?w=800&h=400&fit=crop)
 *자동차 정비 중인 모습*
 
 납에 안티모니를 2-6% 첨가하면:
@@ -1586,7 +1586,7 @@ CPU와 방열판 사이에 사용되는 고급 열전도체
 
 으로 널리 사용됩니다. 싸고 재활용이 잘 되거든요!`,
       tags: ['배터리', '자동차', '납축전지', '합금', '에너지'],
-      image: 'https://images.unsplash.com/photo-1593941707882-a5155b3f4fd5?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1751005960710-55f1c32e7b14?w=800&h=400&fit=crop',
     },
   ],
   Te: [
@@ -1622,7 +1622,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 ## 왜 텔루륨인가?
 
-![레이저가 광디스크를 읽는 모습](https://images.unsplash.com/photo-1600267185392-b35c4c2bbea9?w=800&h=400&fit=crop)
+![레이저가 광디스크를 읽는 모습](https://images.unsplash.com/photo-1594631252845-29fc4cc8cde9?w=800&h=400&fit=crop)
 *레이저가 광디스크를 읽는 모습*
 
 ### GST 합금의 특성
@@ -1642,7 +1642,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 텔루륨 합금이 컴퓨터의 미래를 바꿀 수도 있어요!`,
       tags: ['광디스크', 'DVD', '메모리', '상변화', '기술'],
-      image: 'https://images.unsplash.com/photo-1594239413830-8e51a0611e81?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1674406481284-43eba097a291?w=800&h=400&fit=crop',
     },
     {
       slug: 'tellurium-solar-cell-cdtel',
@@ -1659,7 +1659,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 ## 카드뮴텔루라이드(CdTe)
 
-![지붕 위의 태양광 패널들](https://images.unsplash.com/photo-1509391393845-24c768d5f0fe?w=800&h=400&fit=crop)
+![지붕 위의 태양광 패널들](https://plus.unsplash.com/premium_photo-1745048708036-d8428cd8fbaf?w=800&h=400&fit=crop)
 *지붕 위의 태양광 패널들*
 
 박막 태양전지 중 가장 성공적인 것이 CdTe 태양전지입니다.
@@ -1693,7 +1693,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 사막 지역의 대규모 태양광 발전소에서 이 기술이 활약하고 있어요!`,
       tags: ['태양전지', '재생에너지', '박막', '반도체', '환경'],
-      image: 'https://images.unsplash.com/photo-1509391366-ca4dada19277?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1567922045116-2a00fae2ed03?w=800&h=400&fit=crop',
     },
     {
       slug: 'tellurium-smell-garlic',
@@ -1701,7 +1701,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
       summary: '텔루륨에 노출되면 마늘 냄새가 납니다. 이 이상한 현상의 비밀은?',
       content: `## 텔루륨 냄새
 
-![마늘과 양파가 있는 주방 조리대](https://images.unsplash.com/photo-1588423771073-b8903fbb8e6d?w=800&h=400&fit=crop)
+![마늘과 양파가 있는 주방 조리대](https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&h=400&fit=crop)
 *마늘과 양파가 있는 주방 조리대*
 
 텔루륨을 다루는 과학자나 노동자들에게서 강한 마늘 냄새가 납니다. 왜 그럴까요?
@@ -1716,7 +1716,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 ## "텔루륨 호흡"
 
-![화학 실험실의 경고 표지판](https://images.unsplash.com/photo-1591779244663-d259ce8b15e2?w=800&h=400&fit=crop)
+![화학 실험실의 경고 표지판](https://plus.unsplash.com/premium_photo-1664033881643-d9911fbf3d5e?w=800&h=400&fit=crop)
 *화학 실험실의 경고 표지판*
 
 ### 특징
@@ -1748,7 +1748,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 같은 족 원소들이 비슷한 특성을 보이는 재미있는 사례입니다!`,
       tags: ['냄새', '독성', '신기한과학', '화학', '원소특성'],
-      image: 'https://images.unsplash.com/photo-1587217962969-f436c7f6bc73?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1563822249366-3efb23b8e0c9?w=800&h=400&fit=crop',
     },
   ],
   I: [
@@ -1758,7 +1758,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
       summary: '목에 있는 작은 기관, 갑상선은 아이오딘 없이는 제대로 작동하지 않습니다.',
       content: `## 갑상선이 하는 일
 
-![의사가 환자의 목을 검사하는 모습](https://images.unsplash.com/photo-1505751172876-fa1923c7deac?w=800&h=400&fit=crop)
+![의사가 환자의 목을 검사하는 모습](https://plus.unsplash.com/premium_photo-1722198062846-523a7fdf7dcf?w=800&h=400&fit=crop)
 *의사가 환자의 목을 검사하는 모습*
 
 갑상선은 목 앞쪽에 있는 나비 모양의 작은 기관입니다. 하지만 그 역할은 엄청나죠!
@@ -1816,7 +1816,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
       summary: '체르노빌, 후쿠시마 사고 때 왜 아이오딘 알약을 나눠줬을까요?',
       content: `## 방사성 아이오딘의 위험
 
-![원자력 발전소 냉각탑](https://images.unsplash.com/photo-1621447541300-93c11f6d1afc?w=800&h=400&fit=crop)
+![원자력 발전소 냉각탑](https://images.unsplash.com/photo-1617286647343-b1af22dd6327?w=800&h=400&fit=crop)
 *원자력 발전소 냉각탑*
 
 원자력 발전소 사고가 나면 방사성 아이오딘-131(I-131)이 방출됩니다.
@@ -1846,7 +1846,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 
 ## 체르노빌의 교훈
 
-![방사능 경고 표지판과 안전 장비](https://images.unsplash.com/photo-1584724639689-32d70d1a8e64?w=800&h=400&fit=crop)
+![방사능 경고 표지판과 안전 장비](https://plus.unsplash.com/premium_photo-1737816066622-068365892a98?w=800&h=400&fit=crop)
 *방사능 경고 표지판과 안전 장비*
 
 1986년 체르노빌 사고 후:
@@ -1862,7 +1862,7 @@ Ge2Sb2Te5 조성의 합금이 핵심!
 ### 중요한 점
 KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에는 효과 없어요!`,
       tags: ['원자력', '방사능', '체르노빌', '갑상선', '안전'],
-      image: 'https://images.unsplash.com/photo-1621447541300-93c11f6d1afc?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1617286647343-b1af22dd6327?w=800&h=400&fit=crop',
     },
     {
       slug: 'iodine-seaweed-discovery',
@@ -1870,7 +1870,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
       summary: '아이오딘은 해초를 태운 재에서 우연히 발견되었습니다. 그 발견 이야기.',
       content: `## 나폴레옹 전쟁과 화약
 
-![바닷가에 있는 갈색 해초](https://images.unsplash.com/photo-1517048330709-98c0e3df9c9a?w=800&h=400&fit=crop)
+![바닷가에 있는 갈색 해초](https://images.unsplash.com/photo-1715518934353-f5f1342a8b58?w=800&h=400&fit=crop)
 *바닷가에 있는 갈색 해초*
 
 1811년, 프랑스는 나폴레옹 전쟁 중이었습니다. 화약 제조에 필요한 초석(질산칼륨)이 부족했죠.
@@ -1887,7 +1887,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 ## 아이오딘의 명명
 
-![나폴레옹 시대의 역사적 삽화](https://images.unsplash.com/photo-1591961663162-0d8debd6e1d6?w=800&h=400&fit=crop)
+![나폴레옹 시대의 역사적 삽화](https://plus.unsplash.com/premium_photo-1734301371434-7aa82950e9af?w=800&h=400&fit=crop)
 *나폴레옹 시대의 역사적 삽화*
 
 ### 이름의 유래
@@ -1917,7 +1917,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 과학의 황금기였죠!`,
       tags: ['원소발견', '해초', '역사', '화학', '프랑스'],
-      image: 'https://images.unsplash.com/photo-1582211115995-7ca1c4e85f42?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1755094362063-bba61f8a4b68?w=800&h=400&fit=crop',
     },
   ],
   Xe: [
@@ -1927,7 +1927,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
       summary: '고급 자동차의 푸른빛 헤드라이트, 그 안에 제논이라는 희귀 기체가 있습니다.',
       content: `## 할로겐 vs 제논
 
-![야간에 빛나는 자동차 제논 헤드라이트](https://images.unsplash.com/photo-1511919884226-fd3817e7e3e0?w=800&h=400&fit=crop)
+![야간에 빛나는 자동차 제논 헤드라이트](https://plus.unsplash.com/premium_photo-1750939042358-584b5d142d24?w=800&h=400&fit=crop)
 *야간에 빛나는 자동차 제논 헤드라이트*
 
 자동차 헤드라이트는 계속 진화해왔습니다.
@@ -1959,7 +1959,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 ## 제논 헤드라이트의 장점
 
-![최신 럭셔리 자동차의 전면부](https://images.unsplash.com/photo-1449965325614-ce93b05fc7d2?w=800&h=400&fit=crop)
+![최신 럭셔리 자동차의 전면부](https://images.unsplash.com/photo-1583668925503-7fcc6606934c?w=800&h=400&fit=crop)
 *최신 럭셔리 자동차의 전면부*
 
 ### 밝기
@@ -2049,7 +2049,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 환자가 내뱉는 제논을 모아서 정제 후 재사용!`,
       tags: ['마취', '의학', '비활성기체', '수술', '병원'],
-      image: 'https://images.unsplash.com/photo-1579684385184-72895d2e9ea5?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1694261123397-d30aafbe04d3?w=800&h=400&fit=crop',
     },
     {
       slug: 'xenon-stranger-name',
@@ -2091,7 +2091,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
 
 ## 다른 비활성 기체 이름들
 
-![고대 그리스 파피루스 문서](https://images.unsplash.com/photo-1610296669228-602fa827fc1f?w=800&h=400&fit=crop)
+![고대 그리스 파피루스 문서](https://images.unsplash.com/photo-1689528444890-b0badafb86dd?w=800&h=400&fit=crop)
 *고대 그리스 파피루스 문서*
 
 ### 아르곤 (Argon)
@@ -2123,7 +2123,7 @@ KI 알약은 방사성 아이오딘만 막습니다. 다른 방사성 물질에�
       summary: '우리가 사용하는 "1초"는 세슘 원자를 기준으로 정의됩니다. 그 정밀한 과학.',
       content: `## 1초는 어떻게 정해졌을까?
 
-![정밀 원자시계 장치](https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&h=400&fit=crop)
+![정밀 원자시계 장치](https://plus.unsplash.com/premium_photo-1762820499323-05ad56314cbe?w=800&h=400&fit=crop)
 *정밀 원자시계 장치*
 
 옛날에는 지구의 자전을 기준으로 1초를 정했습니다. 하지만 지구 자전 속도는 조금씩 변해요!
@@ -2231,7 +2231,7 @@ Li < Na < K < Rb < Cs < Fr
 
 유튜브에서 세슘 물 반응 영상을 찾아보세요! (직접 실험은 절대 금지)`,
       tags: ['알칼리금속', '반응성', '폭발', '화학', '위험물질'],
-      image: 'https://images.unsplash.com/photo-1511507788-7d3cb1b80a5e?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673892648268-7150620bd36d?w=800&h=400&fit=crop',
     },
     {
       slug: 'cesium-sky-blue-spectrum',
@@ -2239,7 +2239,7 @@ Li < Na < K < Rb < Cs < Fr
       summary: '세슘(Cesium)의 이름은 라틴어로 "하늘색"을 뜻합니다. 그 발견 이야기.',
       content: `## 분광학의 혁명
 
-![분광기로 본 하늘색 스펙트럼](https://images.unsplash.com/photo-1603584173870-7d987ecd1dfe?w=800&h=400&fit=crop)
+![분광기로 본 하늘색 스펙트럼](https://plus.unsplash.com/premium_photo-1717438447220-c65e84d39042?w=800&h=400&fit=crop)
 *분광기로 본 하늘색 스펙트럼*
 
 1860년대, 분광기의 발명으로 원소 발견의 새 시대가 열렸습니다.
@@ -2262,7 +2262,7 @@ Li < Na < K < Rb < Cs < Fr
 
 ## 분광학 발견 원소들
 
-![역사적인 과학 발견 기념 사진](https://images.unsplash.com/photo-1542396095-74f2e8cf1f64?w=800&h=400&fit=crop)
+![역사적인 과학 발견 기념 사진](https://images.unsplash.com/photo-1574687711484-386db1bbf115?w=800&h=400&fit=crop)
 *역사적인 과학 발견 기념 사진*
 
 ### 색깔로 이름 지은 원소
@@ -2318,7 +2318,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 ## "바륨 밀크쉐이크"
 
-![병원 검사실의 모습](https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=800&h=400&fit=crop)
+![병원 검사실의 모습](https://plus.unsplash.com/premium_photo-1764397720987-69fb94e23964?w=800&h=400&fit=crop)
 *병원 검사실의 모습*
 
 ### 맛
@@ -2352,7 +2352,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
       summary: '화려한 불꽃놀이의 초록색은 바륨 화합물에서 나옵니다.',
       content: `## 불꽃의 색
 
-![초록색 불꽃이 터지는 불꽃놀이](https://images.unsplash.com/photo-1468444781333-b31ca28a8e9a?w=800&h=400&fit=crop)
+![초록색 불꽃이 터지는 불꽃놀이](https://images.unsplash.com/photo-1615842788685-40678531fa40?w=800&h=400&fit=crop)
 *초록색 불꽃이 터지는 불꽃놀이*
 
 불꽃놀이의 다양한 색깔은 금속 원소들이 만들어냅니다.
@@ -2402,7 +2402,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 대체 물질 연구도 진행 중이에요.`,
       tags: ['불꽃놀이', '화학', '색', '축제', '원소'],
-      image: 'https://images.unsplash.com/photo-1467810563316-b5476525c0f1?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1693222144142-bf72bdbf748c?w=800&h=400&fit=crop',
     },
     {
       slug: 'barium-heavy-name',
@@ -2410,7 +2410,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
       summary: '바륨(Barium)은 그리스어로 "무거운"을 뜻합니다. 무거운 광석에서 온 이름.',
       content: `## 무거운 광석
 
-![무거운 광석 표본](https://images.unsplash.com/photo-1616530940895-9f3e46ef44f3?w=800&h=400&fit=crop)
+![무거운 광석 표본](https://plus.unsplash.com/premium_photo-1743090542826-bc5d9eb556bb?w=800&h=400&fit=crop)
 *무거운 광석 표본*
 
 바륨의 이름은 그리스어 "바뤼스(barys)"에서 왔습니다. "무거운"이라는 뜻이죠.
@@ -2436,7 +2436,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 ## 바륨 금속의 성질
 
-![광물학 박물관의 전시품들](https://images.unsplash.com/photo-1585396804652-2c0003a90e3e?w=800&h=400&fit=crop)
+![광물학 박물관의 전시품들](https://plus.unsplash.com/premium_photo-1667239009263-7ebbf67028d5?w=800&h=400&fit=crop)
 *광물학 박물관의 전시품들*
 
 순수한 바륨은:
@@ -2459,7 +2459,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 바륨의 이름이 일상 단어와 연결되어 있네요!`,
       tags: ['원소이름', '광물', '역사', '그리스어', '어원'],
-      image: 'https://images.unsplash.com/photo-1556228720-fb775a5df7e3?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673830981214-1b149337aa28?w=800&h=400&fit=crop',
     },
   ],
   La: [
@@ -2494,7 +2494,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 ## 어디에 쓰이나?
 
-![프로 사진작가의 렌즈 컬렉션](https://images.unsplash.com/photo-1495344517868-8e0f8b5f50e9?w=800&h=400&fit=crop)
+![프로 사진작가의 렌즈 컬렉션](https://plus.unsplash.com/premium_photo-1670185510638-6427989f7efa?w=800&h=400&fit=crop)
 *프로 사진작가의 렌즈 컬렉션*
 
 ### 카메라 렌즈
@@ -2558,7 +2558,7 @@ X선을 흡수하는 물질을 먹으면 위장의 모양이 X선 사진에 나�
 
 ## 토요타 프리우스
 
-![전기차 충전 중인 모습](https://images.unsplash.com/photo-1617886318610-a1d85a0bdd11?w=800&h=400&fit=crop)
+![전기차 충전 중인 모습](https://images.unsplash.com/photo-1581662853886-0d02cbe6bb0f?w=800&h=400&fit=crop)
 *전기차 충전 중인 모습*
 
 세계 최초의 양산 하이브리드 차 프리우스에는 약 10-15kg의 란타넘이 들어갑니다.
@@ -2624,7 +2624,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
 
 이 기술로 드디어 순수한 희토류 원소를 얻을 수 있게 되었습니다!`,
       tags: ['원소발견', '희토류', '역사', '분리', '화학사'],
-      image: 'https://images.unsplash.com/photo-1532366050-bba49fda1fe7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1501103777042-0aeb4df8ff8f?w=800&h=400&fit=crop',
     },
   ],
   Ce: [
@@ -2634,7 +2634,7 @@ La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu
       summary: '오븐 청소가 저절로? 세륨 코팅 기술의 놀라운 원리.',
       content: `## 오븐 청소의 고통
 
-![현대식 오븐 내부](https://images.unsplash.com/photo-1556910103-1c6c81b86423?w=800&h=400&fit=crop)
+![현대식 오븐 내부](https://images.unsplash.com/photo-1759381918921-f65c26ff5697?w=800&h=400&fit=crop)
 *현대식 오븐 내부*
 
 오븐 내부에 튀긴 기름과 음식 찌꺼기... 청소하기 정말 힘들죠.
@@ -2662,7 +2662,7 @@ CeO2 <-> Ce2O3
 
 ## 다른 응용들
 
-![깨끗한 주방 가전제품들](https://images.unsplash.com/photo-1585659722983-2dbe4f05b0a8?w=800&h=400&fit=crop)
+![깨끗한 주방 가전제품들](https://images.unsplash.com/photo-1668557496497-2c1c5e98a235?w=800&h=400&fit=crop)
 *깨끗한 주방 가전제품들*
 
 ### 자동차 촉매
@@ -2690,7 +2690,7 @@ CeO2 <-> Ce2O3
       summary: '라이터의 불꽃을 만드는 그 돌멩이, 사실은 세륨 합금입니다.',
       content: `## 라이터의 불꽃
 
-![라이터에서 튀는 불꽃](https://images.unsplash.com/photo-1591378519697-8e9cfcab2f36?w=800&h=400&fit=crop)
+![라이터에서 튀는 불꽃](https://images.unsplash.com/photo-1668557495439-85b89c38cbad?w=800&h=400&fit=crop)
 *라이터에서 튀는 불꽃*
 
 일회용 라이터의 톱니바퀴를 돌리면 불꽃이 튑니다. 이 불꽃은 어디서 올까요?
@@ -2706,7 +2706,7 @@ CeO2 <-> Ce2O3
 
 ## 불꽃이 튀는 원리
 
-![캠핑용 파이어스틸과 불꽃](https://images.unsplash.com/photo-1478812954026-9c750f0ecd19?w=800&h=400&fit=crop)
+![캠핑용 파이어스틸과 불꽃](https://images.unsplash.com/photo-1545868260-9d9d24fc6669?w=800&h=400&fit=crop)
 *캠핑용 파이어스틸과 불꽃*
 
 ### 발화점이 낮음
@@ -2738,7 +2738,7 @@ CeO2 <-> Ce2O3
 
 캠핑용 파이어스틸도 같은 원리입니다!`,
       tags: ['라이터', '발화', '합금', '희토류', '발명'],
-      image: 'https://images.unsplash.com/photo-1512820790803-83b6ea2b41db?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1726031211557-05505ae8ca01?w=800&h=400&fit=crop',
     },
     {
       slug: 'cerium-asteroid-ceres-name',
@@ -2746,7 +2746,7 @@ CeO2 <-> Ce2O3
       summary: '세륨(Cerium)은 소행성 세레스에서 이름을 따왔습니다.',
       content: `## 두 번의 발견
 
-![소행성 세레스의 이미지](https://images.unsplash.com/photo-1614728894364-1eac03eeb6cd?w=800&h=400&fit=crop)
+![소행성 세레스의 이미지](https://plus.unsplash.com/premium_photo-1679526019578-2008f0dd36e2?w=800&h=400&fit=crop)
 *소행성 세레스의 이미지*
 
 ### 1801년
@@ -2796,7 +2796,7 @@ CeO2 <-> Ce2O3
 - 넵투늄: 행성 해왕성
 - 플루토늄: 왜소행성 명왕성`,
       tags: ['소행성', '세레스', '역사', '로마신화', '천문학'],
-      image: 'https://images.unsplash.com/photo-1543722530-d628162ba2b0?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1710268470228-6d77e6d999b3?w=800&h=400&fit=crop',
     },
   ],
   Pr: [
@@ -2806,7 +2806,7 @@ CeO2 <-> Ce2O3
       summary: '용접 보호 안경의 특수 유리에는 프라세오디뮴이 들어있습니다.',
       content: `## 용접의 위험
 
-![용접공이 보호 안경을 쓰고 작업하는 모습](https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop)
+![용접공이 보호 안경을 쓰고 작업하는 모습](https://plus.unsplash.com/premium_photo-1734348386114-9048850f39f6?w=800&h=400&fit=crop)
 *용접공이 보호 안경을 쓰고 작업하는 모습*
 
 용접 아크는 매우 밝습니다. 맨눈으로 보면 눈이 손상될 수 있어요.
@@ -2835,7 +2835,7 @@ CeO2 <-> Ce2O3
 
 ## 다른 용도들
 
-![녹색 유리로 된 보호 렌즈](https://images.unsplash.com/photo-1565688534325-a85d05c87f9f?w=800&h=400&fit=crop)
+![녹색 유리로 된 보호 렌즈](https://plus.unsplash.com/premium_photo-1762332097939-718555f3996e?w=800&h=400&fit=crop)
 *녹색 유리로 된 보호 렌즈*
 
 ### 유리 불기 작업
@@ -2855,7 +2855,7 @@ CeO2 <-> Ce2O3
 
 유리에 프라세오디뮴을 넣으면 아름다운 녹색 유리가 만들어집니다.`,
       tags: ['용접', '안전', '유리', '희토류', '보호장비'],
-      image: 'https://images.unsplash.com/photo-1557672199-6f6e68e40edd?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1734348386114-9048850f39f6?w=800&h=400&fit=crop',
     },
     {
       slug: 'praseodymium-magnet-alloy',
@@ -2914,7 +2914,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
 
 희토류 자원을 더 효과적으로 활용하는 방법이죠!`,
       tags: ['자석', '네오디뮴', '합금', '희토류', '기술'],
-      image: 'https://images.unsplash.com/photo-1606141964961-5a252e70d1dc?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1682310504437-9bf061f1fadf?w=800&h=400&fit=crop',
     },
     {
       slug: 'praseodymium-twin-element',
@@ -2922,7 +2922,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
       summary: '프라세오디뮴은 네오디뮴과 함께 "쌍둥이 원소"에서 분리되었습니다.',
       content: `## 디디뮴의 정체
 
-![쌍둥이를 상징하는 두 개의 물체](https://images.unsplash.com/photo-1606146915703-e6e51ed30ea2?w=800&h=400&fit=crop)
+![쌍둥이를 상징하는 두 개의 물체](https://images.unsplash.com/photo-1686061594225-3e92c0cd51b0?w=800&h=400&fit=crop)
 *쌍둥이를 상징하는 두 개의 물체*
 
 1841년, 화학자 칼 구스타프 모잔더가 란타넘에서 새로운 원소를 분리했습니다.
@@ -2971,7 +2971,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
 
 그래서 오늘날에도 종종 혼합물(디디뮴)로 사용합니다!`,
       tags: ['원소발견', '쌍둥이', '희토류', '역사', '분리'],
-      image: 'https://images.unsplash.com/photo-1530521954074-e64f69b26248?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1532615470080-39f17172bc1e?w=800&h=400&fit=crop',
     },
   ],
   Nd: [
@@ -2981,7 +2981,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
       summary: '손가락만 한 자석이 수 킬로그램을 들어올립니다. 네오디뮴 자석의 놀라운 힘!',
       content: `## 영구자석의 왕
 
-![네오디뮴 자석이 금속을 강하게 끌어당기는 모습](https://images.unsplash.com/photo-1618761985960-e838c22cd344?w=800&h=400&fit=crop)
+![네오디뮴 자석이 금속을 강하게 끌어당기는 모습](https://plus.unsplash.com/premium_photo-1678454430356-0556234c68f5?w=800&h=400&fit=crop)
 *네오디뮴 자석이 금속을 강하게 끌어당기는 모습*
 
 네오디뮴 자석(NdFeB)은 현재 가장 강력한 상용 영구자석입니다.
@@ -3021,7 +3021,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
 
 ## 발견과 개발
 
-![전기 모터의 내부 구조](https://images.unsplash.com/photo-1451187580459-a72359b37853?w=800&h=400&fit=crop)
+![전기 모터의 내부 구조](https://plus.unsplash.com/premium_photo-1762917577681-5aea19922ec7?w=800&h=400&fit=crop)
 *전기 모터의 내부 구조*
 
 ### 1984년
@@ -3037,7 +3037,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
 - 전자기기 손상 가능
 - 손가락 끼임 주의!`,
       tags: ['자석', '전자기기', '전기차', '희토류', '기술'],
-      image: 'https://images.unsplash.com/photo-1620862623321-1c0558c522d8?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673892648237-900d0fb73a54?w=800&h=400&fit=crop',
     },
     {
       slug: 'neodymium-laser-yag',
@@ -3045,7 +3045,7 @@ Nd와 Pr은 같은 광물에서 나옵니다.
       summary: '네오디뮴 레이저는 눈 수술부터 산업용 절단까지 다양하게 사용됩니다.',
       content: `## Nd:YAG 레이저란?
 
-![레이저 빔이 발사되는 모습](https://images.unsplash.com/photo-1582735689369-4fe0c9b32ec7?w=800&h=400&fit=crop)
+![레이저 빔이 발사되는 모습](https://images.unsplash.com/photo-1605014555934-ec5552b9ac7d?w=800&h=400&fit=crop)
 *레이저 빔이 발사되는 모습*
 
 Nd:YAG는 네오디뮴이 첨가된 YAG(이트륨-알루미늄-가닛) 결정을 사용한 레이저입니다.
@@ -3082,7 +3082,7 @@ Nd:YAG는 네오디뮴이 첨가된 YAG(이트륨-알루미늄-가닛) 결정을
 
 ## 군사 분야
 
-![안과 레이저 수술 장비](https://images.unsplash.com/photo-1559757148-1c29c7c0d396?w=800&h=400&fit=crop)
+![안과 레이저 수술 장비](https://plus.unsplash.com/premium_photo-1664304334150-01289bb066a3?w=800&h=400&fit=crop)
 *안과 레이저 수술 장비*
 
 ### 레이저 거리측정기
@@ -3104,7 +3104,7 @@ Nd:YAG는 네오디뮴이 첨가된 YAG(이트륨-알루미늄-가닛) 결정을
 
 다용도 레이저의 대표 주자입니다!`,
       tags: ['레이저', '의료', '산업', '기술', '광학'],
-      image: 'https://images.unsplash.com/photo-1550751827-4246868d2c3a?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1666942829358-5f53c5d43362?w=800&h=400&fit=crop',
     },
     {
       slug: 'neodymium-rare-earth-crisis',
@@ -3166,7 +3166,7 @@ Nd:YAG는 네오디뮴이 첨가된 YAG(이트륨-알루미늄-가닛) 결정을
 
 자원 없는 나라도 기술로 극복할 수 있습니다!`,
       tags: ['희토류', '전기차', '풍력발전', '국제정치', '자원'],
-      image: 'https://images.unsplash.com/photo-1543286386-713bdd548da0?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673892648260-68e6a8969817?w=800&h=400&fit=crop',
     },
   ],
 };

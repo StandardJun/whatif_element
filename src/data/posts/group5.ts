@@ -20,7 +20,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 ## 탈륨 중독의 증상
 
-![범죄 수사 현장의 증거 마커들](https://images.unsplash.com/photo-1598524719668-990e6e78d027?w=800&h=400&fit=crop)
+![범죄 수사 현장의 증거 마커들](https://plus.unsplash.com/premium_photo-1700600713390-011a90aa35b5?w=800&h=400&fit=crop)
 *범죄 수사 현장의 증거 마커들*
 
 탈륨 중독은 천천히 진행되며, 초기 증상이 독감과 비슷해서 발견하기 어렵습니다.
@@ -40,7 +40,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 위험한 역사를 가졌지만, 적절히 관리되면 유용한 원소이기도 합니다.`,
       tags: ['독극물', '범죄', '역사', '의학', '규제'],
-      image: 'https://images.unsplash.com/photo-1532634922-8fe0b757fb13?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1665605271163-61a9c53da5de?w=800&h=400&fit=crop',
     },
     {
       slug: 'thallium-discovery-green-line',
@@ -60,7 +60,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 크룩스는 그 아름다운 초록색에서 영감을 받아, 그리스어로 "초록색 나뭇가지"를 뜻하는 "탈로스(thallos)"에서 이름을 따왔습니다.
 
-![실험실의 초록색 화학 시약과 실험 기구](https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=800&h=400&fit=crop)
+![실험실의 초록색 화학 시약과 실험 기구](https://images.unsplash.com/photo-1528809015549-a0f8d9ab5ab1?w=800&h=400&fit=crop)
 *실험실의 초록색 화학 시약과 실험 기구*
 
 ## 발견의 경쟁
@@ -75,7 +75,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 오늘날에도 분광학은 별의 구성 성분을 분석하는 데 사용됩니다. 먼 우주의 별빛을 분석해서 그 별에 어떤 원소가 있는지 알 수 있죠!`,
       tags: ['발견', '분광학', '과학사', '화학', '원소'],
-      image: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1665605388648-51171bd73765?w=800&h=400&fit=crop',
     },
     {
       slug: 'thallium-superconductor',
@@ -106,7 +106,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 ## 실제 응용
 
-![MRI 기계 내부의 초전도 자석](https://images.unsplash.com/photo-1682706841281-f723c5bfcd83?w=800&h=400&fit=crop)
+![MRI 기계 내부의 초전도 자석](https://images.unsplash.com/photo-1606231495909-73c86d43ed0c?w=800&h=400&fit=crop)
 *MRI 기계 내부의 초전도 자석*
 
 탈륨 초전도체는 이미 여러 곳에서 사용되고 있습니다:
@@ -129,7 +129,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 탈륨은 독극물이라는 어두운 과거를 넘어, 미래 기술의 핵심 소재로 재탄생하고 있습니다.`,
       tags: ['초전도체', '미래기술', '물리학', 'MRI', '양자컴퓨터'],
-      image: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1674507267215-e497b4dc9910?w=800&h=400&fit=crop',
     },
   ],
   Pb: [
@@ -178,7 +178,7 @@ export const group5Posts: Record<string, Post[]> = {
 
 실제로 20세기에도 휘발유에 납을 넣어 큰 문제가 되지 않았나요?`,
       tags: ['로마', '역사', '중독', '문명', '의학'],
-      image: 'https://images.unsplash.com/photo-1530024178147-7d38d126b3f2?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1764177093072-ff30bdf9a507?w=800&h=400&fit=crop',
     },
     {
       slug: 'lead-pencil-myth',
@@ -223,7 +223,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 - 일반 연필 한 자루로 약 35마일(56km)의 선을 그을 수 있다는 주장이 있지만, 실제로는 이보다 짧을 가능성이 높습니다
 - 우주에서도 연필은 작동합니다 (미국 NASA는 한때 비싼 "우주 볼펜"을 개발했는데, 소련은 그냥 연필을 썼다는 유명한 이야기가 있어요. 다만 이것도 과장된 이야기입니다!)`,
       tags: ['연필', '흑연', '오해', '역사', '탄소'],
-      image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1765345480730-694b17197286?w=800&h=400&fit=crop',
     },
     {
       slug: 'lead-gasoline-crime',
@@ -235,7 +235,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 50년간의 납 오염
 
-![주유소에서 주유 중인 차량](https://images.unsplash.com/photo-1584949602334-204ce7d1c57e?w=800&h=400&fit=crop)
+![주유소에서 주유 중인 차량](https://plus.unsplash.com/premium_photo-1661597053642-03189a490bc8?w=800&h=400&fit=crop)
 *주유소에서 주유 중인 차량*
 
 1920년대부터 1970년대까지, 전 세계 자동차들은 유연 휘발유를 사용했습니다. 배기가스에 섞인 납은 대기를 오염시켰고, 특히 도시에 사는 아이들이 많이 노출되었어요.
@@ -315,7 +315,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 재미있는 부작용
 
-![분홍색 액체 약병과 약통](https://images.unsplash.com/photo-1584362917165-526a968579e8?w=800&h=400&fit=crop)
+![분홍색 액체 약병과 약통](https://plus.unsplash.com/premium_photo-1675538082227-e32babe2352a?w=800&h=400&fit=crop)
 *분홍색 액체 약병과 약통*
 
 펩토비스몰을 먹으면 혀와 변이 검은색으로 변할 수 있습니다! 이것은 비스무트가 침이나 장 내의 황과 반응해서 황화비스무트(검은색)를 만들기 때문이에요.
@@ -328,7 +328,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 무거운 금속도 올바르게 사용하면 건강에 도움이 될 수 있다는 좋은 예입니다!`,
       tags: ['의약품', '위장', '건강', '화학', '금속'],
-      image: 'https://images.unsplash.com/photo-1471864190281-a93a3070b6de?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1759661284885-61a35cc7d039?w=800&h=400&fit=crop',
     },
     {
       slug: 'bismuth-rainbow-crystal',
@@ -376,7 +376,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 자연이 만든 기하학적 아름다움을 직접 만들어볼 수 있다니, 정말 매력적이지 않나요?`,
       tags: ['결정', '광물', '예술', '과학실험', '화학'],
-      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1580567259580-b913755681af?w=800&h=400&fit=crop',
     },
     {
       slug: 'bismuth-lead-free-future',
@@ -404,7 +404,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 낚시추의 변화
 
-![낚시 장비와 낚시추들](https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop)
+![낚시 장비와 낚시추들](https://plus.unsplash.com/premium_photo-1674837817198-b9bf2bc76e0a?w=800&h=400&fit=crop)
 *낚시 장비와 낚시추들*
 
 많은 지역에서 납 낚시추 사용이 금지되고 있습니다. 물새들이 납 낚시추를 먹이로 착각해 삼키면 납 중독으로 죽기 때문이에요.
@@ -562,7 +562,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 담배회사들이 알고 있었다?
 
-![담배와 재떨이](https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7b?w=800&h=400&fit=crop)
+![담배와 재떨이](https://plus.unsplash.com/premium_photo-1718214435602-53093d71c559?w=800&h=400&fit=crop)
 *담배와 재떨이*
 
 1960년대, 담배회사들의 내부 연구에서 이미 이 사실이 밝혀졌습니다. 하지만 그들은:
@@ -589,7 +589,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 금연할 이유가 하나 더 늘었네요!`,
       tags: ['담배', '건강', '방사능', '암', '기업비밀'],
-      image: 'https://images.unsplash.com/photo-1571139991382-1c9a021a2032?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1682535208615-11777d244e3c?w=800&h=400&fit=crop',
     },
   ],
   At: [
@@ -600,7 +600,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
       content: `## 얼마나 희귀할까?
 
 지구의 지각에 존재하는 아스타틴의 총량은 약 28그램에 불과합니다. 이것은:
-
 
 - 금속 숟가락 하나 정도의 무게
 - 지구 전체를 합쳐서!
@@ -624,7 +623,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 ## 연구의 어려움
 
-![현대 과학 연구소의 입자 가속기](https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=800&h=400&fit=crop)
+![현대 과학 연구소의 입자 가속기](https://plus.unsplash.com/premium_photo-1764845108953-eab8686d14ec?w=800&h=400&fit=crop)
 *현대 과학 연구소의 입자 가속기*
 
 아스타틴은 연구하기 가장 어려운 원소입니다:
@@ -651,7 +650,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 가장 희귀하기에 오히려 가장 특별한 원소, 아스타틴. 우리가 모르는 것이 많지만, 그래서 더 신비롭고 매력적인 원소입니다.`,
       tags: ['희귀원소', '방사성', '암치료', '과학', '발견'],
-      image: 'https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1613535167523-0da946b83ffb?w=800&h=400&fit=crop',
     },
     {
       slug: 'astatine-halogen-mystery',
@@ -660,7 +659,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
       content: `## 할로겐 가족 소개
 
 주기율표 17족, 할로겐 원소들을 만나보세요:
-
 
 1. 플루오린 (F) - 연노랑 기체
 2. 염소 (Cl) - 노랑-초록 기체
@@ -718,7 +716,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 언젠가 기술이 발전하면 아스타틴의 진짜 모습을 볼 수 있을까요?`,
       tags: ['할로겐', '주기율표', '원소', '과학', '미스터리'],
-      image: 'https://images.unsplash.com/photo-1620414713241-eab57beffbd7?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1635554940874-0e15956eda9e?w=800&h=400&fit=crop',
     },
     {
       slug: 'astatine-cancer-treatment',
@@ -727,7 +725,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
       content: `## 방사선 치료의 진화
 
 암 치료에서 방사선은 양날의 검입니다. 암세포를 죽이지만, 정상 세포도 손상시키거든요.
-
 
 만약 암세포만 정확히 공격할 수 있다면 어떨까요?
 
@@ -787,7 +784,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 가장 희귀한 원소가 가장 치명적인 질병의 치료제가 될 수 있다니. 과학의 놀라운 반전이 아닐 수 없습니다!`,
       tags: ['암치료', '의학', '방사선', '표적치료', '연구'],
-      image: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1674428452383-1fc83c85dd80?w=800&h=400&fit=crop',
     },
   ],
   Rn: [
@@ -798,7 +795,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
       content: `## 보이지 않는 침입자
 
 라돈은 무색, 무취, 무미의 방사성 기체입니다. 감각으로는 전혀 감지할 수 없죠. 하지만 이 조용한 기체가 흡연 다음으로 폐암을 많이 일으킨다는 사실, 알고 계셨나요?
-
 
 ## 라돈의 기원
 
@@ -856,7 +852,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 주기율표 맨 오른쪽 열에는 비활성 기체(귀족 기체)들이 있습니다:
 - 헬륨, 네온, 아르곤, 크립톤, 제논, 라돈
 
-
 이들은 최외각 전자가 완전히 채워져 있어서 다른 원소와 거의 반응하지 않아요. "귀족처럼 고고하다"고 해서 귀족 기체라는 별명도 있죠.
 
 ## 방사능의 발견과 라돈
@@ -897,7 +892,7 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
 
 과학의 발전이 우리를 보호하는 좋은 예입니다!`,
       tags: ['발견', '비활성기체', '방사능', '과학사', '화학'],
-      image: 'https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1677165944700-60abe75e4202?w=800&h=400&fit=crop',
     },
     {
       slug: 'radon-spa-therapy',
@@ -906,7 +901,6 @@ B연필은 흑연이 많아 진하고 부드럽고, H연필은 점토가 많아 
       content: `## 라돈 온천이란?
 
 일본, 오스트리아, 독일 등에는 "라돈 온천"이 있습니다. 자연적으로 라돈이 녹아있는 온천수로, 관절염이나 피부병에 효과가 있다고 알려져 있어요.
-
 
 유명한 곳들:
 - 일본 돗토리현 미사사 온천
@@ -973,7 +967,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 프랑슘은 자연에서 발견되는 원소 중 가장 불안정합니다. 가장 안정한 동위원소(Fr-223)의 반감기가 겨우 21.8분이에요.
 
-
 21분 후 → 절반 사라짐
 42분 후 → 1/4만 남음
 1시간 후 → 거의 없음
@@ -1012,7 +1005,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 ## 연구 방법
 
-![정밀한 레이저 실험 장비](https://images.unsplash.com/photo-1581092918484-8313b8f181a4?w=800&h=400&fit=crop)
+![정밀한 레이저 실험 장비](https://plus.unsplash.com/premium_photo-1723618882705-2d98fa6664a7?w=800&h=400&fit=crop)
 *정밀한 레이저 실험 장비*
 
 과학자들은 원자 몇 개 단위로 프랑슘을 연구합니다.
@@ -1028,7 +1021,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 불안정해서 희귀하지만, 그래서 더 특별한 원소입니다!`,
       tags: ['희귀원소', '방사성', '알칼리금속', '프랑스', '불안정'],
-      image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1750501461131-cbcbe44645c8?w=800&h=400&fit=crop',
     },
     {
       slug: 'francium-marguerite-perey',
@@ -1037,7 +1030,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
       content: `## 마리 퀴리의 조수에서 시작
 
 마르게리트 페레(1909-1975)는 원래 과학자가 아니었습니다. 19살에 마리 퀴리의 라듐 연구소에 기술 조수로 들어갔죠.
-
 
 그녀의 첫 업무는 방사성 물질에서 라돈 가스를 추출하는 것이었습니다.
 
@@ -1059,7 +1051,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 ## 학위 없는 발견자
 
-![1940년대 연구 실험실](https://images.unsplash.com/photo-1507668339341-099e91ee5a4d?w=800&h=400&fit=crop)
+![1940년대 연구 실험실](https://plus.unsplash.com/premium_photo-1750938394179-aa8cf94a1a72?w=800&h=400&fit=crop)
 *1940년대 연구 실험실*
 
 놀랍게도, 페레가 프랑슘을 발견했을 때 그녀는 대학 학위가 없었습니다! 기술자 출신이었거든요.
@@ -1094,7 +1086,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
       content: `## 알칼리 금속의 물 반응
 
 유튜브에서 본 적 있나요? 나트륨이나 칼륨을 물에 넣으면 격렬하게 반응하며 폭발합니다.
-
 
 2Na + 2H₂O → 2NaOH + H₂ ↑
 
@@ -1165,7 +1156,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 1910-20년대, 어둠 속에서 빛나는 시계가 큰 인기였습니다. 비결은 라듐 페인트였죠.
 
-
 라듐이 방출하는 방사선이 인광 물질을 자극해 빛을 내는 원리입니다. 군인들의 야간 시계, 비행기 계기판 등에 광범위하게 사용되었어요.
 
 ## 라듐 걸스
@@ -1216,7 +1206,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 그녀들의 희생이 오늘날 우리를 보호하고 있습니다.`,
       tags: ['라듐걸스', '노동자', '역사', '안전', '방사능'],
-      image: 'https://images.unsplash.com/photo-1581093458791-9d42e1540f50?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1712254285190-50883b5c7cf8?w=800&h=400&fit=crop',
     },
     {
       slug: 'radium-curie-discovery',
@@ -1225,7 +1215,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
       content: `## 새로운 원소를 향해
 
 1898년, 마리와 피에르 퀴리는 이상한 현상을 발견했습니다. 피치블렌드(역청우라늄광)가 순수한 우라늄보다 더 강한 방사능을 보였거든요.
-
 
 우라늄 외에 다른 방사성 원소가 있다는 뜻이었습니다!
 
@@ -1281,7 +1270,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
       content: `## 라듐 열풍
 
 1900년대 초, 라듐은 "기적의 물질"로 여겨졌습니다. 새롭고, 신비롭고, 빛이 나니까요!
-
 
 사람들은 라듐이 모든 병을 고칠 수 있다고 믿었습니다.
 
@@ -1345,7 +1333,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 악티늄을 어둠 속에 두면 은은한 푸른빛이 보입니다. 마치 SF 영화에 나오는 물질 같죠!
 
-
 이 현상의 이름은 "체렌코프 복사(Cherenkov radiation)"입니다.
 
 ## 체렌코프 복사란?
@@ -1394,7 +1381,6 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
       content: `## 악티늄족이란?
 
 주기율표에서 원소번호 89(악티늄)부터 103(로렌슘)까지의 15개 원소를 "악티늄족" 또는 "악티노이드"라고 부릅니다.
-
 
 포함된 원소들:
 - 악티늄(Ac), 토륨(Th), 프로탁티늄(Pa)
@@ -1454,7 +1440,7 @@ WHO와 EPA는 라돈 노출을 최소화하라고 권고합니다.
 
 악티늄-225(Ac-225)가 암 치료 분야에서 큰 주목을 받고 있습니다. 아스타틴-211과 함께 "표적 알파 치료(TAT)"의 핵심 후보이죠.
 
-![악티늄-225](https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop)
+![악티늄-225](https://images.unsplash.com/photo-1706639996436-3c90695c7dd2?w=800&h=400&fit=crop)
 
 ## 악티늄-225의 장점
 
@@ -1505,7 +1491,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 희귀한 원소가 가장 치명적인 질병과 싸우는, 과학의 놀라운 여정입니다.`,
       tags: ['암치료', '의학', '방사선치료', '연구', '희망'],
-      image: 'https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1618015358417-324e6c9a8400?w=800&h=400&fit=crop',
     },
   ],
   Th: [
@@ -1590,7 +1576,7 @@ Ac-225 → Fr-221 → At-217 → Bi-213 → Po-213/Tl-209
 
 토륨(Thorium)은 북유럽 신화의 천둥신 토르(Thor)의 이름에서 왔습니다.
 
-![천둥의 신 토르와 토륨](https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=800&h=400&fit=crop)
+![천둥의 신 토르와 토륨](https://plus.unsplash.com/premium_photo-1678257844896-298d3ff7982d?w=800&h=400&fit=crop)
 
 토르는 마블 영화로도 유명하죠!
 
@@ -1660,7 +1646,7 @@ Proto(먼저) + Actinium = Protactinium
 
 리제 마이트너(1878-1968)는 오스트리아 출신의 물리학자입니다.
 
-![리제 마이트너와 프로탁티늄](https://images.unsplash.com/photo-1769251297393-8178b5988b08?w=800&h=400&fit=crop)
+![리제 마이트너와 프로탁티늄](https://plus.unsplash.com/premium_photo-1670176447606-b186805a6ac1?w=800&h=400&fit=crop)
 
 그녀의 업적:
 - 핵분열 최초 이론적 설명
@@ -1698,7 +1684,7 @@ Proto(먼저) + Actinium = Protactinium
 
 불안정한 원자핵은 방사선을 내보내며 다른 원소로 변합니다.
 
-![프로탁티늄](https://images.unsplash.com/photo-1635070041409-e63e783ce3b0?w=800&h=400&fit=crop)
+![프로탁티늄](https://plus.unsplash.com/premium_photo-1669301638284-ed33553ef8fa?w=800&h=400&fit=crop)
 
 ## 악티늄 계열
 
@@ -1718,7 +1704,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 방사성 원소들은 자연의 시계와 같습니다!`,
       tags: ['방사성붕괴', '악티늄계열', '반감기', '연대측정', '물리학'],
-      image: 'https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1709669909848-26abf0b35979?w=800&h=400&fit=crop',
     },
   ],
   U: [
@@ -1791,7 +1777,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 노란 가루 안에 엄청난 에너지가 담겨있습니다.`,
       tags: ['옐로케이크', '우라늄', '색깔', '광업', '역사'],
-      image: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1677706562602-76f3c158b39f?w=800&h=400&fit=crop',
     },
     {
       slug: 'uranium-planet-name',
@@ -1836,7 +1822,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 원자번호가 우라늄(92)보다 큰 원소들을 초우라늄 원소라고 합니다.
 
-![넵투늄](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![넵투늄](https://images.unsplash.com/photo-1566239726784-3433468bb0d1?w=800&h=400&fit=crop)
 
 ## 발견 (1940년)
 
@@ -1895,7 +1881,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 미국의 물리학자, 1951년 노벨 화학상 수상.
 
-![맥밀런과 넵투늄 발견 이야기](https://images.unsplash.com/photo-1564325724739-bae0bd08762c?w=800&h=400&fit=crop)
+![맥밀런과 넵투늄 발견 이야기](https://plus.unsplash.com/premium_photo-1691591181990-1c82cfb6288f?w=800&h=400&fit=crop)
 
 ## 1940년, 버클리
 
@@ -1924,7 +1910,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 1945년 8월 9일, 나가사키에 플루토늄 폭탄이 투하되었습니다.
 
-![플루토늄](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![플루토늄](https://plus.unsplash.com/premium_photo-1726088222623-f226ceac9433?w=800&h=400&fit=crop)
 
 ## 왜 플루토늄?
 
@@ -1954,7 +1940,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 태양에서 멀면 태양 전지가 작동하지 않습니다.
 
-![우주를 밝히는 플루토늄 배터리](https://images.unsplash.com/photo-1446776811648-aa78eefe8ed0?w=800&h=400&fit=crop)
+![우주를 밝히는 플루토늄 배터리](https://plus.unsplash.com/premium_photo-1682124910684-f48a00164fbd?w=800&h=400&fit=crop)
 
 ## RTG: 방사성동위원소 열전기 발전기
 
@@ -1970,7 +1956,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 플루토늄이 인류의 우주 탐사를 가능하게 합니다.`,
       tags: ['우주', 'RTG', '탐사', '보이저', '전력'],
-      image: 'https://images.unsplash.com/photo-1610296669228-602fa827fc1f?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1673283241973-e62962218387?w=800&h=400&fit=crop',
     },
     {
       slug: 'plutonium-seaborg-discovery',
@@ -1981,7 +1967,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 역사상 가장 많은 원소를 발견한 사람!
 1951년 노벨 화학상 수상.
 
-![시보그와 플루토늄의 발견](https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800&h=400&fit=crop)
+![시보그와 플루토늄의 발견](https://images.unsplash.com/photo-1580398301390-5b37983b2f16?w=800&h=400&fit=crop)
 
 ## 플루토늄 발견 (1940-41)
 
@@ -2012,7 +1998,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 아메리슘-241이 알파선을 방출하여 공기를 이온화합니다.
 연기가 들어오면 전류가 변하고, 경보가 울려요!
 
-![화재경보기 속 아메리슘](https://images.unsplash.com/photo-1534430310919-0085ecf3f7a5?w=800&h=400&fit=crop)
+![화재경보기 속 아메리슘](https://plus.unsplash.com/premium_photo-1695306149922-c58327a0aa95?w=800&h=400&fit=crop)
 
 ## 얼마나 들어있나?
 
@@ -2028,7 +2014,7 @@ U-235 → ... → Pa-231 → Ac-227 → ... → Pb-207
 
 화재경보기가 생명을 구합니다!`,
       tags: ['화재경보기', '안전', '가정용품', '방사성', '생활'],
-      image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1682689551596-98e2cb2f7d59?w=800&h=400&fit=crop',
     },
     {
       slug: 'americium-america-name',
@@ -2092,7 +2078,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 
 마리 퀴리와 피에르 퀴리는 방사능 연구의 개척자입니다.
 
-![퀴륨](https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?w=800&h=400&fit=crop)
+![퀴륨](https://plus.unsplash.com/premium_photo-1671379456866-57e60cf76bb7?w=800&h=400&fit=crop)
 
 업적:
 - 폴로늄, 라듐 발견
@@ -2123,7 +2109,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 
 퀴리 부부의 유산이 계속되고 있습니다!`,
       tags: ['퀴리', '방사능', '역사', '과학자', '헌사'],
-      image: 'https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1746349642233-fcfae6365ffc?w=800&h=400&fit=crop',
     },
     {
       slug: 'curium-mars-exploration',
@@ -2134,7 +2120,7 @@ Pu-238보다 반감기가 길어 더 오래 지속됩니다.
 NASA의 화성 탐사 로버들은 APXS라는 장비를 가지고 있습니다.
 Alpha Particle X-ray Spectrometer의 약자예요.
 
-![퀴륨이 화성에서 하는 일](https://images.unsplash.com/photo-1608889476518-738c9b1c9b56?w=800&h=400&fit=crop)
+![퀴륨이 화성에서 하는 일](https://plus.unsplash.com/premium_photo-1667850562258-b77dfa54c79d?w=800&h=400&fit=crop)
 
 ## APXS의 작동 원리
 
@@ -2165,7 +2151,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 퀴륨이 화성의 비밀을 밝히고 있습니다!`,
       tags: ['화성', '우주탐사', 'NASA', '로버', 'APXS'],
-      image: 'https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1675529734008-a0ed21c1e657?w=800&h=400&fit=crop',
     },
     {
       slug: 'curium-glow-dark',
@@ -2175,7 +2161,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 순수한 퀴륨은 어둠 속에서 보랏빛으로 빛납니다!
 
-![어둠 속에서 빛나는 퀴륨](https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&h=400&fit=crop)
+![어둠 속에서 빛나는 퀴륨](https://images.unsplash.com/photo-1602503497726-dc6cfaab7e17?w=800&h=400&fit=crop)
 
 ## 왜 빛날까?
 
@@ -2218,7 +2204,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 1949년, UC 버클리 대학에서 버클륨이 발견되었습니다.
 
-![버클륨](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![버클륨](https://images.unsplash.com/photo-1533667984318-3246b22d11bd?w=800&h=400&fit=crop)
 
 방법:
 - 아메리슘-241에 알파 입자 충돌
@@ -2309,7 +2295,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 2010년, 과학자들은 117번 원소를 만들고 싶었습니다.
 필요한 재료: 버클륨-249
 
-![버클륨으로 새 원소를 만들다](https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?w=800&h=400&fit=crop)
+![버클륨으로 새 원소를 만들다](https://plus.unsplash.com/premium_photo-1668902827064-9d77c9750674?w=800&h=400&fit=crop)
 
 ## 버클륨 조달 작전
 
@@ -2342,7 +2328,7 @@ APXS 덕분에 화성에 대해 많은 것을 알게 되었습니다:
 
 이것이 기초과학의 열정입니다!`,
       tags: ['테네신', '원소발견', '국제협력', '연구', '과학'],
-      image: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1719832168036-10a838749108?w=800&h=400&fit=crop',
     },
   ],
   Cf: [
@@ -2396,7 +2382,7 @@ California + -ium = Californium
 캘리포늄-252는 스스로 핵분열하며 중성자를 방출합니다.
 1μg(백만분의 1그램)에서 초당 230만 개의 중성자!
 
-![캘리포늄](https://images.unsplash.com/photo-1581092918484-8313b8f181a4?w=800&h=400&fit=crop)
+![캘리포늄](https://plus.unsplash.com/premium_photo-1723618882705-2d98fa6664a7?w=800&h=400&fit=crop)
 
 ## 왜 중요할까?
 
@@ -2432,7 +2418,7 @@ California + -ium = Californium
 극소량으로 엄청난 일을 하는 원소.
 캘리포늄의 놀라운 능력입니다!`,
       tags: ['중성자', '핵분열', '응용', '산업', '의학'],
-      image: 'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1646122580600-4d6cffc926fe?w=800&h=400&fit=crop',
     },
     {
       slug: 'californium-cancer-treatment',
@@ -2443,7 +2429,7 @@ California + -ium = Californium
 방사선 치료의 한 종류입니다.
 중성자를 암세포에 쏘아 파괴해요.
 
-![캘리포늄으로 암을 치료한다?](https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&h=400&fit=crop)
+![캘리포늄으로 암을 치료한다?](https://images.unsplash.com/photo-1586773831566-893f3648d9f7?w=800&h=400&fit=crop)
 
 ## 캘리포늄의 장점
 
@@ -2478,7 +2464,7 @@ California + -ium = Californium
 기술이 발전하면 더 많은 환자가 혜택을 받을 수 있습니다.
 희귀한 원소가 생명을 구하는 날이 올지도 몰라요!`,
       tags: ['암치료', '의학', '중성자', '연구', '미래'],
-      image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1681493001904-032f0a288660?w=800&h=400&fit=crop',
     },
   ],
   Es: [
@@ -2491,7 +2477,7 @@ California + -ium = Californium
 1952년 11월 1일, 미국은 최초의 수소폭탄을 실험했습니다.
 이름은 "아이비 마이크(Ivy Mike)"였어요.
 
-![수소폭탄에서 태어난 원소, 아인슈타이늄](https://images.unsplash.com/photo-1617791160588-241658c0f566?w=800&h=400&fit=crop)
+![수소폭탄에서 태어난 원소, 아인슈타이늄](https://plus.unsplash.com/premium_photo-1661946181697-346947323b84?w=800&h=400&fit=crop)
 
 ## 예상치 못한 발견
 
@@ -2583,7 +2569,7 @@ E=mc²는 질량이 에너지로 변환될 수 있음을 보여줍니다.
 아인슈타이늄은 원자로에서 만들어야 합니다.
 연간 생산량: 약 1mg (밀리그램!)
 
-![아인슈타이늄 연구의 어려움](https://images.unsplash.com/photo-1507668077129-56e32842fceb?w=800&h=400&fit=crop)
+![아인슈타이늄 연구의 어려움](https://plus.unsplash.com/premium_photo-1690297853326-e127726588ac?w=800&h=400&fit=crop)
 
 ## 연구의 도전
 
@@ -2630,7 +2616,7 @@ Es-253의 반감기는 20일!
 
 엔리코 페르미(1901-1954)는 이탈리아 출신의 물리학자입니다.
 
-![페르뮴](https://images.unsplash.com/photo-1582560475093-ba66accbc424?w=800&h=400&fit=crop)
+![페르뮴](https://images.unsplash.com/photo-1683189400013-641c2a65d82d?w=800&h=400&fit=crop)
 
 업적:
 - 최초의 인공 핵연쇄반응 (1942)
@@ -2667,7 +2653,7 @@ Es-253의 반감기는 20일!
 
 핵물리학의 전설, 엔리코 페르미!`,
       tags: ['페르미', '원자로', '핵물리학', '과학자', '노벨상'],
-      image: 'https://images.unsplash.com/photo-1460600421827-fb1b30d95507?w=800&h=400&fit=crop',
+      image: 'https://plus.unsplash.com/premium_photo-1687962429522-f1612cf3c762?w=800&h=400&fit=crop',
     },
     {
       slug: 'fermium-100th-element',
@@ -2714,7 +2700,7 @@ Es-253의 반감기는 20일!
 페르뮴은 "원자로 원소"와 "가속기 원소"의 경계에 있습니다.
 과학사의 중요한 이정표예요!`,
       tags: ['100번', '주기율표', '원자번호', '경계', '역사'],
-      image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=400&fit=crop',
+      image: 'https://images.unsplash.com/photo-1683189400209-a076d6c375b8?w=800&h=400&fit=crop',
     },
     {
       slug: 'fermium-nobelium-production',
@@ -2725,7 +2711,7 @@ Es-253의 반감기는 20일!
 더 무거운 원소를 만들려면 가벼운 원소를 합쳐야 합니다.
 페르뮴은 그 재료가 될 수 있어요.
 
-![페르뮴](https://images.unsplash.com/photo-1614313913007-2b4ae8ce32d6?w=800&h=400&fit=crop)
+![페르뮴](https://images.unsplash.com/photo-1613758153788-f4ed88a60051?w=800&h=400&fit=crop)
 
 ## 노벨륨의 합성
 
