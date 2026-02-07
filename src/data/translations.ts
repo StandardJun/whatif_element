@@ -25,7 +25,7 @@ export const translations = {
     goodMatch: '잘 맞는 궁합',
     badMatch: '안 맞는 궁합',
     saveAsImage: '결과 사진으로 저장',
-    shareResult: '결과 공유하기',
+    shareResult: '테스트 링크 공유',
     restart: '다시 테스트하기',
     linkCopied: '링크가 복사되었습니다!',
     shareText: (element: string, symbol: string) =>
@@ -58,7 +58,7 @@ export const translations = {
     goodMatch: 'Good Match',
     badMatch: 'Bad Match',
     saveAsImage: 'Save as Image',
-    shareResult: 'Share Result',
+    shareResult: 'Share Test Link',
     restart: 'Try Again',
     linkCopied: 'Link copied!',
     shareText: (element: string, symbol: string) =>
