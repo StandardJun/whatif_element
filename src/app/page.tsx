@@ -81,18 +81,28 @@ export default function Home() {
 
     try {
       const html2canvas = (await import('html2canvas')).default;
+      const captureRoot = resultRef.current;
 
-      // 캡처 전: 실제 DOM 텍스트를 위로 이동 (html2canvas는 원본 DOM 위치 기준)
-      const textEls = resultRef.current.querySelectorAll('p, h1, h2, h3, h4, span');
-      const origStyles: string[] = [];
-      textEls.forEach((el, i) => {
+      // html2canvas 텍스트 하강 보정: 폰트 크기에 비례하여 실제 DOM 임시 수정
+      const textSelector = 'p, h1, h2, h3, h4, span';
+      const textEls = Array.from(captureRoot.querySelectorAll(textSelector));
+      const origStyles = textEls.map(el => (el as HTMLElement).style.cssText);
+
+      textEls.forEach((el) => {
         const htmlEl = el as HTMLElement;
-        origStyles[i] = htmlEl.style.cssText;
+        // 부모 중 텍스트 요소가 있으면 건너뛰기 (이중 보정 방지)
+        let ancestor = htmlEl.parentElement;
+        while (ancestor && ancestor !== captureRoot) {
+          if (ancestor.matches(textSelector)) return;
+          ancestor = ancestor.parentElement;
+        }
+        const fontSize = parseFloat(window.getComputedStyle(htmlEl).fontSize);
+        const offset = Math.max(1, Math.round(fontSize * 0.13));
         htmlEl.style.position = 'relative';
-        htmlEl.style.top = '-3px';
+        htmlEl.style.top = `-${offset}px`;
       });
 
-      const canvas = await html2canvas(resultRef.current, {
+      const canvas = await html2canvas(captureRoot, {
         backgroundColor: '#fef7ed',
         scale: 2,
         useCORS: true,
@@ -105,37 +115,44 @@ export default function Home() {
       });
 
       const filename = `manyak-${result?.element.symbol || 'result'}.png`;
-
-      // 모바일 감지
       const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
       const isAndroid = /Android/.test(navigator.userAgent);
       const isMobile = isIOS || isAndroid;
 
       if (isMobile) {
-        // 모바일: blob을 생성하여 새 탭에서 열기 (길게 눌러 저장)
-        canvas.toBlob((blob) => {
-          if (!blob) {
-            alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
+        // 모바일: Web Share API로 네이티브 저장/공유 시트 호출
+        const blob = await new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, 'image/png'));
+        if (!blob) {
+          alert(lang === 'ko' ? '이미지 저장에 실패했습니다.' : 'Failed to save image.');
+          return;
+        }
+
+        const file = new File([blob], filename, { type: 'image/png' });
+
+        if (typeof navigator.canShare === 'function' && navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({ files: [file] });
             return;
+          } catch (e) {
+            if ((e as Error).name === 'AbortError') return;
+            // 공유 실패 시 fallback으로 진행
           }
+        }
 
-          const blobUrl = URL.createObjectURL(blob);
-          const newWindow = window.open(blobUrl, '_blank');
-
-          if (!newWindow) {
-            // 팝업 차단 시 fallback: dataURL 사용
-            const dataUrl = canvas.toDataURL('image/png');
-            const fallbackWindow = window.open();
-            if (fallbackWindow) {
-              fallbackWindow.document.write(`<img src="${dataUrl}" style="max-width:100%; height:auto;">`);
-            } else {
-              alert(lang === 'ko' ? '팝업 차단을 해제해주세요.' : 'Please allow popups.');
-            }
-          }
-
-          // 메모리 정리 (5초 후)
-          setTimeout(() => URL.revokeObjectURL(blobUrl), 5000);
-        }, 'image/png');
+        // Fallback: 이미지를 새 탭에 보여주고 길게 눌러 저장 안내
+        const dataUrl = canvas.toDataURL('image/png');
+        const w = window.open();
+        if (w) {
+          w.document.write(
+            `<html><head><meta name="viewport" content="width=device-width,initial-scale=1"><title>${filename}</title></head>` +
+            `<body style="margin:0;display:flex;flex-direction:column;align-items:center;background:#f5f5f5;padding:20px;font-family:sans-serif;">` +
+            `<p style="color:#666;margin:0 0 16px;">${lang === 'ko' ? '이미지를 길게 눌러 저장하세요' : 'Long press the image to save'}</p>` +
+            `<img src="${dataUrl}" style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.1);">` +
+            `</body></html>`
+          );
+        } else {
+          alert(lang === 'ko' ? '팝업 차단을 해제해주세요.' : 'Please allow popups.');
+        }
       } else {
         // 데스크톱: 일반 다운로드
         const dataUrl = canvas.toDataURL('image/png');
