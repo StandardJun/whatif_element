@@ -279,8 +279,8 @@ export default function Home() {
               }}
             >
               <div style={{ textAlign: 'center', marginBottom: '24px' }}>
-                <p style={{ color: '#6b7280', margin: '0 0 8px 0', fontSize: '14px' }}>{t.resultFor(userName)}</p>
-                <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', letterSpacing: '-0.025em', margin: 0 }}>{t.yourElement}</h1>
+                <p style={{ color: '#6b7280', margin: '0 0 8px 0', fontSize: '14px', lineHeight: '1.4' }}>{t.resultFor(userName)}</p>
+                <h1 style={{ fontSize: '24px', fontWeight: 'bold', color: '#1f2937', letterSpacing: '-0.025em', margin: 0, lineHeight: '1.3' }}>{t.yourElement}</h1>
               </div>
 
               {/* Main Result Card */}
@@ -316,14 +316,14 @@ export default function Home() {
                   {getCategoryNameKo(result.element.category)}
                 </div>
 
-                <div style={{ marginBottom: '16px' }}>
-                  <span style={{ fontSize: '70px', fontWeight: 'bold', color: '#1f2937' }}>{result.element.symbol}</span>
+                <div style={{ marginBottom: '16px', lineHeight: '1' }}>
+                  <span style={{ fontSize: '70px', fontWeight: 'bold', color: '#1f2937', lineHeight: '1' }}>{result.element.symbol}</span>
                 </div>
 
-                <h2 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 4px 0', letterSpacing: '-0.025em' }}>
+                <h2 style={{ fontSize: '30px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 4px 0', letterSpacing: '-0.025em', lineHeight: '1.2' }}>
                   {lang === 'ko' ? result.element.nameKo : result.element.name}
                 </h2>
-                <p style={{ color: '#6b7280', margin: '0 0 16px 0', fontSize: '14px' }}>
+                <p style={{ color: '#6b7280', margin: '0 0 16px 0', fontSize: '14px', lineHeight: '1.4' }}>
                   {lang === 'ko' ? result.element.name : result.element.nameKo} • {t.atomicNumber} {result.element.number}
                 </p>
 
@@ -341,16 +341,15 @@ export default function Home() {
                   </p>
                 </div>
 
-                <div style={{ color: '#6b7280', fontSize: '14px', position: 'relative', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '6px' }}>
-                  <span>{t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span></span>
+                <div style={{ color: '#6b7280', fontSize: '14px', position: 'relative', textAlign: 'center', lineHeight: '18px' }}>
+                  <span style={{ lineHeight: '18px', verticalAlign: 'middle' }}>{t.matchScore}: <span style={{ color: '#f97316', fontWeight: 'bold' }}>{result.score}%</span></span>
+                  {' '}
                   <span
                     onClick={() => setShowScoreInfo(prev => !prev)}
                     onMouseEnter={() => setShowScoreInfo(true)}
                     onMouseLeave={() => setShowScoreInfo(false)}
                     style={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
+                      display: 'inline-block',
                       width: '18px',
                       height: '18px',
                       borderRadius: '50%',
@@ -359,8 +358,10 @@ export default function Home() {
                       fontSize: '11px',
                       fontWeight: 'bold',
                       cursor: 'pointer',
-                      userSelect: 'none',
-                      flexShrink: 0,
+                      userSelect: 'none' as const,
+                      lineHeight: '16px',
+                      textAlign: 'center',
+                      verticalAlign: 'middle',
                     }}
                   >
                     i
@@ -402,26 +403,32 @@ export default function Home() {
                   border: '1px solid #fed7aa',
                 }}
               >
-                <h3 style={{ fontSize: '16px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 14px 0' }}>
+                <h3 style={{ fontSize: '16px', fontWeight: 'bold', color: '#1f2937', margin: '0 0 14px 0', lineHeight: '1.3' }}>
                   {lang === 'ko' ? '성격 지표' : 'Personality Traits'}
                 </h3>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                  {Object.entries(result.element.traits).map(([key, value]) => (
-                    <div key={key} style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                      <span style={{ color: '#4b5563', width: '72px', fontSize: '13px', flexShrink: 0 }}>
-                        {traitNames[key]}
-                      </span>
-                      <div style={{ flex: 1, height: '10px', backgroundColor: '#fef3c7', borderRadius: '9999px', overflow: 'hidden' }}>
-                        <div style={{
-                          height: '100%',
-                          width: `${(value / 5) * 100}%`,
-                          background: 'linear-gradient(to right, #fb923c, #fb7185)',
-                          borderRadius: '9999px',
-                        }} />
+                <div>
+                  {Object.entries(result.element.traits).map(([key, value], idx) => (
+                    <div key={key} style={{ display: 'table', width: '100%', marginBottom: idx < Object.keys(result.element.traits).length - 1 ? '10px' : '0' }}>
+                      <div style={{ display: 'table-cell', width: '72px', verticalAlign: 'middle', paddingRight: '12px' }}>
+                        <span style={{ color: '#4b5563', fontSize: '13px', lineHeight: '1.3' }}>
+                          {traitNames[key]}
+                        </span>
                       </div>
-                      <span style={{ color: '#6b7280', fontSize: '13px', width: '28px', textAlign: 'right', flexShrink: 0 }}>
-                        {value}/5
-                      </span>
+                      <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
+                        <div style={{ height: '10px', backgroundColor: '#fef3c7', borderRadius: '9999px', overflow: 'hidden' }}>
+                          <div style={{
+                            height: '100%',
+                            width: `${(value / 5) * 100}%`,
+                            background: 'linear-gradient(to right, #fb923c, #fb7185)',
+                            borderRadius: '9999px',
+                          }} />
+                        </div>
+                      </div>
+                      <div style={{ display: 'table-cell', width: '40px', verticalAlign: 'middle', paddingLeft: '12px', textAlign: 'right' }}>
+                        <span style={{ color: '#6b7280', fontSize: '13px', lineHeight: '1.3' }}>
+                          {value}/5
+                        </span>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -436,7 +443,7 @@ export default function Home() {
                   padding: '16px',
                   border: '1px solid #a7f3d0',
                 }}>
-                  <h3 style={{ color: '#047857', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0' }}>
+                  <h3 style={{ color: '#047857', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0', lineHeight: '1.3' }}>
                     {lang === 'ko' ? '💚 잘 맞는 궁합' : '💚 Good Match'}
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
@@ -449,13 +456,13 @@ export default function Home() {
                       }}>
                         <div style={{ display: 'table', width: '100%' }}>
                           <div style={{ display: 'table-cell', width: '40px', verticalAlign: 'middle', paddingRight: '10px' }}>
-                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center' }}>
+                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center', lineHeight: '1' }}>
                               {el.symbol}
                             </span>
                           </div>
                           <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
-                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.4', marginBottom: '2px' }}>{el.nameKo}</div>
-                            <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3', marginBottom: '1px' }}>{el.nameKo}</div>
+                            <div style={{ color: '#059669', fontSize: '11px', lineHeight: '1.2' }}>{el.name}</div>
                           </div>
                         </div>
                       </Link>
@@ -470,7 +477,7 @@ export default function Home() {
                   padding: '16px',
                   border: '1px solid #fecdd3',
                 }}>
-                  <h3 style={{ color: '#e11d48', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0' }}>
+                  <h3 style={{ color: '#e11d48', fontWeight: 'bold', fontSize: '14px', margin: '0 0 10px 0', lineHeight: '1.3' }}>
                     {lang === 'ko' ? '💔 안 맞는 궁합' : '💔 Bad Match'}
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
@@ -483,13 +490,13 @@ export default function Home() {
                       }}>
                         <div style={{ display: 'table', width: '100%' }}>
                           <div style={{ display: 'table-cell', width: '40px', verticalAlign: 'middle', paddingRight: '10px' }}>
-                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center' }}>
+                            <span style={{ fontSize: '20px', fontWeight: 'bold', color: '#374151', display: 'block', textAlign: 'center', lineHeight: '1' }}>
                               {el.symbol}
                             </span>
                           </div>
                           <div style={{ display: 'table-cell', verticalAlign: 'middle' }}>
-                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.4', marginBottom: '2px' }}>{el.nameKo}</div>
-                            <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.3' }}>{el.name}</div>
+                            <div style={{ fontWeight: '500', color: '#1f2937', fontSize: '13px', lineHeight: '1.3', marginBottom: '1px' }}>{el.nameKo}</div>
+                            <div style={{ color: '#f43f5e', fontSize: '11px', lineHeight: '1.2' }}>{el.name}</div>
                           </div>
                         </div>
                       </Link>
