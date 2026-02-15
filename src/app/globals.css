@@ -61,6 +61,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Prevent text overflow */
+p, li, td, th, blockquote, span {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
 /* Custom selection color */
 ::selection {
   background-color: rgba(251, 146, 60, 0.3);
