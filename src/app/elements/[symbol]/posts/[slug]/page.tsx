@@ -86,6 +86,8 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
               "headline": post.title,
               "description": post.summary,
               "image": post.image || undefined,
+              "datePublished": "2026-02-01",
+              "dateModified": "2026-02-16",
               "author": {
                 "@type": "Organization",
                 "name": "만약... 편집팀",
