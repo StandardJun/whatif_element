@@ -124,10 +124,6 @@ export default function AboutPage() {
           <p>문의사항이 있으시면 <a href="mailto:jkgkgj@naver.com" className="text-orange-600 hover:text-orange-700 underline">jkgkgj@naver.com</a>으로 연락해주세요.</p>
         </div>
 
-        {/* Footer */}
-        <footer className="mt-12 text-center text-gray-400 text-xs">
-          <p>&copy; 2026 만약... All rights reserved.</p>
-        </footer>
       </div>
     </div>
   );

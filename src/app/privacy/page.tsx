@@ -255,9 +255,6 @@ export default function PrivacyPage() {
             </section>
           </div>
 
-          <footer className="mt-12 text-center text-gray-400 text-xs">
-            <p>&copy; 2026 만약... All rights reserved.</p>
-          </footer>
         </div>
       </div>
     </div>
