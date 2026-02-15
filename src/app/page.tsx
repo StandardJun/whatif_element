@@ -9,7 +9,8 @@ import type { MatchResult } from '@/utils/matching';
 import { getElementExtras, traitNames } from '@/data/elementExtras';
 import { elements } from '@/data/elements';
 import { HistorySection, UsesSection, FunFactsSection, SameCategorySection, PostsPreview } from '@/components/ElementSections';
-import { getPostsBySymbol } from '@/data/posts';
+import { getPostsBySymbol, getPost } from '@/data/posts';
+import { FEATURED_POSTS } from '@/data/featuredPosts';
 import ReportButton from '@/components/ReportButton';
 
 type Step = 'intro' | 'quiz' | 'result';
@@ -190,6 +191,50 @@ export default function Home() {
             <p className="mt-6 text-gray-400 text-sm">
               {t.questionCount}
             </p>
+
+            {/* Featured Posts Section */}
+            <div className="mt-8 text-left">
+              <h2 className="text-lg font-bold text-gray-700 mb-3">
+                {lang === 'ko' ? '인기 과학 읽을거리' : 'Popular Science Reads'}
+              </h2>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {(() => {
+                  const picks = [
+                    { symbol: 'Au', slug: 'gold-why-yellow' },
+                    { symbol: 'Fe', slug: 'iron-blood-red' },
+                    { symbol: 'H', slug: 'hydrogen-universe-beginning' },
+                    { symbol: 'Ti', slug: 'titanium-strongest-lightest' },
+                    { symbol: 'Cu', slug: 'copper-first-metal-human' },
+                    { symbol: 'He', slug: 'helium-voice-science' },
+                  ];
+                  return picks.map(({ symbol, slug }) => {
+                    const p = getPost(symbol, slug);
+                    const el = elements.find(e => e.symbol === symbol);
+                    if (!p || !el) return null;
+                    return (
+                      <Link
+                        key={slug}
+                        href={`/elements/${symbol}/posts/${slug}`}
+                        className="block bg-white/70 hover:bg-white rounded-xl p-3 border border-orange-100 hover:border-orange-300 transition-all"
+                      >
+                        <div className="flex items-start gap-2">
+                          <span className="text-lg font-bold text-gray-400 shrink-0 w-8 text-center">{el.symbol}</span>
+                          <div className="min-w-0">
+                            <h3 className="text-sm font-medium text-gray-700 leading-snug line-clamp-2">{p.title}</h3>
+                          </div>
+                        </div>
+                      </Link>
+                    );
+                  });
+                })()}
+              </div>
+              <Link
+                href="/elements"
+                className="block text-center text-sm text-orange-500 hover:text-orange-600 mt-3 transition-colors"
+              >
+                {lang === 'ko' ? '더 많은 글 보기 →' : 'View more articles →'}
+              </Link>
+            </div>
 
             {/* SEO Content - 크롤러용 사이트 설명 */}
             <div className="mt-10 text-left bg-white/50 backdrop-blur-sm rounded-2xl p-6 border border-orange-100">

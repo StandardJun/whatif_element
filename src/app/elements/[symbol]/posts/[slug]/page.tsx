@@ -3,9 +3,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { elements } from '@/data/elements';
 import { getPost, getPostsBySymbol } from '@/data/posts';
-import { isFeaturedPost } from '@/data/featuredPosts';
+import { FEATURED_POSTS, isFeaturedPost } from '@/data/featuredPosts';
 import { getCategoryColor, getCategoryNameKo } from '@/utils/matching';
 import ReportButton from '@/components/ReportButton';
+import ShareButtons from '@/components/ShareButtons';
 
 export function generateStaticParams() {
   const params: { symbol: string; slug: string }[] = [];
@@ -285,6 +286,15 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
               ))}
             </div>
 
+            {/* Share Buttons */}
+            <div className="mb-4">
+              <ShareButtons
+                url={`https://manyak.xyz/elements/${symbol}/posts/${slug}`}
+                title={post.title}
+                summary={post.summary}
+              />
+            </div>
+
             {/* Author Info */}
             <div className="bg-orange-50/50 rounded-2xl p-5 mb-4">
               <div className="flex items-start gap-4">
@@ -324,6 +334,51 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
             </div>
           </div>
         )}
+
+        {/* Related Posts from Other Elements */}
+        {(() => {
+          const relatedPosts = FEATURED_POSTS
+            .filter(fp => fp.symbol !== symbol)
+            .map(fp => {
+              const rPost = getPost(fp.symbol, fp.slug);
+              const rElement = elements.find(e => e.symbol === fp.symbol);
+              if (!rPost || !rElement) return null;
+              const commonTags = rPost.tags.filter(t => post.tags.includes(t));
+              return { ...fp, post: rPost, element: rElement, relevance: commonTags.length };
+            })
+            .filter((fp): fp is NonNullable<typeof fp> => fp !== null && fp.relevance > 0)
+            .sort((a, b) => b.relevance - a.relevance)
+            .slice(0, 3);
+
+          if (relatedPosts.length === 0) return null;
+
+          return (
+            <div className="mb-8">
+              <h2 className="text-xl font-bold text-gray-800 mb-4">관련 있는 다른 원소 이야기</h2>
+              <div className="space-y-3">
+                {relatedPosts.map(rp => (
+                  <Link
+                    key={`${rp.symbol}-${rp.post.slug}`}
+                    href={`/elements/${rp.symbol}/posts/${rp.post.slug}`}
+                    className="block bg-white/70 hover:bg-white rounded-2xl p-4 border border-orange-100 hover:border-orange-200 transition-all"
+                  >
+                    <div className="flex items-start gap-3">
+                      <span className={`shrink-0 px-2 py-0.5 rounded-full text-xs text-white ${getCategoryColor(rp.element.category)}`}>
+                        {rp.element.symbol}
+                      </span>
+                      <div>
+                        <h3 className="font-medium text-gray-800 hover:text-orange-600 transition-colors">
+                          {rp.post.title}
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1 line-clamp-1">{rp.post.summary}</p>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          );
+        })()}
 
         {/* CTA */}
         <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-orange-100 shadow-lg text-center">

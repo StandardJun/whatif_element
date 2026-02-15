@@ -19,11 +19,21 @@ export const metadata: Metadata = {
     description: "10가지 질문으로 알아보는 나와 가장 닮은 원소!",
     type: "website",
     locale: "ko_KR",
+    url: "https://manyak.xyz",
+    images: [
+      {
+        url: "https://manyak.xyz/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "만약... 내가 원소라면? - 원소 성격 테스트",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "만약... 내가 원소라면?",
     description: "나와 가장 닮은 원소를 찾아보세요!",
+    images: ["https://manyak.xyz/og-image.png"],
   },
 };
 
