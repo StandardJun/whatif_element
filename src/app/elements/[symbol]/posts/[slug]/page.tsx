@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { elements } from '@/data/elements';
 import { getPost, getPostsBySymbol } from '@/data/posts';
+import { isFeaturedPost } from '@/data/featuredPosts';
 import { getCategoryColor, getCategoryNameKo } from '@/utils/matching';
 import ReportButton from '@/components/ReportButton';
 
@@ -31,10 +32,16 @@ export async function generateMetadata({ params }: { params: Promise<{ symbol: s
     return { title: '글을 찾을 수 없습니다' };
   }
 
+  const featured = isFeaturedPost(symbol, slug);
+
   return {
     title: `${post.title} - ${element.nameKo} | 만약...`,
     description: post.summary,
     keywords: [...post.tags, element.nameKo, element.name],
+    ...(featured ? {} : { robots: 'noindex, nofollow' }),
+    alternates: {
+      canonical: `https://manyak.xyz/elements/${symbol}/posts/${slug}`,
+    },
   };
 }
 
@@ -68,6 +75,51 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
             &larr; 글 목록
           </Link>
         </nav>
+        {/* BlogPosting JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "description": post.summary,
+              "image": post.image || undefined,
+              "author": {
+                "@type": "Organization",
+                "name": "만약... 편집팀",
+                "url": "https://manyak.xyz/about",
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "만약...",
+                "url": "https://manyak.xyz",
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": `https://manyak.xyz/elements/${symbol}/posts/${slug}`,
+              },
+              "keywords": post.tags.join(", "),
+              "inLanguage": "ko",
+            }),
+          }}
+        />
+        {/* BreadcrumbList JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://manyak.xyz" },
+                { "@type": "ListItem", "position": 2, "name": "원소 도감", "item": "https://manyak.xyz/elements" },
+                { "@type": "ListItem", "position": 3, "name": element.nameKo, "item": `https://manyak.xyz/elements/${symbol}` },
+                { "@type": "ListItem", "position": 4, "name": post.title },
+              ],
+            }),
+          }}
+        />
         {/* Article */}
         <article className="bg-white/80 backdrop-blur-md rounded-3xl p-8 border border-orange-100 shadow-lg mb-8">
           {/* Header */}
@@ -183,6 +235,20 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
                 );
               }
 
+              // 블록인용(blockquote)
+              if (trimmed.startsWith('> ')) {
+                const quoteLines = trimmed.split('\n').map(l => l.replace(/^>\s?/, ''));
+                return (
+                  <blockquote key={index} className="my-6 border-l-4 border-orange-300 bg-orange-50/50 rounded-r-xl px-5 py-4 text-gray-700">
+                    {quoteLines.map((line, i) => {
+                      const trimLine = line.trim();
+                      if (!trimLine) return <br key={i} />;
+                      return <p key={i} className="leading-relaxed text-[15px]">{parseInline(trimLine)}</p>;
+                    })}
+                  </blockquote>
+                );
+              }
+
               // 번호 리스트
               if (/^\d+\.\s/.test(trimmed)) {
                 const items = trimmed.split('\n').filter(line => /^\d+\.\s/.test(line.trim()));
@@ -211,13 +277,30 @@ export default async function PostDetailPage({ params }: { params: Promise<{ sym
 
           {/* Tags */}
           <footer className="mt-8 pt-6 border-t border-orange-100">
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               {post.tags.map((tag) => (
                 <span key={tag} className="px-3 py-1.5 bg-orange-50 text-orange-600 rounded-lg text-sm">
                   #{tag}
                 </span>
               ))}
             </div>
+
+            {/* Author Info */}
+            <div className="bg-orange-50/50 rounded-2xl p-5 mb-4">
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-orange-400 to-rose-400 flex items-center justify-center text-white font-bold text-sm shrink-0">
+                  만
+                </div>
+                <div>
+                  <p className="font-medium text-gray-800 text-sm">만약... 편집팀</p>
+                  <p className="text-gray-500 text-xs mt-1">
+                    과학 교육 콘텐츠를 쉽고 재미있게 전달하기 위해 노력합니다.
+                    정보의 정확성을 위해 공신력 있는 출처를 참고하여 작성합니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+
             <ReportButton pageType="post" elementSymbol={symbol} elementName={element.nameKo} postSlug={slug} postTitle={post.title} />
           </footer>
         </article>

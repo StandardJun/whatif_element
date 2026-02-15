@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 import Link from "next/link";
+import Header from "@/components/Header";
 import "./globals.css";
 
 const notoSansKr = Noto_Sans_KR({
@@ -52,8 +53,26 @@ export default function RootLayout({
             }),
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "만약...",
+              "url": "https://manyak.xyz",
+              "description": "원소 성격 테스트와 과학 교육 콘텐츠를 제공합니다.",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "email": "jkgkgj@naver.com",
+                "contactType": "customer support",
+              },
+            }),
+          }}
+        />
       </head>
       <body className={`${notoSansKr.variable} font-sans antialiased min-h-screen flex flex-col`}>
+        <Header />
         <main className="flex-1">
           {children}
         </main>
