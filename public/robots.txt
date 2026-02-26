@@ -1,4 +1,39 @@
 User-agent: *
+
+# Featured posts - explicitly allowed
+Allow: /elements/H/posts/hydrogen-universe-beginning
+Allow: /elements/C/posts/carbon-jekyll-hyde
+Allow: /elements/N/posts/nitrogen-78-percent-air
+Allow: /elements/O/posts/oxygen-fire-truth
+Allow: /elements/P/posts/phosphorus-life-essential
+Allow: /elements/S/posts/sulfur-volcano-yellow
+Allow: /elements/F/posts/fluorine-toothpaste-secret
+Allow: /elements/Cl/posts/chlorine-water-treatment
+Allow: /elements/I/posts/iodine-thyroid-secret
+Allow: /elements/He/posts/helium-voice-science
+Allow: /elements/Na/posts/sodium-salt-body
+Allow: /elements/Mg/posts/magnesium-fireworks-flash
+Allow: /elements/Cs/posts/cesium-atomic-clock
+Allow: /elements/Fe/posts/iron-blood-red
+Allow: /elements/Cu/posts/copper-first-metal-human
+Allow: /elements/Zn/posts/zinc-cold-immune
+Allow: /elements/Ag/posts/silver-photography-history
+Allow: /elements/Pt/posts/platinum-catalytic-converter
+Allow: /elements/Au/posts/gold-why-yellow
+Allow: /elements/Ti/posts/titanium-strongest-lightest
+Allow: /elements/W/posts/tungsten-light-bulb
+Allow: /elements/Al/posts/aluminum-can-recycle
+Allow: /elements/Si/posts/silicon-chip-revolution
+Allow: /elements/Sn/posts/tin-bronze-age
+Allow: /elements/Pb/posts/lead-rome-fall
+Allow: /elements/Nd/posts/neodymium-strongest-magnet
+Allow: /elements/U/posts/uranium-nuclear-power
+Allow: /elements/Ra/posts/radium-curie-discovery
+
+# Block all post listing pages and non-featured posts
+Disallow: /elements/*/posts
+
+# Everything else allowed
 Allow: /
 
 Sitemap: https://manyak.xyz/sitemap.xml
